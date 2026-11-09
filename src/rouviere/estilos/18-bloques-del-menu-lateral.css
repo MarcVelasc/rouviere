@@ -1,0 +1,23 @@
+/* ===== bloques del menú lateral ===== */
+.tng {
+  display: contents;
+}
+.tngt {
+  margin: 14px 0 2px;
+  font:
+    700 0.66rem Manrope,
+    sans-serif;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #7fb0b2;
+}
+.tng[hidden] {
+  display: none;
+}
+.bqmas {
+  opacity: 0.86;
+  border-top: 1px dashed var(--line);
+}
+.bqmas .bqt {
+  color: var(--mut);
+}

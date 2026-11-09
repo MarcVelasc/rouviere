@@ -1,0 +1,24 @@
+<!-- Capa "huesos" de Rou: se dibuja sobre la ilustración (600x800) y se recorta a su silueta. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs><filter id="hglow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <g filter="url(#hglow)">
+    <path d="M290 46 C430 46 506 132 502 238 C498 326 452 378 404 398 L386 432 L194 432 L176 398 C128 378 82 326 78 238 C74 132 150 46 290 46 Z" fill="#EDE3CF" fill-opacity=".93" stroke="#C9B994" stroke-width="4"/>
+    <path d="M206 82 C248 112 332 112 374 82" fill="none" stroke="#CDBF9E" stroke-width="4"/>
+    <circle cx="192" cy="318" r="64" fill="#0d2a38"/><circle cx="388" cy="318" r="64" fill="#0d2a38"/>
+    <path d="M290 356 L318 394 L290 452 L262 394 Z" fill="#E2D4B4" stroke="#C9B994" stroke-width="3"/>
+    <path d="M226 432 v12 M258 432 v14 M290 432 v14 M322 432 v14 M354 432 v12" stroke="#C9B994" stroke-width="4"/>
+    <g fill="#EDE3CF" stroke="#C9B994" stroke-width="3"><rect x="276" y="452" width="28" height="18" rx="7"/><rect x="276" y="476" width="28" height="18" rx="7"/><rect x="276" y="500" width="28" height="18" rx="7"/><rect x="276" y="524" width="28" height="18" rx="7"/><rect x="276" y="548" width="28" height="18" rx="7"/><rect x="276" y="572" width="28" height="18" rx="7"/><rect x="276" y="596" width="28" height="18" rx="7"/><rect x="276" y="620" width="28" height="18" rx="7"/></g>
+    <g fill="none" stroke="#EDE3CF" stroke-linecap="round">
+      <path d="M176 458 C230 486 350 486 404 458" stroke-width="10"/>
+      <path d="M272 490 C222 488 192 512 196 548" stroke-width="10"/><path d="M272 522 C220 522 188 548 196 584" stroke-width="10"/><path d="M272 556 C228 560 206 582 212 610" stroke-width="10"/>
+      <path d="M308 490 C358 488 388 512 384 548" stroke-width="10"/><path d="M308 522 C360 522 392 548 384 584" stroke-width="10"/><path d="M308 556 C352 560 374 582 368 610" stroke-width="10"/>
+      <path d="M136 462 L112 540 L226 566" stroke-width="16"/><path d="M226 566 L292 528 M226 566 L296 560 M226 566 L282 590" stroke-width="9"/>
+      <path d="M446 458 L496 540 L536 590" stroke-width="16"/><path d="M536 590 L546 628 M536 590 L560 612" stroke-width="9"/>
+      <path d="M232 660 C250 640 330 640 348 660 C330 684 250 684 232 660 Z" stroke-width="8" fill="#EDE3CF" fill-opacity=".3"/>
+      <path d="M248 674 L228 716 M332 674 L352 716" stroke-width="13"/>
+      <path d="M228 716 L192 742 M228 716 L224 752 M228 716 L258 744 M352 716 L322 744 M352 716 L356 752 M352 716 L388 742" stroke-width="8"/>
+    </g>
+  </g>
+  <rect x="150" y="440" width="140" height="210" rx="10" transform="rotate(-18 220 545)" fill="none" stroke="rgba(234,245,242,.28)" stroke-width="4" stroke-dasharray="10 10"/>
+  <g fill="rgba(234,245,242,.08)" stroke="#111" stroke-width="16"><rect x="90" y="254" width="196" height="128" rx="34"/><rect x="304" y="254" width="196" height="128" rx="34"/></g><path d="M286 316 h18 M90 274 l-22 -12 M500 272 l16 -14" stroke="#111" stroke-width="14" stroke-linecap="round"/>
+</svg>

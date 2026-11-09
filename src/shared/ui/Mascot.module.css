@@ -1,0 +1,52 @@
+.rou {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+.pic {
+  flex: none;
+  object-fit: contain;
+}
+.hop {
+  animation: hop 0.5s ease-out;
+}
+.bubble {
+  flex: 1;
+  min-width: 0;
+  margin: 0 0 14px;
+  background: var(--text);
+  color: var(--on-accent);
+  border-radius: 16px 16px 16px 4px;
+  padding: 12px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.45;
+  transition:
+    background 0.2s,
+    color 0.2s;
+}
+.bubble[data-tone='ok'] {
+  background: #ddf3ee;
+}
+.bubble[data-tone='warn'] {
+  background: #fbe7c4;
+  color: #6b4505;
+}
+.bubble[data-tone='error'] {
+  background: #fbe1dc;
+  color: #7a2318;
+}
+@keyframes hop {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  35% {
+    transform: translateY(-10px) rotate(-5deg);
+  }
+  70% {
+    transform: translateY(0) rotate(3deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}

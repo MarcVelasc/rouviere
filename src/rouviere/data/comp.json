@@ -1,0 +1,404 @@
+[
+ [
+  "c1",
+  "Competencia 1 · Cabeza y cuello",
+  "El cráneo y sus músculos, los órganos de los sentidos, la vía aérea superior, la boca y las glándulas del cuello.",
+  [
+   [
+    "oseo",
+    "Cráneo"
+   ],
+   [
+    "musc",
+    "Cabeza y cuello"
+   ],
+   [
+    "sent",
+    "Ojo"
+   ],
+   [
+    "sent",
+    "Oído"
+   ],
+   [
+    "sent",
+    "Olfato y gusto"
+   ],
+   [
+    "resp",
+    "Vías aéreas superiores"
+   ],
+   [
+    "dig",
+    "Boca y glándulas salivales"
+   ],
+   [
+    "endo",
+    "Tiroides y paratiroides"
+   ],
+   [
+    "endo",
+    "Hipófisis"
+   ]
+  ],
+  [
+   [
+    "ha",
+    "oseo",
+    "Esqueleto, con el cráneo"
+   ],
+   [
+    "ap",
+    "vista",
+    "Ojo"
+   ],
+   [
+    "ap",
+    "oido",
+    "Oído"
+   ],
+   [
+    "ap",
+    "olfato",
+    "Olfato"
+   ],
+   [
+    "ap",
+    "gusto",
+    "Gusto"
+   ]
+  ],
+  "sis-sent.webp",
+  "gen"
+ ],
+ [
+  "c2",
+  "Competencia 2 · Osteomioarticular",
+  "Huesos, articulaciones y músculos del miembro superior y del inferior, con las generalidades del esqueleto y del músculo.",
+  [
+   [
+    "oseo",
+    "Generalidades del esqueleto"
+   ],
+   [
+    "oseo",
+    "Articulaciones"
+   ],
+   [
+    "oseo",
+    "Columna vertebral"
+   ],
+   [
+    "oseo",
+    "Cintura escapular y miembro superior"
+   ],
+   [
+    "oseo",
+    "Miembro superior"
+   ],
+   [
+    "oseo",
+    "Cintura pélvica y miembro inferior"
+   ],
+   [
+    "oseo",
+    "Miembro inferior"
+   ],
+   [
+    "musc",
+    "Generalidades del músculo"
+   ],
+   [
+    "musc",
+    "Miembro superior"
+   ],
+   [
+    "musc",
+    "Miembro inferior"
+   ]
+  ],
+  [
+   [
+    "ha",
+    "oseo",
+    "Sistema óseo"
+   ],
+   [
+    "ha",
+    "muscular",
+    "Sistema muscular"
+   ]
+  ],
+  "sis-oseo.webp",
+  "gen"
+ ],
+ [
+  "c3",
+  "Competencia 3 · Tórax y abdomen",
+  "La caja torácica y la pared del tronco, el aparato respiratorio, el corazón y los grandes vasos, y la parte alta del tubo digestivo.",
+  [
+   [
+    "oseo",
+    "Tórax óseo"
+   ],
+   [
+    "musc",
+    "Tronco"
+   ],
+   [
+    "resp",
+    "Pulmones"
+   ],
+   [
+    "resp",
+    "Pleura y mediastino"
+   ],
+   [
+    "resp",
+    "Tráquea y bronquios"
+   ],
+   [
+    "resp",
+    "Fisiología respiratoria"
+   ],
+   [
+    "cardio",
+    "Anatomía del corazón"
+   ],
+   [
+    "cardio",
+    "Circulación coronaria"
+   ],
+   [
+    "cardio",
+    "Grandes vasos"
+   ],
+   [
+    "cardio",
+    "Sistema de conducción"
+   ],
+   [
+    "cardio",
+    "Sistema linfático"
+   ],
+   [
+    "cardio",
+    "Fisiología circulatoria"
+   ],
+   [
+    "dig",
+    "Organización general"
+   ],
+   [
+    "dig",
+    "Esófago"
+   ],
+   [
+    "dig",
+    "Estómago"
+   ]
+  ],
+  [
+   [
+    "ha",
+    "cardio",
+    "Sistema cardiovascular"
+   ],
+   [
+    "ha",
+    "resp",
+    "Sistema respiratorio"
+   ]
+  ],
+  "sis-cardio.webp",
+  "gen"
+ ],
+ [
+  "c4",
+  "Competencia 4 · Abdomen y pelvis",
+  "Las vísceras abdominales y pélvicas: hígado e intestinos, riñón y vías urinarias, aparato reproductor y suelo pélvico.",
+  [
+   [
+    "dig",
+    "Hígado y vías biliares"
+   ],
+   [
+    "dig",
+    "Intestino delgado"
+   ],
+   [
+    "dig",
+    "Intestino grueso"
+   ],
+   [
+    "dig",
+    "Páncreas"
+   ],
+   [
+    "dig",
+    "Peritoneo"
+   ],
+   [
+    "uri",
+    "Riñón"
+   ],
+   [
+    "uri",
+    "Vías urinarias"
+   ],
+   [
+    "uri",
+    "Función renal"
+   ],
+   [
+    "rep",
+    "Aparato reproductor femenino"
+   ],
+   [
+    "rep",
+    "Aparato reproductor masculino"
+   ],
+   [
+    "musc",
+    "Suelo pélvico"
+   ],
+   [
+    "reg",
+    "Regiones del abdomen"
+   ],
+   [
+    "endo",
+    "Suprarrenales"
+   ],
+   [
+    "endo",
+    "Páncreas endocrino"
+   ]
+  ],
+  [
+   [
+    "ha",
+    "dig",
+    "Digestivo"
+   ],
+   [
+    "ha",
+    "uri",
+    "Urinario"
+   ],
+   [
+    "ap",
+    "repro-m",
+    "Reproductor masculino"
+   ],
+   [
+    "ap",
+    "repro-f",
+    "Reproductor femenino"
+   ]
+  ],
+  "sis-dig.webp",
+  "gen"
+ ],
+ [
+  "c5",
+  "Competencia 5 · Sistema nervioso",
+  "Encéfalo y médula, meninges y líquido cefalorraquídeo, pares craneales, plexos y sistema autónomo.",
+  [
+   [
+    "nerv",
+    "Organización general"
+   ],
+   [
+    "nerv",
+    "Neurona y neuroglía"
+   ],
+   [
+    "nerv",
+    "Encéfalo"
+   ],
+   [
+    "nerv",
+    "Médula espinal"
+   ],
+   [
+    "nerv",
+    "Meninges y líquido cefalorraquídeo"
+   ],
+   [
+    "nerv",
+    "Pares craneales"
+   ],
+   [
+    "nerv",
+    "Plexos nerviosos"
+   ],
+   [
+    "nerv",
+    "Sistema nervioso autónomo"
+   ]
+  ],
+  [
+   [
+    "sec",
+    "snc",
+    "Encéfalo rotulado (283 estructuras)"
+   ],
+   [
+    "ha",
+    "nerv",
+    "Sistema nervioso"
+   ]
+  ],
+  "sis-nerv.webp",
+  "neu"
+ ],
+ [
+  "base",
+  "Bases de la anatomía",
+  "Lo que se ve antes de entrar en las competencias: cómo se nombra y se orienta el cuerpo, sus regiones y cavidades, la piel y el tejido conectivo.",
+  [
+   [
+    "reg",
+    "Terminología anatómica"
+   ],
+   [
+    "reg",
+    "Regiones del cuerpo"
+   ],
+   [
+    "reg",
+    "Cavidades corporales"
+   ],
+   [
+    "reg",
+    "Anatomía de superficie"
+   ],
+   [
+    "piel",
+    "Piel"
+   ],
+   [
+    "piel",
+    "Tejido conectivo"
+   ],
+   [
+    "endo",
+    "Generalidades"
+   ],
+   [
+    "endo",
+    "Otras glándulas"
+   ]
+  ],
+  [
+   [
+    "ha",
+    "otros",
+    "Tejido conectivo y piel"
+   ]
+  ],
+  "sis-otros.webp",
+  "reg"
+ ]
+]

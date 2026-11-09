@@ -1,0 +1,258 @@
+/* ===== ROU ===== */
+
+.roup {
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  z-index: 100;
+  width: min(410px, calc(100vw - 24px));
+  height: min(620px, calc(100vh - 24px));
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background: var(--card);
+  border: 1px solid color-mix(in srgb, var(--teal) 32%, transparent);
+  box-shadow: 0 18px 50px rgba(4, 24, 34, 0.4);
+  overflow: hidden;
+}
+.rouh {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 8px 10px 13px;
+  background: linear-gradient(135deg, #0f4a66, #0a3a52);
+  color: #eaf4f2;
+  flex: none;
+}
+.rouh .rhi {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  flex: none;
+}
+.rht {
+  flex: 1;
+  min-width: 0;
+  line-height: 1.2;
+}
+.rht b {
+  display: block;
+  font:
+    600 1rem Manrope,
+    sans-serif;
+  letter-spacing: 0.04em;
+}
+.rvia {
+  display: block;
+  font-size: 0.66rem;
+  opacity: 0.9;
+}
+.rvia.ok::before {
+  content: '● ';
+  color: #65c3b5;
+}
+.rvia.no::before {
+  content: '● ';
+  color: #d9a441;
+}
+.rx {
+  width: 32px;
+  height: 32px;
+  border: 0;
+  background: transparent;
+  color: #eaf4f2;
+  font-size: 1.25rem;
+  cursor: pointer;
+  border-radius: 9px;
+  flex: none;
+}
+.rx:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+.roul {
+  flex: 1;
+  overflow-y: auto;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: color-mix(in srgb, var(--mint) 7%, transparent);
+}
+.rb {
+  display: flex;
+  gap: 8px;
+  max-width: 92%;
+}
+.rb.ru {
+  align-self: flex-end;
+  max-width: 85%;
+}
+.rbi {
+  display: flex;
+  width: 22px;
+  height: 22px;
+  flex: none;
+  margin-top: 2px;
+}
+.rbt {
+  padding: 9px 13px;
+  border-radius: 15px;
+  font:
+    400 0.9rem/1.55 Manrope,
+    sans-serif;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.ra .rbt {
+  background: var(--card);
+  border: 1px solid color-mix(in srgb, var(--ink) 11%, transparent);
+  border-top-left-radius: 5px;
+}
+.ru .rbt {
+  background: var(--teal);
+  color: #fff;
+  border-bottom-right-radius: 5px;
+}
+.rbt.pend {
+  color: var(--mut);
+  font-style: italic;
+}
+.rbt.err {
+  border-color: #b4443c;
+  color: #8e2f25;
+}
+.rouq {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 9px 11px 0;
+}
+.rchip {
+  border: 1px solid color-mix(in srgb, var(--teal) 34%, transparent);
+  background: transparent;
+  border-radius: 30px;
+  padding: 6px 12px;
+  font:
+    500 0.76rem Manrope,
+    sans-serif;
+  color: var(--teal);
+  cursor: pointer;
+  min-height: 34px;
+}
+.rchip:hover {
+  background: color-mix(in srgb, var(--mint) 20%, transparent);
+}
+.rst {
+  margin: 6px 13px 0;
+  min-height: 1em;
+  font-size: 0.74rem;
+}
+.rst.esc {
+  color: var(--teal);
+}
+.rst.err {
+  color: #8e2f25;
+}
+.roui {
+  display: flex;
+  align-items: flex-end;
+  gap: 7px;
+  padding: 9px 11px;
+  flex: none;
+  border-top: 1px solid color-mix(in srgb, var(--ink) 10%, transparent);
+}
+.roui textarea {
+  flex: 1;
+  resize: none;
+  border-radius: 15px;
+  padding: 10px 13px;
+  font:
+    400 0.9rem Manrope,
+    sans-serif;
+  border: 1.5px solid color-mix(in srgb, var(--ink) 16%, transparent);
+  background: var(--bg);
+  color: var(--ink);
+  max-height: 120px;
+  min-height: 42px;
+}
+.roui textarea:focus {
+  outline: 2px solid var(--teal);
+  outline-offset: 1px;
+}
+.rsend {
+  width: 42px;
+  height: 42px;
+  flex: none;
+  border-radius: 50%;
+  border: 0;
+  background: var(--teal);
+  color: #fff;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+.rsend.stop {
+  background: #b4443c;
+}
+.roufoot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 2px 13px 11px;
+  flex: none;
+  flex-wrap: nowrap;
+}
+.roufoot .lnk {
+  font-size: 0.74rem;
+  white-space: nowrap;
+}
+.rouhero {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border: 1.5px solid color-mix(in srgb, var(--teal) 26%, transparent);
+  border-radius: 20px;
+  padding: 17px;
+  margin: 14px 0;
+  background: color-mix(in srgb, var(--mint) 9%, transparent);
+}
+.rouhero .rhero {
+  display: flex;
+  width: 104px;
+  height: 104px;
+  flex: none;
+}
+.rouhero > div {
+  flex: 1;
+  min-width: 220px;
+}
+.rouhero b {
+  display: block;
+  font:
+    500 1.85rem/1.1 'Cormorant Garamond',
+    Georgia,
+    serif;
+  color: var(--ink);
+}
+.rouhero p {
+  margin: 7px 0 0;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+.rouhero .pill {
+  margin-top: 13px;
+}
+@media (max-width: 420px) {
+  .roup {
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100dvh;
+    border-radius: 0;
+  }
+  .rouhero .rhero {
+    width: 74px;
+    height: 74px;
+  }
+}

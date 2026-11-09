@@ -1,0 +1,264 @@
+/* ===== panel de inicio =====
+   Azul petróleo de fondo, turquesa de acento, degradados suaves y bordes finos: la
+   misma identidad del resto de ROUVIÈRE. */
+.holak {
+  display: block;
+  font:
+    700 0.68rem Manrope,
+    sans-serif;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 5px;
+}
+.dk .holak {
+  color: var(--mint);
+}
+.holam {
+  margin: 6px 0 0;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: var(--mut);
+  max-width: 46ch;
+}
+.dk .holam {
+  color: #9cc3c4;
+}
+
+#continuar {
+  padding: 20px 0 0;
+}
+#progreso-panel {
+  padding: 24px 0 6px;
+}
+.pcard {
+  position: relative;
+  padding: 17px 18px;
+  border-radius: 18px;
+  background: linear-gradient(
+    140deg,
+    color-mix(in srgb, var(--teal) 16%, transparent),
+    color-mix(in srgb, var(--teal) 4%, transparent)
+  );
+  border: 1px solid color-mix(in srgb, var(--teal) 30%, transparent);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, #fff 22%, transparent);
+}
+.dk .pcard {
+  background: linear-gradient(140deg, rgba(101, 195, 181, 0.16), rgba(101, 195, 181, 0.03));
+  border-color: rgba(101, 195, 181, 0.3);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+.pck {
+  display: block;
+  font:
+    700 0.66rem Manrope,
+    sans-serif;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.dk .pck {
+  color: var(--mint);
+}
+.pcn {
+  display: block;
+  margin: 7px 0 0;
+  font:
+    700 1.3rem Fraunces,
+    Georgia,
+    serif;
+  color: var(--ink);
+}
+.dk .pcn {
+  color: #eaf4f2;
+}
+.pcd {
+  margin: 5px 0 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--mut);
+}
+.dk .pcd {
+  color: #9cc3c4;
+}
+.pcb {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 13px;
+  padding: 11px 17px;
+  border-radius: 30px;
+  text-decoration: none;
+  font:
+    600 0.88rem Manrope,
+    sans-serif;
+  background: var(--teal);
+  color: #fff;
+  min-height: 44px;
+}
+.pcb:hover {
+  filter: brightness(1.08);
+}
+.dk .pcb {
+  background: var(--mint);
+  color: #06202d;
+}
+
+#pnlprog {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px;
+  margin: 13px 0 10px;
+}
+.ptile {
+  display: block;
+  padding: 13px 14px;
+  border-radius: 15px;
+  text-decoration: none;
+  background: var(--card);
+  border: 1px solid var(--line);
+}
+a.ptile:hover {
+  border-color: var(--teal);
+}
+.dk .ptile {
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.015));
+  border-color: rgba(101, 195, 181, 0.18);
+}
+.ptl {
+  display: block;
+  font:
+    600 0.7rem Manrope,
+    sans-serif;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--mut);
+}
+.dk .ptl {
+  color: #8fb2b4;
+}
+.ptv {
+  display: block;
+  margin: 5px 0 0;
+  font:
+    700 1.45rem Fraunces,
+    Georgia,
+    serif;
+  color: var(--ink);
+  line-height: 1.1;
+}
+.dk .ptv {
+  color: #eaf4f2;
+}
+.pts {
+  display: block;
+  margin-top: 3px;
+  font-size: 0.73rem;
+  color: var(--mut);
+}
+.dk .pts {
+  color: #9cc3c4;
+}
+.pbar {
+  height: 4px;
+  border-radius: 4px;
+  margin-top: 9px;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--ink) 12%, transparent);
+}
+.dk .pbar {
+  background: rgba(255, 255, 255, 0.1);
+}
+.pbar i {
+  display: block;
+  height: 100%;
+  border-radius: 4px;
+  background: var(--teal);
+}
+.dk .pbar i {
+  background: var(--mint);
+}
+.pvacio {
+  grid-column: 1/-1;
+  padding: 16px 17px;
+  border-radius: 16px;
+  background: var(--card);
+  border: 1px solid var(--line);
+}
+.dk .pvacio {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(101, 195, 181, 0.18);
+}
+.pvacio b {
+  display: block;
+  font:
+    700 1.02rem Fraunces,
+    Georgia,
+    serif;
+  color: var(--ink);
+}
+.dk .pvacio b {
+  color: #eaf4f2;
+}
+.pvacio p {
+  margin: 5px 0 0;
+  color: var(--mut);
+}
+.dk .pvacio p {
+  color: #9cc3c4;
+}
+
+#pnlactbox {
+  padding: 24px 0 6px;
+}
+#pnlact {
+  display: grid;
+  gap: 7px;
+  margin: 11px 0 10px;
+}
+.pact {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 11px 14px;
+  border-radius: 13px;
+  background: var(--card);
+  border: 1px solid var(--line);
+}
+.dk .pact {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(101, 195, 181, 0.16);
+}
+.pact b {
+  font:
+    600 0.88rem Manrope,
+    sans-serif;
+  color: var(--ink);
+  min-width: 0;
+}
+.dk .pact b {
+  color: #eaf4f2;
+}
+.pact span {
+  flex: none;
+  font:
+    500 0.72rem Manrope,
+    sans-serif;
+  color: var(--mut);
+}
+.dk .pact span {
+  color: #8fb2b4;
+}
+
+@media (min-width: 720px) {
+  #pnlprog {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* El catálogo de herramientas sale del inicio: repetía el menú lateral, que es donde
+   el estudiante encuentra todo. El marcado y sus datos se quedan en el archivo. */
+#home #menu {
+  display: none;
+}

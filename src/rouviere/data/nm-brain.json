@@ -1,0 +1,606 @@
+[
+ [
+  "olfactory_bulb",
+  "Bulbo olfatorio"
+ ],
+ [
+  "anterior_olfactory_nucleus",
+  "Núcleo olfatorio anterior"
+ ],
+ [
+  "piriform_region",
+  "Región piriforme"
+ ],
+ [
+  "head_of_caudate",
+  "Cabeza del núcleo caudado"
+ ],
+ [
+  "body_of_caudate",
+  "Cuerpo del núcleo caudado"
+ ],
+ [
+  "tail_of_caudate",
+  "Cola del núcleo caudado"
+ ],
+ [
+  "putamen",
+  "Putamen"
+ ],
+ [
+  "nucleus_accumbens",
+  "Núcleo accumbens"
+ ],
+ [
+  "external_segment_of_globus_pallidus",
+  "Segmento externo del globo pálido"
+ ],
+ [
+  "internal_segment_of_globus_pallidus",
+  "Segmento interno del globo pálido"
+ ],
+ [
+  "claustrum",
+  "Claustro"
+ ],
+ [
+  "basal_forebrain",
+  "Prosencéfalo basal"
+ ],
+ [
+  "septal_nuclei",
+  "Núcleos septales"
+ ],
+ [
+  "amygdaloid_complex",
+  "Complejo amigdalino"
+ ],
+ [
+  "bed_nucleus_of_stria_terminalis",
+  "Núcleo del lecho de la estría terminal"
+ ],
+ [
+  "thalamus",
+  "Tálamo"
+ ],
+ [
+  "hypothalamus",
+  "Hipotálamo"
+ ],
+ [
+  "subthalamic_nucleus",
+  "Núcleo subtalámico"
+ ],
+ [
+  "substantia_nigra",
+  "Sustancia negra"
+ ],
+ [
+  "red_nucleus",
+  "Núcleo rojo"
+ ],
+ [
+  "superior_colliculus",
+  "Colículo superior"
+ ],
+ [
+  "inferior_colliculus",
+  "Colículo inferior"
+ ],
+ [
+  "midbrain_tegmentum",
+  "Tegmento del mesencéfalo"
+ ],
+ [
+  "basilar_part_of_pons",
+  "Parte basilar del puente"
+ ],
+ [
+  "tegmentum_of_pons",
+  "Tegmento del puente"
+ ],
+ [
+  "pyramidal_part_of_medulla_oblongata",
+  "Pirámides del bulbo raquídeo"
+ ],
+ [
+  "tegmentum_of_medulla_oblongata",
+  "Tegmento del bulbo raquídeo"
+ ],
+ [
+  "central_canal_of_medulla_oblongata",
+  "Conducto central del bulbo raquídeo"
+ ],
+ [
+  "cerebellar_vermis",
+  "Vermis cerebeloso"
+ ],
+ [
+  "cerebellar_deep_nuclei",
+  "Núcleos profundos del cerebelo"
+ ],
+ [
+  "lateral_hemisphere_of_cerebellum",
+  "Hemisferio lateral del cerebelo"
+ ],
+ [
+  "paravermis_of_cerebellum",
+  "Paravermis cerebeloso"
+ ],
+ [
+  "superior_cerebellar_peduncle",
+  "Pedúnculo cerebeloso superior"
+ ],
+ [
+  "middle_cerebellar_peduncle",
+  "Pedúnculo cerebeloso medio"
+ ],
+ [
+  "inferior_cerebellar_peduncle",
+  "Pedúnculo cerebeloso inferior"
+ ],
+ [
+  "corpus_callosum",
+  "Cuerpo calloso"
+ ],
+ [
+  "fornix",
+  "Fórnix"
+ ],
+ [
+  "internal_capsule",
+  "Cápsula interna"
+ ],
+ [
+  "optic_tract",
+  "Tracto óptico"
+ ],
+ [
+  "optic_radiation",
+  "Radiación óptica"
+ ],
+ [
+  "optic_chiasm",
+  "Quiasma óptico"
+ ],
+ [
+  "head_of_hippocampus",
+  "Cabeza del hipocampo"
+ ],
+ [
+  "body_of_hippocampus",
+  "Cuerpo del hipocampo"
+ ],
+ [
+  "tail_of_hippocampus",
+  "Cola del hipocampo"
+ ],
+ [
+  "anterior_parahippocampal_gyrus",
+  "Giro parahipocampal anterior"
+ ],
+ [
+  "posterior_parahippocampal_gyrus",
+  "Giro parahipocampal posterior"
+ ],
+ [
+  "anterior_horn_of_lateral_ventricle",
+  "Asta anterior del ventrículo lateral"
+ ],
+ [
+  "body_of_lateral_ventricle",
+  "Cuerpo del ventrículo lateral"
+ ],
+ [
+  "posterior_horn_of_lateral_ventricle",
+  "Asta posterior del ventrículo lateral"
+ ],
+ [
+  "inferior_horn_of_lateral_ventricle",
+  "Asta inferior del ventrículo lateral"
+ ],
+ [
+  "atrium_of_lateral_ventricle",
+  "Atrio del ventrículo lateral"
+ ],
+ [
+  "third_ventricle",
+  "Tercer ventrículo"
+ ],
+ [
+  "fourth_ventricle",
+  "Cuarto ventrículo"
+ ],
+ [
+  "cerebral_aqueduct",
+  "Acueducto cerebral"
+ ],
+ [
+  "white_matter_of_forebrain",
+  "Sustancia blanca del prosencéfalo"
+ ],
+ [
+  "white_matter_of_hindbrain",
+  "Sustancia blanca del rombencéfalo"
+ ],
+ [
+  "superior_frontal_gyrus",
+  "Giro frontal superior"
+ ],
+ [
+  "middle_frontal_gyrus",
+  "Giro frontal medio"
+ ],
+ [
+  "inferior_frontal_gyrus",
+  "Giro frontal inferior"
+ ],
+ [
+  "precentral_gyrus",
+  "Giro precentral"
+ ],
+ [
+  "postcentral_gyrus",
+  "Giro poscentral"
+ ],
+ [
+  "superior_temporal_gyrus",
+  "Giro temporal superior"
+ ],
+ [
+  "middle_temporal_gyrus",
+  "Giro temporal medio"
+ ],
+ [
+  "inferior_temporal_gyrus",
+  "Giro temporal inferior"
+ ],
+ [
+  "transverse_temporal_gyrus",
+  "Giro temporal transverso (de Heschl)"
+ ],
+ [
+  "superior_parietal",
+  "Lóbulo parietal superior"
+ ],
+ [
+  "supraparietal_lobule",
+  "Lobulillo supraparietal"
+ ],
+ [
+  "angular_gyrus",
+  "Giro angular"
+ ],
+ [
+  "supramarginal_gyrus",
+  "Giro supramarginal"
+ ],
+ [
+  "superior_occipital_gyrus",
+  "Giro occipital superior"
+ ],
+ [
+  "inferior_occipital_gyrus",
+  "Giro occipital inferior"
+ ],
+ [
+  "occipital_pole",
+  "Polo occipital"
+ ],
+ [
+  "cingulate_gyrus",
+  "Giro cingulado"
+ ],
+ [
+  "insular",
+  "Ínsula"
+ ],
+ [
+  "long_insular_gyri",
+  "Giros largos de la ínsula"
+ ],
+ [
+  "short_insular_gyri",
+  "Giros cortos de la ínsula"
+ ],
+ [
+  "lateral_nucleus",
+  "Núcleo lateral"
+ ],
+ [
+  "medial_nucleus",
+  "Núcleo medial"
+ ],
+ [
+  "central_nuclear_group",
+  "Grupo nuclear central"
+ ],
+ [
+  "VH_M_optic_chiasm",
+  "Quiasma óptico"
+ ],
+ [
+  "amygdalohippocampal_area",
+  "Área amigdalohipocámpica"
+ ],
+ [
+  "anterior_amygdaloid_area",
+  "Área amigdalina anterior"
+ ],
+ [
+  "anterior_commissure",
+  "Comisura anterior"
+ ],
+ [
+  "anterior_cortical_nucleus",
+  "Núcleo cortical anterior de la amígdala"
+ ],
+ [
+  "anterior_intermediate_orbital_gyrus",
+  "Giro orbitario intermedio anterior"
+ ],
+ [
+  "anterior_nuclear_complex_of_thalamus",
+  "Complejo nuclear anterior del tálamo"
+ ],
+ [
+  "basolateral_nucleus_basal_nucleus",
+  "Núcleo basolateral (núcleo basal) de la amígdala"
+ ],
+ [
+  "basomedial_nucleus_accessory_basal_nucleus",
+  "Núcleo basomedial (núcleo basal accesorio) de la amígdala"
+ ],
+ [
+  "centromedian_nucleus_of_thalamus",
+  "Núcleo centromediano del tálamo"
+ ],
+ [
+  "cerebral_peduncle_crus_cerebri",
+  "Pedúnculo cerebral (pie peduncular)"
+ ],
+ [
+  "cingulate_gyrus_caudal_posterior_part",
+  "Giro del cíngulo, parte caudal (posterior)"
+ ],
+ [
+  "cingulate_gyrus_rostral_anterior_part",
+  "Giro del cíngulo, parte rostral (anterior)"
+ ],
+ [
+  "cuneus",
+  "Cuña (cuneus)"
+ ],
+ [
+  "dorsal_lateral_geniculate_nucleus",
+  "Núcleo geniculado lateral dorsal"
+ ],
+ [
+  "frontal_agranular_insular_cortex_area_Fl",
+  "Corteza insular agranular frontal (área FI)"
+ ],
+ [
+  "frontal_operculum",
+  "Opérculo frontal"
+ ],
+ [
+  "frontal_pole",
+  "Polo frontal"
+ ],
+ [
+  "frontomarginal_gyrus",
+  "Giro frontomarginal"
+ ],
+ [
+  "gyrus_ambiens",
+  "Giro ambiens"
+ ],
+ [
+  "gyrus_rectus_straight_gyrus",
+  "Giro recto"
+ ],
+ [
+  "habenular_nuclei",
+  "Núcleos habenulares"
+ ],
+ [
+  "inferior_frontal_gyrus_opercular_part",
+  "Giro frontal inferior, parte opercular"
+ ],
+ [
+  "inferior_frontal_gyrus_triangular_part",
+  "Giro frontal inferior, parte triangular"
+ ],
+ [
+  "inferior_olive",
+  "Núcleo olivar inferior (oliva bulbar)"
+ ],
+ [
+  "ingulo_parahippocampal_isthmus",
+  "Istmo cingulo-parahipocámpico"
+ ],
+ [
+  "lateral_dorsal_nucleus_of_thalamus",
+  "Núcleo lateral dorsal del tálamo"
+ ],
+ [
+  "lateral_occipitotemporal_fusiform_gyrus_occipital_part",
+  "Giro fusiforme (occipitotemporal lateral), parte occipital"
+ ],
+ [
+  "lateral_olfactory_gyrus",
+  "Giro olfatorio lateral"
+ ],
+ [
+  "lateral_orbital_gyrus",
+  "Giro orbitario lateral"
+ ],
+ [
+  "lateral_posterior_nucleus_of_thalamus",
+  "Núcleo lateral posterior del tálamo"
+ ],
+ [
+  "limen_insula",
+  "Limen de la ínsula"
+ ],
+ [
+  "lingual_gyrus_medial_occipitotemporal_gyrus",
+  "Giro lingual (occipitotemporal medial)"
+ ],
+ [
+  "mammillary_region_of_HTH",
+  "Región mamilar del hipotálamo"
+ ],
+ [
+  "mammillothalamic_tract",
+  "Tracto mamilotalámico"
+ ],
+ [
+  "medial_geniculate_nuclei",
+  "Núcleos geniculados mediales"
+ ],
+ [
+  "medial_orbital_gyrus",
+  "Giro orbitario medial"
+ ],
+ [
+  "mediodorsal_nucleus_of_thalamus",
+  "Núcleo mediodorsal del tálamo"
+ ],
+ [
+  "midline_nuclear_complex",
+  "Complejo nuclear de la línea media del tálamo"
+ ],
+ [
+  "occipitotemporal_fusiform_gyrus_temporal_part",
+  "Giro fusiforme (occipitotemporal), parte temporal"
+ ],
+ [
+  "olfactory_tract",
+  "Tracto olfatorio"
+ ],
+ [
+  "paracentral_lobule_caudal_part",
+  "Lobulillo paracentral, parte caudal"
+ ],
+ [
+  "paracentral_lobule_rostral_part",
+  "Lobulillo paracentral, parte rostral"
+ ],
+ [
+  "paracingulate_gyrus",
+  "Giro paracingulado"
+ ],
+ [
+  "parafascicular_nucleus_of_thalamus",
+  "Núcleo parafascicular del tálamo"
+ ],
+ [
+  "parietal_operculum",
+  "Opérculo parietal"
+ ],
+ [
+  "perirhinal_gyrus_rostral_part_of_FuGt",
+  "Giro perirrinal (parte rostral del giro fusiforme temporal)"
+ ],
+ [
+  "pineal_body",
+  "Glándula pineal (epífisis)"
+ ],
+ [
+  "planum_polare",
+  "Planum polare"
+ ],
+ [
+  "planum_temporale",
+  "Planum temporale"
+ ],
+ [
+  "pontine_tegmentum",
+  "Tegmento pontino (calota de la protuberancia)"
+ ],
+ [
+  "posterior_cortical_nucleus",
+  "Núcleo cortical posterior de la amígdala"
+ ],
+ [
+  "posterior_intermediate_orbital_gyrus",
+  "Giro orbitario intermedio posterior"
+ ],
+ [
+  "posteroventral_putamen",
+  "Putamen posteroventral"
+ ],
+ [
+  "precuneus",
+  "Precuña (precuneus)"
+ ],
+ [
+  "preoptic_region_of_HTH",
+  "Región preóptica del hipotálamo"
+ ],
+ [
+  "pretectal_region",
+  "Región pretectal"
+ ],
+ [
+  "pulvinar_of_thalamus",
+  "Pulvinar del tálamo"
+ ],
+ [
+  "reuniens_nucleus_medioventral_nucleus_of_thalamus",
+  "Núcleo reuniens (medioventral) del tálamo"
+ ],
+ [
+  "rostral_gyrus",
+  "Giro rostral"
+ ],
+ [
+  "subcallosal_gyrus_parolfactory_gyrus",
+  "Giro subcalloso (parolfatorio)"
+ ],
+ [
+  "superior_cerebellar_peduncle_brachium_conjunctivum",
+  "Pedúnculo cerebeloso superior (brachium conjunctivum)"
+ ],
+ [
+  "supraoptic_region_of_HTH",
+  "Región supraóptica del hipotálamo"
+ ],
+ [
+  "temporal_agranular_insular_cortex_area_Tl",
+  "Corteza insular agranular temporal (área TI)"
+ ],
+ [
+  "temporal_pole",
+  "Polo temporal"
+ ],
+ [
+  "transverse_temporal_gyrus_Heschls_gyrus",
+  "Giro temporal transverso (giro de Heschl)"
+ ],
+ [
+  "tuberal_region_of_HTH",
+  "Región tuberal del hipotálamo"
+ ],
+ [
+  "ventral_anterior_nucleus_of_thalamus",
+  "Núcleo ventral anterior del tálamo"
+ ],
+ [
+  "ventral_lateral_nucleus_of_thalamus",
+  "Núcleo ventral lateral del tálamo"
+ ],
+ [
+  "ventral_posterior_lateral_nucleus",
+  "Núcleo ventral posterolateral del tálamo"
+ ],
+ [
+  "ventral_posterior_medial_nucleus",
+  "Núcleo ventral posteromedial del tálamo"
+ ],
+ [
+  "zona_incerta",
+  "Zona incerta"
+ ]
+]

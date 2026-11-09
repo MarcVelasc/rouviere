@@ -1,0 +1,111 @@
+/* ===== ajustes plegados =====
+   Tarjetas y Simulacros abrían con ocho desplegables y la acción principal debajo de
+   todo. Ahora la acción va primero y los ajustes se abren solo si hacen falta. */
+.ajustes {
+  margin: 12px 0 0;
+  padding: 0;
+}
+.ajustes > summary {
+  padding: 13px 15px;
+  cursor: pointer;
+  list-style: none;
+  font:
+    600 0.88rem Manrope,
+    sans-serif;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 46px;
+}
+.ajustes > summary::-webkit-details-marker {
+  display: none;
+}
+.ajustes > summary::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  flex: none;
+  border-right: 2px solid var(--teal);
+  border-bottom: 2px solid var(--teal);
+  transform: rotate(-45deg);
+  transition: transform 0.2s;
+}
+.ajustes[open] > summary::before {
+  transform: rotate(45deg);
+}
+.ajustes .fgrid {
+  margin: 0;
+  padding: 0 15px 15px;
+}
+.pill.big {
+  width: 100%;
+  justify-content: center;
+  min-height: 52px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* Los desplegables, uno por fila en pantallas estrechas: a 360 px el texto se cortaba
+   dentro del propio control («Banco ROU», «Todos los sis»). */
+@media (max-width: 430px) {
+  .fgrid {
+    grid-template-columns: 1fr;
+  }
+  .fgrid select,
+  .fgrid .in1 {
+    font-size: 0.92rem;
+  }
+}
+
+/* Los enlaces dentro de listas salían con el azul subrayado del navegador. */
+.vl a,
+.box ul a {
+  color: var(--teal);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid color-mix(in srgb, var(--teal) 40%, transparent);
+}
+.vl a:hover,
+.box ul a:hover {
+  border-bottom-color: var(--teal);
+}
+.dk .vl a,
+.dk .box ul a {
+  color: var(--mint);
+  border-bottom-color: rgba(101, 195, 181, 0.45);
+}
+
+/* El logotipo de la portada está posicionado en absoluto arriba del todo; el contenido
+   iba centrado, así que en pantallas bajas se subía y se montaba encima de él. Se ancla
+   abajo y se le reserva la banda del logotipo: ya no pueden solaparse. */
+.hero {
+  justify-content: flex-end;
+}
+.hero .hc {
+  padding-top: calc(env(safe-area-inset-top, 0px) + 94px);
+}
+/* El logotipo es una tipografía inglesa: sus trazos se salen de su caja, así que la
+   banda reservada es generosa a propósito. */
+/* En el móvil la portada es más baja, así que el texto cae sobre la parte clara de la
+   imagen: el velo oscuro sube para que se lea el subtítulo. */
+@media (max-width: 899px) {
+  .hero::after {
+    background: linear-gradient(
+      0deg,
+      #06202d 0,
+      rgba(6, 32, 45, 0.96) 46%,
+      rgba(6, 32, 45, 0.84) 64%,
+      rgba(6, 32, 45, 0.45) 82%,
+      transparent 100%
+    );
+  }
+}
+@media (min-width: 900px) {
+  .hero {
+    justify-content: center;
+  }
+  .hero .hc {
+    padding-top: calc(env(safe-area-inset-top, 0px) + 86px);
+  }
+}

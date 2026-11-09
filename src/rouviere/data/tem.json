@@ -1,0 +1,228 @@
+[
+ {
+  "id": "ana",
+  "n": "Anatomía Humana",
+  "gen": "reconocer, describir y relacionar las estructuras del cuerpo humano utilizando la terminología anatómica básica, recursos visuales y modelos tridimensionales.",
+  "g": [
+   {
+    "g": "A",
+    "t": "Fundamentos de anatomía",
+    "comp": "Utilizar la posición anatómica, los planos, los ejes y los términos de orientación para describir la ubicación y relación de estructuras.",
+    "cont": [
+     "Posición anatómica y terminología direccional.",
+     "Planos, ejes y movimientos corporales.",
+     "Regiones y cavidades corporales.",
+     "Niveles de organización y nociones de variación anatómica."
+    ],
+    "ev": "Describir la ubicación de una estructura usando términos anatómicos.",
+    "m": ""
+   },
+   {
+    "g": "B",
+    "t": "Sistema tegumentario y aparato locomotor",
+    "comp": "Identificar los componentes principales de la piel, los huesos, las articulaciones y los músculos, y explicar sus relaciones funcionales básicas.",
+    "cont": [
+     "Piel y anexos cutáneos.",
+     "Clasificación y organización de los huesos.",
+     "Articulaciones y movimientos.",
+     "Tipos de músculo y organización general.",
+     "Huesos, articulaciones y músculos por regiones, según el programa docente."
+    ],
+    "ev": "Reconocer estructuras en esquemas, modelos o imágenes.",
+    "m": "oseo"
+   },
+   {
+    "g": "C",
+    "t": "Sistema nervioso",
+    "comp": "Ubicar las principales divisiones del sistema nervioso y relacionar estructuras seleccionadas con sus funciones generales.",
+    "cont": [
+     "Organización del sistema nervioso central y periférico.",
+     "Encéfalo: cerebro, cerebelo y tronco encefálico.",
+     "Médula espinal y meninges.",
+     "Nervios periféricos y nociones generales de vías nerviosas.",
+     "Sistema nervioso autónomo: organización básica."
+    ],
+    "ev": "Señalar estructuras principales en un modelo o imagen y describir su ubicación.",
+    "m": "nerv"
+   },
+   {
+    "g": "D",
+    "t": "Sistemas cardiovascular y linfático",
+    "comp": "Reconocer el corazón, los vasos sanguíneos y los principales componentes del sistema linfático.",
+    "cont": [
+     "Localización y cavidades del corazón.",
+     "Circulación pulmonar y sistémica.",
+     "Tipos de vasos sanguíneos.",
+     "Principales vasos y regiones de drenaje linfático, según el nivel del curso."
+    ],
+    "ev": "Seguir esquemáticamente el recorrido de la sangre y reconocer estructuras principales.",
+    "m": "cardio"
+   },
+   {
+    "g": "E",
+    "t": "Sistemas respiratorio y digestivo",
+    "comp": "Identificar los órganos principales y explicar su disposición anatómica y continuidad.",
+    "cont": [
+     "Vías respiratorias superiores e inferiores.",
+     "Pulmones y pleuras.",
+     "Tubo digestivo y órganos accesorios.",
+     "Cavidad oral, faringe, esófago, estómago, intestinos, hígado, vesícula biliar y páncreas."
+    ],
+    "ev": "Ordenar órganos y reconocerlos en ilustraciones anatómicas.",
+    "m": "resp"
+   },
+   {
+    "g": "F",
+    "t": "Sistemas urinario y reproductor",
+    "comp": "Reconocer los órganos urinarios y reproductores y describir sus relaciones anatómicas generales.",
+    "cont": [
+     "Riñones, uréteres, vejiga y uretra.",
+     "Órganos reproductores masculinos.",
+     "Órganos reproductores femeninos.",
+     "Relaciones anatómicas generales de la pelvis."
+    ],
+    "ev": "Identificar los órganos principales y describir su localización.",
+    "m": "uri"
+   },
+   {
+    "g": "G",
+    "t": "Sistema endocrino y órganos de los sentidos",
+    "comp": "Localizar las principales glándulas endocrinas y estructuras sensoriales, relacionando su anatomía con su función general.",
+    "cont": [
+     "Hipófisis, tiroides, paratiroides, suprarrenales y páncreas endocrino.",
+     "Ojo y estructuras accesorias.",
+     "Oído externo, medio e interno.",
+     "Olfato y gusto: organización anatómica general."
+    ],
+    "ev": "Reconocer estructuras principales en imágenes y modelos.",
+    "m": "endo"
+   }
+  ]
+ },
+ {
+  "id": "his",
+  "n": "Histología",
+  "gen": "reconocer la organización microscópica de células y tejidos, relacionar sus características morfológicas con funciones generales e interpretar imágenes histológicas introductorias.",
+  "g": [
+   {
+    "g": "A",
+    "t": "Técnicas y observación microscópica",
+    "comp": "Interpretar imágenes microscópicas básicas y utilizar vocabulario histológico elemental.",
+    "cont": [
+     "Microscopía óptica: nociones básicas.",
+     "Preparación de muestras, cortes y tinciones frecuentes.",
+     "Aumento, resolución y orientación de una imagen.",
+     "Criterios iniciales para describir una preparación."
+    ],
+    "ev": "Describir una imagen indicando tejido probable y rasgos visibles.",
+    "m": ""
+   },
+   {
+    "g": "B",
+    "t": "Célula y tejidos básicos",
+    "comp": "Distinguir rasgos generales de células y tejidos fundamentales.",
+    "cont": [
+     "Membrana, citoplasma y núcleo.",
+     "Tejido epitelial: organización y tipos generales.",
+     "Tejido conjuntivo: células, fibras y matriz extracelular.",
+     "Tejido adiposo, cartílago y hueso.",
+     "Tejido muscular: esquelético, cardíaco y liso.",
+     "Tejido nervioso: neuronas y glía."
+    ],
+    "ev": "Clasificar imágenes de tejidos básicos usando rasgos observables.",
+    "m": ""
+   },
+   {
+    "g": "C",
+    "t": "Sangre, vasos y órganos linfoides",
+    "comp": "Reconocer componentes microscópicos generales de sangre, vasos y órganos seleccionados.",
+    "cont": [
+     "Elementos formes de la sangre.",
+     "Organización básica de arterias, venas y capilares.",
+     "Organización general de órganos linfoides.",
+     "Patrones histológicos introductorios de órganos seleccionados."
+    ],
+    "ev": "Identificar componentes visibles y relacionarlos con su función general.",
+    "m": ""
+   },
+   {
+    "g": "D",
+    "t": "Histología por sistemas",
+    "comp": "Relacionar patrones microscópicos con la organización de sistemas corporales.",
+    "cont": [
+     "Sistema respiratorio.",
+     "Sistema digestivo y glándulas anexas.",
+     "Sistema urinario.",
+     "Sistema endocrino.",
+     "Sistema reproductor.",
+     "Piel y anexos."
+    ],
+    "ev": "Reconocer patrones histológicos en preparaciones o microfotografías, según lo impartido.",
+    "m": ""
+   }
+  ]
+ },
+ {
+  "id": "emb",
+  "n": "Embriología",
+  "gen": "explicar las etapas principales del desarrollo humano y relacionar procesos embrionarios con la formación de tejidos y órganos, utilizando secuencias y esquemas.",
+  "g": [
+   {
+    "g": "A",
+    "t": "Bases del desarrollo",
+    "comp": "Ordenar cronológicamente los procesos iniciales del desarrollo humano y emplear la terminología básica.",
+    "cont": [
+     "Gametogénesis y fecundación.",
+     "Segmentación y formación del blastocisto.",
+     "Implantación.",
+     "Disco embrionario bilaminar y trilaminar.",
+     "Gastrulación y capas germinales."
+    ],
+    "ev": "Ordenar las etapas iniciales y asociar las capas germinales con sus derivados generales.",
+    "m": ""
+   },
+   {
+    "g": "B",
+    "t": "Plegamiento y organización embrionaria",
+    "comp": "Explicar cómo se establece el plan corporal básico durante el desarrollo temprano.",
+    "cont": [
+     "Neurulación y formación inicial del sistema nervioso.",
+     "Plegamiento embrionario.",
+     "Notocorda y organización axial.",
+     "Somitas y organización segmentaria.",
+     "Anexos embrionarios y placenta: nociones introductorias."
+    ],
+    "ev": "Interpretar esquemas secuenciales del desarrollo temprano.",
+    "m": ""
+   },
+   {
+    "g": "C",
+    "t": "Organogénesis por sistemas",
+    "comp": "Relacionar procesos embrionarios básicos con el origen y desarrollo de sistemas seleccionados.",
+    "cont": [
+     "Desarrollo general del sistema nervioso.",
+     "Desarrollo cardiovascular inicial.",
+     "Desarrollo del aparato respiratorio.",
+     "Desarrollo del tubo digestivo.",
+     "Desarrollo del sistema urogenital.",
+     "Desarrollo de extremidades y organización musculoesquelética."
+    ],
+    "ev": "Explicar de manera general el origen embrionario de estructuras seleccionadas.",
+    "m": ""
+   },
+   {
+    "g": "D",
+    "t": "Periodos del desarrollo y alteraciones",
+    "comp": "Distinguir periodos principales del desarrollo y comprender de forma introductoria cómo pueden producirse alteraciones.",
+    "cont": [
+     "Periodos embrionario y fetal.",
+     "Nociones generales de crecimiento y maduración.",
+     "Teratología y factores que afectan el desarrollo.",
+     "Ejemplos académicos de alteraciones vinculadas a procesos estudiados."
+    ],
+    "ev": "Relacionar un ejemplo con el proceso del desarrollo correspondiente.",
+    "m": ""
+   }
+  ]
+ }
+]

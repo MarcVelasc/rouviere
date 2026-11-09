@@ -1,0 +1,70 @@
+/* El ancho también depende del alto, para que la pantalla de inicio entre sin desplazarse. */
+.rou {
+  position: relative;
+  width: min(62vw, 240px, calc(33dvh * 0.75));
+  aspect-ratio: 3 / 4;
+}
+@media (max-height: 640px) {
+  .rou {
+    width: min(62vw, 240px, calc(28dvh * 0.75));
+  }
+}
+.halo {
+  position: absolute;
+  left: 50%;
+  bottom: -4%;
+  width: 86%;
+  height: 13%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(101, 195, 181, 0.35), rgba(101, 195, 181, 0));
+}
+.float {
+  position: absolute;
+  inset: 0;
+  animation: float 4.8s ease-in-out infinite;
+}
+.layer {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transform: scale(0.97);
+  transition:
+    opacity 0.55s ease,
+    transform 0.55s ease;
+}
+.on {
+  opacity: 1;
+  transform: scale(1);
+}
+.art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/* El dibujo anatómico se recorta a la silueta de Rou. */
+.overlay {
+  -webkit-mask: var(--silueta) center / 100% 100% no-repeat;
+  mask: var(--silueta) center / 100% 100% no-repeat;
+}
+/* La ilustración teñida debajo de cada capa. */
+.huesos {
+  filter: grayscale(1) brightness(0.42) sepia(0.6) hue-rotate(150deg) saturate(1.6);
+}
+.musculos {
+  filter: grayscale(1) sepia(1) hue-rotate(-35deg) saturate(3.2) brightness(0.72);
+}
+.nervios {
+  filter: grayscale(1) brightness(0.32) sepia(0.5) hue-rotate(160deg) saturate(1.4);
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}

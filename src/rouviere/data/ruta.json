@@ -1,0 +1,1472 @@
+[
+ {
+  "id": "u01",
+  "n": "Fundamentos y términos",
+  "ic": "brujula",
+  "intro": "Antes de aprender ninguna estructura hay que saber nombrarla y situarla. La posición anatómica es el punto de partida: de pie, mirando al frente, con las palmas hacia delante. Todo lo que viene después —proximal, distal, medial, lateral, los planos y las cavidades— se describe respecto a ella.",
+  "obj": [
+   "Describir la posición anatómica y los tres planos de referencia.",
+   "Usar correctamente proximal, distal, medial, lateral, superficial y profundo.",
+   "Situar las grandes cavidades del cuerpo y lo que contiene cada una."
+  ],
+  "nodos": [
+   {
+    "id": "u01a",
+    "t": "leccion",
+    "n": "Lección: Fundamentos y términos",
+    "d": 1,
+    "xp": 10
+   },
+   {
+    "id": "u01b",
+    "t": "tarjetas",
+    "n": "Tarjetas · primera vuelta",
+    "d": 1,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "reg"
+     ],
+     "ts": [
+      "Terminología anatómica",
+      "Cavidades corporales"
+     ],
+     "n": 10
+    }
+   },
+   {
+    "id": "u01e",
+    "t": "cuestionario",
+    "n": "Cuestionario de la unidad",
+    "d": 2,
+    "xp": 25,
+    "cfg": {
+     "ms": [
+      "reg"
+     ],
+     "ts": [
+      "Terminología anatómica",
+      "Cavidades corporales"
+     ],
+     "n": 8,
+     "min": 60
+    }
+   },
+   {
+    "id": "u01f",
+    "t": "evaluacion",
+    "n": "Evaluación de unidad",
+    "d": 3,
+    "xp": 40,
+    "cfg": {
+     "ms": [
+      "reg"
+     ],
+     "ts": [
+      "Terminología anatómica",
+      "Cavidades corporales"
+     ],
+     "n": 10,
+     "min": 70
+    }
+   }
+  ],
+  "tot": {
+   "c": 10,
+   "q": 10
+  }
+ },
+ {
+  "id": "u02",
+  "n": "Sistema óseo: generalidades y columna",
+  "ic": "hueso",
+  "intro": "El esqueleto sostiene, protege y almacena calcio, y además fabrica las células de la sangre. Esta unidad empieza por cómo está hecho un hueso por dentro y sigue con la columna vertebral, el eje del cuerpo: 33 vértebras, cuatro curvaturas y los discos que amortiguan la carga.",
+  "obj": [
+   "Clasificar los huesos por su forma y nombrar las partes de un hueso largo.",
+   "Contar y distinguir las regiones de la columna vertebral.",
+   "Explicar por qué la punción lumbar se hace por debajo de L2."
+  ],
+  "nodos": [
+   {
+    "id": "u02a",
+    "t": "leccion",
+    "n": "Lección: Sistema óseo: generalidades y columna",
+    "d": 1,
+    "xp": 10
+   },
+   {
+    "id": "u02b",
+    "t": "tarjetas",
+    "n": "Tarjetas · primera vuelta",
+    "d": 1,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "oseo"
+     ],
+     "ts": [
+      "Generalidades del esqueleto",
+      "Columna vertebral"
+     ],
+     "n": 10
+    }
+   },
+   {
+    "id": "u02d",
+    "t": "atlas",
+    "n": "Explora el sistema óseo en 3D",
+    "d": 1,
+    "xp": 15,
+    "cfg": {
+     "k": "oseo",
+     "nom": "Sistema óseo"
+    }
+   },
+   {
+    "id": "u02e",
+    "t": "cuestionario",
+    "n": "Cuestionario de la unidad",
+    "d": 2,
+    "xp": 25,
+    "cfg": {
+     "ms": [
+      "oseo"
+     ],
+     "ts": [
+      "Generalidades del esqueleto",
+      "Columna vertebral"
+     ],
+     "n": 8,
+     "min": 60
+    }
+   },
+   {
+    "id": "u02f",
+    "t": "evaluacion",
+    "n": "Evaluación de unidad",
+    "d": 3,
+    "xp": 40,
+    "cfg": {
+     "ms": [
+      "oseo"
+     ],
+     "ts": [
+      "Generalidades del esqueleto",
+      "Columna vertebral"
+     ],
+     "n": 12,
+     "min": 70
+    }
+   }
+  ],
+  "tot": {
+   "c": 17,
+   "q": 13
+  }
+ },
+ {
+  "id": "u03",
+  "n": "Cráneo, tórax y miembros",
+  "ic": "craneo",
+  "intro": "Veintidós huesos forman el cráneo, doce pares de costillas cierran el tórax y los miembros cuelgan del esqueleto axial por dos cinturas. Aquí se aprenden las referencias que luego se palpan en la exploración: el ángulo esternal, el acetábulo, la tabaquera anatómica.",
+  "obj": [
+   "Nombrar los huesos de la bóveda craneal y sus suturas.",
+   "Distinguir costillas verdaderas, falsas y flotantes.",
+   "Ordenar los huesos del carpo y del tarso."
+  ],
+  "nodos": [
+   {
+    "id": "u03a",
+    "t": "leccion",
+    "n": "Lección: Cráneo, tórax y miembros",
+    "d": 1,
+    "xp": 10
+   },
+   {
+    "id": "u03b",
+    "t": "tarjetas",
+    "n": "Tarjetas · primera vuelta",
+    "d": 1,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "oseo"
+     ],
+     "ts": [
+      "Cráneo",
+      "Tórax óseo",
+      "Miembro superior",
+      "Miembro inferior",
+      "Cintura escapular y miembro superior",
+      "Cintura pélvica y miembro inferior"
+     ],
+     "n": 10
+    }
+   },
+   {
+    "id": "u03c",
+    "t": "tarjetas",
+    "n": "Tarjetas · segunda vuelta",
+    "d": 2,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "oseo"
+     ],
+     "ts": [
+      "Cráneo",
+      "Tórax óseo",
+      "Miembro superior",
+      "Miembro inferior",
+      "Cintura escapular y miembro superior",
+      "Cintura pélvica y miembro inferior"
+     ],
+     "n": 12
+    }
+   },
+   {
+    "id": "u03e",
+    "t": "cuestionario",
+    "n": "Cuestionario de la unidad",
+    "d": 2,
+    "xp": 25,
+    "cfg": {
+     "ms": [
+      "oseo"
+     ],
+     "ts": [
+      "Cráneo",
+      "Tórax óseo",
+      "Miembro superior",
+      "Miembro inferior",
+      "Cintura escapular y miembro superior",
+      "Cintura pélvica y miembro inferior"
+     ],
+     "n": 8,
+     "min": 60
+    }
+   },
+   {
+    "id": "u03f",
+    "t": "evaluacion",
+    "n": "Evaluación de unidad",
+    "d": 3,
+    "xp": 40,
+    "cfg": {
+     "ms": [
+      "oseo"
+     ],
+     "ts": [
+      "Cráneo",
+      "Tórax óseo",
+      "Miembro superior",
+      "Miembro inferior",
+      "Cintura escapular y miembro superior",
+      "Cintura pélvica y miembro inferior"
+     ],
+     "n": 12,
+     "min": 70
+    }
+   }
+  ],
+  "tot": {
+   "c": 26,
+   "q": 17
+  }
+ },
+ {
+  "id": "u04",
+  "n": "Articulaciones",
+  "ic": "bisagra",
+  "intro": "Una articulación es el punto donde dos huesos se encuentran, y no todas se mueven igual: las suturas del cráneo no se mueven, la sínfisis del pubis apenas, y el hombro se mueve en los tres ejes. Esta unidad separa los tres tipos y entra en las dos articulaciones que más se lesionan: el hombro y la rodilla.",
+  "obj": [
+   "Clasificar las articulaciones por su movilidad y por su estructura.",
+   "Enumerar los elementos de una articulación sinovial.",
+   "Nombrar los ligamentos y los meniscos de la rodilla y qué movimiento frena cada uno."
+  ],
+  "nodos": [
+   {
+    "id": "u04a",
+    "t": "leccion",
+    "n": "Lección: Articulaciones",
+    "d": 1,
+    "xp": 10
+   },
+   {
+    "id": "u04b",
+    "t": "tarjetas",
+    "n": "Tarjetas · primera vuelta",
+    "d": 1,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "oseo"
+     ],
+     "ts": [
+      "Articulaciones"
+     ],
+     "n": 6
+    }
+   },
+   {
+    "id": "u04e",
+    "t": "cuestionario",
+    "n": "Cuestionario de la unidad",
+    "d": 2,
+    "xp": 25,
+    "cfg": {
+     "ms": [
+      "oseo"
+     ],
+     "ts": [
+      "Articulaciones"
+     ],
+     "n": 7,
+     "min": 60
+    }
+   }
+  ],
+  "tot": {
+   "c": 6,
+   "q": 7
+  }
+ },
+ {
+  "id": "u05",
+  "n": "Sistema muscular",
+  "ic": "musculo",
+  "intro": "Más de seiscientos músculos mueven el esqueleto, y cada uno se estudia igual: origen, inserción, inervación y acción. Esta unidad va del sarcómero —la unidad que se contrae— a los grandes grupos del tronco y los miembros, con los nervios que los gobiernan.",
+  "obj": [
+   "Explicar cómo se contrae el músculo esquelético y qué papel tiene el calcio.",
+   "Asociar cada grupo muscular con el nervio que lo inerva.",
+   "Reconocer los déficits típicos: mano péndula, mano en garra, pie caído, escápula alada."
+  ],
+  "nodos": [
+   {
+    "id": "u05a",
+    "t": "leccion",
+    "n": "Lección: Sistema muscular",
+    "d": 1,
+    "xp": 10
+   },
+   {
+    "id": "u05b",
+    "t": "tarjetas",
+    "n": "Tarjetas · primera vuelta",
+    "d": 1,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "musc"
+     ],
+     "ts": null,
+     "n": 10
+    }
+   },
+   {
+    "id": "u05c",
+    "t": "tarjetas",
+    "n": "Tarjetas · segunda vuelta",
+    "d": 2,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "musc"
+     ],
+     "ts": null,
+     "n": 12
+    }
+   },
+   {
+    "id": "u05d",
+    "t": "atlas",
+    "n": "Explora el sistema muscular en 3D",
+    "d": 1,
+    "xp": 15,
+    "cfg": {
+     "k": "muscular",
+     "nom": "Sistema muscular"
+    }
+   },
+   {
+    "id": "u05e",
+    "t": "cuestionario",
+    "n": "Cuestionario de la unidad",
+    "d": 2,
+    "xp": 25,
+    "cfg": {
+     "ms": [
+      "musc"
+     ],
+     "ts": null,
+     "n": 8,
+     "min": 60
+    }
+   },
+   {
+    "id": "u05f",
+    "t": "evaluacion",
+    "n": "Evaluación de unidad",
+    "d": 3,
+    "xp": 40,
+    "cfg": {
+     "ms": [
+      "musc"
+     ],
+     "ts": null,
+     "n": 12,
+     "min": 70
+    }
+   },
+   {
+    "id": "u05g",
+    "t": "desafio",
+    "n": "Desafío: preguntas avanzadas",
+    "d": 3,
+    "xp": 50,
+    "cfg": {
+     "ms": [
+      "musc"
+     ],
+     "ts": null,
+     "n": 6,
+     "dif": 3,
+     "min": 60
+    }
+   }
+  ],
+  "tot": {
+   "c": 40,
+   "q": 37
+  }
+ },
+ {
+  "id": "u06",
+  "n": "Sistema nervioso: organización y médula",
+  "ic": "nervio",
+  "intro": "El sistema nervioso se divide en central y periférico, y en la médula la sustancia gris está en el centro, al revés que en el cerebro. Aquí se aprenden la neurona, la glía y las vías que suben y bajan por la médula, con el detalle que más se pregunta: dónde cruza cada una.",
+  "obj": [
+   "Diferenciar sistema nervioso central y periférico, y sustancia gris de blanca.",
+   "Decir qué célula produce la mielina en el centro y en la periferia.",
+   "Situar dónde decusan la vía espinotalámica, los cordones posteriores y la piramidal."
+  ],
+  "nodos": [
+   {
+    "id": "u06a",
+    "t": "leccion",
+    "n": "Lección: Sistema nervioso: organización y médula",
+    "d": 1,
+    "xp": 10
+   },
+   {
+    "id": "u06b",
+    "t": "tarjetas",
+    "n": "Tarjetas · primera vuelta",
+    "d": 1,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "nerv"
+     ],
+     "ts": [
+      "Organización general",
+      "Neurona y neuroglía",
+      "Médula espinal"
+     ],
+     "n": 10
+    }
+   },
+   {
+    "id": "u06c",
+    "t": "tarjetas",
+    "n": "Tarjetas · segunda vuelta",
+    "d": 2,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "nerv"
+     ],
+     "ts": [
+      "Organización general",
+      "Neurona y neuroglía",
+      "Médula espinal"
+     ],
+     "n": 12
+    }
+   },
+   {
+    "id": "u06e",
+    "t": "cuestionario",
+    "n": "Cuestionario de la unidad",
+    "d": 2,
+    "xp": 25,
+    "cfg": {
+     "ms": [
+      "nerv"
+     ],
+     "ts": [
+      "Organización general",
+      "Neurona y neuroglía",
+      "Médula espinal"
+     ],
+     "n": 8,
+     "min": 60
+    }
+   },
+   {
+    "id": "u06f",
+    "t": "evaluacion",
+    "n": "Evaluación de unidad",
+    "d": 3,
+    "xp": 40,
+    "cfg": {
+     "ms": [
+      "nerv"
+     ],
+     "ts": [
+      "Organización general",
+      "Neurona y neuroglía",
+      "Médula espinal"
+     ],
+     "n": 12,
+     "min": 70
+    }
+   }
+  ],
+  "tot": {
+   "c": 18,
+   "q": 13
+  }
+ },
+ {
+  "id": "u07",
+  "n": "Neuroanatomía: encéfalo y meninges",
+  "ic": "encefalo",
+  "intro": "El encéfalo es cerebro, cerebelo y tronco. Esta unidad recorre los lóbulos y sus áreas, los ganglios basales, el tálamo y el hipotálamo, y termina con las tres meninges y el recorrido del líquido cefalorraquídeo, que explica tanto la punción lumbar como la hidrocefalia.",
+  "obj": [
+   "Localizar las áreas motora, sensitiva, visual y del lenguaje.",
+   "Distinguir la afasia de Broca de la de Wernicke.",
+   "Seguir el circuito del líquido cefalorraquídeo desde los plexos coroideos hasta su reabsorción."
+  ],
+  "nodos": [
+   {
+    "id": "u07a",
+    "t": "leccion",
+    "n": "Lección: Neuroanatomía: encéfalo y meninges",
+    "d": 1,
+    "xp": 10
+   },
+   {
+    "id": "u07b",
+    "t": "tarjetas",
+    "n": "Tarjetas · primera vuelta",
+    "d": 1,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "nerv"
+     ],
+     "ts": [
+      "Encéfalo",
+      "Meninges y líquido cefalorraquídeo"
+     ],
+     "n": 10
+    }
+   },
+   {
+    "id": "u07c",
+    "t": "tarjetas",
+    "n": "Tarjetas · segunda vuelta",
+    "d": 2,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "nerv"
+     ],
+     "ts": [
+      "Encéfalo",
+      "Meninges y líquido cefalorraquídeo"
+     ],
+     "n": 12
+    }
+   },
+   {
+    "id": "u07d",
+    "t": "atlas",
+    "n": "Explora el sistema nervioso en 3D",
+    "d": 1,
+    "xp": 15,
+    "cfg": {
+     "k": "nerv",
+     "nom": "Sistema nervioso"
+    }
+   },
+   {
+    "id": "u07e",
+    "t": "cuestionario",
+    "n": "Cuestionario de la unidad",
+    "d": 2,
+    "xp": 25,
+    "cfg": {
+     "ms": [
+      "nerv"
+     ],
+     "ts": [
+      "Encéfalo",
+      "Meninges y líquido cefalorraquídeo"
+     ],
+     "n": 8,
+     "min": 60
+    }
+   },
+   {
+    "id": "u07f",
+    "t": "evaluacion",
+    "n": "Evaluación de unidad",
+    "d": 3,
+    "xp": 40,
+    "cfg": {
+     "ms": [
+      "nerv"
+     ],
+     "ts": [
+      "Encéfalo",
+      "Meninges y líquido cefalorraquídeo"
+     ],
+     "n": 12,
+     "min": 70
+    }
+   },
+   {
+    "id": "u07g",
+    "t": "desafio",
+    "n": "Desafío: preguntas avanzadas",
+    "d": 3,
+    "xp": 50,
+    "cfg": {
+     "ms": [
+      "nerv"
+     ],
+     "ts": [
+      "Encéfalo",
+      "Meninges y líquido cefalorraquídeo"
+     ],
+     "n": 6,
+     "dif": 3,
+     "min": 60
+    }
+   }
+  ],
+  "tot": {
+   "c": 19,
+   "q": 20
+  }
+ },
+ {
+  "id": "u08",
+  "n": "Pares craneales y sistema autónomo",
+  "ic": "pares",
+  "intro": "Doce pares craneales y dos divisiones autónomas. Esta unidad es memoria pura, pero con lógica: cada par tiene una función y una exploración, y el simpático y el parasimpático salen de niveles medulares distintos, toracolumbar y craneosacro.",
+  "obj": [
+   "Nombrar los doce pares craneales y la función principal de cada uno.",
+   "Explicar a qué lado se desvía la lengua en una lesión del hipogloso.",
+   "Comparar simpático y parasimpático por origen, neurotransmisor y efecto."
+  ],
+  "nodos": [
+   {
+    "id": "u08a",
+    "t": "leccion",
+    "n": "Lección: Pares craneales y sistema autónomo",
+    "d": 1,
+    "xp": 10
+   },
+   {
+    "id": "u08b",
+    "t": "tarjetas",
+    "n": "Tarjetas · primera vuelta",
+    "d": 1,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "nerv"
+     ],
+     "ts": [
+      "Pares craneales",
+      "Sistema nervioso autónomo",
+      "Plexos nerviosos"
+     ],
+     "n": 10
+    }
+   },
+   {
+    "id": "u08e",
+    "t": "cuestionario",
+    "n": "Cuestionario de la unidad",
+    "d": 2,
+    "xp": 25,
+    "cfg": {
+     "ms": [
+      "nerv"
+     ],
+     "ts": [
+      "Pares craneales",
+      "Sistema nervioso autónomo",
+      "Plexos nerviosos"
+     ],
+     "n": 8,
+     "min": 60
+    }
+   },
+   {
+    "id": "u08f",
+    "t": "evaluacion",
+    "n": "Evaluación de unidad",
+    "d": 3,
+    "xp": 40,
+    "cfg": {
+     "ms": [
+      "nerv"
+     ],
+     "ts": [
+      "Pares craneales",
+      "Sistema nervioso autónomo",
+      "Plexos nerviosos"
+     ],
+     "n": 12,
+     "min": 70
+    }
+   }
+  ],
+  "tot": {
+   "c": 16,
+   "q": 15
+  }
+ },
+ {
+  "id": "u09",
+  "n": "Sistema cardiovascular",
+  "ic": "corazon",
+  "intro": "Cuatro cavidades, cuatro válvulas y dos circulaciones. Esta unidad va de la anatomía del corazón y sus coronarias al sistema de conducción y a los grandes vasos, y termina con lo mínimo de fisiología que hace falta para entender el gasto cardíaco y la presión arterial.",
+  "obj": [
+   "Seguir el recorrido de la sangre por las cuatro cavidades y sus válvulas.",
+   "Ordenar el sistema de conducción desde el nódulo sinusal hasta las fibras de Purkinje.",
+   "Nombrar las ramas del cayado aórtico y del tronco celíaco."
+  ],
+  "nodos": [
+   {
+    "id": "u09a",
+    "t": "leccion",
+    "n": "Lección: Sistema cardiovascular",
+    "d": 1,
+    "xp": 10
+   },
+   {
+    "id": "u09b",
+    "t": "tarjetas",
+    "n": "Tarjetas · primera vuelta",
+    "d": 1,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "cardio"
+     ],
+     "ts": null,
+     "n": 10
+    }
+   },
+   {
+    "id": "u09c",
+    "t": "tarjetas",
+    "n": "Tarjetas · segunda vuelta",
+    "d": 2,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "cardio"
+     ],
+     "ts": null,
+     "n": 12
+    }
+   },
+   {
+    "id": "u09d",
+    "t": "atlas",
+    "n": "Explora el sistema cardiovascular en 3D",
+    "d": 1,
+    "xp": 15,
+    "cfg": {
+     "k": "cardio",
+     "nom": "Sistema cardiovascular"
+    }
+   },
+   {
+    "id": "u09e",
+    "t": "cuestionario",
+    "n": "Cuestionario de la unidad",
+    "d": 2,
+    "xp": 25,
+    "cfg": {
+     "ms": [
+      "cardio"
+     ],
+     "ts": null,
+     "n": 8,
+     "min": 60
+    }
+   },
+   {
+    "id": "u09f",
+    "t": "evaluacion",
+    "n": "Evaluación de unidad",
+    "d": 3,
+    "xp": 40,
+    "cfg": {
+     "ms": [
+      "cardio"
+     ],
+     "ts": null,
+     "n": 12,
+     "min": 70
+    }
+   },
+   {
+    "id": "u09g",
+    "t": "desafio",
+    "n": "Desafío: preguntas avanzadas",
+    "d": 3,
+    "xp": 50,
+    "cfg": {
+     "ms": [
+      "cardio"
+     ],
+     "ts": null,
+     "n": 5,
+     "dif": 3,
+     "min": 60
+    }
+   }
+  ],
+  "tot": {
+   "c": 37,
+   "q": 34
+  }
+ },
+ {
+  "id": "u10",
+  "n": "Sistema respiratorio",
+  "ic": "pulmon",
+  "intro": "De la nariz al alvéolo. Esta unidad recorre la vía aérea, explica por qué el bronquio derecho recibe los cuerpos extraños, separa los lóbulos y las cisuras de cada pulmón y termina en la pleura y en la mecánica de la respiración.",
+  "obj": [
+   "Nombrar los cartílagos de la laringe y el nervio que mueve las cuerdas vocales.",
+   "Explicar el intercambio gaseoso y el papel del surfactante.",
+   "Diferenciar inspiración y espiración en reposo y forzadas."
+  ],
+  "nodos": [
+   {
+    "id": "u10a",
+    "t": "leccion",
+    "n": "Lección: Sistema respiratorio",
+    "d": 1,
+    "xp": 10
+   },
+   {
+    "id": "u10b",
+    "t": "tarjetas",
+    "n": "Tarjetas · primera vuelta",
+    "d": 1,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "resp"
+     ],
+     "ts": null,
+     "n": 10
+    }
+   },
+   {
+    "id": "u10c",
+    "t": "tarjetas",
+    "n": "Tarjetas · segunda vuelta",
+    "d": 2,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "resp"
+     ],
+     "ts": null,
+     "n": 12
+    }
+   },
+   {
+    "id": "u10d",
+    "t": "atlas",
+    "n": "Explora el sistema respiratorio en 3D",
+    "d": 1,
+    "xp": 15,
+    "cfg": {
+     "k": "resp",
+     "nom": "Sistema respiratorio"
+    }
+   },
+   {
+    "id": "u10e",
+    "t": "cuestionario",
+    "n": "Cuestionario de la unidad",
+    "d": 2,
+    "xp": 25,
+    "cfg": {
+     "ms": [
+      "resp"
+     ],
+     "ts": null,
+     "n": 8,
+     "min": 60
+    }
+   },
+   {
+    "id": "u10f",
+    "t": "evaluacion",
+    "n": "Evaluación de unidad",
+    "d": 3,
+    "xp": 40,
+    "cfg": {
+     "ms": [
+      "resp"
+     ],
+     "ts": null,
+     "n": 12,
+     "min": 70
+    }
+   },
+   {
+    "id": "u10g",
+    "t": "desafio",
+    "n": "Desafío: preguntas avanzadas",
+    "d": 3,
+    "xp": 50,
+    "cfg": {
+     "ms": [
+      "resp"
+     ],
+     "ts": null,
+     "n": 4,
+     "dif": 3,
+     "min": 60
+    }
+   }
+  ],
+  "tot": {
+   "c": 24,
+   "q": 24
+  }
+ },
+ {
+  "id": "u11",
+  "n": "Sistema digestivo",
+  "ic": "digestivo",
+  "intro": "Un tubo de diez metros con cuatro capas siempre iguales y tres glándulas anejas. Esta unidad va de la boca al ano, con las paradas que más se preguntan: las células del estómago, la ampolla de Vater, el íleon terminal, la tríada portal y el peritoneo.",
+  "obj": [
+   "Nombrar las cuatro capas de la pared digestiva y los dos plexos nerviosos.",
+   "Situar dónde se absorbe cada nutriente y dónde la vitamina B12.",
+   "Distinguir los órganos intraperitoneales de los retroperitoneales."
+  ],
+  "nodos": [
+   {
+    "id": "u11a",
+    "t": "leccion",
+    "n": "Lección: Sistema digestivo",
+    "d": 1,
+    "xp": 10
+   },
+   {
+    "id": "u11b",
+    "t": "tarjetas",
+    "n": "Tarjetas · primera vuelta",
+    "d": 1,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "dig"
+     ],
+     "ts": null,
+     "n": 10
+    }
+   },
+   {
+    "id": "u11c",
+    "t": "tarjetas",
+    "n": "Tarjetas · segunda vuelta",
+    "d": 2,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "dig"
+     ],
+     "ts": null,
+     "n": 12
+    }
+   },
+   {
+    "id": "u11d",
+    "t": "atlas",
+    "n": "Explora el sistema digestivo en 3D",
+    "d": 1,
+    "xp": 15,
+    "cfg": {
+     "k": "dig",
+     "nom": "Sistema digestivo"
+    }
+   },
+   {
+    "id": "u11e",
+    "t": "cuestionario",
+    "n": "Cuestionario de la unidad",
+    "d": 2,
+    "xp": 25,
+    "cfg": {
+     "ms": [
+      "dig"
+     ],
+     "ts": null,
+     "n": 8,
+     "min": 60
+    }
+   },
+   {
+    "id": "u11f",
+    "t": "evaluacion",
+    "n": "Evaluación de unidad",
+    "d": 3,
+    "xp": 40,
+    "cfg": {
+     "ms": [
+      "dig"
+     ],
+     "ts": null,
+     "n": 12,
+     "min": 70
+    }
+   }
+  ],
+  "tot": {
+   "c": 32,
+   "q": 30
+  }
+ },
+ {
+  "id": "u12",
+  "n": "Sistema urinario",
+  "ic": "rinon",
+  "intro": "Dos riñones retroperitoneales, un millón de nefronas cada uno. Esta unidad explica cómo se forma la orina —filtración, reabsorción y secreción— y por dónde sale, y añade las hormonas que el riñón produce y las que lo gobiernan.",
+  "obj": [
+   "Nombrar las partes de la nefrona y qué ocurre en cada una.",
+   "Explicar qué hace el aparato yuxtaglomerular.",
+   "Seguir el recorrido de la orina desde la papila renal hasta la uretra."
+  ],
+  "nodos": [
+   {
+    "id": "u12a",
+    "t": "leccion",
+    "n": "Lección: Sistema urinario",
+    "d": 1,
+    "xp": 10
+   },
+   {
+    "id": "u12b",
+    "t": "tarjetas",
+    "n": "Tarjetas · primera vuelta",
+    "d": 1,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "uri"
+     ],
+     "ts": null,
+     "n": 10
+    }
+   },
+   {
+    "id": "u12d",
+    "t": "atlas",
+    "n": "Explora el sistema urinario en 3D",
+    "d": 1,
+    "xp": 15,
+    "cfg": {
+     "k": "uri",
+     "nom": "Sistema urinario"
+    }
+   },
+   {
+    "id": "u12e",
+    "t": "cuestionario",
+    "n": "Cuestionario de la unidad",
+    "d": 2,
+    "xp": 25,
+    "cfg": {
+     "ms": [
+      "uri"
+     ],
+     "ts": null,
+     "n": 8,
+     "min": 60
+    }
+   },
+   {
+    "id": "u12f",
+    "t": "evaluacion",
+    "n": "Evaluación de unidad",
+    "d": 3,
+    "xp": 40,
+    "cfg": {
+     "ms": [
+      "uri"
+     ],
+     "ts": null,
+     "n": 12,
+     "min": 70
+    }
+   }
+  ],
+  "tot": {
+   "c": 16,
+   "q": 16
+  }
+ },
+ {
+  "id": "u13",
+  "n": "Endocrino y reproductor",
+  "ic": "glandula",
+  "intro": "Las glándulas endocrinas vierten a la sangre y gobiernan a distancia. Esta unidad reúne la hipófisis y sus ejes, la tiroides, las suprarrenales y el páncreas endocrino, y sigue con los aparatos reproductores masculino y femenino y el ciclo ovárico.",
+  "obj": [
+   "Diferenciar adenohipófisis y neurohipófisis por lo que produce cada una.",
+   "Asociar cada capa de la corteza suprarrenal con su hormona.",
+   "Situar dónde ocurre la fecundación y qué produce el cuerpo lúteo."
+  ],
+  "nodos": [
+   {
+    "id": "u13a",
+    "t": "leccion",
+    "n": "Lección: Endocrino y reproductor",
+    "d": 1,
+    "xp": 10
+   },
+   {
+    "id": "u13b",
+    "t": "tarjetas",
+    "n": "Tarjetas · primera vuelta",
+    "d": 1,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "endo",
+      "rep"
+     ],
+     "ts": null,
+     "n": 10
+    }
+   },
+   {
+    "id": "u13c",
+    "t": "tarjetas",
+    "n": "Tarjetas · segunda vuelta",
+    "d": 2,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "endo",
+      "rep"
+     ],
+     "ts": null,
+     "n": 12
+    }
+   },
+   {
+    "id": "u13d",
+    "t": "atlas",
+    "n": "Explora el sistema endocrino en 3D",
+    "d": 1,
+    "xp": 15,
+    "cfg": {
+     "k": "endo",
+     "nom": "Sistema endocrino"
+    }
+   },
+   {
+    "id": "u13e",
+    "t": "cuestionario",
+    "n": "Cuestionario de la unidad",
+    "d": 2,
+    "xp": 25,
+    "cfg": {
+     "ms": [
+      "endo",
+      "rep"
+     ],
+     "ts": null,
+     "n": 8,
+     "min": 60
+    }
+   },
+   {
+    "id": "u13f",
+    "t": "evaluacion",
+    "n": "Evaluación de unidad",
+    "d": 3,
+    "xp": 40,
+    "cfg": {
+     "ms": [
+      "endo",
+      "rep"
+     ],
+     "ts": null,
+     "n": 12,
+     "min": 70
+    }
+   },
+   {
+    "id": "u13g",
+    "t": "desafio",
+    "n": "Desafío: preguntas avanzadas",
+    "d": 3,
+    "xp": 50,
+    "cfg": {
+     "ms": [
+      "endo",
+      "rep"
+     ],
+     "ts": null,
+     "n": 5,
+     "dif": 3,
+     "min": 60
+    }
+   }
+  ],
+  "tot": {
+   "c": 30,
+   "q": 32
+  }
+ },
+ {
+  "id": "u14",
+  "n": "Órganos de los sentidos",
+  "ic": "ojo",
+  "intro": "El ojo y el oído concentran una densidad de estructuras enorme en muy poco espacio. Esta unidad separa las tres capas del globo ocular, los fotorreceptores y la vía visual, y recorre el oído externo, medio e interno, con el olfato y el gusto al final.",
+  "obj": [
+   "Nombrar las tres túnicas del ojo y qué estructura refracta más.",
+   "Ordenar los huesecillos y explicar para qué sirve la trompa de Eustaquio.",
+   "Decir qué nervios recogen el gusto de cada parte de la lengua."
+  ],
+  "nodos": [
+   {
+    "id": "u14a",
+    "t": "leccion",
+    "n": "Lección: Órganos de los sentidos",
+    "d": 1,
+    "xp": 10
+   },
+   {
+    "id": "u14b",
+    "t": "tarjetas",
+    "n": "Tarjetas · primera vuelta",
+    "d": 1,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "sent"
+     ],
+     "ts": null,
+     "n": 10
+    }
+   },
+   {
+    "id": "u14d",
+    "t": "atlas",
+    "n": "Explora el órganos de los sentidos en 3D",
+    "d": 1,
+    "xp": 15,
+    "cfg": {
+     "k": "sent",
+     "nom": "Órganos de los sentidos"
+    }
+   },
+   {
+    "id": "u14e",
+    "t": "cuestionario",
+    "n": "Cuestionario de la unidad",
+    "d": 2,
+    "xp": 25,
+    "cfg": {
+     "ms": [
+      "sent"
+     ],
+     "ts": null,
+     "n": 8,
+     "min": 60
+    }
+   },
+   {
+    "id": "u14f",
+    "t": "evaluacion",
+    "n": "Evaluación de unidad",
+    "d": 3,
+    "xp": 40,
+    "cfg": {
+     "ms": [
+      "sent"
+     ],
+     "ts": null,
+     "n": 12,
+     "min": 70
+    }
+   }
+  ],
+  "tot": {
+   "c": 16,
+   "q": 19
+  }
+ },
+ {
+  "id": "u15",
+  "n": "Piel, tejido conectivo y anatomía regional",
+  "ic": "piel",
+  "intro": "La piel es el órgano más extenso y el tejido conectivo está en todas partes. La unidad cierra con anatomía regional y de superficie: las nueve regiones del abdomen, los triángulos y fosas que hay que conocer y las referencias que se palpan en la exploración.",
+  "obj": [
+   "Nombrar las capas de la piel y los receptores de cada una.",
+   "Distinguir tendón, ligamento, aponeurosis y fascia.",
+   "Situar las nueve regiones del abdomen y los focos de auscultación cardíaca."
+  ],
+  "nodos": [
+   {
+    "id": "u15a",
+    "t": "leccion",
+    "n": "Lección: Piel, tejido conectivo y anatomía regional",
+    "d": 1,
+    "xp": 10
+   },
+   {
+    "id": "u15b",
+    "t": "tarjetas",
+    "n": "Tarjetas · primera vuelta",
+    "d": 1,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "piel",
+      "reg"
+     ],
+     "ts": [
+      "Piel",
+      "Tejido conectivo",
+      "Regiones del cuerpo",
+      "Regiones del abdomen",
+      "Anatomía de superficie"
+     ],
+     "n": 10
+    }
+   },
+   {
+    "id": "u15c",
+    "t": "tarjetas",
+    "n": "Tarjetas · segunda vuelta",
+    "d": 2,
+    "xp": 20,
+    "cfg": {
+     "ms": [
+      "piel",
+      "reg"
+     ],
+     "ts": [
+      "Piel",
+      "Tejido conectivo",
+      "Regiones del cuerpo",
+      "Regiones del abdomen",
+      "Anatomía de superficie"
+     ],
+     "n": 12
+    }
+   },
+   {
+    "id": "u15d",
+    "t": "atlas",
+    "n": "Explora el tejido conectivo y piel en 3D",
+    "d": 1,
+    "xp": 15,
+    "cfg": {
+     "k": "otros",
+     "nom": "Tejido conectivo y piel"
+    }
+   },
+   {
+    "id": "u15e",
+    "t": "cuestionario",
+    "n": "Cuestionario de la unidad",
+    "d": 2,
+    "xp": 25,
+    "cfg": {
+     "ms": [
+      "piel",
+      "reg"
+     ],
+     "ts": [
+      "Piel",
+      "Tejido conectivo",
+      "Regiones del cuerpo",
+      "Regiones del abdomen",
+      "Anatomía de superficie"
+     ],
+     "n": 8,
+     "min": 60
+    }
+   },
+   {
+    "id": "u15f",
+    "t": "evaluacion",
+    "n": "Evaluación de unidad",
+    "d": 3,
+    "xp": 40,
+    "cfg": {
+     "ms": [
+      "piel",
+      "reg"
+     ],
+     "ts": [
+      "Piel",
+      "Tejido conectivo",
+      "Regiones del cuerpo",
+      "Regiones del abdomen",
+      "Anatomía de superficie"
+     ],
+     "n": 12,
+     "min": 70
+    }
+   },
+   {
+    "id": "u15g",
+    "t": "desafio",
+    "n": "Desafío: preguntas avanzadas",
+    "d": 3,
+    "xp": 50,
+    "cfg": {
+     "ms": [
+      "piel",
+      "reg"
+     ],
+     "ts": [
+      "Piel",
+      "Tejido conectivo",
+      "Regiones del cuerpo",
+      "Regiones del abdomen",
+      "Anatomía de superficie"
+     ],
+     "n": 4,
+     "dif": 3,
+     "min": 60
+    }
+   }
+  ],
+  "tot": {
+   "c": 28,
+   "q": 28
+  }
+ }
+]

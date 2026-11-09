@@ -1,0 +1,68 @@
+/* ===== Rou en el inicio ===== */
+.rouhome {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 34px 0 0;
+  padding: 24px;
+  border-radius: 24px;
+  border: 1px solid rgba(101, 195, 181, 0.26);
+  background: linear-gradient(135deg, rgba(15, 74, 102, 0.5), rgba(10, 58, 82, 0.3));
+}
+.rouhome .rhbig {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  flex: none;
+  filter: drop-shadow(0 6px 18px rgba(4, 24, 34, 0.45));
+}
+.rhtx {
+  flex: 1;
+  min-width: 250px;
+}
+.rouhome .h2s {
+  margin: 4px 0 8px;
+  font-size: clamp(1.8rem, 6.5vw, 2.6rem);
+}
+.rouhome p {
+  margin: 0;
+  color: #cfe6e3;
+  line-height: 1.65;
+  font-size: 0.95rem;
+}
+.rouhome .rvia {
+  margin-top: 8px;
+  font-size: 0.72rem;
+  opacity: 0.95;
+}
+.rouhome .rouq {
+  padding: 11px 0 0;
+}
+.rouhome .rchip {
+  color: #9fdcd2;
+  border-color: rgba(101, 195, 181, 0.4);
+}
+.rouhome .rchip:hover {
+  background: rgba(101, 195, 181, 0.16);
+}
+.rouhome .cta {
+  margin-top: 14px;
+}
+.rouhome button.b1 {
+  font:
+    600 0.95rem Manrope,
+    sans-serif;
+  cursor: pointer;
+}
+@media (max-width: 520px) {
+  .rouhome {
+    padding: 19px;
+    gap: 14px;
+  }
+  .rouhome .rhbig {
+    width: 104px;
+    height: 104px;
+    margin: 0 auto;
+  }
+}

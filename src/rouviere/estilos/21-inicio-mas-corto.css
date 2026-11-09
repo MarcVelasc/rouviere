@@ -1,0 +1,188 @@
+/* ===== inicio más corto ===== */
+/* La portada del licenciado se conserva entera, pero a media pantalla: así el saludo,
+   el buscador y las siete áreas entran sin tener que desplazarse. */
+.hero {
+  min-height: 56svh;
+}
+@media (min-width: 900px) {
+  .hero {
+    min-height: 72svh;
+  }
+}
+.hola {
+  margin: 14px 0 8px;
+}
+.hola #holat {
+  margin: 0;
+  font:
+    600 1.02rem Manrope,
+    sans-serif;
+  color: var(--ink);
+}
+#areas {
+  padding: 16px 0 6px;
+}
+#homeprac {
+  padding: 22px 0 6px;
+}
+#homeareas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 12px 0 10px;
+}
+.arc {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 13px;
+  border-radius: 14px;
+  text-decoration: none;
+  background: var(--card);
+  border: 1px solid var(--line);
+  transition:
+    border-color 0.2s,
+    transform 0.12s;
+}
+.arc:hover {
+  border-color: var(--teal);
+}
+.arc:active {
+  transform: scale(0.99);
+}
+.arc b {
+  font:
+    700 0.92rem Fraunces,
+    Georgia,
+    serif;
+  color: var(--ink);
+  line-height: 1.25;
+}
+.arcn {
+  font:
+    600 0.68rem Manrope,
+    sans-serif;
+  color: var(--mut);
+}
+.hpg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 12px 0 10px;
+}
+.hpb {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 13px;
+  border-radius: 14px;
+  text-decoration: none;
+  background: color-mix(in srgb, var(--teal) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--teal) 26%, transparent);
+}
+.hpb b {
+  font:
+    700 0.95rem Manrope,
+    sans-serif;
+  color: var(--ink);
+}
+.hpb span {
+  font-size: 0.72rem;
+  color: var(--mut);
+}
+.verm {
+  display: inline-block;
+  margin-top: 2px;
+  font:
+    600 0.82rem Manrope,
+    sans-serif;
+  color: var(--teal);
+  text-decoration: none;
+}
+.verm i {
+  font-style: normal;
+}
+.verm:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 720px) {
+  #homeareas {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* El inicio es oscuro (body.dk): el texto nuevo tiene que ir claro o no se lee.
+   Medido: el saludo quedaba en 1,39 de contraste y los botones de práctica en 1,74. */
+.dk .hola p {
+  color: #eaf4f2;
+}
+.dk #hpracs {
+  color: #9cc3c4;
+}
+.dk .verm {
+  color: var(--mint);
+}
+.dk .hpb {
+  background: rgba(101, 195, 181, 0.15);
+  border-color: rgba(101, 195, 181, 0.36);
+}
+.dk .hpb b {
+  color: #eaf4f2;
+}
+.dk .hpb span {
+  color: #9cc3c4;
+}
+
+/* La presentación de Rou en el inicio repetía su sección entera, y ahora Rou tiene
+   además un botón fijo en pantalla: se queda fuera del inicio. El adelanto de Voces sí
+   se mantiene, porque lleva su propio carrusel de testimonios y no es una repetición. */
+#home .rouhome {
+  display: none;
+}
+/* La cita suelta del inicio es decoración: ocupaba 222 px antes de las herramientas y el
+   documento pide no gastar pantalla en adornos. El texto sigue en el archivo. */
+#home .tr {
+  display: none;
+}
+
+/* En el móvil, una herramienta por fila y el texto recortado a tres líneas: el texto
+   completo sigue en la ficha de cada sección, que está a un toque. */
+/* En el celular, las ocho herramientas pasan a una lista compacta de una por fila, sin
+   foto y con el texto recortado a tres líneas: eran tres pantallas de imágenes antes de
+   llegar a nada. En tablet y escritorio se quedan exactamente como estaban, con sus
+   fotos y su retícula: ahí sí hay sitio. Ninguna imagen se borra. */
+@media (max-width: 719px) {
+  #menu .fts {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  /* Las dos primeras tarjetas ocupaban dos columnas; con una sola columna eso creaba
+    una segunda columna fantasma de 2 px y dejaba media lista sin ancho. */
+  #menu .nc,
+  #menu .nc.sm {
+    grid-column: span 1;
+  }
+  #menu .nc .ncv {
+    display: none;
+  }
+  #menu .nc {
+    border-radius: 14px;
+    padding: 0;
+  }
+  #menu .nc .ncb {
+    padding: 12px 14px;
+  }
+  #menu .nc p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin: 4px 0 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  #menu .nc h3 {
+    font-size: 1.05rem;
+  }
+}

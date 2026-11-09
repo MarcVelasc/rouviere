@@ -1,0 +1,236 @@
+/* ===== Rou, la mascota ===== */
+/* Dibujo original de ROUVIÈRE (lechuza con bata, gafas y fonendo).
+   Los colores son los del archivo, sin cambiar ninguno. */
+.rou-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.rou-svg .cls-1 {
+  fill: #000001;
+}
+.rou-svg .cls-2 {
+  fill: #051c37;
+}
+.rou-svg .cls-3 {
+  fill: #1ec4a5;
+}
+.rou-svg .cls-4 {
+  fill: #d6af36;
+}
+.rou-svg .cls-5 {
+  fill: #072a51;
+}
+.rou-svg .cls-6 {
+  fill: #010101;
+}
+.rou-svg .cls-7 {
+  fill: #091f3c;
+}
+.rou-svg .cls-8 {
+  fill: #865016;
+}
+.rou-svg .cls-9 {
+  fill: #e1bb96;
+}
+.rou-svg .cls-10 {
+  fill: #dcb186;
+}
+.rou-svg .cls-11 {
+  fill: #824d15;
+}
+.rou-svg .cls-12 {
+  fill: #04203f;
+}
+.rou-svg .cls-13 {
+  fill: #8a5a29;
+}
+.rou-svg .cls-14 {
+  fill: #675547;
+}
+.rou-svg .cls-15 {
+  fill: #153b66;
+}
+.rou-svg .cls-16 {
+  fill: #0d2e55;
+}
+.rou-svg .cls-17 {
+  fill: #020202;
+}
+.rou-svg .cls-18 {
+  fill: #fff;
+}
+.rou-svg .cls-19 {
+  fill: #f9fafc;
+}
+.rou-svg .cls-20 {
+  fill: #071b34;
+}
+.rou-svg .cls-21 {
+  fill: #502d0c;
+}
+.rou-svg .cls-22 {
+  fill: #092344;
+}
+.rou-svg .cls-23 {
+  fill: #04274f;
+}
+.rou-svg .cls-24 {
+  fill: #03203f;
+}
+.rou-svg .cls-25 {
+  fill: #302f2f;
+}
+.rou-svg .cls-26 {
+  fill: #041e3e;
+}
+.rou-svg .cls-27 {
+  fill: #977e70;
+}
+.rou-svg .cls-28 {
+  fill: #0b3541;
+}
+.rou-svg .cls-29 {
+  fill: #0a2243;
+}
+.rou-svg .cls-30 {
+  fill: #855017;
+}
+.rou-svg .cls-31 {
+  fill: #f3ebd8;
+}
+.rou-svg .cls-32 {
+  fill: #814b15;
+}
+.rou-svg .cls-33 {
+  fill: #dbb186;
+}
+.rou-svg .cls-34 {
+  fill: #092249;
+}
+.rou-svg .cls-35 {
+  fill: #0f3a66;
+}
+.rou-svg .cls-36 {
+  fill: #1cc0a2;
+}
+.rou-svg .cls-37 {
+  fill: #103b68;
+}
+.rou-svg .cls-38 {
+  fill: #071a34;
+}
+.rou-svg .cls-39 {
+  fill: #ef9933;
+}
+.rou-svg .cls-40 {
+  fill: #f8f9fb;
+}
+.rou-svg .cls-41 {
+  fill: #19bfa3;
+}
+.rou-svg .cls-42 {
+  fill: #fefefd;
+}
+.rou-svg .cls-43 {
+  fill: #f7f9fb;
+}
+.rou-svg .cls-44 {
+  fill: #e1b132;
+}
+.rou-svg .cls-45 {
+  fill: #ef9831;
+}
+.rou-svg .cls-46 {
+  fill: #522e0d;
+}
+.rou-svg .cls-47 {
+  fill: #063951;
+}
+.rou-svg .cls-48 {
+  fill: #675347;
+}
+.rou-svg .cls-49 {
+  fill: #0a294e;
+}
+.rou-svg .cls-50 {
+  fill: #d9e9fd;
+}
+.rou-svg .cls-51 {
+  fill: #010000;
+}
+.rou-svg .cls-52 {
+  fill: #e1bc98;
+}
+.rou-svg .cls-53 {
+  fill: #010100;
+}
+.rou-svg .cls-54 {
+  fill: #e0bb96;
+}
+.rou-svg .cls-55 {
+  fill: #855217;
+}
+.rou-svg .cls-56 {
+  fill: #8b5b2a;
+}
+.rou-svg .cls-57 {
+  fill: #f5f7f9;
+}
+.rou-svg .cls-58 {
+  display: none;
+}
+.rou-svg .cls-59 {
+  fill: #092246;
+}
+.rou-svg .cls-60 {
+  fill: #e0bb97;
+}
+.rou-svg .cls-61 {
+  fill: #313030;
+}
+.rou-svg .cls-62 {
+  fill: #ed922c;
+}
+.rou-svg .cls-63 {
+  fill: #1cc0a4;
+}
+.rou-svg .cls-64 {
+  fill: #ed9733;
+}
+.rou-svg .cls-65 {
+  fill: #f7f9fa;
+}
+.rou-svg .cls-66 {
+  fill: #e1bb95;
+}
+.rou-svg .cls-67 {
+  fill: #8abfc1;
+}
+.roufab .rfi,
+.rouh .rhi {
+  border-radius: 50%;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.92);
+}
+.roufab .rfi {
+  width: 30px;
+  height: 30px;
+}
+.rouh .rhi {
+  width: 34px;
+  height: 34px;
+}
+.rb .rbi {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid color-mix(in srgb, var(--teal) 30%, transparent);
+}
+.rouhero .rhero,
+.rouhome .rhbig {
+  filter: none;
+}

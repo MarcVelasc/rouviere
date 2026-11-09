@@ -1,0 +1,194 @@
+/* ===== modo MVP ===== */
+/* La casilla cuadrada del sistema se veía como un formulario viejo. Ahora el
+   texto va a la izquierda y el interruptor a la derecha, como en los ajustes de
+   cualquier teléfono. La casilla sigue ahí debajo (appearance:none): conserva el
+   teclado, el foco y los lectores de pantalla; solo cambia cómo se dibuja. */
+.mvpsw {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 13px 15px;
+  margin: 0 0 14px;
+  border-radius: 16px;
+  cursor: pointer;
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--gold) 19%, transparent),
+    color-mix(in srgb, var(--gold) 5%, transparent)
+  );
+  border: 1px solid color-mix(in srgb, var(--gold) 40%, transparent);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--gold) 20%, transparent);
+  transition:
+    border-color 0.22s,
+    box-shadow 0.22s,
+    transform 0.12s;
+}
+.mvpsw:hover {
+  border-color: color-mix(in srgb, var(--gold) 72%, transparent);
+  box-shadow:
+    inset 0 1px 0 color-mix(in srgb, var(--gold) 30%, transparent),
+    0 4px 16px color-mix(in srgb, var(--gold) 16%, transparent);
+}
+.mvpsw:active {
+  transform: scale(0.993);
+}
+.mvpsw > span {
+  order: -1;
+  min-width: 0;
+} /* el texto delante del interruptor */
+
+.mvpsw input {
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 0;
+  flex: none;
+  width: 46px;
+  height: 27px;
+  border-radius: 99px;
+  cursor: pointer;
+  position: relative;
+  background: color-mix(in srgb, var(--ink) 17%, transparent);
+  border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
+  transition:
+    background 0.25s,
+    border-color 0.25s;
+}
+.mvpsw input::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(4, 24, 34, 0.4);
+  transition: transform 0.26s cubic-bezier(0.34, 1.4, 0.5, 1);
+}
+.mvpsw input:checked {
+  background: var(--gold);
+  border-color: var(--gold);
+}
+.mvpsw input:checked::after {
+  transform: translateX(19px);
+}
+.mvpsw input:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+.menup .mvpsw input {
+  background: rgba(255, 255, 255, 0.17);
+}
+/* misma especificidad que la regla de arriba, así que el encendido se repite aquí */
+.menup .mvpsw input:checked {
+  background: var(--gold);
+}
+
+.mvpsw b {
+  display: block;
+  font:
+    700 0.9rem Manrope,
+    sans-serif;
+  color: var(--ink);
+  letter-spacing: 0.01em;
+}
+/* Dice en qué estado está, que antes había que deducirlo de la casilla. */
+.mvpsw b::after {
+  content: 'Apagado';
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+  border-radius: 30px;
+  vertical-align: 1px;
+  font:
+    700 0.58rem Manrope,
+    sans-serif;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: color-mix(in srgb, var(--ink) 13%, transparent);
+  color: var(--mut);
+}
+.mvpsw input:checked ~ span b::after {
+  content: 'Activado';
+  background: var(--gold);
+  color: #3d2c05;
+}
+.menup .mvpsw b::after {
+  background: rgba(255, 255, 255, 0.14);
+  color: #9cc3c4;
+}
+.menup .mvpsw input:checked ~ span b::after {
+  background: var(--gold);
+  color: #3d2c05;
+}
+.mvpsw small {
+  display: block;
+  color: var(--mut);
+  font-size: 0.74rem;
+  line-height: 1.45;
+  margin-top: 3px;
+}
+.menup .mvpsw b {
+  color: #eaf4f2;
+}
+.menup .mvpsw small {
+  color: #9cc3c4;
+}
+.mvpsw.big {
+  margin-top: 16px;
+  padding: 15px 17px;
+}
+@media (max-width: 340px) {
+  .mvpsw {
+    gap: 10px;
+    padding: 12px;
+  }
+  .mvpsw b::after {
+    display: none;
+  }
+}
+.mvpbadge {
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 10px;
+  padding: 5px 11px;
+  border-radius: 30px;
+  background: var(--gold);
+  color: #3d2c05;
+  text-decoration: none;
+  font:
+    700 0.68rem Manrope,
+    sans-serif;
+  letter-spacing: 0.04em;
+  flex: none;
+}
+.mvpbadge span {
+  font-weight: 500;
+  opacity: 0.85;
+}
+.tb2 .brand {
+  margin-right: 0;
+}
+@media (max-width: 560px) {
+  .mvpbadge span {
+    display: none;
+  }
+}
+.mvpnot {
+  border-color: color-mix(in srgb, var(--gold) 45%, transparent);
+}
+.mvpnot .two {
+  margin-top: 10px;
+}
+/* con tres pestañas, que no queden apretadas a un lado */
+.tabbar.mvp3 {
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 420px;
+  margin: 0 auto;
+}
+body.mvp .rouhome {
+  display: none;
+}

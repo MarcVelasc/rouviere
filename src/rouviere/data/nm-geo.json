@@ -1,0 +1,934 @@
+{
+ "sys-skeleton": {
+  "n": {
+   "Cuerpo 001": [
+    "Cráneo",
+    56
+   ],
+   "Cuerpo 002": [
+    "Costillas 6.ª a 9.ª derechas (unidas por su cartílago)",
+    73
+   ],
+   "Cuerpo 003": [
+    "Costillas 6.ª a 9.ª izquierdas (unidas por su cartílago)",
+    73
+   ],
+   "Cuerpo 004": [
+    "Hueso coxal derecho",
+    30
+   ],
+   "Cuerpo 005": [
+    "Hueso coxal izquierdo",
+    30
+   ],
+   "Cuerpo 006": [
+    "Sacro",
+    54
+   ],
+   "Cuerpo 007": [
+    "Fémur izquierdo",
+    9
+   ],
+   "Cuerpo 008": [
+    "Fémur derecho",
+    9
+   ],
+   "Cuerpo 009": [
+    "Escápula izquierda",
+    51
+   ],
+   "Cuerpo 010": [
+    "Escápula derecha",
+    51
+   ],
+   "Cuerpo 011": [
+    "Tibia derecha",
+    34
+   ],
+   "Cuerpo 012": [
+    "Tibia izquierda",
+    34
+   ],
+   "Cuerpo 013": [
+    "Húmero izquierdo",
+    35
+   ],
+   "Cuerpo 014": [
+    "Húmero derecho",
+    35
+   ],
+   "Cuerpo 015": [
+    "Mandíbula",
+    57
+   ],
+   "Cuerpo 016": [
+    "Vértebra L3",
+    0
+   ],
+   "Cuerpo 017": [
+    "Esternón",
+    53
+   ],
+   "Cuerpo 018": [
+    "Vértebra L5",
+    0
+   ],
+   "Cuerpo 019": [
+    "Peroné izquierdo",
+    33
+   ],
+   "Cuerpo 020": [
+    "Peroné derecho",
+    33
+   ],
+   "Cuerpo 021": [
+    "Vértebra L4",
+    0
+   ],
+   "Cuerpo 022": [
+    "Costilla 5 izquierda",
+    72
+   ],
+   "Cuerpo 023": [
+    "Cúbito izquierdo",
+    13
+   ],
+   "Cuerpo 024": [
+    "Costilla 5 derecha",
+    72
+   ],
+   "Cuerpo 025": [
+    "Vértebra L2",
+    0
+   ],
+   "Cuerpo 026": [
+    "Costilla 4 izquierda",
+    71
+   ],
+   "Cuerpo 027": [
+    "Costilla 4 derecha",
+    71
+   ],
+   "Cuerpo 028": [
+    "Cúbito derecho",
+    13
+   ],
+   "Cuerpo 029": [
+    "Radio izquierdo",
+    6
+   ],
+   "Cuerpo 030": [
+    "Calcáneo izquierdo",
+    36
+   ],
+   "Cuerpo 031": [
+    "Calcáneo derecho",
+    36
+   ],
+   "Cuerpo 032": [
+    "Vértebra L1",
+    0
+   ],
+   "Cuerpo 033": [
+    "Costilla 3 izquierda",
+    70
+   ],
+   "Cuerpo 034": [
+    "Radio derecho",
+    7
+   ],
+   "Cuerpo 035": [
+    "Costilla 3 derecha",
+    70
+   ],
+   "Cuerpo 036": [
+    "Vértebra T12",
+    0
+   ],
+   "Cuerpo 037": [
+    "Costilla 2 izquierda",
+    69
+   ],
+   "Cuerpo 038": [
+    "Vértebra T11",
+    0
+   ],
+   "Cuerpo 039": [
+    "Vértebra T10",
+    0
+   ],
+   "Cuerpo 040": [
+    "Costilla 2 derecha",
+    69
+   ],
+   "Cuerpo 041": [
+    "Costilla 10 derecha",
+    65
+   ],
+   "Cuerpo 042": [
+    "Clavícula izquierda",
+    15
+   ],
+   "Cuerpo 043": [
+    "Costilla 10 izquierda",
+    65
+   ],
+   "Cuerpo 044": [
+    "Vértebra T6",
+    0
+   ],
+   "Cuerpo 045": [
+    "Vértebra T7",
+    0
+   ],
+   "Cuerpo 046": [
+    "Vértebra T9",
+    0
+   ],
+   "Cuerpo 047": [
+    "Vértebra T2",
+    0
+   ],
+   "Cuerpo 048": [
+    "Vértebra C2",
+    0
+   ],
+   "Cuerpo 049": [
+    "Vértebra T8",
+    0
+   ],
+   "Cuerpo 050": [
+    "Vértebra C1",
+    0
+   ],
+   "Cuerpo 051": [
+    "Vértebra T5",
+    0
+   ],
+   "Cuerpo 052": [
+    "Astrágalo derecho",
+    14
+   ],
+   "Cuerpo 053": [
+    "Astrágalo izquierdo",
+    14
+   ],
+   "Cuerpo 054": [
+    "Vértebra T4",
+    0
+   ],
+   "Cuerpo 055": [
+    "Vértebra T1",
+    0
+   ],
+   "Cuerpo 056": [
+    "Vértebra T3",
+    0
+   ],
+   "Cuerpo 057": [
+    "Clavícula derecha",
+    15
+   ],
+   "Cuerpo 058": [
+    "Vértebra C7",
+    0
+   ],
+   "Cuerpo 059": [
+    "Vértebra C6",
+    0
+   ],
+   "Cuerpo 060": [
+    "Costilla 1 derecha",
+    68
+   ],
+   "Cuerpo 061": [
+    "Costilla 1 izquierda",
+    68
+   ],
+   "Cuerpo 062": [
+    "Vértebra C4",
+    0
+   ],
+   "Cuerpo 063": [
+    "Vértebra C5",
+    0
+   ],
+   "Cuerpo 064": [
+    "Vértebra C3",
+    0
+   ],
+   "Cuerpo 065": [
+    "Costilla 11 derecha",
+    66
+   ],
+   "Cuerpo 066": [
+    "Costilla 11 izquierda",
+    66
+   ],
+   "Cuerpo 067": [
+    "Metatarsiano I izquierdo",
+    59
+   ],
+   "Cuerpo 068": [
+    "Metatarsiano I derecho",
+    59
+   ],
+   "Cuerpo 069": [
+    "Metatarsiano II derecho",
+    60
+   ],
+   "Cuerpo 070": [
+    "Metatarsiano II izquierdo",
+    60
+   ],
+   "Cuerpo 071": [
+    "Hueso cuboides izquierdo",
+    12
+   ],
+   "Cuerpo 072": [
+    "Hueso cuboides derecho",
+    12
+   ],
+   "Cuerpo 073": [
+    "Metatarsiano III izquierdo",
+    61
+   ],
+   "Cuerpo 074": [
+    "Metatarsiano III derecho",
+    61
+   ],
+   "Cuerpo 075": [
+    "Metatarsiano IV derecho",
+    62
+   ],
+   "Cuerpo 076": [
+    "Metatarsiano IV izquierdo",
+    62
+   ],
+   "Cuerpo 077": [
+    "Cuneiforme medial izquierdo",
+    11
+   ],
+   "Cuerpo 078": [
+    "Falange media del dedo medio · mano izquierda",
+    43
+   ],
+   "Cuerpo 079": [
+    "Cuneiforme medial derecho",
+    11
+   ],
+   "Cuerpo 080": [
+    "Hueso navicular (escafoides del tarso) izquierdo",
+    58
+   ],
+   "Cuerpo 081": [
+    "Metatarsiano V derecho",
+    63
+   ],
+   "Cuerpo 082": [
+    "Metatarsiano V izquierdo",
+    63
+   ],
+   "Cuerpo 083": [
+    "Hueso navicular (escafoides del tarso) derecho",
+    58
+   ],
+   "Cuerpo 084": [
+    "Falange proximal del dedo índice · mano derecha",
+    39
+   ],
+   "Cuerpo 085": [
+    "Falange proximal del dedo meñique · mano derecha",
+    48
+   ],
+   "Cuerpo 086": [
+    "Falange proximal del dedo meñique · mano izquierda",
+    48
+   ],
+   "Cuerpo 087": [
+    "Falange proximal del dedo medio · mano izquierda",
+    42
+   ],
+   "Cuerpo 088": [
+    "Costilla 12 derecha",
+    67
+   ],
+   "Cuerpo 089": [
+    "Costilla 12 izquierda",
+    67
+   ],
+   "Cuerpo 090": [
+    "Falange proximal del dedo medio · mano derecha",
+    42
+   ],
+   "Cuerpo 091": [
+    "Falange proximal del 1.º dedo · pie derecho",
+    16
+   ],
+   "Cuerpo 092": [
+    "Falange proximal del 1.º dedo · pie izquierdo",
+    16
+   ],
+   "Cuerpo 093": [
+    "Cuneiforme lateral izquierdo",
+    10
+   ],
+   "Cuerpo 094": [
+    "Cuneiforme lateral derecho",
+    10
+   ],
+   "Cuerpo 095": [
+    "Cóccix",
+    55
+   ],
+   "Cuerpo 096": [
+    "Metacarpiano III · mano izquierda",
+    3
+   ],
+   "Cuerpo 097": [
+    "Falange media del dedo medio · mano derecha",
+    43
+   ],
+   "Cuerpo 098": [
+    "Falange media del dedo índice · mano derecha",
+    40
+   ],
+   "Cuerpo 099": [
+    "Metacarpiano I · mano izquierda",
+    1
+   ],
+   "Cuerpo 100": [
+    "Cuneiforme intermedio izquierdo",
+    8
+   ],
+   "Cuerpo 101": [
+    "Cuneiforme intermedio derecho",
+    8
+   ],
+   "Cuerpo 102": [
+    "Metacarpiano V · mano izquierda",
+    5
+   ],
+   "Cuerpo 103": [
+    "Falange proximal del dedo anular · mano derecha",
+    45
+   ],
+   "Cuerpo 104": [
+    "Falange media del dedo meñique · mano izquierda",
+    49
+   ],
+   "Cuerpo 105": [
+    "Hueso del carpo · mano izquierda",
+    31
+   ],
+   "Cuerpo 106": [
+    "Falange proximal del dedo anular · mano izquierda",
+    45
+   ],
+   "Cuerpo 107": [
+    "Falange media del dedo anular · mano derecha",
+    46
+   ],
+   "Cuerpo 108": [
+    "Hueso del carpo · mano derecha",
+    31
+   ],
+   "Cuerpo 109": [
+    "Hueso del carpo · mano derecha",
+    31
+   ],
+   "Cuerpo 110": [
+    "Falange proximal del dedo índice · mano izquierda",
+    39
+   ],
+   "Cuerpo 111": [
+    "Falange distal del dedo medio · mano derecha",
+    44
+   ],
+   "Cuerpo 112": [
+    "Falange proximal del 2.º dedo · pie izquierdo",
+    18
+   ],
+   "Cuerpo 113": [
+    "Falange proximal del 2.º dedo · pie derecho",
+    18
+   ],
+   "Cuerpo 114": [
+    "Hueso del carpo · mano izquierda",
+    31
+   ],
+   "Cuerpo 115": [
+    "Hueso del carpo · mano izquierda",
+    31
+   ],
+   "Cuerpo 116": [
+    "Hueso del carpo · mano derecha",
+    31
+   ],
+   "Cuerpo 117": [
+    "Falange distal del dedo índice · mano derecha",
+    41
+   ],
+   "Cuerpo 118": [
+    "Falange distal del 1.º dedo · pie izquierdo",
+    17
+   ],
+   "Cuerpo 119": [
+    "Falange distal del 1.º dedo · pie derecho",
+    17
+   ],
+   "Cuerpo 120": [
+    "Hueso del carpo · mano izquierda",
+    31
+   ],
+   "Cuerpo 121": [
+    "Falange proximal del 3.º dedo · pie izquierdo",
+    21
+   ],
+   "Cuerpo 122": [
+    "Falange proximal del 3.º dedo · pie derecho",
+    21
+   ],
+   "Cuerpo 123": [
+    "Hueso del carpo · mano derecha",
+    31
+   ],
+   "Cuerpo 124": [
+    "Falange proximal del dedo pulgar · mano izquierda",
+    37
+   ],
+   "Cuerpo 125": [
+    "Falange distal del dedo meñique · mano izquierda",
+    50
+   ],
+   "Cuerpo 126": [
+    "Apófisis xifoides (probable)",
+    52
+   ],
+   "Cuerpo 127": [
+    "Metacarpiano II · mano derecha",
+    2
+   ],
+   "Cuerpo 128": [
+    "Metacarpiano IV · mano derecha",
+    4
+   ],
+   "Cuerpo 129": [
+    "Metacarpiano IV · mano izquierda",
+    4
+   ],
+   "Cuerpo 130": [
+    "Falange media del dedo meñique · mano derecha",
+    49
+   ],
+   "Cuerpo 131": [
+    "Falange proximal del dedo pulgar · mano derecha",
+    37
+   ],
+   "Cuerpo 132": [
+    "Falange proximal del 4.º dedo · pie derecho",
+    24
+   ],
+   "Cuerpo 133": [
+    "Falange proximal del 5.º dedo · pie derecho",
+    27
+   ],
+   "Cuerpo 134": [
+    "Falange proximal del 5.º dedo · pie izquierdo",
+    27
+   ],
+   "Cuerpo 135": [
+    "Falange proximal del 4.º dedo · pie izquierdo",
+    24
+   ],
+   "Cuerpo 136": [
+    "Falange distal del dedo pulgar · mano izquierda",
+    38
+   ],
+   "Cuerpo 137": [
+    "Falange distal del dedo medio · mano izquierda",
+    44
+   ],
+   "Cuerpo 138": [
+    "Hueso del carpo · mano izquierda",
+    31
+   ],
+   "Cuerpo 139": [
+    "Falange distal del dedo meñique · mano derecha",
+    50
+   ],
+   "Cuerpo 140": [
+    "Hueso del carpo · mano izquierda",
+    31
+   ],
+   "Cuerpo 141": [
+    "Hueso del carpo · mano derecha",
+    31
+   ],
+   "Cuerpo 142": [
+    "Hueso del carpo · mano derecha",
+    31
+   ],
+   "Cuerpo 143": [
+    "Hueso del carpo · mano izquierda",
+    31
+   ],
+   "Cuerpo 144": [
+    "Hueso del carpo · mano derecha",
+    31
+   ],
+   "Cuerpo 145": [
+    "Falange distal del dedo pulgar · mano derecha",
+    38
+   ],
+   "Cuerpo 146": [
+    "Falange media del 2.º dedo · pie izquierdo",
+    19
+   ],
+   "Cuerpo 147": [
+    "Falange distal del 2.º dedo · pie derecho",
+    20
+   ],
+   "Cuerpo 148": [
+    "Falange media del 2.º dedo · pie derecho",
+    19
+   ],
+   "Cuerpo 149": [
+    "Falange distal del 2.º dedo · pie izquierdo",
+    20
+   ],
+   "Cuerpo 150": [
+    "Falange media del dedo índice · mano izquierda",
+    40
+   ],
+   "Cuerpo 151": [
+    "Falange distal del dedo anular · mano derecha",
+    47
+   ],
+   "Cuerpo 152": [
+    "Falange media del dedo anular · mano izquierda",
+    46
+   ],
+   "Cuerpo 153": [
+    "Falange distal del dedo anular · mano izquierda",
+    47
+   ],
+   "Cuerpo 154": [
+    "Hueso del carpo · mano derecha",
+    31
+   ],
+   "Cuerpo 155": [
+    "Metacarpiano III · mano derecha",
+    3
+   ],
+   "Cuerpo 156": [
+    "Hueso del carpo · mano izquierda",
+    31
+   ],
+   "Cuerpo 157": [
+    "Falange distal del dedo índice · mano izquierda",
+    41
+   ],
+   "Cuerpo 158": [
+    "Metacarpiano V · mano derecha",
+    5
+   ],
+   "Cuerpo 159": [
+    "Metacarpiano II · mano izquierda",
+    2
+   ],
+   "Cuerpo 160": [
+    "Falange media del 5.º dedo · pie derecho",
+    28
+   ],
+   "Cuerpo 161": [
+    "Falange media del 5.º dedo · pie izquierdo",
+    28
+   ],
+   "Cuerpo 162": [
+    "Falange media del 3.º dedo · pie derecho",
+    22
+   ],
+   "Cuerpo 163": [
+    "Falange media del 3.º dedo · pie izquierdo",
+    22
+   ],
+   "Cuerpo 164": [
+    "Metacarpiano I · mano derecha",
+    1
+   ],
+   "Cuerpo 165": [
+    "Falange distal del 5.º dedo · pie izquierdo",
+    29
+   ],
+   "Cuerpo 166": [
+    "Falange distal del 5.º dedo · pie derecho",
+    29
+   ],
+   "Cuerpo 167": [
+    "Falange distal del 3.º dedo · pie derecho",
+    23
+   ],
+   "Cuerpo 168": [
+    "Falange distal del 3.º dedo · pie izquierdo",
+    23
+   ],
+   "Cuerpo 169": [
+    "Falange distal del 4.º dedo · pie izquierdo",
+    26
+   ],
+   "Cuerpo 170": [
+    "Hueso sesamoideo del dedo gordo · pie izquierdo",
+    32
+   ],
+   "Cuerpo 171": [
+    "Hueso sesamoideo del dedo gordo · pie derecho",
+    32
+   ],
+   "Cuerpo 172": [
+    "Falange distal del 4.º dedo · pie derecho",
+    26
+   ],
+   "Cuerpo 173": [
+    "Falange media del 4.º dedo · pie izquierdo",
+    25
+   ],
+   "Cuerpo 174": [
+    "Falange media del 4.º dedo · pie derecho",
+    25
+   ],
+   "Cuerpo 175": [
+    "Hueso sesamoideo del dedo gordo · pie izquierdo",
+    32
+   ],
+   "Cuerpo 176": [
+    "Hueso sesamoideo del dedo gordo · pie derecho",
+    32
+   ],
+   "Cuerpo 177": [
+    "Fragmento sin identificar",
+    64
+   ],
+   "Cuerpo 178": [
+    "Fragmento sin identificar",
+    64
+   ],
+   "Cuerpo 179": [
+    "Fragmento sin identificar",
+    64
+   ],
+   "Cuerpo 180": [
+    "Fragmento sin identificar",
+    64
+   ],
+   "Cuerpo 181": [
+    "Fragmento sin identificar",
+    64
+   ],
+   "Cuerpo 182": [
+    "Fragmento sin identificar",
+    64
+   ],
+   "Cuerpo 183": [
+    "Fragmento sin identificar",
+    64
+   ]
+  },
+  "c": [
+   "Cadena de 24 piezas apiladas en la línea media entre el cráneo y el sacro; el espaciado separa 7 cervicales, 12 torácicas y 5 lumbares.",
+   "De los cinco huesos largos de la palma, ocupa la posición 1 contando desde el pulgar.",
+   "De los cinco huesos largos de la palma, ocupa la posición 2 contando desde el pulgar.",
+   "De los cinco huesos largos de la palma, ocupa la posición 3 contando desde el pulgar.",
+   "De los cinco huesos largos de la palma, ocupa la posición 4 contando desde el pulgar.",
+   "De los cinco huesos largos de la palma, ocupa la posición 5 contando desde el pulgar.",
+   "De los dos huesos del antebrazo, es el que articula con los huesos del carpo (a 1 mm); el cúbito no llega a tocarlos.",
+   "De los dos huesos del antebrazo, es el que articula con los huesos del carpo (a 2 mm); el cúbito no llega a tocarlos.",
+   "El del medio de los tres cuneiformes.",
+   "El hueso más largo del modelo (450 mm), entre el coxal y la rodilla.",
+   "El más externo de los tres cuneiformes, junto al cuboides.",
+   "El más interno de los tres cuneiformes, por delante del navicular.",
+   "El más lateral y posterior de la fila anterior del tarso, por delante del calcáneo.",
+   "El otro hueso del antebrazo: sube más arriba en el codo (olécranon) y no contacta con el carpo.",
+   "Encajado bajo la tibia y por encima del calcáneo: es el que recibe el peso de la pierna.",
+   "Hueso alargado y horizontal en lo más alto del hombro, por encima de la 1.ª costilla.",
+   "Hueso alineado con el metatarsiano I; es el 1.º desde el metatarsiano hacia la punta del dedo. El dedo gordo tiene dos falanges y los otros cuatro, tres.",
+   "Hueso alineado con el metatarsiano I; es el 2.º desde el metatarsiano hacia la punta del dedo. El dedo gordo tiene dos falanges y los otros cuatro, tres.",
+   "Hueso alineado con el metatarsiano II; es el 1.º desde el metatarsiano hacia la punta del dedo. El dedo gordo tiene dos falanges y los otros cuatro, tres.",
+   "Hueso alineado con el metatarsiano II; es el 2.º desde el metatarsiano hacia la punta del dedo. El dedo gordo tiene dos falanges y los otros cuatro, tres.",
+   "Hueso alineado con el metatarsiano II; es el 3.º desde el metatarsiano hacia la punta del dedo. El dedo gordo tiene dos falanges y los otros cuatro, tres.",
+   "Hueso alineado con el metatarsiano III; es el 1.º desde el metatarsiano hacia la punta del dedo. El dedo gordo tiene dos falanges y los otros cuatro, tres.",
+   "Hueso alineado con el metatarsiano III; es el 2.º desde el metatarsiano hacia la punta del dedo. El dedo gordo tiene dos falanges y los otros cuatro, tres.",
+   "Hueso alineado con el metatarsiano III; es el 3.º desde el metatarsiano hacia la punta del dedo. El dedo gordo tiene dos falanges y los otros cuatro, tres.",
+   "Hueso alineado con el metatarsiano IV; es el 1.º desde el metatarsiano hacia la punta del dedo. El dedo gordo tiene dos falanges y los otros cuatro, tres.",
+   "Hueso alineado con el metatarsiano IV; es el 2.º desde el metatarsiano hacia la punta del dedo. El dedo gordo tiene dos falanges y los otros cuatro, tres.",
+   "Hueso alineado con el metatarsiano IV; es el 3.º desde el metatarsiano hacia la punta del dedo. El dedo gordo tiene dos falanges y los otros cuatro, tres.",
+   "Hueso alineado con el metatarsiano V; es el 1.º desde el metatarsiano hacia la punta del dedo. El dedo gordo tiene dos falanges y los otros cuatro, tres.",
+   "Hueso alineado con el metatarsiano V; es el 2.º desde el metatarsiano hacia la punta del dedo. El dedo gordo tiene dos falanges y los otros cuatro, tres.",
+   "Hueso alineado con el metatarsiano V; es el 3.º desde el metatarsiano hacia la punta del dedo. El dedo gordo tiene dos falanges y los otros cuatro, tres.",
+   "Hueso ancho de la pelvis, articulado con el sacro por detrás y con la cabeza del fémur por fuera.",
+   "Hueso corto de la muñeca. Está entre los ocho más próximos al radio, pero no se identifica cuál de los ocho es: el archivo no lo dice y su forma por sí sola no basta para decidirlo con seguridad.",
+   "Hueso diminuto pegado a la cabeza del 1.er metatarsiano, por debajo de la articulación: es uno de los dos sesamoideos del dedo gordo.",
+   "Hueso largo y fino de la pierna, lateral a la tibia y mucho más delgado.",
+   "Hueso largo y grueso de la pierna, medial, entre la rodilla y el tobillo.",
+   "Hueso largo único del brazo, entre la escápula y los dos huesos del antebrazo.",
+   "Hueso más grande y más posterior del pie: forma el talón.",
+   "Hueso pequeño alineado con el metacarpiano I; es el 1.º contando desde la palma hacia la punta del dedo. El pulgar tiene dos falanges y los otros cuatro dedos, tres.",
+   "Hueso pequeño alineado con el metacarpiano I; es el 2.º contando desde la palma hacia la punta del dedo. El pulgar tiene dos falanges y los otros cuatro dedos, tres.",
+   "Hueso pequeño alineado con el metacarpiano II; es el 1.º contando desde la palma hacia la punta del dedo. El pulgar tiene dos falanges y los otros cuatro dedos, tres.",
+   "Hueso pequeño alineado con el metacarpiano II; es el 2.º contando desde la palma hacia la punta del dedo. El pulgar tiene dos falanges y los otros cuatro dedos, tres.",
+   "Hueso pequeño alineado con el metacarpiano II; es el 3.º contando desde la palma hacia la punta del dedo. El pulgar tiene dos falanges y los otros cuatro dedos, tres.",
+   "Hueso pequeño alineado con el metacarpiano III; es el 1.º contando desde la palma hacia la punta del dedo. El pulgar tiene dos falanges y los otros cuatro dedos, tres.",
+   "Hueso pequeño alineado con el metacarpiano III; es el 2.º contando desde la palma hacia la punta del dedo. El pulgar tiene dos falanges y los otros cuatro dedos, tres.",
+   "Hueso pequeño alineado con el metacarpiano III; es el 3.º contando desde la palma hacia la punta del dedo. El pulgar tiene dos falanges y los otros cuatro dedos, tres.",
+   "Hueso pequeño alineado con el metacarpiano IV; es el 1.º contando desde la palma hacia la punta del dedo. El pulgar tiene dos falanges y los otros cuatro dedos, tres.",
+   "Hueso pequeño alineado con el metacarpiano IV; es el 2.º contando desde la palma hacia la punta del dedo. El pulgar tiene dos falanges y los otros cuatro dedos, tres.",
+   "Hueso pequeño alineado con el metacarpiano IV; es el 3.º contando desde la palma hacia la punta del dedo. El pulgar tiene dos falanges y los otros cuatro dedos, tres.",
+   "Hueso pequeño alineado con el metacarpiano V; es el 1.º contando desde la palma hacia la punta del dedo. El pulgar tiene dos falanges y los otros cuatro dedos, tres.",
+   "Hueso pequeño alineado con el metacarpiano V; es el 2.º contando desde la palma hacia la punta del dedo. El pulgar tiene dos falanges y los otros cuatro dedos, tres.",
+   "Hueso pequeño alineado con el metacarpiano V; es el 3.º contando desde la palma hacia la punta del dedo. El pulgar tiene dos falanges y los otros cuatro dedos, tres.",
+   "Hueso plano de 183 mm de alto aplicado sobre la cara posterior del tórax, a la altura de T2–T7.",
+   "Lámina fina impar, justo por debajo del extremo inferior del esternón y sin contacto con ninguna vértebra.",
+   "Pieza impar en la línea media, en la cara anterior del tórax, a la que llegan los cartílagos costales.",
+   "Pieza impar entre las dos alas ilíacas, inmediatamente por debajo de L5.",
+   "Pieza impar más baja de la columna, por debajo del sacro.",
+   "Pieza más alta del modelo y con diferencia la más compleja (69.662 triángulos).",
+   "Pieza suelta bajo el cráneo, a la altura de C2–C3, separada del resto del cráneo.",
+   "Por delante del astrágalo, en el borde medio del tarso.",
+   "Quinto grupo de cinco huesos largos del pie; se numeran de dentro afuera y este ocupa la posición 1.",
+   "Quinto grupo de cinco huesos largos del pie; se numeran de dentro afuera y este ocupa la posición 2.",
+   "Quinto grupo de cinco huesos largos del pie; se numeran de dentro afuera y este ocupa la posición 3.",
+   "Quinto grupo de cinco huesos largos del pie; se numeran de dentro afuera y este ocupa la posición 4.",
+   "Quinto grupo de cinco huesos largos del pie; se numeran de dentro afuera y este ocupa la posición 5.",
+   "Resto de malla de 2 triángulos o menos: no es una estructura anatómica, es un residuo del archivo.",
+   "Su extremo posterior se apoya a 2 mm de la vértebra T10; el resto de costillas quedan a más de 10 mm.",
+   "Su extremo posterior se apoya a 2 mm de la vértebra T11; el resto de costillas quedan a más de 10 mm.",
+   "Su extremo posterior se apoya a 2 mm de la vértebra T12; el resto de costillas quedan a más de 10 mm.",
+   "Su extremo posterior se apoya a 2 mm de la vértebra T1; el resto de costillas quedan a más de 10 mm.",
+   "Su extremo posterior se apoya a 2 mm de la vértebra T2; el resto de costillas quedan a más de 10 mm.",
+   "Su extremo posterior se apoya a 2 mm de la vértebra T3; el resto de costillas quedan a más de 10 mm.",
+   "Su extremo posterior se apoya a 2 mm de la vértebra T4; el resto de costillas quedan a más de 10 mm.",
+   "Su extremo posterior se apoya a 2 mm de la vértebra T5; el resto de costillas quedan a más de 10 mm.",
+   "Una sola pieza conectada que toca T5, T6, T7, T8 y T9 a 1–3 mm: son cuatro costillas fusionadas por el cartílago costal."
+  ]
+ },
+ "sys-lungs-heart": {
+  "n": {
+   "Cuerpo 001": [
+    "Pulmones y corazón (malla única fusionada)",
+    0
+   ],
+   "Cuerpo 002": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 003": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 004": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 005": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 006": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 007": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 008": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 009": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 010": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 011": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 012": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 013": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 014": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 015": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 016": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 017": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 018": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 019": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 020": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 021": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 022": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 023": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 024": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 025": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 026": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 027": [
+    "Fragmento sin identificar",
+    1
+   ],
+   "Cuerpo 028": [
+    "Fragmento sin identificar",
+    1
+   ]
+  },
+  "c": [
+   "Única malla con geometría real del archivo (144.029 de los 144.107 triángulos). Contiene los pulmones y el corazón fusionados: no se pueden separar sin una segmentación real.",
+   "Resto de malla de menos de 40 triángulos y tamaño casi nulo: no es una estructura anatómica, es un residuo del archivo."
+  ]
+ }
+}

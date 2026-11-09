@@ -1,0 +1,31 @@
+/* ===== pestañas de la sección Anatomía ===== */
+.anmodo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  padding: 5px;
+  margin: 14px 0 4px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--ink) 6%, transparent);
+  border: 1px solid var(--line);
+}
+.anmodo button {
+  padding: 10px 8px;
+  min-height: 44px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  background: transparent;
+  font:
+    600 0.86rem Manrope,
+    sans-serif;
+  color: var(--mut);
+  transition:
+    background 0.18s,
+    color 0.18s;
+}
+.anmodo button.on {
+  background: var(--card);
+  color: var(--ink);
+  box-shadow: 0 1px 4px rgba(4, 24, 34, 0.1);
+}

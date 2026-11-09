@@ -1,0 +1,42 @@
+/* ===== apartados dentro de su sistema ===== */
+.hab.conap {
+  position: relative;
+}
+.hab.conap::after {
+  content: '▾';
+  position: absolute;
+  right: 11px;
+  bottom: 9px;
+  font-size: 0.8rem;
+  color: var(--teal);
+  opacity: 0.75;
+}
+.hab.conap.on::after {
+  content: '▴';
+}
+.aphd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 14px 0 10px;
+  padding: 11px 13px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--mint) 13%, transparent);
+  border: 1px solid color-mix(in srgb, var(--teal) 28%, transparent);
+}
+.aphd > b {
+  font:
+    600 0.98rem Manrope,
+    sans-serif;
+  color: var(--ink);
+}
+.apacc {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+.apacc .pill {
+  margin-top: 0;
+}

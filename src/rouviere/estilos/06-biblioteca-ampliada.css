@@ -1,0 +1,51 @@
+/* ===== biblioteca ampliada ===== */
+.lbtem {
+  margin: 6px 0 2px;
+  font-size: 0.78rem;
+  color: var(--mut);
+  line-height: 1.45;
+}
+.lbtem b {
+  color: var(--teal);
+  font-weight: 600;
+}
+.lbtal {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+  gap: 9px;
+  margin-top: 12px;
+}
+.lbtc {
+  border: 1.5px solid color-mix(in srgb, var(--ink) 12%, transparent);
+  border-radius: 14px;
+  padding: 11px 12px;
+  background: color-mix(in srgb, var(--mint) 7%, transparent);
+}
+.lbtc b {
+  display: block;
+  font:
+    600 1.45rem/1.1 'Cormorant Garamond',
+    Georgia,
+    serif;
+  color: var(--teal);
+}
+.lbtc .lbtl {
+  display: block;
+  font:
+    600 0.78rem/1.35 Manrope,
+    sans-serif;
+  margin: 3px 0 4px;
+}
+.lbtc small {
+  display: block;
+  color: var(--mut);
+  font-size: 0.72rem;
+  line-height: 1.45;
+}
+#lbmas {
+  margin: 14px 0 0;
+  text-align: center;
+}
+#lbmas p.s {
+  margin: 8px 0 0;
+}

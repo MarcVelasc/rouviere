@@ -1,0 +1,19 @@
+<!-- Capa "nervios" de Rou: se dibuja sobre la ilustración (600x800) y se recorta a su silueta. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs><filter id="nglow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <path d="M290 62 C384 56 452 110 458 190 C474 214 466 252 444 262 L136 262 C114 252 106 214 122 190 C128 110 196 66 290 62 Z" fill="rgba(217,164,65,.22)" stroke="#D9A441" stroke-width="6"/>
+  <g fill="none" stroke="#D9A441" stroke-width="4" stroke-linecap="round" opacity=".9"><path d="M290 70 V258"/><path d="M168 132 C190 112 222 116 236 140"/><path d="M152 196 C178 176 212 182 226 206"/><path d="M412 132 C390 112 358 116 344 140"/><path d="M428 196 C402 176 368 182 354 206"/><path d="M246 90 C262 108 262 130 250 150"/><path d="M334 90 C318 108 318 130 330 150"/></g>
+  <g fill="none" stroke="#D9A441" stroke-linecap="round" filter="url(#nglow)">
+    <path d="M290 262 V690" stroke-width="12"/>
+    <path d="M290 470 C230 462 170 462 136 466 M136 466 C120 500 114 524 112 540 M112 540 C150 556 190 566 226 566 M226 566 L292 528 M226 566 L282 590" stroke-width="6"/>
+    <path d="M290 470 C350 462 410 462 446 462 M446 462 C470 494 488 520 496 540 M496 540 C516 558 528 574 536 590 M536 590 L546 628 M536 590 L560 612" stroke-width="6"/>
+    <path d="M290 510 C250 512 222 526 210 548 M290 510 C330 512 358 526 370 548 M290 560 C260 566 242 580 236 600 M290 560 C320 566 338 580 344 600 M290 610 C268 616 256 628 252 644 M290 610 C312 616 324 628 328 644" stroke-width="4.5"/>
+    <path d="M290 680 C272 690 248 702 228 716 M290 680 C308 690 332 702 352 716 M228 716 L194 740 M228 716 L224 750 M228 716 L258 742 M352 716 L322 742 M352 716 L356 750 M352 716 L386 740" stroke-width="5"/>
+  </g>
+  <path class="pulse" d="M290 262 V690" fill="none" stroke="#65C3B5" stroke-width="7" stroke-linecap="round"/>
+  <g fill="#65C3B5" filter="url(#nglow)"><circle cx="136" cy="466" r="10"/><circle cx="446" cy="462" r="10"/><circle cx="290" cy="470" r="10"/><circle cx="290" cy="560" r="8"/><circle cx="226" cy="566" r="8"/><circle cx="536" cy="590" r="8"/><circle cx="228" cy="716" r="8"/><circle cx="352" cy="716" r="8"/></g>
+  <circle cx="195" cy="320" r="40" fill="#0b2433" stroke="#65C3B5" stroke-width="5"/><circle cx="382" cy="322" r="40" fill="#0b2433" stroke="#65C3B5" stroke-width="5"/>
+  <path d="M214 290 C240 270 262 262 290 262 C318 262 340 270 364 290" fill="none" stroke="#65C3B5" stroke-width="5"/>
+  <path d="M290 358 L314 392 L290 424 L266 392 Z" fill="none" stroke="#D9A441" stroke-width="5"/>
+  <g fill="rgba(234,245,242,.08)" stroke="#111" stroke-width="16"><rect x="90" y="254" width="196" height="128" rx="34"/><rect x="304" y="254" width="196" height="128" rx="34"/></g><path d="M286 316 h18 M90 274 l-22 -12 M500 272 l16 -14" stroke="#111" stroke-width="14" stroke-linecap="round"/>
+</svg>

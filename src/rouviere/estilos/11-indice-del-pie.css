@@ -1,0 +1,82 @@
+/* ===== índice del pie ===== */
+.idx {
+  display: block;
+  padding: 38px 0 6px;
+  border-top: 1px solid rgba(101, 195, 181, 0.2);
+}
+.idx h2 {
+  font:
+    500 1.5rem/1.2 'Cormorant Garamond',
+    Georgia,
+    serif;
+  color: #eaf4f2;
+  margin: 0 0 20px;
+}
+.idxg {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 18px;
+}
+.idxc h3 {
+  font:
+    600 0.72rem Manrope,
+    sans-serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #d9a441;
+  margin: 0 0 10px;
+}
+.idxc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.idxc li {
+  margin: 0 0 9px;
+}
+.idxc a {
+  display: block;
+  color: #eaf4f2;
+  text-decoration: none;
+  font:
+    500 0.92rem Manrope,
+    sans-serif;
+  line-height: 1.35;
+  min-height: 22px;
+}
+.idxc a:hover,
+.idxc a:focus-visible {
+  color: #65c3b5;
+}
+.idxc span {
+  display: block;
+  color: #8fb2b4;
+  font-size: 0.74rem;
+  line-height: 1.4;
+  margin-top: 1px;
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: 400;
+}
+/* En pantallas estrechas el índice se queda en los nombres: las descripciones
+   añadían media pantalla de scroll sin aportar nada que el nombre no diga. */
+@media (max-width: 559px) {
+  .idxc span {
+    display: none;
+  }
+  .idxc li {
+    margin: 0 0 4px;
+  }
+  .idxc a {
+    padding: 5px 0;
+  }
+}
+@media (min-width: 720px) {
+  .idxg {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 26px;
+  }
+  .idx h2 {
+    font-size: 1.9rem;
+  }
+}

@@ -1,0 +1,85 @@
+/* ===== respuesta visual en los simulacros =====
+   Las opciones ya respondidas se deshabilitan para que no se pueda cambiar la
+   respuesta, pero no se atenúan: son la corrección, y hay que poder leerlas. */
+.opt:disabled {
+  opacity: 1;
+  cursor: default;
+}
+.opt {
+  position: relative;
+  transition:
+    transform 0.12s,
+    border-color 0.18s,
+    background 0.18s;
+}
+.opt:not([disabled]):active {
+  transform: scale(0.985);
+}
+.opt .opi {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font:
+    700 1.05rem Manrope,
+    sans-serif;
+}
+.opt.ok {
+  animation: optok 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.opt.no {
+  animation: optno 0.34s ease;
+}
+@keyframes optok {
+  0% {
+    transform: scale(0.97);
+  }
+  55% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes optno {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  22% {
+    transform: translateX(-5px);
+  }
+  55% {
+    transform: translateX(4px);
+  }
+  80% {
+    transform: translateX(-2px);
+  }
+}
+.exm2 {
+  margin-top: 12px;
+  padding: 13px 15px;
+  border-radius: 15px;
+  border: 1px solid var(--line);
+}
+.exm2.bien {
+  background: color-mix(in srgb, var(--teal) 12%, transparent);
+  border-color: color-mix(in srgb, var(--teal) 42%, transparent);
+}
+.exm2.mal {
+  background: color-mix(in srgb, #b4443c 10%, transparent);
+  border-color: color-mix(in srgb, #b4443c 38%, transparent);
+}
+.exm2 b {
+  display: block;
+  font:
+    700 1rem Manrope,
+    sans-serif;
+  color: var(--ink);
+}
+.exm2.bien b {
+  color: var(--teal);
+}
+.exm2.mal b {
+  color: #8f2f28;
+}

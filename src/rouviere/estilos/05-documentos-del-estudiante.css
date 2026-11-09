@@ -1,0 +1,125 @@
+/* ===== documentos del estudiante ===== */
+.dz {
+  border: 2px dashed color-mix(in srgb, var(--teal) 45%, transparent);
+  border-radius: 20px;
+  padding: 20px 16px;
+  text-align: center;
+  margin: 10px 0 12px;
+  cursor: pointer;
+  background: color-mix(in srgb, var(--mint) 8%, transparent);
+  transition:
+    background 0.2s,
+    border-color 0.2s;
+}
+.dz.sobre {
+  background: color-mix(in srgb, var(--mint) 22%, transparent);
+  border-color: var(--teal);
+}
+.dz b {
+  display: block;
+  font:
+    600 1.05rem 'Cormorant Garamond',
+    Georgia,
+    serif;
+  font-size: 1.15rem;
+}
+.dz p.s {
+  margin: 2px 0 10px;
+}
+.dz .two {
+  justify-content: center;
+}
+.dz small {
+  display: block;
+  margin-top: 10px;
+  color: var(--mut);
+  line-height: 1.5;
+}
+.dfile {
+  border: 1.5px solid color-mix(in srgb, var(--ink) 14%, transparent);
+  border-left-width: 4px;
+  border-radius: 14px;
+  padding: 11px 13px;
+  margin-bottom: 8px;
+  background: var(--card);
+}
+.dfile.ok {
+  border-left-color: var(--teal);
+}
+.dfile.err {
+  border-left-color: #b4443c;
+}
+.dfile.load,
+.dfile.wait {
+  border-left-color: var(--gold);
+}
+.dfile.ocr {
+  border-left-color: var(--aqua);
+}
+.dfh {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+.dfh b {
+  font:
+    600 0.92rem Manrope,
+    sans-serif;
+  word-break: break-word;
+}
+.dfh small {
+  color: var(--mut);
+  font-size: 0.68rem;
+  flex: none;
+}
+.dfile p.s {
+  margin: 4px 0 0;
+  font-size: 0.8rem;
+}
+.dfile p.derr {
+  color: #8e2f25;
+}
+.dacc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+.dacc .pill {
+  margin-top: 0;
+}
+.dhit {
+  border-left: 3px solid var(--aqua);
+  padding: 8px 11px;
+  margin: 8px 0;
+  background: color-mix(in srgb, var(--mint) 10%, transparent);
+  border-radius: 0 12px 12px 0;
+}
+.dhit b {
+  display: block;
+  font:
+    500 0.88rem/1.45 Manrope,
+    sans-serif;
+}
+.dhit small {
+  display: block;
+  color: var(--mut);
+  font-size: 0.7rem;
+  margin-top: 3px;
+}
+/* Los h2 de sección nacieron para fondo oscuro; dentro de una vista clara eran
+   del mismo color que el fondo, así que no se veían. */
+.view .h2s {
+  color: var(--ink);
+}
+.view .h2s em {
+  color: var(--teal);
+}
+/* los bloques de fondo oscuro conservan el titular claro */
+.dk .h2s {
+  color: #eaf4f2;
+}
+.dk .h2s em {
+  color: var(--mint);
+}

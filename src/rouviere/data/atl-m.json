@@ -1,0 +1,108 @@
+[
+ {
+  "id": "sys-skeleton",
+  "sys": [
+   "oseo"
+  ],
+  "n": "Esqueleto completo",
+  "file": "Skeleton.stl (STL binario, 26.643.984 bytes)",
+  "tri": 532878,
+  "parts": 183,
+  "kind": "shells",
+  "gen": "Exportado desde Blender 2.83.3, según la cabecera del STL",
+  "nota": "El STL no guarda nombres. Separé los 183 cuerpos que están geométricamente desconectados para poder ocultarlos uno a uno, pero no llevan nombre anatómico: son «Cuerpo 001», «Cuerpo 002», etc."
+ },
+ {
+  "id": "sys-respiratory",
+  "sys": [
+   "resp"
+  ],
+  "n": "Aparato respiratorio",
+  "file": "VHM_Respiratory_Viewer_0_0.stl, dentro de 17298-outputs.zip (15.502.234 bytes)",
+  "tri": 310043,
+  "parts": 267,
+  "kind": "shells",
+  "gen": "Exportado desde Blender 2.79, según la cabecera del STL",
+  "nota": "El ZIP traía tres archivos: la versión para visualizar (la que uso), una versión para imprimir y un soporte de impresión, que no es anatomía. Los 267 cuerpos separados no tienen nombre."
+ },
+ {
+  "id": "sys-lungs-heart",
+  "sys": [
+   "resp",
+   "cardio"
+  ],
+  "n": "Pulmones y corazón",
+  "file": "lungs_heart_reoriented.stl (7.205.434 bytes)",
+  "tri": 144107,
+  "parts": 1,
+  "kind": "single",
+  "gen": "Sin generador declarado en la cabecera",
+  "nota": "Al medir el archivo resultó que de los 28 cuerpos solo uno tiene geometría real: 144.029 de los 144.107 triángulos. Los otros 27 son restos de 1 o 2 triángulos. Es decir, pulmones y corazón están fusionados en una sola malla y NO se pueden separar ni colorear por órgano sin una segmentación real. Falta además identificar de dónde se descargó el archivo"
+ },
+ {
+  "id": "sys-left-arm",
+  "sys": [
+   "musc",
+   "oseo"
+  ],
+  "n": "Brazo izquierdo",
+  "file": "3DP_NLMVHM_LArm_0.stl (2.961.084 bytes)",
+  "tri": 59220,
+  "parts": 1,
+  "kind": "single",
+  "gen": "Creado con netfabb, según la cabecera del STL",
+  "nota": "Una sola malla sin nombres. El nombre del archivo apunta al brazo izquierdo del Visible Human Male de la NLM, pero el archivo no indica qué tejidos incluye, así que no afirmo si es hueso, músculo o superficie."
+ },
+ {
+  "id": "sys-eye-r",
+  "sys": [
+   "sent"
+  ],
+  "n": "Ojo derecho",
+  "file": "3d-vh-m-eye-r.glb (20.697.112 bytes)",
+  "tri": 346630,
+  "parts": 23,
+  "kind": "named",
+  "gen": "Exportado con Babylon.js desde Maya 2023",
+  "nota": "Este sí trae 23 estructuras con nombre propio dentro del archivo, como retina, cristalino, córnea e iris. Puedes seleccionarlas y ocultarlas de una en una."
+ },
+ {
+  "id": "sys-uterus",
+  "sys": [
+   "rep"
+  ],
+  "n": "Útero",
+  "file": "VH_F_Uterus.glb (909.772 bytes)",
+  "tri": 37184,
+  "parts": 10,
+  "kind": "named",
+  "gen": "Exportado con Babylon.js desde Maya 2022",
+  "nota": "Trae 10 estructuras con nombre dentro del archivo. Es un órgano, no todo el sistema reproductor."
+ },
+ {
+  "id": "sys-bladder",
+  "sys": [
+   "uri"
+  ],
+  "n": "Vejiga urinaria",
+  "file": "VH_M_Urinary_Bladder.glb (198.936 bytes)",
+  "tri": 10073,
+  "parts": 6,
+  "kind": "named",
+  "gen": "Exportado con Babylon.js desde Maya 2022",
+  "nota": "Trae 6 estructuras con nombre. Es un órgano, no todo el sistema urinario."
+ },
+ {
+  "id": "allen-brain",
+  "sys": [
+   "nerv"
+  ],
+  "n": "Encéfalo (atlas Allen)",
+  "file": "3d-vh-m-allen-brain.glb (11.977.312 bytes)",
+  "tri": 656268,
+  "parts": 283,
+  "kind": "named",
+  "gen": "Exportado con Babylon.js desde Maya 2022",
+  "nota": "283 estructuras con nombre. Es el mismo modelo del módulo de sistema nervioso."
+ }
+]

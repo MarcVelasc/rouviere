@@ -1,0 +1,158 @@
+[
+ {
+  "g": "A",
+  "t": "Organización general del sistema nervioso",
+  "d": "El sistema nervioso se organiza en sistema nervioso central y sistema nervioso periférico. El SNC está formado por el encéfalo y la médula espinal; recibe e integra información y participa en la coordinación de respuestas.",
+  "e": [
+   "Sistema nervioso central",
+   "Sistema nervioso periférico",
+   "Encéfalo",
+   "Médula espinal"
+  ],
+  "a": "Clasificar estructuras en SNC o SNP y explicar la diferencia en una frase.",
+  "m": []
+ },
+ {
+  "g": "B",
+  "t": "Divisiones principales del encéfalo",
+  "d": "Para un estudio anatómico inicial, el encéfalo puede estudiarse por sus grandes regiones: cerebro, diencéfalo, tronco encefálico y cerebelo. En un nivel introductorio, el tronco encefálico comprende mesencéfalo, puente y bulbo raquídeo.",
+  "e": [
+   "Hemisferios cerebrales",
+   "Diencéfalo",
+   "Mesencéfalo",
+   "Puente",
+   "Bulbo raquídeo",
+   "Cerebelo"
+  ],
+  "a": "Ubicar las estructuras en una ilustración o modelo y completar una actividad de etiquetado.",
+  "m": [
+   [
+    "Cerebelo",
+    "cerebell",
+    "completa"
+   ],
+   [
+    "Puente (parte basilar)",
+    "basilar_part_of_pons",
+    "parcial"
+   ],
+   [
+    "Bulbo raquídeo",
+    "medulla_oblongata",
+    "completa"
+   ],
+   [
+    "Mesencéfalo (tegmento)",
+    "midbrain_tegmentum",
+    "parcial"
+   ],
+   [
+    "Tálamo (diencéfalo)",
+    "thalamus_",
+    "parcial"
+   ]
+  ]
+ },
+ {
+  "g": "C",
+  "t": "Lóbulos cerebrales",
+  "d": "La superficie de cada hemisferio cerebral se describe convencionalmente mediante lóbulos frontal, parietal, temporal y occipital. Sus funciones se estudian de forma general y no deben interpretarse como límites funcionales absolutos.",
+  "e": [
+   "Lóbulo frontal",
+   "Lóbulo parietal",
+   "Lóbulo temporal",
+   "Lóbulo occipital",
+   "Surco central",
+   "Surco lateral"
+  ],
+  "a": "Arrastrar etiquetas a la ubicación correcta en una vista lateral del cerebro.",
+  "m": [
+   [
+    "Giros con «frontal» en el nombre",
+    "frontal",
+    "por nombre"
+   ],
+   [
+    "Giros con «parietal» en el nombre",
+    "parietal",
+    "por nombre"
+   ],
+   [
+    "Giros con «temporal» en el nombre",
+    "temporal",
+    "por nombre"
+   ],
+   [
+    "Giros con «occipital» en el nombre",
+    "occipital",
+    "por nombre"
+   ]
+  ]
+ },
+ {
+  "g": "D",
+  "t": "Meninges y protección",
+  "d": "El encéfalo y la médula espinal están protegidos por el cráneo o la columna vertebral, las meninges y el líquido cefalorraquídeo. Las meninges se denominan duramadre, aracnoides y piamadre.",
+  "e": [
+   "Duramadre",
+   "Aracnoides",
+   "Piamadre",
+   "Espacio subaracnoideo"
+  ],
+  "a": "Ordenar las meninges desde la más externa a la más interna.",
+  "m": []
+ },
+ {
+  "g": "E",
+  "t": "Médula espinal",
+  "d": "La médula espinal se encuentra protegida dentro del conducto vertebral y sirve como vía de comunicación entre el encéfalo y el cuerpo. En un corte transversal típico, la sustancia gris se dispone centralmente y la sustancia blanca periféricamente.",
+  "e": [
+   "Región cervical",
+   "Región torácica",
+   "Región lumbar",
+   "Región sacra",
+   "Sustancia gris",
+   "Sustancia blanca",
+   "Astas posteriores",
+   "Astas anteriores",
+   "Raíces posteriores",
+   "Raíces anteriores"
+  ],
+  "a": "Etiquetar un corte transversal y distinguir las raíces posteriores y anteriores.",
+  "m": []
+ },
+ {
+  "g": "F",
+  "t": "Sistema ventricular y líquido cefalorraquídeo",
+  "d": "El sistema ventricular contiene líquido cefalorraquídeo, que circula por cavidades del encéfalo y espacios asociados. Su estudio introductorio debe vincular los nombres de las cavidades con su ubicación.",
+  "e": [
+   "Ventrículos laterales",
+   "Tercer ventrículo",
+   "Acueducto cerebral",
+   "Cuarto ventrículo"
+  ],
+  "a": "Ordenar las cavidades en un esquema simplificado y localizar cada una.",
+  "m": [
+   [
+    "Ventrículos laterales",
+    "lateral_ventricle",
+    "completa"
+   ],
+   [
+    "Tercer ventrículo",
+    "third_ventricle",
+    "completa"
+   ],
+   [
+    "Acueducto cerebral",
+    "cerebral_aqueduct",
+    "completa"
+   ],
+   [
+    "Cuarto ventrículo",
+    "fourth_ventricle",
+    "completa"
+   ]
+  ]
+ }
+]

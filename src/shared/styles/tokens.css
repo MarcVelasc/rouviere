@@ -1,0 +1,50 @@
+/* Sistema visual de Rouviere. Todo color y fuente de la app sale de aquí. */
+:root {
+  /* Paleta (mármol turquesa con vetas doradas) */
+  --c-abyss: #04202e;
+  --c-navy: #0a3a52;
+  --c-owl: #073950; /* fondo exacto de la imagen de Rou */
+  --c-teal: #167a6d;
+  --c-lagoon: #2ca8a0;
+  --c-mint: #65c3b5;
+  --c-gold: #d9a441;
+
+  /* Roles */
+  --bg: var(--c-abyss);
+  --surface: #062c3e;
+  --surface-2: #08354a;
+  --text: #e9f4f1;
+  --muted: #a3c4bf;
+  --line: rgba(101, 195, 181, 0.28);
+  --accent: var(--c-mint);
+  --on-accent: #06303f;
+  --danger: #f29a8e;
+  --warn: #f3c77a;
+  --ok: #8fe0c9;
+
+  /* Tipografía */
+  --font-display: 'Cormorant Garamond', Garamond, 'Times New Roman', serif;
+  --font-body: 'Manrope', 'Segoe UI', system-ui, -apple-system, sans-serif;
+
+  /* Espaciado y forma */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+  --tap: 44px; /* tamaño mínimo de objetivo táctil (WCAG 2.5.8) */
+
+  --nav-h: 72px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --gutter-l: max(20px, env(safe-area-inset-left, 0px));
+  --gutter-r: max(20px, env(safe-area-inset-right, 0px));
+
+  color-scheme: dark;
+}

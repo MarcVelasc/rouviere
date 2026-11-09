@@ -1,0 +1,83 @@
+/* ===== entrada de sección y estados de pulsación ===== */
+.view.on {
+  animation: vwin 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+@keyframes vwin {
+  from {
+    opacity: 0;
+    transform: translateY(7px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.anc,
+.prc,
+.arc,
+.ptile,
+.pcard {
+  will-change: transform;
+}
+.pcb:active,
+.verm:active {
+  transform: scale(0.98);
+}
+.pill {
+  transition:
+    transform 0.12s,
+    filter 0.18s;
+}
+.pill:active {
+  transform: scale(0.97);
+}
+#exbar {
+  transition: width 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Quien pide menos movimiento, no lo tiene. */
+@media (prefers-reduced-motion: reduce) {
+  .view.on,
+  .opt.ok,
+  .opt.no {
+    animation: none;
+  }
+  .anc:active,
+  .prc:active,
+  .arc:active,
+  .hpb:active,
+  .pill:active,
+  .pcb:active,
+  .verm:active {
+    transform: none;
+  }
+  #exbar,
+  .pbar i,
+  .fcbar i,
+  #anprog .pbar i {
+    transition: none;
+  }
+}
+/* El aviso de la biblioteca se pliega con el mismo gesto que los ajustes. */
+#biblioteca details.box.warn > summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+#biblioteca details.box.warn > summary::-webkit-details-marker {
+  display: none;
+}
+#biblioteca details.box.warn > summary::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  flex: none;
+  border-right: 2px solid var(--gold);
+  border-bottom: 2px solid var(--gold);
+  transform: rotate(-45deg);
+  transition: transform 0.2s;
+}
+#biblioteca details.box.warn[open] > summary::before {
+  transform: rotate(45deg);
+}

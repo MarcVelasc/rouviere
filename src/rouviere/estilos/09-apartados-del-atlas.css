@@ -1,0 +1,111 @@
+/* ===== apartados del atlas ===== */
+.apbar {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+  margin: 4px 0 10px;
+}
+.aptb {
+  border: 1.5px solid color-mix(in srgb, var(--teal) 32%, transparent);
+  background: transparent;
+  border-radius: 30px;
+  padding: 7px 15px;
+  font:
+    600 0.82rem Manrope,
+    sans-serif;
+  color: var(--teal);
+  cursor: pointer;
+  min-height: 36px;
+}
+.aptb.on {
+  background: var(--teal);
+  color: #fff;
+  border-color: var(--teal);
+}
+.apg {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(146px, 1fr));
+  gap: 9px;
+}
+.apc {
+  position: relative;
+  text-align: left;
+  border: 1.5px solid color-mix(in srgb, var(--ink) 13%, transparent);
+  border-radius: 15px;
+  padding: 11px 12px;
+  background: var(--card);
+  cursor: pointer;
+  min-height: 64px;
+}
+.apc.on {
+  border-color: var(--teal);
+  box-shadow: inset 0 0 0 1px var(--teal);
+}
+.apc.ld {
+  opacity: 0.65;
+}
+.apc b {
+  display: block;
+  font:
+    600 0.9rem Manrope,
+    sans-serif;
+  color: var(--ink);
+}
+.apc small {
+  display: block;
+  color: var(--mut);
+  font-size: 0.68rem;
+  margin-top: 3px;
+  line-height: 1.4;
+}
+.apf {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 0.62rem;
+  padding: 2px 7px;
+  border-radius: 20px;
+  background: color-mix(in srgb, var(--gold) 26%, transparent);
+  color: #7a5410;
+}
+.apd {
+  margin-top: 12px;
+  border: 1.5px solid color-mix(in srgb, var(--teal) 24%, transparent);
+  border-radius: 16px;
+  padding: 13px;
+  background: color-mix(in srgb, var(--mint) 8%, transparent);
+}
+.apd > b {
+  display: block;
+  font:
+    500 1.35rem/1.2 'Cormorant Garamond',
+    Georgia,
+    serif;
+}
+.apd p {
+  margin: 7px 0 0;
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+.apd details {
+  margin-top: 11px;
+}
+.apd summary {
+  cursor: pointer;
+  font:
+    600 0.82rem Manrope,
+    sans-serif;
+  color: var(--teal);
+}
+.apl {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 8px;
+}
+.appz {
+  font-size: 0.7rem;
+  padding: 3px 9px;
+  border-radius: 20px;
+  background: var(--card);
+  border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+}

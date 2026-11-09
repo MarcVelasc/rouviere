@@ -1,0 +1,3464 @@
+[
+ {
+  "id": 1,
+  "cat": "gen",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Anatomy & Physiology 2e",
+  "pdftit": "Anatomy & Physiology 2e — OpenStax",
+  "desc": "Libro completo de anatomía y fisiología humana, organizado por sistemas. Ofrece PDF digital y versión para lectura en línea.",
+  "accpdf": "Página oficial con botones de PDF/EPUB",
+  "url": "https://open.oregonstate.education/anatomy2e/",
+  "opens": "Lector en línea (Pressbooks). No se encontró ningún enlace de descarga directa en la página.",
+  "vst": "ok",
+  "ver": "Enlace comprobado el 11/10/2026: la página abre y carga el libro completo.",
+  "meta": [
+   [
+    "Autores y editores",
+    "Lindsay M. Biga (editora), Staci Bronson, Sierra Dawson, Amy Harwell, Robin Hopkins, Joel Kaufmann, Mike LeMaster, Philip Matern, Katie Morrison-Graham, Kristen Oja, Devon Quick, Jon Runyeon y OpenStax"
+   ],
+   [
+    "Edición",
+    "2.ª edición"
+   ],
+   [
+    "Año",
+    "2025"
+   ],
+   [
+    "Editorial",
+    "Open Oregon State (Oregon State University)"
+   ],
+   [
+    "Licencia",
+    "CC BY-SA 4.0, salvo donde se indique otra cosa"
+   ]
+  ],
+  "nota": "El PDF del catálogo lo titula «OpenStax», pero la dirección registrada abre la adaptación de Oregon State University, basada en el libro de OpenStax. El recurso 3 es la edición alojada directamente en OpenStax.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   3,
+   4,
+   13
+  ],
+  "org": "Oregon State University · Open Oregon State",
+  "read": "https://open.oregonstate.education/anatomy2e/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "La página oficial no ofrece ningún archivo para descargar: el libro se lee en el lector web. Comprobado el 11/10/2026.",
+  "c2": "fis",
+  "idi": "Inglés",
+  "tema": "Anatomía y fisiología por sistemas"
+ },
+ {
+  "id": 2,
+  "cat": "gen",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Anatomy & Physiology",
+  "pdftit": "Anatomy & Physiology — Oregon State University",
+  "desc": "Edición anterior del libro de anatomía y fisiología. Útil como referencia adicional.",
+  "accpdf": "Libro abierto; consulta las opciones de descarga",
+  "url": "https://open.oregonstate.education/anatomy/",
+  "opens": "Lector en línea (Pressbooks). La página invita a «Download for free» pero no indica el formato del archivo, así que no se registra ninguna descarga comprobada.",
+  "vst": "ok",
+  "ver": "Enlace comprobado el 11/10/2026: la página abre y muestra la ficha del libro.",
+  "meta": [
+   [
+    "Autores",
+    "Lindsay M. Biga, Staci Bronson, Sierra Dawson, Amy Harwell, Robin Hopkins, Joel Kaufmann, Mike LeMaster, Philip Matern, Katie Morrison-Graham, Kristen Oja, Devon Quick, Jon Runyeon, OSU OERU y OpenStax"
+   ],
+   [
+    "Año",
+    "2019"
+   ],
+   [
+    "Editorial",
+    "Open Oregon State (Oregon State University)"
+   ],
+   [
+    "Licencia",
+    "CC BY-SA 4.0, salvo donde se indique otra cosa"
+   ]
+  ],
+  "nota": "Es la edición previa del recurso 1. Úsala como referencia complementaria, no como versión actual.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   1,
+   3
+  ],
+  "org": "Oregon State University · Open Oregon State",
+  "read": "https://open.oregonstate.education/anatomy/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "La página dice «Download for free» pero no enlaza ningún archivo ni indica el formato, así que no se registra descarga. Comprobado el 11/10/2026.",
+  "c2": "fis",
+  "idi": "Inglés",
+  "tema": "Anatomía y fisiología por sistemas"
+ },
+ {
+  "id": 3,
+  "cat": "gen",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Anatomy and Physiology 2e (OpenStax)",
+  "pdftit": "Anatomy & Physiology 2e — OpenStax",
+  "desc": "Edición abierta alojada en OpenStax, con texto en línea y PDF gratuito.",
+  "accpdf": "Leer en línea / descargar PDF desde OpenStax",
+  "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+  "opens": "Lector en línea de OpenStax, en el capítulo 1 («Introduction»), con índice, buscador e impresión.",
+  "vst": "ok",
+  "ver": "Enlace comprobado el 11/10/2026: abre el lector del libro, sin pedir cuenta.",
+  "meta": [
+   [
+    "Editorial",
+    "OpenStax (Rice University)"
+   ],
+   [
+    "Edición",
+    "2.ª edición"
+   ],
+   [
+    "Capítulo de entrada",
+    "Capítulo 1 · Introducción"
+   ]
+  ],
+  "nota": "El lector en línea es gratuito. OpenStax ofrece descargas desde la ficha del libro (recurso 4), pero no se pudo comprobar una dirección de PDF estable, por lo que no se añade un botón de descarga.",
+  "pdf": "https://assets.openstax.org/oscms-prodcms/media/documents/anatomy-and-physiology-2e_-_WEB.pdf",
+  "alt": [
+   [
+    "Ficha del libro en OpenStax",
+    "https://openstax.org/details/books/anatomy-and-physiology-2e"
+   ]
+  ],
+  "rel": [
+   1,
+   4,
+   13
+  ],
+  "org": "OpenStax · Rice University",
+  "read": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction",
+  "pdfq": "src",
+  "pdfl": "Descargar PDF del libro completo",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": [
+   "Abrir descarga oficial en OpenStax",
+   "https://openstax.org/details/books/anatomy-and-physiology-2e"
+  ],
+  "fmt": [
+   "pdfsrc",
+   "read"
+  ],
+  "dlnote": "La dirección del PDF es la que declara la propia API de OpenStax (campo high_resolution_pdf_url) y es la que usa su botón «Download a PDF». No pude descargar el archivo desde este entorno: es el libro entero y la petición se cortó por su tamaño. Si falla, usa «Abrir descarga oficial».",
+  "c2": "fis",
+  "idi": "Inglés",
+  "tema": "Anatomía y fisiología por sistemas"
+ },
+ {
+  "id": 4,
+  "cat": "gen",
+  "kind": "catalogo",
+  "acc": "abierto",
+  "tit": "OpenStax: catálogo de Anatomía y Fisiología",
+  "pdftit": "OpenStax: catálogo de Anatomía y Fisiología",
+  "desc": "Catálogo institucional para encontrar ediciones y recursos complementarios.",
+  "accpdf": "Catálogo de libros gratuitos",
+  "url": "https://openstax.org/subjects/anatomy-and-physiology",
+  "opens": "Página de catálogo de OpenStax, con la versión en línea gratuita, recursos para estudiantes y docentes, y una opción de compra del libro impreso.",
+  "vst": "ok",
+  "ver": "Enlace comprobado el 11/10/2026: la página abre y lista el libro de Anatomy and Physiology.",
+  "meta": [
+   [
+    "Editorial",
+    "OpenStax (Rice University)"
+   ],
+   [
+    "Licencia",
+    "CC BY 4.0"
+   ],
+   [
+    "ISBN registrados en la página",
+    "978-1-938168-13-0 · 978-1-50669-802-1 · 978-1-947172-04-3 (la página no indica a qué formato corresponde cada uno)"
+   ]
+  ],
+  "nota": "En la comprobación, la página mostraba una marca de «retired» sin explicación junto a la edición anterior. Confirma siempre qué edición estás abriendo.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   3,
+   18
+  ],
+  "org": "OpenStax · Rice University",
+  "read": "",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "cat"
+  ],
+  "dlnote": "Es un catálogo: las descargas están dentro de la ficha de cada libro, no en esta página.",
+  "idi": "Inglés",
+  "tema": "Catálogo de libros abiertos"
+ },
+ {
+  "id": 5,
+  "cat": "gen",
+  "kind": "atlas",
+  "acc": "abierto",
+  "tit": "Open Anatomy Project",
+  "pdftit": "Open Anatomy Project",
+  "desc": "Proyecto de atlas anatómicos y recursos digitales de anatomía.",
+  "accpdf": "Atlas y proyectos; disponibilidad varía",
+  "url": "https://www.openanatomy.org/",
+  "opens": "Página del proyecto. Los atlas se consultan en el visor web Open Anatomy Browser (OABrowser); no hay archivos para descargar.",
+  "vst": "ok",
+  "ver": "Enlace comprobado el 11/10/2026: la página abre y describe el proyecto y sus atlas.",
+  "meta": [
+   [
+    "Institución",
+    "Open Anatomy Project · Surgical Planning Laboratory, Departamento de Radiología, Brigham and Women's Hospital (hospital docente afiliado a Harvard Medical School)"
+   ],
+   [
+    "Atlas descritos en la página",
+    "Seis: tórax, encéfalo (a partir de RM), hígado, oído interno (a partir de TC), rodilla y abdomen"
+   ],
+   [
+    "Herramientas",
+    "Open Anatomy Browser (prototipo web), TA2Viewer (nomenclatura Terminologia Anatomica 2) y 3D Slicer"
+   ],
+   [
+    "Licencia",
+    "No indicada en la página para los atlas"
+   ]
+  ],
+  "nota": "El visor funciona en versiones de escritorio de Chrome, Firefox y Safari; la propia página indica que el visor para móvil está planificado, no disponible. No se descargan ni se incorporan sus archivos a ROUVIÈRE mientras no haya una licencia expresa.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   9,
+   10
+  ],
+  "org": "Surgical Planning Laboratory · Brigham and Women’s Hospital",
+  "read": "",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "atlas"
+  ],
+  "dlnote": "Los atlas se consultan en el visor web OABrowser. La página no ofrece archivos para descargar y no declara licencia, así que no se descarga nada. Comprobado el 11/10/2026.",
+  "idi": "Inglés",
+  "tema": "Atlas anatómico interactivo"
+ },
+ {
+  "id": 6,
+  "cat": "his",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Medical Histology Open Textbook",
+  "pdftit": "Medical Histology Open Textbook — Augusta University",
+  "desc": "Libro abierto de histología médica: microscopía, tejidos y sistemas endocrino, cardiovascular, respiratorio, digestivo, urinario y reproductor.",
+  "accpdf": "Abrir ficha y pulsar «Download Full Text»",
+  "url": "https://oer.galileo.usg.edu/biology-textbooks/36/",
+  "opens": "Ficha del libro en el repositorio GALILEO. Su botón «Download Full Text» no entrega un PDF: lleva a la ficha en OpenALG, y de ahí al libro en Pressbooks.",
+  "vst": "ok",
+  "ver": "Enlace, autoría, año y licencia comprobados el 11/10/2026. Seguí la cadena completa: ficha de GALILEO → proyecto en OpenALG → libro en Pressbooks.",
+  "meta": [
+   [
+    "Texto completo",
+    "Anatomy and Physiology II: An Interactive Histology Atlas (es el título real de la obra enlazada desde esta ficha)"
+   ],
+   [
+    "Autores",
+    "Juan Manuel Ramiro Diaz, Karen Wiles, Georgios Kallifatidis, Christina Wilson y Soma Mukhopadhyay"
+   ],
+   [
+    "Institución",
+    "Augusta University"
+   ],
+   [
+    "Año",
+    "2025 (publicado el 4 de enero de 2025)"
+   ],
+   [
+    "Licencia",
+    "CC BY-NC-SA 4.0"
+   ],
+   [
+    "Repositorio",
+    "GALILEO Open Learning Materials · University System of Georgia"
+   ]
+  ],
+  "nota": "El catálogo lo llama «Medical Histology Open Textbook», pero la obra que se abre es «Anatomy and Physiology II: An Interactive Histology Atlas», de Augusta University. El volumen I es el recurso 7.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   7,
+   8,
+   22
+  ],
+  "org": "Augusta University · University System of Georgia",
+  "read": "https://pressbooks.pub/aandp2histologyatlas/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": [
+   "Ficha del proyecto en OpenALG",
+   "https://alg.manifoldapp.org/projects/psio-6510-au"
+  ],
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "Seguí el botón «Download Full Text» de GALILEO: lleva a la ficha del proyecto en OpenALG (Manifold), y desde ahí al texto en línea en Pressbooks. No hay PDF ni EPUB en ninguno de los dos sitios; el único archivo descargable es un ZIP con documentación de la beca, no el libro. Comprobado el 11/10/2026.",
+  "idi": "Inglés",
+  "tema": "Histología general y de sistemas"
+ },
+ {
+  "id": 7,
+  "cat": "his",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Anatomy and Physiology I: An Interactive Histology Atlas",
+  "pdftit": "Anatomy and Physiology I: An Interactive Histology Atlas",
+  "desc": "Atlas interactivo de histología publicado por el sistema universitario de Georgia.",
+  "accpdf": "Buscar el título en el catálogo",
+  "url": "https://oer.galileo.usg.edu/biology-textbooks/",
+  "opens": "El enlace del catálogo abre el índice de la colección de GALILEO, no el atlas. Los botones de esta ficha llevan al libro y a su registro propios.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: el enlace del catálogo abre la colección, no la obra. Localicé su registro en GALILEO (nº 34) y su libro en Pressbooks, y de ahí tomé título, autores, año y licencia.",
+  "meta": [
+   [
+    "Título",
+    "Anatomy and Physiology I: An Interactive Histology Atlas"
+   ],
+   [
+    "Autores",
+    "Karen Wiles, Christina Wilson, Juan Manuel Ramiro-Diaz, Georgios Kallifatidis y Soma Mukhopadhyay"
+   ],
+   [
+    "Institución",
+    "Augusta University"
+   ],
+   [
+    "Año",
+    "2024 (publicado el 8 de enero de 2024)"
+   ],
+   [
+    "Licencia",
+    "CC BY-NC-SA 4.0"
+   ],
+   [
+    "Registro en GALILEO",
+    "Biological Sciences Open Textbooks, nº 34"
+   ]
+  ],
+  "nota": "Es el volumen I; el volumen II se abre desde el recurso 6.",
+  "pdf": "",
+  "alt": [
+   [
+    "Registro en GALILEO (nº 34)",
+    "https://oer.galileo.usg.edu/biology-textbooks/34"
+   ]
+  ],
+  "rel": [
+   6,
+   8
+  ],
+  "org": "Augusta University · University System of Georgia",
+  "read": "https://pressbooks.pub/aandp1histologyatlasandworkbook",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": [
+   "Ficha del proyecto en OpenALG",
+   "https://alg.manifoldapp.org/projects/biol2111-augusta"
+  ],
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "Localicé la ficha propia de esta obra y su libro en Pressbooks. Ninguno de los dos ofrece PDF ni EPUB: solo lectura en línea. Comprobado el 11/10/2026.",
+  "idi": "Inglés",
+  "tema": "Atlas de histología interactivo"
+ },
+ {
+  "id": 8,
+  "cat": "bioq",
+  "kind": "catalogo",
+  "acc": "variable",
+  "tit": "Colección de libros abiertos de ciencias biológicas — GALILEO",
+  "pdftit": "Colección de libros abiertos de ciencias biológicas — GALILEO",
+  "desc": "Catálogo con textos gratuitos de histología, anatomía y otras ciencias básicas.",
+  "accpdf": "Catálogo abierto; cada obra tiene su ficha",
+  "url": "https://oer.galileo.usg.edu/biology-textbooks/",
+  "opens": "Índice de la colección, con portada, título, autores y descripción de cada obra, y fichas individuales con los archivos.",
+  "vst": "ok",
+  "ver": "Enlace comprobado el 11/10/2026: el listado abre y muestra las obras de la colección.",
+  "meta": [
+   [
+    "Colección",
+    "Biological Sciences Open Textbooks · GALILEO, University System of Georgia"
+   ],
+   [
+    "Obras vistas en el listado",
+    "Anatomy and Physiology I y II (libros, manuales y materiales de laboratorio), Microbiology for Allied Health Students con su manual, Fundamentals of Cell Biology and Genetics Laboratory Manual, Principles of Biology I y II (manuales) e Introduction to Environmental Science (edición 2025)"
+   ]
+  ],
+  "nota": "Comparte dirección con el recurso 7: el PDF del catálogo registra las dos entradas con el mismo enlace. Se conservan separadas porque describen usos distintos. El listado no declara los formatos de archivo, así que no se afirma que ofrezca PDF.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   6,
+   7
+  ],
+  "org": "GALILEO · University System of Georgia",
+  "read": "",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "cat"
+  ],
+  "dlnote": "Es el índice de la colección: los archivos, cuando existen, están en la ficha de cada obra.",
+  "idi": "Inglés",
+  "tema": "Catálogo de ciencias biológicas"
+ },
+ {
+  "id": 9,
+  "cat": "neu",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Neuroanatomy Online",
+  "pdftit": "Neuroanatomy Online — UTHealth Houston",
+  "desc": "Laboratorio interactivo de neuroanatomía con imágenes, explicaciones y ejercicios de repaso.",
+  "accpdf": "Recurso interactivo en línea",
+  "url": "https://nba.uth.tmc.edu/neuroanatomy/",
+  "opens": "Sitio web de consulta en línea, organizado en módulos de laboratorio.",
+  "vst": "ok",
+  "ver": "Enlace, título e institución comprobados el 11/10/2026.",
+  "meta": [
+   [
+    "Título completo",
+    "Neuroanatomy Online: An Open Access Electronic Laboratory for the Neurosciences"
+   ],
+   [
+    "Institución",
+    "Departamento de Neurobiología y Anatomía, McGovern Medical School, The University of Texas Health Science Center at Houston"
+   ],
+   [
+    "Contenido",
+    "Once módulos de laboratorio, desde «Overview of the Nervous System» (lab 1) hasta «The Limbic System and The Hypothalamus» (lab 11), con médula espinal, vías sensitivas, sistema visual y circulación del tronco encefálico"
+   ],
+   [
+    "Acceso",
+    "De acceso abierto, según la propia página"
+   ]
+  ],
+  "nota": "Complementa el libro Neuroscience Online (recurso 10) de la misma institución. Útil para el módulo de sistema nervioso de ROUVIÈRE.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   10,
+   5
+  ],
+  "org": "McGovern Medical School · UTHealth Houston",
+  "read": "https://nba.uth.tmc.edu/neuroanatomy/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "Revisé los enlaces de la portada: todos son páginas web, ninguno es un PDF. El material es de lectura en línea. Comprobado el 11/10/2026.",
+  "idi": "Inglés",
+  "tema": "Neuroanatomía humana"
+ },
+ {
+  "id": 10,
+  "cat": "neu",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Neuroscience Online",
+  "pdftit": "Neuroscience Online — UTHealth Houston",
+  "desc": "Libro electrónico abierto de neurociencias, con capítulos sobre neuronas, potenciales de acción y sistemas nerviosos.",
+  "accpdf": "Leer capítulos en línea",
+  "url": "https://nba.uth.tmc.edu/neuroscience/m/index.htm",
+  "opens": "Libro electrónico de lectura en línea, dividido en capítulos.",
+  "vst": "ok",
+  "ver": "Enlace, título e institución comprobados el 11/10/2026.",
+  "meta": [
+   [
+    "Título completo",
+    "Neuroscience Online: An Electronic Textbook for the Neurosciences"
+   ],
+   [
+    "Institución",
+    "The University of Texas Health Science Center at Houston, McGovern Medical School"
+   ],
+   [
+    "Secciones",
+    "Cuatro: Cellular and Molecular Neurobiology, Sensory Systems, Motor Systems y Homeostasis and Higher Brain Functions"
+   ],
+   [
+    "Autoría",
+    "Profesorado actual y anterior del departamento, según la página"
+   ]
+  ],
+  "nota": "Es el libro hermano de Neuroanatomy Online (recurso 9).",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   9,
+   5
+  ],
+  "org": "McGovern Medical School · UTHealth Houston",
+  "read": "https://nba.uth.tmc.edu/neuroscience/m/index.htm",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "Libro electrónico de lectura en línea; no se ofrece una descarga del libro completo. Comprobado el 11/10/2026.",
+  "c2": "fis",
+  "idi": "Inglés",
+  "tema": "Neurociencia y neurofisiología"
+ },
+ {
+  "id": 11,
+  "cat": "bioq",
+  "kind": "catalogo",
+  "acc": "variable",
+  "tit": "NCBI Bookshelf",
+  "pdftit": "NCBI Bookshelf",
+  "desc": "Biblioteca de libros y documentos biomédicos de instituciones y editoriales participantes. Buscar por tema.",
+  "accpdf": "Catálogo gratuito; acceso depende de cada obra",
+  "url": "https://www.ncbi.nlm.nih.gov/books/",
+  "opens": "No comprobado. La dirección corresponde al catálogo de libros del NCBI.",
+  "vst": "no",
+  "ver": "No se pudo comprobar el 11/10/2026: la petición fue interceptada por una pantalla de verificación de navegador (reCAPTCHA). El dominio responde, porque otro registro del mismo sitio sí se abrió (recurso 20). Ábrelo manualmente en tu navegador.",
+  "meta": [],
+  "nota": "El acceso al texto completo depende de cada obra: algunas son de acceso abierto y otras no.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   15,
+   17
+  ],
+  "org": "National Center for Biotechnology Information (NCBI)",
+  "read": "",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "cat",
+   "nover"
+  ],
+  "dlnote": "No se pudo comprobar: el sitio interpuso una pantalla de verificación de navegador. El acceso y la descarga dependen de cada obra del catálogo.",
+  "idi": "Inglés",
+  "tema": "Catálogo de libros biomédicos"
+ },
+ {
+  "id": 12,
+  "cat": "emb",
+  "kind": "articulo",
+  "acc": "abierto",
+  "tit": "Developmental Atlas of the Early First Trimester Human Embryo",
+  "pdftit": "Developmental Atlas of the Early First Trimester Human Embryo",
+  "desc": "Atlas científico de desarrollo embrionario temprano con imágenes y reconstrucciones.",
+  "accpdf": "Artículo de acceso abierto",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3401072/",
+  "opens": "No comprobado. La dirección corresponde a un artículo alojado en PubMed Central (PMC3401072).",
+  "vst": "no",
+  "ver": "No se pudo comprobar el 11/10/2026: PubMed Central devolvió una pantalla de verificación de navegador (reCAPTCHA) y la consulta alternativa a Europe PMC fue rechazada por límite de peticiones (HTTP 429). No se registran autores, revista ni año porque no se pudieron leer.",
+  "meta": [],
+  "nota": "Ábrelo manualmente para confirmar los datos bibliográficos antes de citarlo. No se afirma aquí ningún dato que no se haya podido leer.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   14,
+   23
+  ],
+  "org": "PubMed Central (PMC)",
+  "read": "",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "nover"
+  ],
+  "dlnote": "No se pudo comprobar: PubMed Central respondió con una pantalla de verificación de navegador y la vía alternativa de Europe PMC rechazó la petición por límite de uso. Los artículos de PMC suelen tener un PDF propio, pero no pude confirmarlo ni registrar su dirección.",
+  "idi": "Inglés",
+  "tema": "Embriología del primer trimestre"
+ },
+ {
+  "id": 13,
+  "cat": "emb",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Desarrollo embrionario y fetal (Anatomy and Physiology 2e, cap. 28)",
+  "pdftit": "Desarrollo embrionario y fetal — OpenStax",
+  "desc": "Capítulo educativo sobre desarrollo embrionario y fetal.",
+  "accpdf": "Leer en línea; el PDF completo se obtiene desde el libro",
+  "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-introduction",
+  "opens": "Lector en línea de OpenStax, en la introducción del capítulo 28.",
+  "vst": "ok",
+  "ver": "Enlace comprobado el 11/10/2026: abre la introducción del capítulo 28 del libro Anatomy and Physiology 2e.",
+  "meta": [
+   [
+    "Libro",
+    "Anatomy and Physiology 2e"
+   ],
+   [
+    "Editorial",
+    "OpenStax (Rice University)"
+   ],
+   [
+    "Capítulo",
+    "28 · Introducción"
+   ]
+  ],
+  "nota": "Es un capítulo del mismo libro que el recurso 3. Para el libro completo, usa ese recurso o la ficha de OpenStax.",
+  "pdf": "https://assets.openstax.org/oscms-prodcms/media/documents/anatomy-and-physiology-2e_-_WEB.pdf",
+  "alt": [
+   [
+    "Ficha del libro en OpenStax",
+    "https://openstax.org/details/books/anatomy-and-physiology-2e"
+   ]
+  ],
+  "rel": [
+   3,
+   12,
+   23
+  ],
+  "org": "OpenStax · Rice University",
+  "read": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-introduction",
+  "pdfq": "src",
+  "pdfl": "Descargar PDF del libro completo",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": [
+   "Abrir descarga oficial en OpenStax",
+   "https://openstax.org/details/books/anatomy-and-physiology-2e"
+  ],
+  "fmt": [
+   "pdfsrc",
+   "read"
+  ],
+  "dlnote": "No existe un PDF suelto de este capítulo: OpenStax publica el libro entero. El botón descarga «Anatomy and Physiology 2e» completo; el capítulo 28 está dentro. Dirección tomada de la API oficial de OpenStax; no pude descargar el archivo aquí por su tamaño.",
+  "idi": "Español",
+  "tema": "Desarrollo embrionario y fetal"
+ },
+ {
+  "id": 14,
+  "cat": "emb",
+  "kind": "catalogo",
+  "acc": "variable",
+  "tit": "PubMed Central: búsqueda de atlas de embriología humana",
+  "pdftit": "PubMed Central: búsqueda de atlas de embriología humana",
+  "desc": "Buscador de artículos de acceso abierto sobre embriología y atlas embrionarios.",
+  "accpdf": "Artículos completos disponibles según cada resultado",
+  "url": "https://pmc.ncbi.nlm.nih.gov/?term=human+embryology+atlas",
+  "opens": "No comprobado. La dirección corresponde a una búsqueda en PubMed Central.",
+  "vst": "no",
+  "ver": "No se pudo comprobar el 11/10/2026: el dominio de PubMed Central respondió con una pantalla de verificación de navegador (reCAPTCHA). Ábrelo manualmente.",
+  "meta": [],
+  "nota": "Es una búsqueda, no una obra concreta: los resultados cambian con el tiempo y el acceso depende de cada artículo.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   12,
+   15
+  ],
+  "org": "PubMed Central (PMC)",
+  "read": "",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "cat",
+   "nover"
+  ],
+  "dlnote": "Es una búsqueda, no una obra: cada resultado tiene su propio tipo de acceso. No se pudo comprobar por la verificación de navegador del sitio.",
+  "idi": "Inglés",
+  "tema": "Artículos de embriología"
+ },
+ {
+  "id": 15,
+  "cat": "emb",
+  "kind": "catalogo",
+  "acc": "variable",
+  "tit": "NCBI Bookshelf: embriología humana",
+  "pdftit": "NCBI Bookshelf: embriología humana",
+  "desc": "Búsqueda de libros y capítulos sobre embriología.",
+  "accpdf": "Catálogo gratuito; revisar acceso de cada título",
+  "url": "https://www.ncbi.nlm.nih.gov/books/?term=human+embryology",
+  "opens": "No comprobado. La dirección corresponde a una búsqueda en el catálogo de libros del NCBI.",
+  "vst": "no",
+  "ver": "No se pudo comprobar el 11/10/2026: la petición fue interceptada por una pantalla de verificación de navegador (reCAPTCHA). Ábrelo manualmente.",
+  "meta": [],
+  "nota": "Es una búsqueda, no una obra concreta. Revisa el tipo de acceso de cada título antes de citarlo.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   11,
+   14
+  ],
+  "org": "National Center for Biotechnology Information (NCBI)",
+  "read": "",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "cat",
+   "nover"
+  ],
+  "dlnote": "Es una búsqueda, no una obra. No se pudo comprobar por la verificación de navegador del sitio.",
+  "idi": "Inglés",
+  "tema": "Libros de embriología"
+ },
+ {
+  "id": 16,
+  "cat": "bioq",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Cell Biology, Genetics, and Biochemistry for Pre-Clinical Students",
+  "pdftit": "Cell Biology, Genetics, and Biochemistry for Pre-Clinical Students",
+  "desc": "Libro de ciencias básicas orientado a estudiantes preclínicos.",
+  "accpdf": "Libro abierto; revisar formatos de descarga",
+  "url": "https://pressbooks.lib.vt.edu/cellbio/",
+  "opens": "Lector en línea (Pressbooks). La página registra un ISBN de PDF pero no ofrece ningún enlace de descarga directa.",
+  "vst": "ok",
+  "ver": "Enlace, autoría, año y licencia comprobados el 11/10/2026 en la página oficial.",
+  "meta": [
+   [
+    "Autora",
+    "Renée J. LeClair"
+   ],
+   [
+    "Edición a cargo de",
+    "Anita Walz"
+   ],
+   [
+    "Año",
+    "2021 (publicado el 19 de noviembre de 2021)"
+   ],
+   [
+    "Editorial",
+    "Virginia Tech Carilion School of Medicine, junto con Virginia Tech Publishing"
+   ],
+   [
+    "Licencia",
+    "CC BY-NC-SA 4.0"
+   ],
+   [
+    "ISBN de la versión PDF",
+    "978-1-949373-42-4 (registrado en la página, sin enlace de descarga)"
+   ],
+   [
+    "Archivos en el repositorio",
+    "Cell_Biology_Genetics_and_Biochemistry.pdf (41,68 MB) · versión de baja resolución (6,32 MB) · .epub (32,07 MB) · About_this_Book.pdf (128,68 KB)"
+   ]
+  ],
+  "nota": "La página oficial no enlaza los archivos, pero sí indica el DOI 10.21061/cellbio, que lleva al repositorio de Virginia Tech donde sí están. La propia página advierte que la versión de LibreTexts puede diferir de esta.",
+  "pdf": "https://vtechworks.lib.vt.edu/bitstreams/0ca0b819-7e3d-41bb-b27b-0a3a948b8608/download",
+  "alt": [],
+  "rel": [
+   17,
+   18
+  ],
+  "org": "Virginia Tech Carilion School of Medicine · Virginia Tech Publishing",
+  "read": "https://pressbooks.lib.vt.edu/cellbio/",
+  "pdfq": "ok",
+  "pdfl": "Descargar PDF (41,7 MB)",
+  "pdf2": [
+   "Descargar PDF ligero (6,3 MB)",
+   "https://vtechworks.lib.vt.edu/bitstreams/cc109a2c-7801-47c5-a432-de39b59c365b/download"
+  ],
+  "epub": "https://vtechworks.lib.vt.edu/bitstreams/35a6c870-a6d2-4352-a394-ef177c0c5e43/download",
+  "dlpage": [
+   "Ver todos los archivos en VTechWorks",
+   "https://vtechworks.lib.vt.edu/items/d34e759d-85b5-41ad-84de-5e30fab46dfa"
+  ],
+  "fmt": [
+   "pdfok",
+   "epubok",
+   "read"
+  ],
+  "dlnote": "Seguí el DOI que indica la página oficial (10.21061/cellbio) hasta VTechWorks, el repositorio institucional de Virginia Tech. Allí están los archivos: PDF de 41,68 MB, PDF de baja resolución de 6,32 MB y EPUB de 32,07 MB. Descargué el PDF ligero y leí su portada para confirmarlo. Comprobado el 11/10/2026.",
+  "idi": "Inglés",
+  "tema": "Biología celular, genética y bioquímica"
+ },
+ {
+  "id": 17,
+  "cat": "est",
+  "kind": "catalogo",
+  "acc": "variable",
+  "tit": "Open Textbook Library",
+  "pdftit": "Open Textbook Library",
+  "desc": "Biblioteca de libros universitarios abiertos con filtros por materia.",
+  "accpdf": "Buscar biología celular, genética y bioquímica",
+  "url": "https://open.umn.edu/opentextbooks/",
+  "opens": "Catálogo de libros abiertos, con navegación por materias y fichas por obra.",
+  "vst": "ok",
+  "ver": "Enlace comprobado el 11/10/2026: el catálogo abre y permite navegar por materias.",
+  "meta": [
+   [
+    "Institución",
+    "Open Education Network · Center for Open Education, College of Education and Human Development, University of Minnesota"
+   ],
+   [
+    "Tamaño del catálogo",
+    "1.887 libros en el momento de la comprobación"
+   ],
+   [
+    "Licencias",
+    "Libros de licencia abierta, según la propia página"
+   ]
+  ],
+  "nota": "La página no indica si los archivos están alojados en el propio sitio o en los de cada editor, así que no se afirma que ofrezca descargas directas.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   11,
+   16
+  ],
+  "org": "Open Education Network · University of Minnesota",
+  "read": "",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "cat"
+  ],
+  "dlnote": "Es un catálogo: los archivos están en la ficha de cada libro, y el formato cambia según la obra.",
+  "idi": "Inglés",
+  "tema": "Catálogo de libros abiertos"
+ },
+ {
+  "id": 18,
+  "cat": "micro",
+  "kind": "libro",
+  "acc": "cuenta",
+  "tit": "Microbiology (OpenStax)",
+  "pdftit": "Microbiology — OpenStax",
+  "desc": "Libro abierto de microbiología para complementar ciencias básicas médicas.",
+  "accpdf": "Leer en línea / descargar PDF desde OpenStax",
+  "url": "https://openstax.org/books/microbiology/pages/1-introduction",
+  "opens": "Lector en línea de OpenStax, en el capítulo 1. En la comprobación, un aviso de contenido pedía iniciar sesión con una cuenta gratuita de OpenStax para seguir leyendo.",
+  "vst": "ok",
+  "ver": "Enlace y autoría comprobados el 11/10/2026. El aviso de cuenta gratuita también se observó ese día.",
+  "meta": [
+   [
+    "Autores del capítulo 1",
+    "Nina Parker, Mark Schneegurt, Anh-Hue Thi Tu, Philip Lister y Brian M. Forster"
+   ],
+   [
+    "Editorial",
+    "OpenStax (Rice University)"
+   ],
+   [
+    "Contenido del capítulo 1",
+    "1.1 What Our Ancestors Knew · 1.2 A Systematic Approach · 1.3 Types of Microorganisms"
+   ]
+  ],
+  "nota": "La cuenta es gratuita, pero es un requisito real: el libro no se lee completo de forma anónima. Por eso aparece marcado como «pide cuenta» y no como acceso totalmente libre.",
+  "pdf": "https://assets.openstax.org/oscms-prodcms/media/documents/microbiology_-_WEB.pdf",
+  "alt": [],
+  "rel": [
+   16,
+   4
+  ],
+  "org": "OpenStax · Rice University",
+  "read": "https://openstax.org/books/microbiology/pages/1-introduction",
+  "pdfq": "src",
+  "pdfl": "Descargar PDF del libro completo",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": [
+   "Abrir descarga oficial en OpenStax",
+   "https://openstax.org/details/books/microbiology"
+  ],
+  "fmt": [
+   "pdfsrc",
+   "read"
+  ],
+  "dlnote": "Dirección tomada de la API oficial de OpenStax (campo high_resolution_pdf_url), la misma que usa su botón «Download a PDF». No pude descargar el archivo desde este entorno por su tamaño. El PDF evita el aviso de cuenta que aparece al leer en línea.",
+  "idi": "Inglés",
+  "tema": "Microbiología general"
+ },
+ {
+  "id": 19,
+  "cat": "com",
+  "kind": "comercial",
+  "acc": "compra",
+  "tit": "Rouvière — Anatomía humana",
+  "pdftit": "Rouvière — Anatomía humana",
+  "desc": "Referencia principal mencionada para la asignatura. Consulta ediciones y disponibilidad en bibliotecas.",
+  "accpdf": "Catálogo bibliográfico; no es descarga gratuita garantizada",
+  "url": "https://search.worldcat.org/search?q=Rouviere+Anatomia+humana",
+  "opens": "No comprobado. La dirección corresponde a una búsqueda en el catálogo WorldCat.",
+  "vst": "no",
+  "ver": "No se pudo comprobar el 11/10/2026: search.worldcat.org no permite el acceso automático (lo impide su archivo robots). Ábrelo manualmente en tu navegador.",
+  "meta": [],
+  "nota": "Es el libro que da nombre a la plataforma, pero no se registran aquí autor, edición, año ni ISBN porque no se pudieron comprobar. No es un recurso gratuito: búscalo en la biblioteca de la universidad.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   20,
+   21
+  ],
+  "org": "Catálogo WorldCat (OCLC)",
+  "read": "",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "paid",
+   "nover"
+  ],
+  "dlnote": "Libro comercial. No se busca ni se enlaza ninguna copia gratuita: hay que consultarlo en la biblioteca de la universidad o comprarlo.",
+  "c2": "reg",
+  "idi": "Español",
+  "tema": "Anatomía descriptiva y topográfica"
+ },
+ {
+  "id": 20,
+  "cat": "com",
+  "kind": "comercial",
+  "acc": "compra",
+  "tit": "Moore's Clinically Oriented Anatomy",
+  "pdftit": "Moore — Anatomía con orientación clínica",
+  "desc": "Texto de anatomía clínica. La disponibilidad depende de biblioteca o licencia institucional.",
+  "accpdf": "Registro bibliográfico",
+  "url": "https://www.ncbi.nlm.nih.gov/nlmcatalog/380769",
+  "opens": "Registro bibliográfico del catálogo de la National Library of Medicine. No es el libro ni una descarga.",
+  "vst": "ok",
+  "ver": "Registro comprobado el 11/10/2026: título, autores, edición, editorial, año e ISBN leídos directamente del catálogo de la NLM.",
+  "meta": [
+   [
+    "Título",
+    "Moore's clinically oriented anatomy"
+   ],
+   [
+    "Autores",
+    "Arthur F. Dalley II y Anne M. R. Agur"
+   ],
+   [
+    "Edición",
+    "9.ª edición"
+   ],
+   [
+    "Editorial",
+    "Wolters Kluwer, Filadelfia"
+   ],
+   [
+    "Año",
+    "2023"
+   ],
+   [
+    "ISBN",
+    "9781975154066 · 9781975154080"
+   ]
+  ],
+  "nota": "El enlace sirve para verificar los datos bibliográficos, no para leer el libro. Consúltalo en la biblioteca o con licencia institucional.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   19,
+   1
+  ],
+  "org": "National Library of Medicine (NLM)",
+  "read": "",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "paid"
+  ],
+  "dlnote": "El enlace es un registro bibliográfico, no el libro. Libro comercial: consúltalo en biblioteca o con licencia institucional.",
+  "c2": "reg",
+  "idi": "Inglés",
+  "tema": "Anatomía orientada a la clínica"
+ },
+ {
+  "id": 21,
+  "cat": "com",
+  "kind": "comercial",
+  "acc": "compra",
+  "tit": "Netter — Atlas de anatomía humana",
+  "pdftit": "Netter — Atlas de anatomía humana",
+  "desc": "Atlas anatómico comercial para consulta y estudio.",
+  "accpdf": "Editorial; no es descarga gratuita garantizada",
+  "url": "https://www.elsevier.com/",
+  "opens": "Página corporativa de Elsevier, no la ficha del atlas. Desde ahí hay accesos a su tienda y a su catálogo.",
+  "vst": "parcial",
+  "ver": "Enlace comprobado el 11/10/2026: la página de Elsevier abre correctamente, pero es la portada de la editorial. No se pudo verificar una ficha de producto del atlas, así que no se registran edición, año ni ISBN.",
+  "meta": [
+   [
+    "Autor",
+    "Frank H. Netter (atribución del catálogo de origen; no verificada en una ficha de producto)"
+   ],
+   [
+    "Editorial",
+    "Elsevier"
+   ]
+  ],
+  "nota": "La dirección del catálogo no lleva al atlas, sino a la portada de la editorial. Busca «Atlas of Human Anatomy» dentro de su tienda para encontrar la edición exacta. No se copian ni se redistribuyen sus ilustraciones.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   19,
+   20
+  ],
+  "org": "Elsevier",
+  "read": "",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "paid"
+  ],
+  "dlnote": "Atlas comercial. El enlace del catálogo lleva a la portada de Elsevier, no a la ficha del atlas, y no se enlaza ninguna copia gratuita.",
+  "c2": "gen",
+  "idi": "Español",
+  "tema": "Atlas de anatomía humana"
+ },
+ {
+  "id": 22,
+  "cat": "com",
+  "kind": "comercial",
+  "acc": "compra",
+  "tit": "Junqueira's Basic Histology: Text and Atlas",
+  "pdftit": "Junqueira — Histología básica",
+  "desc": "Texto de referencia para histología.",
+  "accpdf": "Editorial; puede requerir compra o acceso institucional",
+  "url": "https://www.mheducation.com/highered/mhp/product.junqueira-s-basic-histology-text-atlas-18th-edition.html",
+  "opens": "Nada: la dirección registrada en el catálogo está mal escrita y no abre. Lleva un punto donde corresponde una barra, entre «product» y «junqueira».",
+  "vst": "roto",
+  "ver": "Comprobado el 11/10/2026: la dirección del catálogo falla. La dirección corregida sí abre y muestra la ficha oficial del libro, con edición, autor y editorial.",
+  "meta": [
+   [
+    "Título",
+    "Junqueira's Basic Histology: Text and Atlas"
+   ],
+   [
+    "Autor",
+    "Anthony L. Mescher"
+   ],
+   [
+    "Edición",
+    "18.ª edición"
+   ],
+   [
+    "Editorial",
+    "McGraw Hill"
+   ]
+  ],
+  "nota": "Usa el botón de dirección corregida. El enlace original se conserva visible solo para que puedas comprobar el error del catálogo.",
+  "pdf": "",
+  "alt": [
+   [
+    "Dirección corregida y comprobada (McGraw Hill)",
+    "https://www.mheducation.com/highered/mhp/product/junqueira-s-basic-histology-text-atlas-18th-edition.html"
+   ]
+  ],
+  "rel": [
+   6,
+   8
+  ],
+  "org": "McGraw Hill",
+  "read": "",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "paid"
+  ],
+  "dlnote": "Libro comercial. La dirección del catálogo está mal escrita; usa el botón con la dirección corregida.",
+  "c2": "his",
+  "idi": "Español",
+  "tema": "Histología básica"
+ },
+ {
+  "id": 23,
+  "cat": "com",
+  "kind": "comercial",
+  "acc": "compra",
+  "tit": "The Developing Human: Clinically Oriented Embryology",
+  "pdftit": "The Developing Human — Moore, Persaud y Torchia",
+  "desc": "Texto de referencia de embriología humana.",
+  "accpdf": "Editorial; puede requerir compra o acceso institucional",
+  "url": "https://shop.elsevier.com/books/the-developing-human/moore/978-0-323-61154-1",
+  "opens": "Ficha de venta en la tienda de Elsevier, con opciones de compra.",
+  "vst": "ok",
+  "ver": "Ficha comprobada el 11/10/2026: título, autores, edición, año e ISBN leídos en la página de Elsevier.",
+  "meta": [
+   [
+    "Título",
+    "The Developing Human: Clinically Oriented Embryology"
+   ],
+   [
+    "Autores",
+    "Keith L. Moore, T. V. N. Persaud y Mark G. Torchia"
+   ],
+   [
+    "Edición",
+    "11.ª edición"
+   ],
+   [
+    "Año",
+    "2019"
+   ],
+   [
+    "Editorial",
+    "Elsevier"
+   ],
+   [
+    "ISBN",
+    "9780323611541 (la ficha lista además 9780323611558, 9780323611565, 9780323611572 y 9780323611589 para otros formatos)"
+   ]
+  ],
+  "nota": "Es una página de compra, no una descarga gratuita. Comprueba si la biblioteca de la universidad tiene licencia.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   12,
+   13
+  ],
+  "org": "Elsevier",
+  "read": "",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "paid"
+  ],
+  "dlnote": "Página de compra. Libro comercial: no se enlaza ninguna copia gratuita.",
+  "c2": "emb",
+  "idi": "Español",
+  "tema": "Embriología clínica"
+ },
+ {
+  "id": 24,
+  "cat": "com",
+  "kind": "comercial",
+  "acc": "compra",
+  "tit": "Langman — Embriología médica",
+  "pdftit": "Langman — Embriología médica",
+  "desc": "Texto de referencia de embriología médica.",
+  "accpdf": "Catálogo bibliográfico; no es descarga gratuita garantizada",
+  "url": "https://search.worldcat.org/search?q=Langman+Medical+Embryology",
+  "opens": "No comprobado. La dirección corresponde a una búsqueda en el catálogo WorldCat.",
+  "vst": "no",
+  "ver": "No se pudo comprobar el 11/10/2026: search.worldcat.org no permite el acceso automático (lo impide su archivo robots). Ábrelo manualmente en tu navegador.",
+  "meta": [],
+  "nota": "No se registran autor, edición, año ni ISBN porque no se pudieron comprobar. El recurso 23 sí tiene ficha editorial verificada para embriología.",
+  "pdf": "",
+  "alt": [],
+  "rel": [
+   23,
+   12
+  ],
+  "org": "Catálogo WorldCat (OCLC)",
+  "read": "",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "paid",
+   "nover"
+  ],
+  "dlnote": "Libro comercial. No se busca ni se enlaza ninguna copia gratuita.",
+  "c2": "emb",
+  "idi": "Español",
+  "tema": "Embriología médica"
+ },
+ {
+  "cat": "sem",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Clinical Methods: The History, Physical, and Laboratory Examinations (3.ª ed.)",
+  "pdftit": "Clinical Methods: The History, Physical, and Laboratory Examinations (3.ª ed.)",
+  "desc": "Manual clásico de exploración clínica: cómo se hace una anamnesis, la exploración física aparato por aparato y la interpretación de las pruebas de laboratorio. El texto completo de los capítulos se lee gratis en NCBI Bookshelf.",
+  "tema": "Exploración física y anamnesis",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK201/",
+  "opens": "Índice con enlace a cada capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: abre el índice y también el capítulo 4 («The Physical Examination») con su texto íntegro, no solo el resumen.",
+  "meta": [
+   [
+    "Editores",
+    "H. Kenneth Walker, W. Dallas Hall y J. Willis Hurst"
+   ],
+   [
+    "Edición",
+    "3.ª"
+   ],
+   [
+    "Año",
+    "1990"
+   ],
+   [
+    "Editorial",
+    "Butterworths, Boston"
+   ],
+   [
+    "Licencia",
+    "No declarada en la página; el texto está disponible libremente en NCBI Bookshelf"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "H. Kenneth Walker, W. Dallas Hall y J. Willis Hurst (eds.) · Butterworths · NCBI Bookshelf",
+  "read": "https://www.ncbi.nlm.nih.gov/books/NBK201/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 25
+ },
+ {
+  "cat": "sem",
+  "kind": "catalogo",
+  "acc": "abierto",
+  "tit": "StatPearls",
+  "pdftit": "StatPearls",
+  "desc": "Miles de artículos breves de referencia clínica, muchos de ellos de anatomía pura («Anatomy, Thorax, Heart» y similares). Sirven para resolver una duda concreta en dos minutos, no para estudiar un tema de cero.",
+  "tema": "Referencia clínica y anatómica",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK430685/",
+  "opens": "Índice alfabético con enlace a cada artículo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página de la obra abre, muestra el índice de artículos y declara la licencia CC BY-NC-ND 4.0.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC-ND 4.0 (declarada en la página de la obra)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "StatPearls Publishing · NCBI Bookshelf",
+  "read": "https://www.ncbi.nlm.nih.gov/books/NBK430685/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "gen",
+  "id": 26
+ },
+ {
+  "cat": "gen",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Human Anatomy and Physiology Preparatory Course (Liachovitzky)",
+  "pdftit": "Human Anatomy and Physiology Preparatory Course (Liachovitzky)",
+  "desc": "Curso de nivelación para antes de empezar anatomía: niveles de organización, química básica, biomoléculas, célula, y órganos y sistemas. Cinco capítulos. Si llegas al primer año sin base de biología, este es el sitio por donde empezar.",
+  "tema": "Nivelación previa a anatomía",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Human_Anatomy_and_Physiology_Preparatory_Course_(Liachovitzky)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC-SA (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Carlos Liachovitzky (contenido procedente de CUNY) · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Human_Anatomy_and_Physiology_Preparatory_Course_(Liachovitzky)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "fis",
+  "id": 27
+ },
+ {
+  "cat": "gen",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Human Anatomy (OERI)",
+  "pdftit": "Human Anatomy (OERI)",
+  "desc": "Libro de anatomía humana de 23 capítulos escrito por profesorado de varios colegios universitarios de California. Enfoque descriptivo y por sistemas, con figuras propias.",
+  "tema": "Anatomía humana por sistemas",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Human_Anatomy_(OERI)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY 4.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Whitney Menefee, Julie Jenks, Chiara Mazzasette y Kim-Leiloni Nguyen · ASCCC Open Educational Resources Initiative · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Human_Anatomy_(OERI)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 28
+ },
+ {
+  "cat": "gen",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Anatomy and Physiology (Boundless)",
+  "pdftit": "Anatomy and Physiology (Boundless)",
+  "desc": "Manual general de anatomía y fisiología en 30 capítulos, con textos breves y muchas ilustraciones. Útil para repasar rápido antes de un examen.",
+  "tema": "Anatomía y fisiología por sistemas",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Anatomy_and_Physiology_(Boundless)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-SA 4.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Boundless (hoy Lumen Learning) · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Anatomy_and_Physiology_(Boundless)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "fis",
+  "id": 29
+ },
+ {
+  "cat": "gen",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "General Human Anatomy (Lange et al.)",
+  "pdftit": "General Human Anatomy (Lange et al.)",
+  "desc": "Texto de anatomía humana general con la descripción de los grandes sistemas y sus relaciones.",
+  "tema": "Anatomía humana general",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Human_Anatomy_(Lange_et_al.)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "La indicada en el pie de su página de LibreTexts"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Jennifer Lange y otros · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Human_Anatomy_(Lange_et_al.)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 30
+ },
+ {
+  "cat": "gen",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Human Biology (Wakim y Grewal)",
+  "pdftit": "Human Biology (Wakim y Grewal)",
+  "desc": "Biología humana en 24 capítulos, con un capítulo de anatomía y fisiología para cada sistema. Lenguaje sencillo: buena primera lectura cuando un tema se resiste.",
+  "tema": "Biología humana",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://bio.libretexts.org/Bookshelves/Human_Biology/Human_Biology_(Wakim_and_Grewal)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY 4.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Suzanne Wakim y Mandeep Grewal · Butte College · LibreTexts",
+  "read": "https://bio.libretexts.org/Bookshelves/Human_Biology/Human_Biology_(Wakim_and_Grewal)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "fis",
+  "id": 31
+ },
+ {
+  "cat": "gen",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Human Anatomy Lab Manual (Wilk-Blaszczak)",
+  "pdftit": "Human Anatomy Lab Manual (Wilk-Blaszczak)",
+  "desc": "Manual de prácticas de anatomía humana en diez laboratorios, con las estructuras que hay que identificar en cada uno.",
+  "tema": "Prácticas de anatomía",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Human_Anatomy_Lab_Manual_(Wilk-Blaszczak)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY 4.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Malgosia Wilk-Blaszczak · University of Texas at Arlington · Mavs Open Press · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Human_Anatomy_Lab_Manual_(Wilk-Blaszczak)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 32
+ },
+ {
+  "cat": "reg",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Human Anatomy Lab Manual (Stamm y Hills-Meyer)",
+  "pdftit": "Human Anatomy Lab Manual (Stamm y Hills-Meyer)",
+  "desc": "Manual de prácticas organizado por regiones: tórax, abdomen y pelvis; cabeza y cuello; miembro inferior; miembro superior. Encaja con la forma en que se dan las prácticas de disección.",
+  "tema": "Prácticas de anatomía regional",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Human_Anatomy_Lab_Manual_(Stamm_and_Hills-Meyer)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY 4.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Julie Stamm y Patrick Hills-Meyer · University of Wisconsin-Madison · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Human_Anatomy_Lab_Manual_(Stamm_and_Hills-Meyer)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "gen",
+  "id": 33
+ },
+ {
+  "cat": "gen",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Human Anatomy Laboratory Manual",
+  "pdftit": "Human Anatomy Laboratory Manual",
+  "desc": "Otra guía de laboratorio de anatomía humana, de front matter a back matter, con ejercicios de reconocimiento de estructuras.",
+  "tema": "Prácticas de anatomía",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Human_Anatomy_Laboratory_Manual",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC-SA 4.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Lumen Learning (con capítulos de Ross Whitwam, Mississippi University for Women) · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Human_Anatomy_Laboratory_Manual",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 34
+ },
+ {
+  "cat": "gen",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Human Anatomy Lab (Aquino)",
+  "pdftit": "Human Anatomy Lab (Aquino)",
+  "desc": "Laboratorio de anatomía humana en 23 capítulos, del esqueleto al aparato reproductor.",
+  "tema": "Prácticas de anatomía",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://bio.libretexts.org/Bookshelves/Human_Biology/Human_Anatomy_Lab",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "Sin declarar: su propia página indica «not declared»"
+   ]
+  ],
+  "nota": "La página no declara licencia, así que no asumas que puedes reutilizar su material.",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Yancy Aquino · Skyline College · LibreTexts",
+  "read": "https://bio.libretexts.org/Bookshelves/Human_Biology/Human_Anatomy_Lab",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 35
+ },
+ {
+  "cat": "gen",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Anatomical Illustrations (Most, Tran, Seweryn y Graham)",
+  "pdftit": "Anatomical Illustrations (Most, Tran, Seweryn y Graham)",
+  "desc": "Colección de ilustraciones anatómicas hechas por estudiantes de ilustración biomédica y premédica. Sirven para apoyar un apunte propio.",
+  "tema": "Ilustraciones anatómicas",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Anatomical_Illustrations_(Most_Tran_Seweryn_and_Graham)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "La indicada en el pie de su página de LibreTexts"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Corrina Most, Katherine Tran, Olivia Seweryn y Graham Hagan · Iowa State University Digital Press · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Anatomical_Illustrations_(Most_Tran_Seweryn_and_Graham)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 36
+ },
+ {
+  "cat": "reg",
+  "kind": "atlas",
+  "acc": "abierto",
+  "tit": "Atlas of Human Anatomy (Anatomy Atlases)",
+  "pdftit": "Atlas of Human Anatomy (Anatomy Atlases)",
+  "desc": "Atlas de anatomía humana en línea con las láminas organizadas por regiones.",
+  "tema": "Atlas por regiones",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://www.anatomyatlases.org/atlasofanatomy/index.shtml",
+  "opens": "Lectura en línea, lámina a lámina.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC-SA 4.0 (declarada en la web de Anatomy Atlases)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Ronald A. Bergman y Michael P. D'Alessandro",
+  "read": "https://www.anatomyatlases.org/atlasofanatomy/index.shtml",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "gen",
+  "id": 37
+ },
+ {
+  "cat": "reg",
+  "kind": "atlas",
+  "acc": "abierto",
+  "tit": "Atlas of Human Anatomy in Cross Section",
+  "pdftit": "Atlas of Human Anatomy in Cross Section",
+  "desc": "Atlas de cortes anatómicos: secciones del cuerpo con sus estructuras rotuladas. Es el recurso que hace entender de verdad las relaciones topográficas y el que te prepara para leer una TC.",
+  "tema": "Anatomía seccional",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://www.anatomyatlases.org/HumanAnatomy/CrossSectionAtlas.shtml",
+  "opens": "Lectura en línea, corte a corte.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC-SA 4.0 (declarada en la web de Anatomy Atlases)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Ronald A. Bergman y Michael P. D'Alessandro",
+  "read": "https://www.anatomyatlases.org/HumanAnatomy/CrossSectionAtlas.shtml",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "fun",
+  "id": 38
+ },
+ {
+  "cat": "reg",
+  "kind": "catalogo",
+  "acc": "abierto",
+  "tit": "Illustrated Encyclopedia of Human Anatomic Variation",
+  "pdftit": "Illustrated Encyclopedia of Human Anatomic Variation",
+  "desc": "Catálogo de variaciones anatómicas normales: músculos, arterias, venas y nervios que no siempre están donde los pone el libro. Explica por qué dos cadáveres no son iguales.",
+  "tema": "Variaciones anatómicas",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://www.anatomyatlases.org/AnatomicVariants/AnatomyHP.shtml",
+  "opens": "Consulta en línea, por sistemas.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC-SA 4.0 (declarada en la web de Anatomy Atlases)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Ronald A. Bergman y colaboradores",
+  "read": "https://www.anatomyatlases.org/AnatomicVariants/AnatomyHP.shtml",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 39
+ },
+ {
+  "cat": "his",
+  "kind": "atlas",
+  "acc": "abierto",
+  "tit": "Atlas of Microscopic Anatomy: A Functional Approach",
+  "pdftit": "Atlas of Microscopic Anatomy: A Functional Approach",
+  "desc": "Atlas de histología con enfoque funcional: cada preparación va con la explicación de para qué sirve la estructura que estás viendo.",
+  "tema": "Histología funcional",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://www.anatomyatlases.org/MicroscopicAnatomy/MicroscopicAnatomy.shtml",
+  "opens": "Lectura en línea.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC-SA 4.0 (declarada en la web de Anatomy Atlases)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Ronald A. Bergman, Adel K. Afifi y Paul M. Heidger",
+  "read": "https://www.anatomyatlases.org/MicroscopicAnatomy/MicroscopicAnatomy.shtml",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "fun",
+  "id": 40
+ },
+ {
+  "cat": "fun",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Anatomy of First Aid: A Case Study Approach",
+  "pdftit": "Anatomy of First Aid: A Case Study Approach",
+  "desc": "Casos sencillos de primeros auxilios explicados desde la anatomía: qué estructura hay detrás de cada lesión. Es la forma más rápida de ver para qué sirve lo que estás memorizando.",
+  "tema": "Anatomía aplicada a casos",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://www.anatomyatlases.org/firstaid/index.shtml",
+  "opens": "Lectura en línea, caso a caso.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC-SA 4.0 (declarada en la web de Anatomy Atlases)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Michael P. D'Alessandro y colaboradores",
+  "read": "https://www.anatomyatlases.org/firstaid/index.shtml",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 41
+ },
+ {
+  "cat": "reg",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Lessons From a Bone Box",
+  "pdftit": "Lessons From a Bone Box",
+  "desc": "Osteología práctica: cómo reconocer y orientar cada hueso partiendo de una caja de huesos, que es exactamente lo que te ponen delante en el examen práctico.",
+  "tema": "Osteología práctica",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://www.anatomyatlases.org/bonebox/index.shtml",
+  "opens": "Lectura en línea.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC-SA 4.0 (declarada en la web de Anatomy Atlases)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Anatomy Atlases",
+  "read": "https://www.anatomyatlases.org/bonebox/index.shtml",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 42
+ },
+ {
+  "cat": "reg",
+  "kind": "catalogo",
+  "acc": "variable",
+  "tit": "TeachMeAnatomy",
+  "pdftit": "TeachMeAnatomy",
+  "desc": "Anatomía por regiones con esquemas propios: cabeza y cuello, tórax, abdomen, pelvis y miembros. Buena parte se lee gratis.",
+  "tema": "Anatomía regional",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://teachmeanatomy.info/",
+  "opens": "Lectura en línea con publicidad.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "Sitio comercial con contenido de lectura gratuita; no declara licencia abierta"
+   ]
+  ],
+  "nota": "No es un recurso abierto: la parte gratuita se lee sin cuenta, pero el banco de preguntas, los modelos 3D y la navegación sin anuncios exigen suscripción de pago.",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "TeachMe Series (Reino Unido)",
+  "read": "https://teachmeanatomy.info/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 43
+ },
+ {
+  "cat": "reg",
+  "kind": "catalogo",
+  "acc": "variable",
+  "tit": "Instant Anatomy",
+  "pdftit": "Instant Anatomy",
+  "desc": "Anatomía por regiones en diagramas esquemáticos, con podcasts y preguntas. Cada región está desglosada en vasos, nervios, músculos, articulaciones y anatomía de superficie.",
+  "tema": "Anatomía regional esquemática",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://www.instantanatomy.net/",
+  "opens": "Lectura en línea de los diagramas y los podcasts.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "No declarada en la página"
+   ]
+  ],
+  "nota": "La web es de lectura libre, pero enlaza a una suscripción de pago en otro dominio cuyo contenido no pude comprobar.",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Andrew Whitaker",
+  "read": "https://www.instantanatomy.net/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 44
+ },
+ {
+  "cat": "fun",
+  "kind": "atlas",
+  "acc": "abierto",
+  "tit": "Atlas of Human Cardiac Anatomy",
+  "pdftit": "Atlas of Human Cardiac Anatomy",
+  "desc": "Atlas del corazón humano con vídeos e imágenes de corazones reanimados en el laboratorio: cada cavidad por dentro, las coronarias, la conducción, y las mismas estructuras en TC y RM. Ver un corazón latiendo por dentro cambia cómo se estudia el tema.",
+  "tema": "Anatomía cardíaca",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "http://www.vhlab.umn.edu/atlas/",
+  "opens": "Vídeos e imágenes que se pueden ver y descargar para uso educativo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Institución",
+    "University of Minnesota, Visible Heart Laboratories"
+   ],
+   [
+    "Licencia",
+    "Uso educativo gratuito conservando la marca de agua «University of Minnesota/© Medtronic» y citando la fuente"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Visible Heart Laboratories · University of Minnesota",
+  "read": "http://www.vhlab.umn.edu/atlas/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "fis",
+  "id": 45
+ },
+ {
+  "cat": "fun",
+  "kind": "catalogo",
+  "acc": "abierto",
+  "tit": "NIH 3D",
+  "pdftit": "NIH 3D",
+  "desc": "Portal público del NIH con miles de modelos 3D biomédicos descargables, anatómicos y moleculares. Es la fuente de varios de los modelos que ya usa el Atlas 3D de ROUVIÈRE.",
+  "tema": "Modelos 3D biomédicos",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://3d.nih.gov/",
+  "opens": "Catálogo con descarga de cada modelo desde su ficha.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "Cada modelo lleva su propia licencia en su ficha"
+   ]
+  ],
+  "nota": "La licencia no es la misma para todo: hay que mirarla modelo por modelo antes de reutilizar nada.",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "National Institutes of Health (Estados Unidos)",
+  "read": "https://3d.nih.gov/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "gen",
+  "id": 46
+ },
+ {
+  "cat": "his",
+  "kind": "catalogo",
+  "acc": "abierto",
+  "tit": "The Human Protein Atlas",
+  "pdftit": "The Human Protein Atlas",
+  "desc": "Atlas de acceso abierto con la expresión de las proteínas humanas en tejidos, células y órganos, con miles de imágenes de inmunohistoquímica. Es el puente entre la histología y la bioquímica.",
+  "tema": "Proteínas en tejidos humanos",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://www.proteinatlas.org/",
+  "opens": "Consulta en línea por proteína, por tejido o por tipo celular.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "Declarada como recurso de acceso abierto en su propia web"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Knut & Alice Wallenberg Foundation, SciLifeLab y colaboradores (Suecia)",
+  "read": "https://www.proteinatlas.org/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "bioq",
+  "id": 47
+ },
+ {
+  "cat": "his",
+  "kind": "atlas",
+  "acc": "abierto",
+  "tit": "Histology Guide: atlas de histología con microscopio virtual",
+  "pdftit": "Histology Guide: atlas de histología con microscopio virtual",
+  "desc": "Laboratorio virtual de histología: preparaciones completas que se recorren y se amplían como en el microscopio del aula, con galería de imágenes, microscopía electrónica y cuestionarios.",
+  "tema": "Histología con microscopio virtual",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://histologyguide.com/",
+  "opens": "Microscopio virtual dentro del navegador, sin instalar nada.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Autores",
+    "Robert L. Sorenson y T. Clark Brelje"
+   ],
+   [
+    "Institución",
+    "University of Minnesota, School of Medicine"
+   ],
+   [
+    "Licencia",
+    "No declarada en la página; el atlas impreso se vende aparte"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Robert L. Sorenson y T. Clark Brelje · University of Minnesota",
+  "read": "https://histologyguide.com/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 48
+ },
+ {
+  "cat": "his",
+  "kind": "atlas",
+  "acc": "abierto",
+  "tit": "The Histology Guide (University of Leeds)",
+  "pdftit": "The Histology Guide (University of Leeds)",
+  "desc": "Guía de histología con preparaciones virtuales, etiquetas que se encienden y se apagan, glosario y cuestionarios, organizada por tejidos y por sistemas. Poder apagar las etiquetas y autoevaluarte es justo lo que hace falta para el práctico.",
+  "tema": "Histología por tejidos y sistemas",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://www.histology.leeds.ac.uk/",
+  "opens": "Microscopio virtual dentro del navegador.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Institución",
+    "University of Leeds"
+   ],
+   [
+    "Licencia",
+    "Todos los derechos reservados (University of Leeds): consulta sus condiciones de uso"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "University of Leeds",
+  "read": "https://www.histology.leeds.ac.uk/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 49
+ },
+ {
+  "cat": "emb",
+  "kind": "catalogo",
+  "acc": "abierto",
+  "tit": "UNSW Embryology",
+  "pdftit": "UNSW Embryology",
+  "desc": "Wiki de embriología humana con miles de páginas: semana a semana del desarrollo, estadios de Carnegie, desarrollo de cada sistema, anomalías congénitas y material de prácticas.",
+  "tema": "Desarrollo humano semana a semana",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://embryology.med.unsw.edu.au/",
+  "opens": "Wiki pública; no hace falta cuenta para leer.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Responsable",
+    "Dr. Mark Hill"
+   ],
+   [
+    "Institución",
+    "University of New South Wales, Sídney"
+   ],
+   [
+    "Licencia",
+    "Mixta: la propia web avisa de que su contenido procede de fuentes con derechos distintos"
+   ]
+  ],
+  "nota": "La web advierte de que cada imagen y cada vídeo tienen su propia información de derechos: revísala antes de reutilizar nada.",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Dr. Mark Hill · University of New South Wales",
+  "read": "https://embryology.med.unsw.edu.au/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 50
+ },
+ {
+  "cat": "emb",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Human Reproduction: A Clinical Approach (Bastawros)",
+  "pdftit": "Human Reproduction: A Clinical Approach (Bastawros)",
+  "desc": "Reproducción humana desde la clínica en 13 capítulos: aparato reproductor femenino y masculino, ciclo, gametogénesis, fecundación, embarazo y dolor pélvico.",
+  "tema": "Reproducción humana",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Basic_Science/Human_Reproduction%3A_A_Clinical_Approach_(Bastawros)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC 4.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Hala Bastawros · Iowa State University Digital Press · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Basic_Science/Human_Reproduction%3A_A_Clinical_Approach_(Bastawros)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "fis",
+  "id": 51
+ },
+ {
+  "cat": "fis",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Acid-base Physiology (Brandis)",
+  "pdftit": "Acid-base Physiology (Brandis)",
+  "desc": "Monografía de referencia sobre el equilibrio ácido-base en 11 capítulos: tampones, compensación respiratoria y renal, y el análisis ordenado de cada trastorno. Es el texto al que se acude cuando una gasometría no cuadra.",
+  "tema": "Equilibrio ácido-base",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Book%3A_Acid-base_Physiology_(Brandis)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC-SA 2.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Kerry Brandis · Gold Coast Hospital (Australia) · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Book%3A_Acid-base_Physiology_(Brandis)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 52
+ },
+ {
+  "cat": "fis",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Fluid Physiology (Brandis)",
+  "pdftit": "Fluid Physiology (Brandis)",
+  "desc": "Fisiología de los líquidos corporales en ocho capítulos: compartimentos, osmolaridad, distribución del agua y fisiología aplicada de los líquidos que se transfunden.",
+  "tema": "Líquidos y electrolitos",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Fluid_Physiology_(Brandis)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC-SA 2.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Kerry Brandis · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Fluid_Physiology_(Brandis)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 53
+ },
+ {
+  "cat": "fis",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "A Mixed Course-Based Research Approach to Human Physiology (Whitmer)",
+  "pdftit": "A Mixed Course-Based Research Approach to Human Physiology (Whitmer)",
+  "desc": "Fisiología humana planteada desde el laboratorio: material introductorio y una colección de prácticas con las que se obtienen los datos en lugar de leerlos.",
+  "tema": "Fisiología humana experimental",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/A_Mixed_Course_Based_Research_Approach_to_Human_Physiology_(Whitmer)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-SA 4.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Karri Haen Whitmer · Iowa State University Digital Press · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/A_Mixed_Course_Based_Research_Approach_to_Human_Physiology_(Whitmer)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 54
+ },
+ {
+  "cat": "fis",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Textbook of Cardiology",
+  "pdftit": "Textbook of Cardiology",
+  "desc": "Cardiología en 13 capítulos, del primero («Anatomy») a la historia de la especialidad, con la fisiología del corazón y la lectura del electrocardiograma. Material de ampliación.",
+  "tema": "Cardiología",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Medicine/Textbook_of_Cardiology",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC-SA 3.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "de Jong y van der Waals (eds.) · Cardionetworks Foundation · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Medicine/Textbook_of_Cardiology",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "fun",
+  "id": 55
+ },
+ {
+  "cat": "neu",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Open Neuroscience Initiative (Lim)",
+  "pdftit": "Open Neuroscience Initiative (Lim)",
+  "desc": "Manual de neurociencia de 17 capítulos: neurona, sinapsis, neurotransmisores, sistemas sensoriales y motores, y bases neurales de la conducta. El más completo de los abiertos.",
+  "tema": "Neurociencia general",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Neuroscience/Open_Neuroscience_Initiative_(Lim)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC 4.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Austin Lim · DePaul University · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Neuroscience/Open_Neuroscience_Initiative_(Lim)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 56
+ },
+ {
+  "cat": "neu",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Foundations of Neuroscience (Henley)",
+  "pdftit": "Foundations of Neuroscience (Henley)",
+  "desc": "Fundamentos de neurociencia en seis capítulos, de la estructura de la neurona a la conducta, con figuras propias y preguntas de repaso. Es el que mejor funciona como primera lectura.",
+  "tema": "Fundamentos de neurociencia",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Neuroscience/Foundations_of_Neuroscience_(Henley)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC-SA 4.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Casey Henley · Michigan State University · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Neuroscience/Foundations_of_Neuroscience_(Henley)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 57
+ },
+ {
+  "cat": "neu",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Neuroscience (Ju)",
+  "pdftit": "Neuroscience (Ju)",
+  "desc": "Libro breve y monográfico: neurodegeneración, técnicas fundamentales de investigación en neurociencia y temas emergentes. No cubre el sistema nervioso completo, así que sirve como lectura complementaria, no como manual de la asignatura.",
+  "tema": "Temas de neurociencia",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Neuroscience/Neuroscience_(Ju)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "La indicada en el pie de su página de LibreTexts"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "William Ju · University of Toronto · eCampusOntario · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Neuroscience/Neuroscience_(Ju)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 58
+ },
+ {
+  "cat": "neu",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Computational Cognitive Neuroscience 3e",
+  "pdftit": "Computational Cognitive Neuroscience 3e",
+  "desc": "Neurociencia cognitiva computacional en diez capítulos, de la neurona al lenguaje y la función ejecutiva. Es material avanzado: lectura de ampliación, no texto de primer año.",
+  "tema": "Neurociencia cognitiva",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Neuroscience/Computational_Cognitive_Neuroscience_3e_(O'Reilly_and_Munakata)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-SA 3.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "R. C. O'Reilly, Y. Munakata, M. J. Frank, T. E. Hazy y colaboradores · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Neuroscience/Computational_Cognitive_Neuroscience_3e_(O'Reilly_and_Munakata)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 59
+ },
+ {
+  "cat": "pat",
+  "kind": "catalogo",
+  "acc": "abierto",
+  "tit": "WebPath: The Internet Pathology Laboratory for Medical Education",
+  "pdftit": "WebPath: The Internet Pathology Laboratory for Medical Education",
+  "desc": "Laboratorio de patología en línea: miles de imágenes macro y microscópicas con su texto, más de mil preguntas de autoevaluación y una veintena de tutoriales de patología general y por aparatos.",
+  "tema": "Patología general y por sistemas",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://webpath.med.utah.edu/",
+  "opens": "Consulta en línea por secciones, con exámenes de autoevaluación.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Autor",
+    "Edward C. Klatt, MD"
+   ],
+   [
+    "Alojamiento",
+    "University of Utah, Eccles Health Sciences Library"
+   ],
+   [
+    "Licencia",
+    "Uso personal y no comercial; copiar o distribuir exige permiso escrito"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Edward C. Klatt (Mercer University) · alojado por la University of Utah",
+  "read": "https://webpath.med.utah.edu/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "his",
+  "id": 60
+ },
+ {
+  "cat": "pat",
+  "kind": "catalogo",
+  "acc": "variable",
+  "tit": "Virtual Pathology at the University of Leeds",
+  "pdftit": "Virtual Pathology at the University of Leeds",
+  "desc": "Proyecto de patología digital de Leeds: una biblioteca enorme de preparaciones escaneadas (más de 100 TB de datos) y trabajos de reconstrucción 3D a partir de cortes seriados.",
+  "tema": "Preparaciones de patología digitalizadas",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://www.virtualpathology.leeds.ac.uk/",
+  "opens": "Portada del proyecto, con acceso a la biblioteca de preparaciones.",
+  "vst": "parcial",
+  "ver": "Comprobado el 11/10/2026: la portada abre y declara el volumen de la biblioteca y sus condiciones de uso. No pude confirmar si hace falta cuenta para abrir cada preparación.",
+  "meta": [
+   [
+    "Licencia",
+    "Sin licencia abierta: las preparaciones son propiedad de la University of Leeds y el uso comercial requiere permiso previo"
+   ]
+  ],
+  "nota": "La página no aclara si hace falta cuenta para ver las preparaciones una por una: puede que te pida registro. Y no tiene licencia abierta, así que no reutilices las imágenes.",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "University of Leeds",
+  "read": "https://www.virtualpathology.leeds.ac.uk/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "his",
+  "id": 61
+ },
+ {
+  "cat": "term",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Building a Medical Terminology Foundation",
+  "pdftit": "Building a Medical Terminology Foundation",
+  "desc": "Libro abierto de terminología médica: raíces, prefijos y sufijos agrupados por sistema, con ejercicios. Entender cómo se construyen las palabras ahorra media carrera de memorización.",
+  "tema": "Terminología médica por sistemas",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://ecampusontario.pressbooks.pub/medicalterminology/",
+  "opens": "Lector en línea de Pressbooks.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Autoras",
+    "Kimberlee Carter y Marie Rutherford"
+   ],
+   [
+    "Editorial",
+    "eCampusOntario"
+   ],
+   [
+    "Año",
+    "2020"
+   ],
+   [
+    "Licencia",
+    "CC BY 4.0 (declarada en la página), salvo donde se indique otra cosa"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Kimberlee Carter y Marie Rutherford · eCampusOntario",
+  "read": "https://ecampusontario.pressbooks.pub/medicalterminology/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 62
+ },
+ {
+  "cat": "term",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Medical Terminology for Healthcare Professions (Nelson y Greene)",
+  "pdftit": "Medical Terminology for Healthcare Professions (Nelson y Greene)",
+  "desc": "Terminología médica para profesiones sanitarias, con el vocabulario agrupado por aparatos.",
+  "tema": "Terminología médica",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Medicine/Medical_Terminology_for_Healthcare_Professions_(Nelson_and_Greene)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY 4.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "El índice de capítulos no se despliega en la portada: hay que entrar por el enlace «Chapters».",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Andrea Nelson y Katherine Greene · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Medicine/Medical_Terminology_for_Healthcare_Professions_(Nelson_and_Greene)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 63
+ },
+ {
+  "cat": "term",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "The Language of Medical Terminology (Sturdy y Erickson)",
+  "pdftit": "The Language of Medical Terminology (Sturdy y Erickson)",
+  "desc": "Nueve capítulos, de la estructura básica de la palabra a las especialidades médicas, con ejercicios de construir y descomponer términos.",
+  "tema": "Terminología médica",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Medicine/The_Language_of_Medical_Terminology_(Sturdy_and_Erickson)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "La indicada en el pie de su página de LibreTexts"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Lisa Sturdy y Susanne Erickson · NorQuest College · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Medicine/The_Language_of_Medical_Terminology_(Sturdy_and_Erickson)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 64
+ },
+ {
+  "cat": "bioq",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Cells: Molecules and Mechanisms (Wong)",
+  "pdftit": "Cells: Molecules and Mechanisms (Wong)",
+  "desc": "Biología celular desde las moléculas en 16 capítulos: membranas, orgánulos, citoesqueleto, ciclo celular y señalización.",
+  "tema": "Biología celular",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://bio.libretexts.org/Bookshelves/Cell_and_Molecular_Biology/Cells_-_Molecules_and_Mechanisms_(Wong)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC-SA 3.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "E. V. Wong · Axolotl Academica Publishing · LibreTexts",
+  "read": "https://bio.libretexts.org/Bookshelves/Cell_and_Molecular_Biology/Cells_-_Molecules_and_Mechanisms_(Wong)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 65
+ },
+ {
+  "cat": "bioq",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Basic Cell and Molecular Biology (Bergtrom)",
+  "pdftit": "Basic Cell and Molecular Biology (Bergtrom)",
+  "desc": "Veinte capítulos de biología celular y molecular que insisten en el experimento: no solo qué se sabe, sino cómo se llegó a saberlo.",
+  "tema": "Biología celular y molecular",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://bio.libretexts.org/Bookshelves/Cell_and_Molecular_Biology/Basic_Cell_and_Molecular_Biology_(Bergtrom)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Gerald Bergtrom · University of Wisconsin-Milwaukee · LibreTexts",
+  "read": "https://bio.libretexts.org/Bookshelves/Cell_and_Molecular_Biology/Basic_Cell_and_Molecular_Biology_(Bergtrom)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 66
+ },
+ {
+  "cat": "bioq",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Fundamentals of Cell Biology (Dalton y Young)",
+  "pdftit": "Fundamentals of Cell Biology (Dalton y Young)",
+  "desc": "Ocho capítulos de biología celular para primeros cursos: microscopía, membranas, núcleo, sistema endomembranoso, mitocondria, citoesqueleto, señalización y ciclo celular.",
+  "tema": "Biología celular",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://bio.libretexts.org/Bookshelves/Cell_and_Molecular_Biology/Fundamentals_of_Cell_Biology_(Dalton_and_Young)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "La indicada en el pie de su página de LibreTexts"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Lauren Dalton y Robin Young · Oregon State University · LibreTexts",
+  "read": "https://bio.libretexts.org/Bookshelves/Cell_and_Molecular_Biology/Fundamentals_of_Cell_Biology_(Dalton_and_Young)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 67
+ },
+ {
+  "cat": "bioq",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Biology 2e (OpenStax)",
+  "pdftit": "Biology 2e (OpenStax)",
+  "desc": "Manual universitario de biología general: célula, metabolismo, genética, evolución y fisiología animal. La base que dan por supuesta en bioquímica y en histología.",
+  "tema": "Biología general",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://openstax.org/details/books/biology-2e",
+  "opens": "Página oficial del libro, con lectura en línea y descarga gratuita.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página oficial abre y ofrece el libro de forma gratuita.",
+  "meta": [
+   [
+    "Licencia",
+    "No declarada en la página comprobada"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "OpenStax · Rice University",
+  "read": "https://openstax.org/details/books/biology-2e",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 68
+ },
+ {
+  "cat": "bioq",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Concepts of Biology (OpenStax)",
+  "pdftit": "Concepts of Biology (OpenStax)",
+  "desc": "Biología general más breve que Biology 2e, pensada para un primer contacto con la materia.",
+  "tema": "Biología general introductoria",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://openstax.org/details/books/concepts-biology",
+  "opens": "Página oficial del libro, con lectura en línea y descarga gratuita.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página oficial abre y ofrece el libro de forma gratuita.",
+  "meta": [
+   [
+    "Licencia",
+    "No declarada en la página comprobada"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "OpenStax · Rice University",
+  "read": "https://openstax.org/details/books/concepts-biology",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 69
+ },
+ {
+  "cat": "bioq",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Chemistry 2e (OpenStax)",
+  "pdftit": "Chemistry 2e (OpenStax)",
+  "desc": "Química general universitaria: enlace químico, reacciones, equilibrio, ácidos y bases y termodinámica. Sin esto, bioquímica se vuelve memorizar rutas sin entenderlas.",
+  "tema": "Química general",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://openstax.org/details/books/chemistry-2e",
+  "opens": "Página oficial del libro, con lectura en línea y descarga gratuita.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página oficial abre y ofrece el libro de forma gratuita.",
+  "meta": [
+   [
+    "Licencia",
+    "No declarada en la página comprobada"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "OpenStax · Rice University",
+  "read": "https://openstax.org/details/books/chemistry-2e",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 70
+ },
+ {
+  "cat": "micro",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Microbiology (Kaiser)",
+  "pdftit": "Microbiology (Kaiser)",
+  "desc": "Microbiología en siete unidades, de las que la 5 es inmunidad innata y la 6 inmunidad adaptativa. Es el abierto que mejor resuelve la inmunología del primer año.",
+  "tema": "Microbiología e inmunología",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Kaiser)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY 4.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Gary Kaiser · Community College of Baltimore County · LibreTexts",
+  "read": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Kaiser)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 71
+ },
+ {
+  "cat": "micro",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Microbiology (Bruslind)",
+  "pdftit": "Microbiology (Bruslind)",
+  "desc": "Veintidós capítulos de microbiología general: bacterias, arqueas, metabolismo microbiano, control del crecimiento y virus.",
+  "tema": "Microbiología general",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Bruslind)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC-SA (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Linda Bruslind · Oregon State University · LibreTexts",
+  "read": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(Bruslind)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 72
+ },
+ {
+  "cat": "micro",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Exercises: Microbiology (Kaiser)",
+  "pdftit": "Exercises: Microbiology (Kaiser)",
+  "desc": "Cuaderno de ejercicios que acompaña al manual de Kaiser, con una hoja de problemas por tema (de los fundamentos a la genética molecular).",
+  "tema": "Prácticas de microbiología",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://bio.libretexts.org/Bookshelves/Microbiology/Exercises%3A_Microbiology_(Kaiser)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "La indicada en el pie de su página de LibreTexts"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Gary Kaiser · Community College of Baltimore County · LibreTexts",
+  "read": "https://bio.libretexts.org/Bookshelves/Microbiology/Exercises%3A_Microbiology_(Kaiser)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 73
+ },
+ {
+  "cat": "est",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "University 101: Study, Strategize and Succeed",
+  "pdftit": "University 101: Study, Strategize and Succeed",
+  "desc": "Libro abierto sobre cómo estudiar: planificar el tiempo, tomar apuntes, cómo funciona la memoria, leer textos académicos y preparar exámenes, con ejercicios para aplicarlo.",
+  "tema": "Técnicas de estudio y exámenes",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://ecampusontario.pressbooks.pub/studystrategizesucceed/",
+  "opens": "Lector en línea de Pressbooks.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Creador original",
+    "Kwantlen Polytechnic University Learning Centres"
+   ],
+   [
+    "Año",
+    "2018"
+   ],
+   [
+    "Licencia",
+    "CC BY-SA 4.0 (declarada en la página)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Kwantlen Polytechnic University Learning Centres · eCampusOntario",
+  "read": "https://ecampusontario.pressbooks.pub/studystrategizesucceed/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 74
+ },
+ {
+  "cat": "est",
+  "kind": "libro",
+  "acc": "abierto",
+  "tit": "Foundations of Epidemiology (Bovbjerg)",
+  "pdftit": "Foundations of Epidemiology (Bovbjerg)",
+  "desc": "Introducción a la epidemiología: medidas de frecuencia, diseños de estudio, sesgos y causalidad. Es lo que permite leer un artículo y decidir si te lo crees.",
+  "tema": "Epidemiología básica",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://med.libretexts.org/Bookshelves/Medicine/Foundations_of_Epidemiology_(Bovbjerg)",
+  "opens": "Lectura en línea en el sitio del proyecto, capítulo a capítulo.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "CC BY-NC 4.0 (declarada en el pie de la página)"
+   ]
+  ],
+  "nota": "El índice de capítulos no se despliega en la portada: entra por el enlace «Chapters».",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Marit L. Bovbjerg · Oregon State University · LibreTexts",
+  "read": "https://med.libretexts.org/Bookshelves/Medicine/Foundations_of_Epidemiology_(Bovbjerg)",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 75
+ },
+ {
+  "cat": "gen",
+  "kind": "catalogo",
+  "acc": "abierto",
+  "tit": "MedlinePlus en español",
+  "pdftit": "MedlinePlus en español",
+  "desc": "Enciclopedia médica y temas de salud en español, con artículos ilustrados de aparatos, enfermedades, pruebas y tratamientos. El sitio donde fijar el vocabulario clínico en español.",
+  "tema": "Enciclopedia médica en español",
+  "idi": "Español",
+  "accpdf": "",
+  "url": "https://medlineplus.gov/spanish/",
+  "opens": "Consulta en línea, íntegramente en español.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "Material del Gobierno de Estados Unidos: consulta sus condiciones de uso"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "National Library of Medicine (NIH), Estados Unidos",
+  "read": "https://medlineplus.gov/spanish/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "sem",
+  "id": 76
+ },
+ {
+  "cat": "reg",
+  "kind": "articulo",
+  "acc": "abierto",
+  "tit": "International Journal of Morphology",
+  "pdftit": "International Journal of Morphology",
+  "desc": "Revista bimestral de acceso abierto sobre morfología: anatomía macroscópica, histología, embriología y biología del desarrollo. Publica en español y en inglés, así que sirve para empezar a leer literatura con el vocabulario que ya manejas.",
+  "tema": "Artículos de morfología",
+  "idi": "Español e inglés",
+  "accpdf": "",
+  "url": "https://intjmorphol.com/",
+  "opens": "Números y artículos a texto completo en línea.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "ISSN impreso",
+    "0717-9367"
+   ],
+   [
+    "ISSN en línea",
+    "0717-9502"
+   ],
+   [
+    "Periodicidad",
+    "Bimestral"
+   ],
+   [
+    "Licencia",
+    "Creative Commons (declarada en la web, salvo donde se indique otra cosa)"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Sociedad Chilena de Anatomía, Asociación Argentina de Anatomía y Asociación Panamericana de Anatomía",
+  "read": "https://intjmorphol.com/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "emb",
+  "id": 77
+ },
+ {
+  "cat": "reg",
+  "kind": "articulo",
+  "acc": "abierto",
+  "tit": "Revista Argentina de Anatomía Online",
+  "pdftit": "Revista Argentina de Anatomía Online",
+  "desc": "Revista trimestral de anatomía en español y de acceso abierto. Publica anatomía descriptiva, topográfica y variaciones anatómicas: artículos cortos y legibles para un estudiante de grado.",
+  "tema": "Artículos de anatomía en español",
+  "idi": "Español",
+  "accpdf": "",
+  "url": "https://revista-anatomia.com.ar/",
+  "opens": "Números y artículos a texto completo en línea, en español.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y muestra el recurso, su autoría y su licencia.",
+  "meta": [
+   [
+    "Licencia",
+    "Declarada como revista de acceso abierto en su propia web"
+   ]
+  ],
+  "nota": "",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Asociación Argentina de Anatomía",
+  "read": "https://revista-anatomia.com.ar/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "read"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "c2": "gen",
+  "id": 78
+ },
+ {
+  "cat": "bioq",
+  "kind": "libro",
+  "acc": "variable",
+  "tit": "Molecular Biology of the Cell (4.ª ed.)",
+  "pdftit": "Molecular Biology of the Cell (4.ª ed.)",
+  "desc": "El manual de referencia de biología celular. Ojo: en NCBI solo se puede BUSCAR dentro del texto. No se puede leer de corrido ni descargar, así que sirve para localizar un concepto concreto, no para estudiar un tema.",
+  "tema": "Biología celular avanzada",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+  "opens": "Solo búsqueda dentro del libro: la propia página avisa de que «cannot be browsed».",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y declara que el libro no se puede hojear, solo buscar.",
+  "meta": [
+   [
+    "Edición",
+    "4.ª"
+   ],
+   [
+    "Año",
+    "2002"
+   ],
+   [
+    "Editorial",
+    "Garland Science"
+   ],
+   [
+    "Licencia",
+    "Derechos de los autores y de Garland Science; NCBI solo permite la búsqueda"
+   ]
+  ],
+  "nota": "No cuenta como libro de lectura gratuita. Lo incluyo porque buscar una frase exacta aquí resuelve dudas puntuales, pero no esperes poder leerlo.",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Alberts, Johnson, Lewis, Raff, Roberts y Walter · Garland Science · NCBI Bookshelf",
+  "read": "https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "cat"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 79
+ },
+ {
+  "cat": "bioq",
+  "kind": "libro",
+  "acc": "variable",
+  "tit": "Biochemistry (5.ª ed., Berg)",
+  "pdftit": "Biochemistry (5.ª ed., Berg)",
+  "desc": "Manual clásico de bioquímica. Igual que el Alberts: en NCBI solo se puede buscar dentro del texto, no leerlo seguido.",
+  "tema": "Bioquímica",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+  "opens": "Solo búsqueda dentro del libro, según avisa su propia página.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y declara que el libro no se puede hojear, solo buscar.",
+  "meta": [
+   [
+    "Edición",
+    "5.ª"
+   ],
+   [
+    "Editorial",
+    "W. H. Freeman"
+   ],
+   [
+    "Licencia",
+    "Derechos de W. H. Freeman; NCBI solo permite la búsqueda"
+   ]
+  ],
+  "nota": "No cuenta como libro de lectura gratuita.",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Berg, Tymoczko y Stryer · W. H. Freeman · NCBI Bookshelf",
+  "read": "https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "cat"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 80
+ },
+ {
+  "cat": "micro",
+  "kind": "libro",
+  "acc": "variable",
+  "tit": "Immunobiology (5.ª ed., Janeway)",
+  "pdftit": "Immunobiology (5.ª ed., Janeway)",
+  "desc": "El manual de referencia de inmunología. También aquí NCBI solo permite buscar dentro del texto.",
+  "tema": "Inmunología",
+  "idi": "Inglés",
+  "accpdf": "",
+  "url": "https://www.ncbi.nlm.nih.gov/books/NBK10757/",
+  "opens": "Solo búsqueda dentro del libro, según avisa su propia página.",
+  "vst": "ok",
+  "ver": "Comprobado el 11/10/2026: la página abre y declara que el libro no se puede hojear, solo buscar.",
+  "meta": [
+   [
+    "Edición",
+    "5.ª"
+   ],
+   [
+    "Año",
+    "2001"
+   ],
+   [
+    "Editorial",
+    "Garland Science"
+   ],
+   [
+    "Licencia",
+    "Derechos de Garland Science; NCBI solo permite la búsqueda"
+   ]
+  ],
+  "nota": "No cuenta como libro de lectura gratuita.",
+  "pdf": "",
+  "alt": [],
+  "rel": [],
+  "org": "Janeway, Travers, Walport y Shlomchik · Garland Science · NCBI Bookshelf",
+  "read": "https://www.ncbi.nlm.nih.gov/books/NBK10757/",
+  "pdfq": "",
+  "pdfl": "",
+  "pdf2": null,
+  "epub": "",
+  "dlpage": null,
+  "fmt": [
+   "cat"
+  ],
+  "dlnote": "No se registró ninguna descarga directa: el recurso se consulta en línea en su página oficial. Comprobado el 11/10/2026.",
+  "id": 81
+ }
+]

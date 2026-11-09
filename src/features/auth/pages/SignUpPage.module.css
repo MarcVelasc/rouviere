@@ -1,0 +1,98 @@
+.page {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  animation: enter 0.32s ease both;
+}
+@media (min-width: 960px) {
+  .page {
+    width: 100%;
+    max-width: 440px;
+    margin-inline: auto;
+    padding-top: 2vh;
+  }
+}
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: var(--tap);
+}
+.back {
+  flex: none;
+  width: var(--tap);
+  height: var(--tap);
+  border-radius: 50%;
+  border: 1.5px solid var(--line);
+  background: rgba(6, 42, 60, 0.55);
+  color: var(--text);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.back:focus-visible {
+  outline: 2px solid var(--c-gold);
+  outline-offset: 3px;
+}
+.title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  outline: none;
+}
+
+.done {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  padding-block: 10px;
+}
+.doneRou {
+  width: min(52vw, 200px);
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  animation: float 4.8s ease-in-out infinite;
+}
+.doneTitle {
+  margin: 6px 0 0;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.05;
+  color: var(--c-gold);
+  outline: none;
+}
+.doneText {
+  max-width: 30ch;
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 15px;
+}
+.wide {
+  width: 100%;
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: translateX(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}

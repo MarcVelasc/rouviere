@@ -1,0 +1,6701 @@
+[
+ {
+  "id": "x001",
+  "m": "oseo",
+  "t": "Generalidades del esqueleto",
+  "d": 1,
+  "q": "¿Cuántos huesos tiene de media el esqueleto de un adulto?",
+  "o": [
+   "186",
+   "206",
+   "226",
+   "256"
+  ],
+  "a": 1,
+  "e": "La cifra clásica es 206 huesos en el adulto.",
+  "x": [
+   "Es una cifra demasiado baja; el recién nacido tiene más, no menos.",
+   "",
+   "Se acerca al número de piezas del recién nacido antes de las fusiones.",
+   "Ningún recuento anatómico llega a esa cifra."
+  ]
+ },
+ {
+  "id": "x002",
+  "m": "oseo",
+  "t": "Generalidades del esqueleto",
+  "d": 1,
+  "q": "¿Cuál de estos huesos pertenece al esqueleto axial?",
+  "o": [
+   "Fémur",
+   "Escápula",
+   "Clavícula",
+   "Esternón"
+  ],
+  "a": 3,
+  "e": "El esternón forma parte del tórax óseo y, por tanto, del esqueleto axial.",
+  "x": [
+   "El fémur es un hueso del miembro inferior.",
+   "La escápula pertenece a la cintura escapular, apendicular.",
+   "La clavícula forma parte de la cintura escapular.",
+   ""
+  ]
+ },
+ {
+  "id": "x003",
+  "m": "oseo",
+  "t": "Generalidades del esqueleto",
+  "d": 2,
+  "q": "¿Qué célula ósea se encarga de reabsorber la matriz mineralizada?",
+  "o": [
+   "Osteocito",
+   "Condrocito",
+   "Osteoblasto",
+   "Osteoclasto"
+  ],
+  "a": 3,
+  "e": "El osteoclasto es una célula multinucleada que degrada la matriz ósea.",
+  "x": [
+   "El osteocito es el osteoblasto maduro atrapado en la matriz.",
+   "El condrocito es la célula del cartílago.",
+   "El osteoblasto deposita matriz nueva.",
+   ""
+  ]
+ },
+ {
+  "id": "x004",
+  "m": "oseo",
+  "t": "Generalidades del esqueleto",
+  "d": 2,
+  "q": "La rótula es un ejemplo de hueso:",
+  "o": [
+   "Largo",
+   "Irregular",
+   "Plano",
+   "Sesamoideo"
+  ],
+  "a": 3,
+  "e": "Es el hueso sesamoideo más grande, incluido en el tendón del cuádriceps.",
+  "x": [
+   "Los huesos largos tienen diáfisis y dos epífisis.",
+   "Los irregulares, como las vértebras, no encajan en otras categorías.",
+   "Los planos, como el parietal, son laminares.",
+   ""
+  ]
+ },
+ {
+  "id": "x005",
+  "m": "oseo",
+  "t": "Generalidades del esqueleto",
+  "d": 2,
+  "q": "¿Qué estructura permite el crecimiento en longitud de un hueso largo?",
+  "o": [
+   "La cavidad medular",
+   "El endostio",
+   "El periostio",
+   "El cartílago de crecimiento"
+  ],
+  "a": 3,
+  "e": "La fisis o cartílago de crecimiento, entre epífisis y diáfisis, añade longitud hasta que se osifica.",
+  "x": [
+   "La cavidad medular aloja la médula ósea.",
+   "El endostio reviste la cavidad medular.",
+   "El periostio permite el crecimiento en grosor.",
+   ""
+  ]
+ },
+ {
+  "id": "x006",
+  "m": "oseo",
+  "t": "Generalidades del esqueleto",
+  "d": 2,
+  "q": "¿Cómo se llama la unidad estructural del hueso compacto?",
+  "o": [
+   "Lagunas de Howship",
+   "Canalículo",
+   "Trabécula",
+   "Osteona"
+  ],
+  "a": 3,
+  "e": "La osteona o sistema de Havers es el cilindro de laminillas concéntricas alrededor de un conducto central.",
+  "x": [
+   "Las lagunas de Howship son las depresiones que dejan los osteoclastos.",
+   "Los canalículos comunican los osteocitos entre sí.",
+   "Las trabéculas son propias del hueso esponjoso.",
+   ""
+  ]
+ },
+ {
+  "id": "x007",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 1,
+  "q": "¿Cuántas vértebras cervicales tiene el ser humano?",
+  "o": [
+   "10",
+   "5",
+   "12",
+   "7"
+  ],
+  "a": 3,
+  "e": "Son siete, de C1 a C7.",
+  "x": [
+   "Ninguna región tiene diez vértebras.",
+   "Cinco son las lumbares.",
+   "Doce son las torácicas.",
+   ""
+  ]
+ },
+ {
+  "id": "x008",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 2,
+  "q": "¿Qué rasgo es exclusivo de las vértebras cervicales?",
+  "o": [
+   "Carillas costales",
+   "Agujero transverso",
+   "Cuerpo vertebral grande",
+   "Apófisis espinosa bífida en todas"
+  ],
+  "a": 1,
+  "e": "El agujero de la apófisis transversa, por donde asciende la arteria vertebral, solo existe en las cervicales.",
+  "x": [
+   "Las carillas costales son propias de las torácicas.",
+   "",
+   "El cuerpo grande es propio de las lumbares.",
+   "La espinosa bífida aparece en varias cervicales, pero no en todas."
+  ]
+ },
+ {
+  "id": "x009",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 2,
+  "q": "¿Cómo se denomina la segunda vértebra cervical?",
+  "o": [
+   "Promontorio",
+   "Axis",
+   "Atlas",
+   "Vértebra prominente"
+  ],
+  "a": 1,
+  "e": "El axis tiene la apófisis odontoides, eje de la rotación de la cabeza.",
+  "x": [
+   "El promontorio es el borde anterior de la primera vértebra sacra.",
+   "",
+   "El atlas es la primera cervical.",
+   "La vértebra prominente es C7."
+  ]
+ },
+ {
+  "id": "x010",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 2,
+  "q": "¿Qué curvaturas de la columna son primarias, es decir, están presentes desde el nacimiento?",
+  "o": [
+   "Las cifosis torácica y sacra",
+   "Solo la lordosis lumbar",
+   "Las lordosis cervical y lumbar",
+   "Solo la cifosis cervical"
+  ],
+  "a": 0,
+  "e": "Las cifosis torácica y sacra se conservan desde la vida fetal; las lordosis aparecen después.",
+  "x": [
+   "",
+   "La lordosis lumbar aparece con la bipedestación.",
+   "Las lordosis son secundarias: aparecen al sostener la cabeza y al caminar.",
+   "No existe una cifosis cervical fisiológica en el adulto."
+  ]
+ },
+ {
+  "id": "x011",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 2,
+  "q": "¿Qué parte del disco intervertebral se hernia con más frecuencia y hacia dónde?",
+  "o": [
+   "El ligamento amarillo, hacia el centro",
+   "El anillo fibroso, hacia delante",
+   "La carilla articular, lateralmente",
+   "El núcleo pulposo, posterolateralmente"
+  ],
+  "a": 3,
+  "e": "El núcleo pulposo sale por un desgarro del anillo, habitualmente en sentido posterolateral, donde el ligamento longitudinal posterior es más débil.",
+  "x": [
+   "El ligamento amarillo puede hipertrofiarse, pero no se hernia.",
+   "El anillo es la envoltura; lo que se desplaza es el núcleo.",
+   "Las carillas no forman parte del disco.",
+   ""
+  ]
+ },
+ {
+  "id": "x012",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 3,
+  "q": "La punción lumbar se realiza por debajo de L2 porque:",
+  "o": [
+   "La médula espinal ya ha terminado",
+   "Las apófisis espinosas se tocan por encima",
+   "No hay líquido cefalorraquídeo por encima",
+   "Allí el conducto es más ancho"
+  ],
+  "a": 0,
+  "e": "En el adulto la médula termina entre L1 y L2; por debajo solo hay raíces de la cola de caballo, que se apartan con la aguja.",
+  "x": [
+   "",
+   "La separación de las espinosas facilita el acceso, pero no es el motivo principal.",
+   "Hay líquido cefalorraquídeo a lo largo de todo el saco dural.",
+   "El calibre del conducto no es la razón."
+  ]
+ },
+ {
+  "id": "x013",
+  "m": "oseo",
+  "t": "Tórax óseo",
+  "d": 1,
+  "q": "¿Cuántos pares de costillas verdaderas hay?",
+  "o": [
+   "7",
+   "10",
+   "5",
+   "12"
+  ],
+  "a": 0,
+  "e": "Las siete primeras se articulan con el esternón por su propio cartílago costal.",
+  "x": [
+   "",
+   "Diez son las que llegan al esternón de forma directa o indirecta.",
+   "Cinco es un número arbitrario aquí.",
+   "Doce es el total de pares costales."
+  ]
+ },
+ {
+  "id": "x014",
+  "m": "oseo",
+  "t": "Tórax óseo",
+  "d": 2,
+  "q": "¿Qué costillas se consideran flotantes?",
+  "o": [
+   "La novena y la décima",
+   "La séptima y la octava",
+   "Solo la duodécima",
+   "La undécima y la duodécima"
+  ],
+  "a": 3,
+  "e": "La undécima y la duodécima no alcanzan ni el esternón ni el cartílago de las costillas superiores.",
+  "x": [
+   "La novena y la décima son falsas, pero no flotantes.",
+   "La séptima es verdadera y la octava falsa.",
+   "Son dos pares, no uno.",
+   ""
+  ]
+ },
+ {
+  "id": "x015",
+  "m": "oseo",
+  "t": "Tórax óseo",
+  "d": 2,
+  "q": "El ángulo esternal de Louis corresponde a la articulación de:",
+  "o": [
+   "La segunda costilla",
+   "La clavícula",
+   "La tercera costilla",
+   "La primera costilla"
+  ],
+  "a": 0,
+  "e": "Es la referencia para contar los espacios intercostales y marca el nivel del disco T4-T5.",
+  "x": [
+   "",
+   "La clavícula se articula en la escotadura clavicular del manubrio.",
+   "La tercera queda por debajo.",
+   "La primera costilla se articula con el manubrio, por encima del ángulo."
+  ]
+ },
+ {
+  "id": "x016",
+  "m": "oseo",
+  "t": "Cráneo",
+  "d": 1,
+  "q": "¿Cuántos huesos forman el cráneo en total?",
+  "o": [
+   "14",
+   "28",
+   "22",
+   "8"
+  ],
+  "a": 2,
+  "e": "Ocho del neurocráneo y catorce del esplacnocráneo suman veintidós.",
+  "x": [
+   "Catorce son solo los de la cara.",
+   "No corresponde a ningún recuento habitual.",
+   "",
+   "Ocho son solo los de la bóveda y la base."
+  ]
+ },
+ {
+  "id": "x017",
+  "m": "oseo",
+  "t": "Cráneo",
+  "d": 2,
+  "q": "¿Qué hueso del cráneo aloja la silla turca?",
+  "o": [
+   "Etmoides",
+   "Frontal",
+   "Esfenoides",
+   "Occipital"
+  ],
+  "a": 2,
+  "e": "La silla turca del esfenoides contiene la hipófisis.",
+  "x": [
+   "El etmoides participa en la pared nasal y orbitaria.",
+   "El frontal forma la frente y el techo de las órbitas.",
+   "",
+   "El occipital rodea el agujero magno."
+  ]
+ },
+ {
+  "id": "x018",
+  "m": "oseo",
+  "t": "Cráneo",
+  "d": 2,
+  "q": "¿Qué sutura une los dos huesos parietales entre sí?",
+  "o": [
+   "Sagital",
+   "Lambdoidea",
+   "Coronal",
+   "Escamosa"
+  ],
+  "a": 0,
+  "e": "La sutura sagital recorre la línea media del vértice del cráneo.",
+  "x": [
+   "",
+   "La lambdoidea separa los parietales del occipital.",
+   "La coronal separa el frontal de los parietales.",
+   "La escamosa separa el parietal del temporal."
+  ]
+ },
+ {
+  "id": "x019",
+  "m": "oseo",
+  "t": "Cráneo",
+  "d": 2,
+  "q": "¿Cuál es la única articulación sinovial del cráneo?",
+  "o": [
+   "La articulación temporomandibular",
+   "La sincondrosis esfenooccipital",
+   "La articulación atlantooccipital",
+   "La sutura coronal"
+  ],
+  "a": 0,
+  "e": "La temporomandibular une la mandíbula con el hueso temporal y permite la masticación.",
+  "x": [
+   "",
+   "La sincondrosis es una articulación cartilaginosa.",
+   "La atlantooccipital es sinovial, pero une el cráneo con la columna, no dos huesos craneales.",
+   "Las suturas son sinartrosis fibrosas."
+  ]
+ },
+ {
+  "id": "x020",
+  "m": "oseo",
+  "t": "Cráneo",
+  "d": 3,
+  "q": "¿Qué estructura NO atraviesa el agujero magno?",
+  "o": [
+   "El bulbo raquídeo",
+   "La arteria carótida interna",
+   "La raíz espinal del nervio accesorio",
+   "Las arterias vertebrales"
+  ],
+  "a": 1,
+  "e": "La carótida interna entra por el conducto carotídeo del hueso temporal, no por el agujero magno.",
+  "x": [
+   "El bulbo se continúa allí con la médula.",
+   "",
+   "La raíz espinal del XI asciende por el agujero magno.",
+   "Las vertebrales ascienden por él."
+  ]
+ },
+ {
+  "id": "x021",
+  "m": "oseo",
+  "t": "Miembro superior",
+  "d": 1,
+  "q": "¿Qué hueso forma el esqueleto del brazo?",
+  "o": [
+   "Húmero",
+   "Radio",
+   "Cúbito",
+   "Escápula"
+  ],
+  "a": 0,
+  "e": "El húmero se extiende del hombro al codo.",
+  "x": [
+   "",
+   "El radio está en el antebrazo.",
+   "El cúbito está en el antebrazo.",
+   "La escápula forma parte de la cintura escapular."
+  ]
+ },
+ {
+  "id": "x022",
+  "m": "oseo",
+  "t": "Miembro superior",
+  "d": 2,
+  "q": "En posición anatómica, ¿dónde se sitúa el radio respecto al cúbito?",
+  "o": [
+   "Lateral",
+   "Medial",
+   "Anterior",
+   "Posterior"
+  ],
+  "a": 0,
+  "e": "El radio es lateral, del lado del pulgar.",
+  "x": [
+   "",
+   "El cúbito es el medial.",
+   "No se describen así en el antebrazo.",
+   "Tampoco es una relación anteroposterior."
+  ]
+ },
+ {
+  "id": "x023",
+  "m": "oseo",
+  "t": "Miembro superior",
+  "d": 2,
+  "q": "¿Cuántos huesos forman el carpo?",
+  "o": [
+   "8",
+   "10",
+   "7",
+   "5"
+  ],
+  "a": 0,
+  "e": "Ocho huesos dispuestos en dos filas de cuatro.",
+  "x": [
+   "",
+   "Diez excede el número real.",
+   "",
+   "Cinco son los metacarpianos."
+  ]
+ },
+ {
+  "id": "x024",
+  "m": "oseo",
+  "t": "Miembro superior",
+  "d": 3,
+  "q": "¿Qué hueso del carpo se fractura con más frecuencia y tiene riesgo de necrosis avascular?",
+  "o": [
+   "Ganchoso",
+   "Escafoides",
+   "Semilunar",
+   "Pisiforme"
+  ],
+  "a": 1,
+  "e": "El escafoides recibe su irrigación de distal a proximal, por lo que una fractura puede dejar el polo proximal sin riego.",
+  "x": [
+   "El ganchoso se fractura con menos frecuencia, sobre todo su apófisis unciforme.",
+   "",
+   "El semilunar se luxa más de lo que se fractura.",
+   "El pisiforme es un sesamoideo del flexor cubital del carpo."
+  ]
+ },
+ {
+  "id": "x025",
+  "m": "oseo",
+  "t": "Miembro superior",
+  "d": 2,
+  "q": "¿Cuántas falanges tiene en total una mano?",
+  "o": [
+   "14",
+   "15",
+   "10",
+   "12"
+  ],
+  "a": 0,
+  "e": "Dos en el pulgar y tres en cada uno de los otros cuatro dedos suman catorce.",
+  "x": [
+   "",
+   "Sería el resultado de dar tres falanges también al pulgar.",
+   "Serían dos por dedo, lo que no es el caso.",
+   ""
+  ]
+ },
+ {
+  "id": "q1",
+  "m": "oseo",
+  "t": "Miembro inferior",
+  "d": 1,
+  "q": "¿Cuál es el hueso más largo del cuerpo humano?",
+  "o": [
+   "Peroné",
+   "Fémur",
+   "Tibia",
+   "Húmero"
+  ],
+  "a": 1,
+  "e": "El fémur, en el muslo, es el más largo y el más resistente.",
+  "x": [
+   "El peroné es delgado y más corto.",
+   "",
+   "La tibia es más corta que el fémur.",
+   "El húmero es el hueso largo del brazo."
+  ]
+ },
+ {
+  "id": "x026",
+  "m": "oseo",
+  "t": "Miembro inferior",
+  "d": 2,
+  "q": "¿Qué tres huesos se fusionan para formar el coxal?",
+  "o": [
+   "Ilion, pubis y fémur",
+   "Sacro, cóccix e ilion",
+   "Ilion, isquion y pubis",
+   "Isquion, pubis y sacro"
+  ],
+  "a": 2,
+  "e": "Confluyen en el acetábulo, que recibe la cabeza femoral.",
+  "x": [
+   "El fémur es un hueso del miembro libre.",
+   "El sacro y el cóccix son vertebrales, no parte del coxal.",
+   "",
+   "El sacro no forma parte del coxal."
+  ]
+ },
+ {
+  "id": "x027",
+  "m": "oseo",
+  "t": "Miembro inferior",
+  "d": 2,
+  "q": "¿Qué hueso del tarso se articula directamente con la tibia?",
+  "o": [
+   "Cuboides",
+   "Calcáneo",
+   "Astrágalo",
+   "Escafoides tarsiano"
+  ],
+  "a": 2,
+  "e": "El astrágalo recibe el peso de la pierna y forma la articulación del tobillo.",
+  "x": [
+   "El cuboides queda en el borde lateral del pie.",
+   "El calcáneo forma el talón y se articula con el astrágalo.",
+   "",
+   "El escafoides tarsiano está por delante del astrágalo."
+  ]
+ },
+ {
+  "id": "x028",
+  "m": "oseo",
+  "t": "Miembro inferior",
+  "d": 2,
+  "q": "¿Qué hueso de la pierna soporta prácticamente todo el peso corporal?",
+  "o": [
+   "La rótula",
+   "Ambos por igual",
+   "La tibia",
+   "El peroné"
+  ],
+  "a": 2,
+  "e": "La tibia transmite la carga; el peroné sirve sobre todo de inserción muscular y forma el maléolo lateral.",
+  "x": [
+   "La rótula no interviene en la transmisión axial del peso.",
+   "La carga no se reparte por igual.",
+   "",
+   "El peroné apenas transmite carga."
+  ]
+ },
+ {
+  "id": "x029",
+  "m": "oseo",
+  "t": "Articulaciones",
+  "d": 1,
+  "q": "¿Qué tipo de articulación es una sutura craneal?",
+  "o": [
+   "Sinartrosis",
+   "Sínfisis",
+   "Diartrosis",
+   "Anfiartrosis"
+  ],
+  "a": 0,
+  "e": "Las suturas son articulaciones fibrosas inmóviles.",
+  "x": [
+   "",
+   "La sínfisis es un tipo de articulación cartilaginosa semimóvil.",
+   "Las diartrosis son móviles y sinoviales.",
+   "Las anfiartrosis son semimóviles."
+  ]
+ },
+ {
+  "id": "x030",
+  "m": "oseo",
+  "t": "Articulaciones",
+  "d": 2,
+  "q": "¿Qué elemento NO forma parte de una articulación sinovial típica?",
+  "o": [
+   "Cápsula articular",
+   "Disco intervertebral",
+   "Cartílago hialino articular",
+   "Membrana sinovial"
+  ],
+  "a": 1,
+  "e": "El disco intervertebral es propio de una anfiartrosis, no de una articulación sinovial.",
+  "x": [
+   "La cápsula envuelve la articulación.",
+   "",
+   "El cartílago hialino cubre las superficies.",
+   "La membrana sinovial produce el líquido."
+  ]
+ },
+ {
+  "id": "x031",
+  "m": "oseo",
+  "t": "Articulaciones",
+  "d": 2,
+  "q": "¿Qué movimiento NO permite la articulación del codo humerocubital?",
+  "o": [
+   "Extensión",
+   "Rotación axial",
+   "Flexión",
+   "Ninguno de los anteriores"
+  ],
+  "a": 1,
+  "e": "Es una articulación en bisagra: solo flexión y extensión. La pronosupinación ocurre en las articulaciones radiocubitales.",
+  "x": [
+   "La extensión también.",
+   "",
+   "La flexión es su movimiento principal.",
+   "Sí hay un movimiento que no permite."
+  ]
+ },
+ {
+  "id": "x032",
+  "m": "oseo",
+  "t": "Articulaciones",
+  "d": 3,
+  "q": "¿Qué ligamento de la rodilla impide el desplazamiento anterior de la tibia respecto al fémur?",
+  "o": [
+   "Cruzado anterior",
+   "Cruzado posterior",
+   "Colateral lateral",
+   "Colateral medial"
+  ],
+  "a": 0,
+  "e": "El cruzado anterior se opone al cajón anterior; su rotura es frecuente en deportes de giro.",
+  "x": [
+   "",
+   "El cruzado posterior impide el desplazamiento posterior.",
+   "El colateral lateral se opone al varo.",
+   "El colateral medial se opone al valgo forzado."
+  ]
+ },
+ {
+  "id": "x033",
+  "m": "oseo",
+  "t": "Articulaciones",
+  "d": 2,
+  "q": "El manguito de los rotadores estabiliza la articulación:",
+  "o": [
+   "De la rodilla",
+   "Del codo",
+   "De la cadera",
+   "Del hombro"
+  ],
+  "a": 3,
+  "e": "Sus cuatro tendones sujetan la cabeza humeral en la cavidad glenoidea.",
+  "x": [
+   "La rodilla depende de ligamentos y meniscos.",
+   "El codo se estabiliza por sus ligamentos colaterales.",
+   "La cadera es estable por la profundidad del acetábulo.",
+   ""
+  ]
+ },
+ {
+  "id": "x034",
+  "m": "oseo",
+  "t": "Articulaciones",
+  "d": 2,
+  "q": "¿Qué estructura fibrocartilaginosa mejora la congruencia de la rodilla?",
+  "o": [
+   "Los meniscos",
+   "El rodete glenoideo",
+   "La bolsa suprarrotuliana",
+   "El ligamento redondo"
+  ],
+  "a": 0,
+  "e": "Los meniscos medial y lateral reparten la carga entre fémur y tibia.",
+  "x": [
+   "",
+   "El rodete glenoideo pertenece al hombro.",
+   "La bolsa es una estructura sinovial, no fibrocartilaginosa.",
+   "El ligamento redondo es de la cadera."
+  ]
+ },
+ {
+  "id": "x035",
+  "m": "oseo",
+  "t": "Articulaciones",
+  "d": 2,
+  "q": "¿Qué tipo de articulación es la sínfisis del pubis?",
+  "o": [
+   "Diartrosis",
+   "Sinartrosis",
+   "Enartrosis",
+   "Anfiartrosis"
+  ],
+  "a": 3,
+  "e": "Es una articulación cartilaginosa semimóvil que gana movilidad al final del embarazo.",
+  "x": [
+   "Las diartrosis son sinoviales y móviles.",
+   "Las sinartrosis son inmóviles.",
+   "La enartrosis es un tipo de diartrosis esferoidea.",
+   ""
+  ]
+ },
+ {
+  "id": "x036",
+  "m": "musc",
+  "t": "Generalidades del músculo",
+  "d": 1,
+  "q": "¿Qué tipo de tejido muscular es estriado e involuntario?",
+  "o": [
+   "Liso",
+   "Cardíaco",
+   "Esquelético",
+   "Ninguno"
+  ],
+  "a": 1,
+  "e": "El músculo cardíaco tiene estriaciones como el esquelético, pero su control es involuntario.",
+  "x": [
+   "El liso es involuntario pero no estriado.",
+   "",
+   "El esquelético es estriado y voluntario.",
+   "Sí existe un tipo que cumple ambas condiciones."
+  ]
+ },
+ {
+  "id": "x037",
+  "m": "musc",
+  "t": "Generalidades del músculo",
+  "d": 2,
+  "q": "¿Cuál es la unidad contráctil del músculo esquelético?",
+  "o": [
+   "La miofibrilla",
+   "El sarcolema",
+   "El sarcómero",
+   "La unidad motora"
+  ],
+  "a": 2,
+  "e": "El sarcómero va de una línea Z a la siguiente y contiene actina y miosina.",
+  "x": [
+   "La miofibrilla es una cadena de sarcómeros.",
+   "El sarcolema es la membrana de la fibra.",
+   "",
+   "La unidad motora es un concepto funcional, no estructural."
+  ]
+ },
+ {
+  "id": "x038",
+  "m": "musc",
+  "t": "Generalidades del músculo",
+  "d": 2,
+  "q": "¿Qué neurotransmisor actúa en la placa motora?",
+  "o": [
+   "Glutamato",
+   "Noradrenalina",
+   "Acetilcolina",
+   "Dopamina"
+  ],
+  "a": 2,
+  "e": "La acetilcolina liberada por la motoneurona abre canales en la placa y despolariza la fibra.",
+  "x": [
+   "El glutamato es el principal excitador del sistema nervioso central.",
+   "La noradrenalina actúa en el simpático periférico.",
+   "",
+   "La dopamina es central."
+  ]
+ },
+ {
+  "id": "x039",
+  "m": "musc",
+  "t": "Generalidades del músculo",
+  "d": 2,
+  "q": "¿Qué ion desencadena directamente la contracción al unirse a la troponina?",
+  "o": [
+   "Calcio",
+   "Cloro",
+   "Sodio",
+   "Potasio"
+  ],
+  "a": 0,
+  "e": "El calcio liberado del retículo sarcoplásmico se une a la troponina C y descubre los sitios de unión de la actina.",
+  "x": [
+   "",
+   "El cloro no interviene en el acoplamiento excitación-contracción.",
+   "El sodio despolariza, pero no activa la troponina.",
+   "El potasio participa en la repolarización."
+  ]
+ },
+ {
+  "id": "x040",
+  "m": "musc",
+  "t": "Generalidades del músculo",
+  "d": 2,
+  "q": "Si el bíceps braquial es el agonista en la flexión del codo, ¿cuál es el antagonista?",
+  "o": [
+   "Coracobraquial",
+   "Tríceps braquial",
+   "Supinador",
+   "Braquial anterior"
+  ],
+  "a": 1,
+  "e": "El tríceps extiende el codo y se opone a la flexión.",
+  "x": [
+   "El coracobraquial actúa sobre el hombro.",
+   "",
+   "El supinador participa en la supinación.",
+   "El braquial anterior es sinergista del bíceps."
+  ]
+ },
+ {
+  "id": "x041",
+  "m": "musc",
+  "t": "Cabeza y cuello",
+  "d": 2,
+  "q": "¿Qué nervio inerva los músculos de la masticación?",
+  "o": [
+   "Glosofaríngeo (IX)",
+   "Facial (VII)",
+   "Hipogloso (XII)",
+   "Trigémino, rama mandibular (V3)"
+  ],
+  "a": 3,
+  "e": "Los cuatro masticadores dependen de V3.",
+  "x": [
+   "El glosofaríngeo inerva el estilofaríngeo.",
+   "El facial inerva la mímica, no la masticación.",
+   "El hipogloso inerva la lengua.",
+   ""
+  ]
+ },
+ {
+  "id": "x042",
+  "m": "musc",
+  "t": "Cabeza y cuello",
+  "d": 2,
+  "q": "La parálisis facial periférica se distingue de la central porque:",
+  "o": [
+   "Siempre es bilateral",
+   "Afecta solo a la boca",
+   "Afecta también a la frente",
+   "Nunca afecta al gusto"
+  ],
+  "a": 2,
+  "e": "En la lesión periférica se paraliza toda la hemicara, incluida la frente; en la central la frente se conserva por la inervación bilateral.",
+  "x": [
+   "Lo habitual es que sea unilateral.",
+   "Afecta a toda la hemicara, no solo a la boca.",
+   "",
+   "Puede afectar al gusto de los dos tercios anteriores de la lengua."
+  ]
+ },
+ {
+  "id": "x043",
+  "m": "musc",
+  "t": "Cabeza y cuello",
+  "d": 2,
+  "q": "¿Qué nervio inerva el esternocleidomastoideo y el trapecio?",
+  "o": [
+   "Plexo cervical profundo",
+   "Vago (X)",
+   "Frénico",
+   "Accesorio (XI)"
+  ],
+  "a": 3,
+  "e": "El nervio accesorio o espinal inerva ambos músculos.",
+  "x": [
+   "El plexo cervical aporta fibras propioceptivas, no la inervación motora principal.",
+   "El vago es sobre todo visceral.",
+   "El frénico inerva el diafragma.",
+   ""
+  ]
+ },
+ {
+  "id": "x044",
+  "m": "musc",
+  "t": "Tronco",
+  "d": 1,
+  "q": "¿Cuál es el músculo principal de la inspiración en reposo?",
+  "o": [
+   "Recto del abdomen",
+   "Intercostales internos",
+   "Escalenos",
+   "Diafragma"
+  ],
+  "a": 3,
+  "e": "El diafragma aporta la mayor parte del volumen corriente al descender.",
+  "x": [
+   "El recto del abdomen es espiratorio.",
+   "Los intercostales internos participan en la espiración forzada.",
+   "Los escalenos son accesorios de la inspiración forzada.",
+   ""
+  ]
+ },
+ {
+  "id": "x045",
+  "m": "musc",
+  "t": "Tronco",
+  "d": 2,
+  "q": "¿De qué raíces nerviosas procede el nervio frénico?",
+  "o": [
+   "T1-T4",
+   "C6-C8",
+   "C1-C2",
+   "C3-C5"
+  ],
+  "a": 3,
+  "e": "C3, C4 y C5 mantienen el diafragma vivo.",
+  "x": [
+   "Las torácicas inervan los intercostales.",
+   "Esas raíces forman parte del plexo braquial.",
+   "Demasiado altas.",
+   ""
+  ]
+ },
+ {
+  "id": "x046",
+  "m": "musc",
+  "t": "Tronco",
+  "d": 2,
+  "q": "¿Qué músculo abdominal es el más profundo?",
+  "o": [
+   "Oblicuo interno",
+   "Oblicuo externo",
+   "Transverso del abdomen",
+   "Recto del abdomen"
+  ],
+  "a": 2,
+  "e": "El transverso es la capa más interna de los músculos planos del abdomen.",
+  "x": [
+   "El oblicuo interno es intermedio.",
+   "El oblicuo externo es el más superficial.",
+   "",
+   "El recto es vertical y queda en su vaina."
+  ]
+ },
+ {
+  "id": "x047",
+  "m": "musc",
+  "t": "Tronco",
+  "d": 3,
+  "q": "La escápula alada aparece por lesión de:",
+  "o": [
+   "El nervio torácico largo",
+   "El nervio axilar",
+   "El nervio supraescapular",
+   "El nervio accesorio"
+  ],
+  "a": 0,
+  "e": "El torácico largo inerva el serrato anterior, que mantiene la escápula pegada al tórax.",
+  "x": [
+   "",
+   "El axilar afecta al deltoides.",
+   "El supraescapular afecta al supraespinoso e infraespinoso.",
+   "El accesorio produce caída del hombro por parálisis del trapecio."
+  ]
+ },
+ {
+  "id": "x048",
+  "m": "musc",
+  "t": "Tronco",
+  "d": 2,
+  "q": "¿Qué acción realiza el dorsal ancho?",
+  "o": [
+   "Eleva la escápula",
+   "Abduce el brazo",
+   "Aduce, extiende y rota internamente el brazo",
+   "Flexiona el codo"
+  ],
+  "a": 2,
+  "e": "Es el músculo que acerca y lleva atrás el brazo, como al remar o trepar.",
+  "x": [
+   "La elevación escapular es del trapecio superior y el elevador de la escápula.",
+   "La abducción corresponde al deltoides y al supraespinoso.",
+   "",
+   "El codo lo flexionan bíceps y braquial."
+  ]
+ },
+ {
+  "id": "x049",
+  "m": "musc",
+  "t": "Miembro superior",
+  "d": 1,
+  "q": "¿Qué nervio inerva el bíceps braquial?",
+  "o": [
+   "Musculocutáneo",
+   "Mediano",
+   "Cubital",
+   "Radial"
+  ],
+  "a": 0,
+  "e": "El musculocutáneo inerva los flexores del compartimento anterior del brazo.",
+  "x": [
+   "",
+   "El mediano inerva sobre todo el antebrazo anterior.",
+   "El cubital inerva músculos del antebrazo y la mano.",
+   "El radial inerva los extensores."
+  ]
+ },
+ {
+  "id": "x050",
+  "m": "musc",
+  "t": "Miembro superior",
+  "d": 2,
+  "q": "¿Qué músculo inicia los primeros grados de abducción del brazo?",
+  "o": [
+   "Infraespinoso",
+   "Subescapular",
+   "Supraespinoso",
+   "Deltoides"
+  ],
+  "a": 2,
+  "e": "El supraespinoso inicia la abducción y luego el deltoides toma el relevo.",
+  "x": [
+   "El infraespinoso rota externamente.",
+   "El subescapular rota internamente.",
+   "",
+   "El deltoides actúa a partir de unos 15 grados."
+  ]
+ },
+ {
+  "id": "x051",
+  "m": "musc",
+  "t": "Miembro superior",
+  "d": 2,
+  "q": "¿Cuál de estos músculos NO pertenece al manguito de los rotadores?",
+  "o": [
+   "Subescapular",
+   "Redondo mayor",
+   "Supraespinoso",
+   "Infraespinoso"
+  ],
+  "a": 1,
+  "e": "El manguito lo forman supraespinoso, infraespinoso, redondo menor y subescapular. El redondo mayor queda fuera.",
+  "x": [
+   "Forma parte del manguito.",
+   "",
+   "Forma parte del manguito.",
+   "Forma parte del manguito."
+  ]
+ },
+ {
+  "id": "x052",
+  "m": "musc",
+  "t": "Miembro superior",
+  "d": 3,
+  "q": "La mano péndula o mano caída indica lesión del nervio:",
+  "o": [
+   "Musculocutáneo",
+   "Mediano",
+   "Cubital",
+   "Radial"
+  ],
+  "a": 3,
+  "e": "El radial inerva los extensores de muñeca y dedos; su lesión impide extender la muñeca.",
+  "x": [
+   "El musculocutáneo afecta a la flexión del codo.",
+   "El mediano produce la mano del predicador y afecta a la pinza.",
+   "El cubital produce la mano en garra.",
+   ""
+  ]
+ },
+ {
+  "id": "x053",
+  "m": "musc",
+  "t": "Miembro superior",
+  "d": 3,
+  "q": "¿Qué nervio se comprime en el síndrome del túnel carpiano?",
+  "o": [
+   "Cubital",
+   "Mediano",
+   "Radial",
+   "Interóseo posterior"
+  ],
+  "a": 1,
+  "e": "El mediano discurre bajo el retináculo flexor junto a los tendones flexores.",
+  "x": [
+   "El cubital pasa por el canal de Guyon, no por el túnel carpiano.",
+   "",
+   "El radial no pasa por el túnel carpiano.",
+   "El interóseo posterior es una rama profunda del radial en el antebrazo."
+  ]
+ },
+ {
+  "id": "x054",
+  "m": "musc",
+  "t": "Miembro superior",
+  "d": 2,
+  "q": "¿Qué nervio inerva la mayoría de los músculos intrínsecos de la mano?",
+  "o": [
+   "Cubital",
+   "Radial",
+   "Mediano",
+   "Axilar"
+  ],
+  "a": 0,
+  "e": "El cubital inerva los interóseos, los lumbricales tercero y cuarto y la musculatura hipotenar.",
+  "x": [
+   "",
+   "El radial no inerva músculos intrínsecos de la mano.",
+   "El mediano inerva la eminencia tenar y los dos primeros lumbricales.",
+   "El axilar inerva el deltoides y el redondo menor."
+  ]
+ },
+ {
+  "id": "x055",
+  "m": "musc",
+  "t": "Miembro inferior",
+  "d": 1,
+  "q": "¿Qué músculo extiende la rodilla?",
+  "o": [
+   "Cuádriceps femoral",
+   "Bíceps femoral",
+   "Sartorio",
+   "Semitendinoso"
+  ],
+  "a": 0,
+  "e": "El cuádriceps, con sus cuatro vientres, es el extensor de la rodilla.",
+  "x": [
+   "",
+   "El bíceps femoral la flexiona.",
+   "El sartorio flexiona cadera y rodilla.",
+   "El semitendinoso la flexiona."
+  ]
+ },
+ {
+  "id": "x056",
+  "m": "musc",
+  "t": "Miembro inferior",
+  "d": 2,
+  "q": "¿Qué nervio inerva los músculos isquiotibiales?",
+  "o": [
+   "Glúteo inferior",
+   "Femoral",
+   "Obturador",
+   "Ciático"
+  ],
+  "a": 3,
+  "e": "El ciático, por su división tibial, inerva los isquiotibiales.",
+  "x": [
+   "El glúteo inferior inerva el glúteo mayor.",
+   "El femoral inerva el compartimento anterior del muslo.",
+   "El obturador inerva los aductores.",
+   ""
+  ]
+ },
+ {
+  "id": "x057",
+  "m": "musc",
+  "t": "Miembro inferior",
+  "d": 2,
+  "q": "El signo de Trendelenburg indica debilidad de:",
+  "o": [
+   "Cuádriceps",
+   "Glúteo medio",
+   "Psoas ilíaco",
+   "Glúteo mayor"
+  ],
+  "a": 1,
+  "e": "El glúteo medio estabiliza la pelvis en el apoyo monopodal; si falla, la pelvis cae hacia el lado contrario.",
+  "x": [
+   "El cuádriceps extiende la rodilla.",
+   "",
+   "El psoas ilíaco flexiona la cadera.",
+   "El glúteo mayor extiende la cadera."
+  ]
+ },
+ {
+  "id": "x058",
+  "m": "musc",
+  "t": "Miembro inferior",
+  "d": 2,
+  "q": "¿Qué músculos terminan en el tendón de Aquiles?",
+  "o": [
+   "Tibial anterior y peroneos",
+   "Flexores largos de los dedos",
+   "Gemelos y sóleo",
+   "Isquiotibiales"
+  ],
+  "a": 2,
+  "e": "Los dos gemelos y el sóleo forman el tríceps sural.",
+  "x": [
+   "Esos son músculos del compartimento anterior y lateral.",
+   "Tienen tendones propios hacia los dedos.",
+   "",
+   "Los isquiotibiales actúan sobre rodilla y cadera."
+  ]
+ },
+ {
+  "id": "x059",
+  "m": "musc",
+  "t": "Miembro inferior",
+  "d": 3,
+  "q": "El pie caído con marcha en estepaje se debe a la lesión del nervio:",
+  "o": [
+   "Femoral",
+   "Obturador",
+   "Tibial",
+   "Peroneo común"
+  ],
+  "a": 3,
+  "e": "El peroneo común inerva el compartimento anterior, que dorsiflexiona el pie. Rodea el cuello del peroné y es vulnerable.",
+  "x": [
+   "El femoral afecta a la extensión de la rodilla.",
+   "El obturador afecta a la aducción del muslo.",
+   "La lesión del tibial impide la flexión plantar.",
+   ""
+  ]
+ },
+ {
+  "id": "x060",
+  "m": "musc",
+  "t": "Miembro inferior",
+  "d": 2,
+  "q": "¿Qué nervio inerva los músculos aductores del muslo?",
+  "o": [
+   "Ciático",
+   "Femoral",
+   "Glúteo superior",
+   "Obturador"
+  ],
+  "a": 3,
+  "e": "El obturador sale por el conducto obturador e inerva el compartimento medial.",
+  "x": [
+   "El ciático inerva el posterior.",
+   "El femoral inerva el compartimento anterior.",
+   "El glúteo superior inerva glúteo medio, menor y tensor de la fascia lata.",
+   ""
+  ]
+ },
+ {
+  "id": "x061",
+  "m": "musc",
+  "t": "Miembro inferior",
+  "d": 2,
+  "q": "¿Cuál es el músculo más largo del cuerpo humano?",
+  "o": [
+   "Semitendinoso",
+   "Recto femoral",
+   "Sartorio",
+   "Dorsal ancho"
+  ],
+  "a": 2,
+  "e": "El sartorio cruza en diagonal todo el muslo.",
+  "x": [
+   "El semitendinoso no alcanza esa longitud.",
+   "El recto femoral es más corto.",
+   "",
+   "El dorsal ancho es el más ancho, no el más largo."
+  ]
+ },
+ {
+  "id": "x062",
+  "m": "musc",
+  "t": "Miembro inferior",
+  "d": 3,
+  "q": "En el triángulo femoral, de lateral a medial, el orden de las estructuras es:",
+  "o": [
+   "Nervio, arteria, vena",
+   "Vena, arteria, nervio",
+   "Nervio, vena, arteria",
+   "Arteria, vena, nervio"
+  ],
+  "a": 0,
+  "e": "La regla NAVL: nervio, arteria, vena y linfáticos de lateral a medial.",
+  "x": [
+   "",
+   "Está invertido.",
+   "La vena es medial a la arteria, no lateral.",
+   "El nervio queda lateral a la arteria."
+  ]
+ },
+ {
+  "id": "x063",
+  "m": "musc",
+  "t": "Suelo pélvico",
+  "d": 2,
+  "q": "¿Qué músculo forma la mayor parte del diafragma pélvico?",
+  "o": [
+   "Obturador interno",
+   "Elevador del ano",
+   "Piramidal de la pelvis",
+   "Transverso profundo del periné"
+  ],
+  "a": 1,
+  "e": "El elevador del ano, con el coccígeo, sostiene las vísceras pélvicas.",
+  "x": [
+   "El obturador interno es un rotador externo de la cadera.",
+   "",
+   "El piriforme o piramidal también es rotador de la cadera.",
+   "El transverso profundo pertenece al diafragma urogenital."
+  ]
+ },
+ {
+  "id": "x064",
+  "m": "musc",
+  "t": "Generalidades del músculo",
+  "d": 2,
+  "q": "¿Qué se entiende por contracción isométrica?",
+  "o": [
+   "El músculo cambia de tensión sin cambiar de longitud",
+   "El músculo se relaja por completo",
+   "El músculo se alarga",
+   "El músculo se acorta"
+  ],
+  "a": 0,
+  "e": "En la contracción isométrica la longitud se mantiene, como al sostener un peso quieto.",
+  "x": [
+   "",
+   "La relajación no es una contracción.",
+   "El alargamiento bajo tensión es excéntrico.",
+   "El acortamiento es concéntrico."
+  ]
+ },
+ {
+  "id": "x065",
+  "m": "musc",
+  "t": "Generalidades del músculo",
+  "d": 2,
+  "q": "¿Qué estructura envuelve a todo el músculo por fuera?",
+  "o": [
+   "Epimisio",
+   "Perimisio",
+   "Endomisio",
+   "Sarcolema"
+  ],
+  "a": 0,
+  "e": "El epimisio rodea el músculo entero; el perimisio, los fascículos; el endomisio, cada fibra.",
+  "x": [
+   "",
+   "El perimisio rodea los fascículos.",
+   "El endomisio rodea cada fibra.",
+   "El sarcolema es la membrana de la fibra muscular."
+  ]
+ },
+ {
+  "id": "x066",
+  "m": "musc",
+  "t": "Miembro superior",
+  "d": 2,
+  "q": "¿Qué músculo da la forma redondeada al hombro?",
+  "o": [
+   "Pectoral mayor",
+   "Deltoides",
+   "Supraespinoso",
+   "Trapecio"
+  ],
+  "a": 1,
+  "e": "El deltoides cubre la articulación del hombro y la abduce a partir de los primeros grados.",
+  "x": [
+   "El pectoral mayor forma la pared anterior de la axila.",
+   "",
+   "El supraespinoso queda bajo el trapecio.",
+   "El trapecio ocupa nuca y hombros."
+  ]
+ },
+ {
+  "id": "x067",
+  "m": "musc",
+  "t": "Miembro superior",
+  "d": 2,
+  "q": "¿Qué músculos producen la pronación del antebrazo?",
+  "o": [
+   "Pronador redondo y pronador cuadrado",
+   "Tríceps y ancóneo",
+   "Braquial y braquiorradial",
+   "Bíceps y supinador"
+  ],
+  "a": 0,
+  "e": "Ambos pronadores, inervados por el mediano, giran la palma hacia abajo.",
+  "x": [
+   "",
+   "Son extensores del codo.",
+   "Son flexores del codo.",
+   "Esos producen supinación."
+  ]
+ },
+ {
+  "id": "x068",
+  "m": "musc",
+  "t": "Tronco",
+  "d": 2,
+  "q": "¿Qué músculos intervienen sobre todo en la espiración forzada?",
+  "o": [
+   "Intercostales externos",
+   "Esternocleidomastoideo",
+   "Músculos abdominales e intercostales internos",
+   "Diafragma y escalenos"
+  ],
+  "a": 2,
+  "e": "Los abdominales empujan las vísceras contra el diafragma y los intercostales internos descienden las costillas.",
+  "x": [
+   "Son inspiratorios.",
+   "Es un accesorio de la inspiración.",
+   "",
+   "Son inspiratorios."
+  ]
+ },
+ {
+  "id": "x069",
+  "m": "musc",
+  "t": "Cabeza y cuello",
+  "d": 2,
+  "q": "¿Qué acción realiza el esternocleidomastoideo de un solo lado?",
+  "o": [
+   "Extiende la cabeza",
+   "Gira la cabeza hacia el mismo lado",
+   "Desciende la mandíbula",
+   "Gira la cabeza hacia el lado contrario e inclina hacia el suyo"
+  ],
+  "a": 3,
+  "e": "Su contracción unilateral rota la cara al lado opuesto y la inclina hacia el propio.",
+  "x": [
+   "La contracción bilateral flexiona el cuello.",
+   "Gira hacia el lado contrario.",
+   "No actúa sobre la mandíbula.",
+   ""
+  ]
+ },
+ {
+  "id": "x070",
+  "m": "musc",
+  "t": "Miembro inferior",
+  "d": 2,
+  "q": "¿Qué músculo flexiona la cadera con más potencia?",
+  "o": [
+   "Psoas ilíaco",
+   "Aductor mayor",
+   "Glúteo mayor",
+   "Bíceps femoral"
+  ],
+  "a": 0,
+  "e": "El psoas ilíaco es el flexor principal de la cadera.",
+  "x": [
+   "",
+   "El aductor mayor la aduce.",
+   "El glúteo mayor la extiende.",
+   "El bíceps femoral la extiende y flexiona la rodilla."
+  ]
+ },
+ {
+  "id": "x071",
+  "m": "musc",
+  "t": "Generalidades del músculo",
+  "d": 3,
+  "q": "¿Qué ocurre con los filamentos de actina y miosina durante la contracción?",
+  "o": [
+   "La miosina se acorta",
+   "Se deslizan unos sobre otros sin cambiar de longitud",
+   "La actina se acorta",
+   "Se fusionan"
+  ],
+  "a": 1,
+  "e": "Es la teoría del deslizamiento de los filamentos: lo que se acorta es el sarcómero, no los filamentos.",
+  "x": [
+   "Los filamentos mantienen su longitud.",
+   "",
+   "Los filamentos mantienen su longitud.",
+   "No se fusionan en ningún momento."
+  ]
+ },
+ {
+  "id": "q2",
+  "m": "cardio",
+  "t": "Anatomía del corazón",
+  "d": 1,
+  "q": "¿Cuántas cavidades tiene el corazón?",
+  "o": [
+   "Seis",
+   "Tres",
+   "Cuatro",
+   "Dos"
+  ],
+  "a": 2,
+  "e": "Dos aurículas y dos ventrículos.",
+  "x": [
+   "Ningún corazón de mamífero tiene seis cavidades.",
+   "Corresponde al de los anfibios.",
+   "",
+   "Corresponde al corazón de los peces."
+  ]
+ },
+ {
+  "id": "x072",
+  "m": "cardio",
+  "t": "Anatomía del corazón",
+  "d": 1,
+  "q": "¿En qué compartimento del mediastino se aloja el corazón?",
+  "o": [
+   "Medio",
+   "Posterior",
+   "Superior",
+   "Anterior"
+  ],
+  "a": 0,
+  "e": "El corazón con su pericardio ocupa el mediastino medio.",
+  "x": [
+   "",
+   "En el posterior están el esófago y la aorta descendente.",
+   "En el superior están los grandes vasos y la tráquea.",
+   "En el anterior está el timo en el niño."
+  ]
+ },
+ {
+  "id": "x073",
+  "m": "cardio",
+  "t": "Anatomía del corazón",
+  "d": 2,
+  "q": "¿Cuál es la capa más gruesa de la pared cardíaca?",
+  "o": [
+   "Epicardio",
+   "Pericardio fibroso",
+   "Miocardio",
+   "Endocardio"
+  ],
+  "a": 2,
+  "e": "El miocardio es la capa muscular y alcanza su máximo grosor en el ventrículo izquierdo.",
+  "x": [
+   "El epicardio es la hoja visceral del pericardio seroso.",
+   "El pericardio no forma parte de la pared cardíaca propiamente dicha.",
+   "",
+   "El endocardio es un endotelio con tejido conectivo."
+  ]
+ },
+ {
+  "id": "x074",
+  "m": "cardio",
+  "t": "Anatomía del corazón",
+  "d": 2,
+  "q": "¿Qué válvula se sitúa entre la aurícula y el ventrículo derechos?",
+  "o": [
+   "Tricúspide",
+   "Mitral",
+   "Pulmonar",
+   "Aórtica"
+  ],
+  "a": 0,
+  "e": "La tricúspide tiene tres valvas y cierra en la sístole ventricular derecha.",
+  "x": [
+   "",
+   "La mitral está en el lado izquierdo.",
+   "La pulmonar está en la salida del ventrículo derecho.",
+   "La aórtica está en la salida del ventrículo izquierdo."
+  ]
+ },
+ {
+  "id": "x075",
+  "m": "cardio",
+  "t": "Anatomía del corazón",
+  "d": 2,
+  "q": "¿Qué estructuras impiden que las valvas auriculoventriculares se eviertan en la sístole?",
+  "o": [
+   "Las trabéculas carnosas",
+   "Los senos de Valsalva",
+   "Las cuerdas tendinosas y los músculos papilares",
+   "El anillo fibroso"
+  ],
+  "a": 2,
+  "e": "Los músculos papilares tiran de las cuerdas tendinosas y mantienen las valvas cerradas.",
+  "x": [
+   "Las trabéculas son relieves musculares de la pared ventricular.",
+   "Los senos de Valsalva están en la raíz aórtica.",
+   "",
+   "El anillo fibroso sostiene la válvula pero no evita la eversión."
+  ]
+ },
+ {
+  "id": "x076",
+  "m": "cardio",
+  "t": "Anatomía del corazón",
+  "d": 2,
+  "q": "¿Qué vasos desembocan en la aurícula izquierda?",
+  "o": [
+   "El seno coronario",
+   "Las venas cavas",
+   "La arteria pulmonar",
+   "Las venas pulmonares"
+  ],
+  "a": 3,
+  "e": "Las cuatro venas pulmonares traen sangre oxigenada desde los pulmones.",
+  "x": [
+   "El seno coronario desemboca en la aurícula derecha.",
+   "Las cavas desembocan en la aurícula derecha.",
+   "La arteria pulmonar sale del ventrículo derecho.",
+   ""
+  ]
+ },
+ {
+  "id": "x077",
+  "m": "cardio",
+  "t": "Anatomía del corazón",
+  "d": 2,
+  "q": "¿Qué arteria del cuerpo transporta sangre pobre en oxígeno en el adulto?",
+  "o": [
+   "La arteria pulmonar",
+   "La aorta",
+   "La arteria renal",
+   "La carótida interna"
+  ],
+  "a": 0,
+  "e": "La arteria pulmonar lleva al pulmón sangre venosa procedente del ventrículo derecho.",
+  "x": [
+   "",
+   "La aorta lleva sangre oxigenada.",
+   "Lleva sangre oxigenada al riñón.",
+   "Lleva sangre oxigenada al encéfalo."
+  ]
+ },
+ {
+  "id": "x078",
+  "m": "cardio",
+  "t": "Circulación coronaria",
+  "d": 2,
+  "q": "¿De dónde nacen las arterias coronarias?",
+  "o": [
+   "De la aorta ascendente",
+   "De la aorta descendente",
+   "Del cayado aórtico",
+   "Del tronco pulmonar"
+  ],
+  "a": 0,
+  "e": "Nacen de los senos aórticos, justo por encima de las valvas, y son las primeras ramas de la aorta.",
+  "x": [
+   "",
+   "La aorta descendente irriga el tórax.",
+   "Del cayado nacen los troncos supraaórticos.",
+   "El tronco pulmonar no emite ramas sistémicas."
+  ]
+ },
+ {
+  "id": "x079",
+  "m": "cardio",
+  "t": "Circulación coronaria",
+  "d": 3,
+  "q": "La oclusión de la arteria descendente anterior produce típicamente un infarto:",
+  "o": [
+   "Inferior",
+   "Lateral puro",
+   "Anterior extenso",
+   "Posterior aislado"
+  ],
+  "a": 2,
+  "e": "Irriga la cara anterior del ventrículo izquierdo y los dos tercios anteriores del tabique.",
+  "x": [
+   "El inferior suele depender de la coronaria derecha.",
+   "El lateral depende sobre todo de la circunfleja.",
+   "",
+   "El posterior suele depender de la coronaria derecha o la circunfleja."
+  ]
+ },
+ {
+  "id": "x080",
+  "m": "cardio",
+  "t": "Sistema de conducción",
+  "d": 2,
+  "q": "¿Dónde se encuentra el nódulo sinusal?",
+  "o": [
+   "En la aurícula izquierda",
+   "En la aurícula derecha",
+   "En el tabique interventricular",
+   "En el ventrículo izquierdo"
+  ],
+  "a": 1,
+  "e": "Está en la pared de la aurícula derecha, cerca de la desembocadura de la vena cava superior.",
+  "x": [
+   "La aurícula izquierda no contiene el marcapasos.",
+   "",
+   "Allí está el haz de His.",
+   "El ventrículo solo tiene ramas y fibras de Purkinje."
+  ]
+ },
+ {
+  "id": "x081",
+  "m": "cardio",
+  "t": "Sistema de conducción",
+  "d": 2,
+  "q": "¿Cuál es el orden correcto del sistema de conducción?",
+  "o": [
+   "Nódulo sinusal, nódulo AV, His, Purkinje",
+   "Nódulo AV, nódulo sinusal, His, Purkinje",
+   "Nódulo sinusal, His, nódulo AV, Purkinje",
+   "His, nódulo sinusal, nódulo AV, Purkinje"
+  ],
+  "a": 0,
+  "e": "El impulso nace en el nódulo sinusal, se retrasa en el auriculoventricular y se distribuye por el haz de His y las fibras de Purkinje.",
+  "x": [
+   "",
+   "Está invertido en su inicio.",
+   "El nódulo AV precede al haz de His.",
+   "El haz de His no inicia el impulso en condiciones normales."
+  ]
+ },
+ {
+  "id": "x082",
+  "m": "cardio",
+  "t": "Sistema de conducción",
+  "d": 3,
+  "q": "¿Por qué existe un retraso en el nódulo auriculoventricular?",
+  "o": [
+   "Para sincronizar la respiración",
+   "Para que las aurículas terminen de vaciarse antes de la sístole ventricular",
+   "Para proteger las coronarias",
+   "Para aumentar la frecuencia cardíaca"
+  ],
+  "a": 1,
+  "e": "El retraso de unos 0,1 segundos permite el llenado ventricular completo.",
+  "x": [
+   "No existe tal sincronización en el nódulo AV.",
+   "",
+   "No tiene relación con la perfusión coronaria.",
+   "No influye en la frecuencia basal."
+  ]
+ },
+ {
+  "id": "x083",
+  "m": "cardio",
+  "t": "Grandes vasos",
+  "d": 2,
+  "q": "¿Cuál es la primera rama del cayado aórtico?",
+  "o": [
+   "Tronco braquiocefálico",
+   "Subclavia izquierda",
+   "Carótida común izquierda",
+   "Arteria vertebral"
+  ],
+  "a": 0,
+  "e": "El tronco braquiocefálico se divide después en carótida común derecha y subclavia derecha.",
+  "x": [
+   "",
+   "Es la tercera rama.",
+   "Es la segunda rama.",
+   "La vertebral es rama de la subclavia, no del cayado."
+  ]
+ },
+ {
+  "id": "x084",
+  "m": "cardio",
+  "t": "Grandes vasos",
+  "d": 2,
+  "q": "¿A qué altura vertebral se bifurca la aorta abdominal?",
+  "o": [
+   "L4",
+   "L1",
+   "L2",
+   "S1"
+  ],
+  "a": 0,
+  "e": "Se divide en las arterias ilíacas comunes a la altura de L4.",
+  "x": [
+   "",
+   "A L1 corresponde el tronco celíaco.",
+   "A L1-L2 corresponde la mesentérica superior.",
+   "A S1 ya están las ilíacas internas y externas."
+  ]
+ },
+ {
+  "id": "x085",
+  "m": "cardio",
+  "t": "Grandes vasos",
+  "d": 2,
+  "q": "¿Qué arteria se origina directamente del tronco celíaco?",
+  "o": [
+   "Esplénica",
+   "Mesentérica inferior",
+   "Mesentérica superior",
+   "Renal derecha"
+  ],
+  "a": 0,
+  "e": "El tronco celíaco se divide en gástrica izquierda, esplénica y hepática común.",
+  "x": [
+   "",
+   "También nace directamente de la aorta.",
+   "Es una rama impar independiente de la aorta.",
+   "Las renales nacen directamente de la aorta."
+  ]
+ },
+ {
+  "id": "x086",
+  "m": "cardio",
+  "t": "Grandes vasos",
+  "d": 2,
+  "q": "¿Qué vena recoge la sangre del tubo digestivo y la conduce al hígado?",
+  "o": [
+   "Vena ácigos",
+   "Vena cava inferior",
+   "Vena safena magna",
+   "Vena porta"
+  ],
+  "a": 3,
+  "e": "La porta se forma por la unión de la mesentérica superior y la esplénica.",
+  "x": [
+   "La ácigos drena la pared torácica.",
+   "La cava inferior recoge la sangre ya filtrada por el hígado.",
+   "La safena es superficial del miembro inferior.",
+   ""
+  ]
+ },
+ {
+  "id": "x087",
+  "m": "cardio",
+  "t": "Grandes vasos",
+  "d": 2,
+  "q": "¿En qué se divide la arteria carótida común?",
+  "o": [
+   "Carótida interna y vertebral",
+   "Subclavia y axilar",
+   "Carótida interna y externa",
+   "Facial y temporal"
+  ],
+  "a": 2,
+  "e": "La bifurcación ocurre a la altura del borde superior del cartílago tiroides.",
+  "x": [
+   "La vertebral nace de la subclavia.",
+   "La subclavia no procede de la carótida.",
+   "",
+   "Son ramas de la carótida externa."
+  ]
+ },
+ {
+  "id": "x088",
+  "m": "cardio",
+  "t": "Grandes vasos",
+  "d": 2,
+  "q": "¿Qué nombre recibe la arteria axilar al pasar el borde inferior del redondo mayor?",
+  "o": [
+   "Subclavia",
+   "Cubital",
+   "Braquial",
+   "Radial"
+  ],
+  "a": 2,
+  "e": "La secuencia es subclavia, axilar, braquial y, tras el codo, radial y cubital.",
+  "x": [
+   "Es el nombre previo, antes de la primera costilla.",
+   "La cubital también nace en el codo.",
+   "",
+   "La radial aparece tras la bifurcación en el codo."
+  ]
+ },
+ {
+  "id": "x089",
+  "m": "cardio",
+  "t": "Grandes vasos",
+  "d": 2,
+  "q": "¿Cuál es la vena más larga del cuerpo humano?",
+  "o": [
+   "Vena cava inferior",
+   "Vena safena magna",
+   "Vena yugular interna",
+   "Vena femoral"
+  ],
+  "a": 1,
+  "e": "Va del dorso del pie hasta el cayado en la vena femoral.",
+  "x": [
+   "Es corta y de gran calibre.",
+   "",
+   "La yugular interna recorre solo el cuello.",
+   "La femoral es un segmento relativamente corto."
+  ]
+ },
+ {
+  "id": "x090",
+  "m": "cardio",
+  "t": "Fisiología circulatoria",
+  "d": 1,
+  "q": "¿Qué define a una arteria?",
+  "o": [
+   "Que lleva sangre oxigenada",
+   "Que tiene válvulas",
+   "Que tiene pared fina",
+   "Que sale del corazón"
+  ],
+  "a": 3,
+  "e": "La definición es direccional: la arteria lleva la sangre desde el corazón.",
+  "x": [
+   "La arteria pulmonar lleva sangre pobre en oxígeno.",
+   "Las válvulas son típicas de las venas.",
+   "Las arterias tienen pared gruesa y elástica.",
+   ""
+  ]
+ },
+ {
+  "id": "x091",
+  "m": "cardio",
+  "t": "Fisiología circulatoria",
+  "d": 2,
+  "q": "¿Dónde se produce el intercambio de gases y nutrientes?",
+  "o": [
+   "En las arteriolas",
+   "En las arterias elásticas",
+   "En los capilares",
+   "En las vénulas"
+  ],
+  "a": 2,
+  "e": "La pared capilar, de una sola capa de endotelio, permite la difusión.",
+  "x": [
+   "Las arteriolas regulan la resistencia.",
+   "Las arterias elásticas amortiguan la onda de pulso.",
+   "",
+   "Las vénulas recogen la sangre ya intercambiada."
+  ]
+ },
+ {
+  "id": "x092",
+  "m": "cardio",
+  "t": "Fisiología circulatoria",
+  "d": 2,
+  "q": "El gasto cardíaco se calcula como:",
+  "o": [
+   "Volumen telediastólico menos telesistólico",
+   "Volumen sistólico por frecuencia cardíaca",
+   "Presión arterial dividida por resistencia",
+   "Frecuencia cardíaca por presión arterial"
+  ],
+  "a": 1,
+  "e": "Volumen sistólico multiplicado por la frecuencia cardíaca da el volumen por minuto.",
+  "x": [
+   "Esa resta define el volumen sistólico.",
+   "",
+   "Esa relación define el flujo, no el gasto cardíaco.",
+   "La presión no entra en la fórmula del gasto."
+  ]
+ },
+ {
+  "id": "x093",
+  "m": "cardio",
+  "t": "Fisiología circulatoria",
+  "d": 2,
+  "q": "Durante la diástole ventricular:",
+  "o": [
+   "Se expulsa la sangre a la aorta",
+   "Se llenan los ventrículos",
+   "Se abren las válvulas semilunares",
+   "Se cierran las válvulas auriculoventriculares"
+  ],
+  "a": 1,
+  "e": "En diástole los ventrículos se relajan y se llenan con las válvulas auriculoventriculares abiertas.",
+  "x": [
+   "La expulsión ocurre en sístole.",
+   "",
+   "Las semilunares se abren en la sístole.",
+   "Las auriculoventriculares están abiertas en diástole."
+  ]
+ },
+ {
+  "id": "x094",
+  "m": "cardio",
+  "t": "Fisiología circulatoria",
+  "d": 2,
+  "q": "¿Qué favorece el retorno venoso en los miembros inferiores?",
+  "o": [
+   "La presión oncótica",
+   "La bomba muscular y las válvulas venosas",
+   "La vasoconstricción arteriolar",
+   "La gravedad"
+  ],
+  "a": 1,
+  "e": "La contracción muscular empuja la sangre y las válvulas impiden que retroceda.",
+  "x": [
+   "Interviene en el intercambio capilar.",
+   "",
+   "Regula la resistencia periférica, no el retorno.",
+   "La gravedad dificulta el retorno en bipedestación."
+  ]
+ },
+ {
+  "id": "x095",
+  "m": "cardio",
+  "t": "Fisiología circulatoria",
+  "d": 3,
+  "q": "¿Qué ocurre con la presión arterial si aumenta la resistencia periférica y el gasto se mantiene?",
+  "o": [
+   "No cambia",
+   "Aumenta",
+   "Disminuye",
+   "Se vuelve indetectable"
+  ],
+  "a": 1,
+  "e": "Presión igual a gasto por resistencia: si la resistencia sube y el gasto no cambia, la presión sube.",
+  "x": [
+   "La relación es directa.",
+   "",
+   "Ocurriría si la resistencia bajara.",
+   "No tiene sentido fisiológico."
+  ]
+ },
+ {
+  "id": "x096",
+  "m": "cardio",
+  "t": "Sistema linfático",
+  "d": 2,
+  "q": "¿Dónde desemboca el conducto torácico?",
+  "o": [
+   "En la aurícula derecha",
+   "En la vena cava superior",
+   "En el ángulo venoso yugulosubclavio izquierdo",
+   "En la vena porta"
+  ],
+  "a": 2,
+  "e": "Vierte la linfa de casi todo el cuerpo en la unión de la yugular interna izquierda con la subclavia izquierda.",
+  "x": [
+   "La linfa no llega directamente al corazón.",
+   "No desemboca directamente en la cava.",
+   "",
+   "La porta pertenece al sistema venoso portal."
+  ]
+ },
+ {
+  "id": "x097",
+  "m": "cardio",
+  "t": "Sistema linfático",
+  "d": 2,
+  "q": "¿Qué órgano filtra la sangre y elimina los hematíes envejecidos?",
+  "o": [
+   "El hígado",
+   "El bazo",
+   "La médula ósea",
+   "El timo"
+  ],
+  "a": 1,
+  "e": "La pulpa roja del bazo retira los hematíes defectuosos.",
+  "x": [
+   "El hígado metaboliza la bilirrubina resultante.",
+   "",
+   "La médula ósea los produce.",
+   "El timo madura linfocitos T."
+  ]
+ },
+ {
+  "id": "x098",
+  "m": "cardio",
+  "t": "Sistema linfático",
+  "d": 2,
+  "q": "¿En qué región se sitúa el bazo?",
+  "o": [
+   "Hipocondrio izquierdo",
+   "Hipocondrio derecho",
+   "Fosa ilíaca izquierda",
+   "Epigastrio"
+  ],
+  "a": 0,
+  "e": "Se proyecta entre la novena y la undécima costillas izquierdas.",
+  "x": [
+   "",
+   "Allí está el hígado.",
+   "Allí se proyecta el colon sigmoide.",
+   "Allí se proyecta parte del estómago y el páncreas."
+  ]
+ },
+ {
+  "id": "x099",
+  "m": "cardio",
+  "t": "Anatomía del corazón",
+  "d": 2,
+  "q": "¿Qué estructura separa eléctricamente aurículas y ventrículos?",
+  "o": [
+   "El tabique interauricular",
+   "El seno coronario",
+   "El pericardio",
+   "El esqueleto fibroso del corazón"
+  ],
+  "a": 3,
+  "e": "El anillo fibroso aísla las cámaras; el único paso eléctrico es el haz de His.",
+  "x": [
+   "Separa las dos aurículas entre sí.",
+   "El seno coronario es una vena.",
+   "El pericardio envuelve el corazón por fuera.",
+   ""
+  ]
+ },
+ {
+  "id": "x100",
+  "m": "cardio",
+  "t": "Anatomía del corazón",
+  "d": 3,
+  "q": "El taponamiento cardíaco se produce por acumulación de líquido en:",
+  "o": [
+   "El espacio subendocárdico",
+   "La cavidad pleural",
+   "El saco pericárdico",
+   "El mediastino posterior"
+  ],
+  "a": 2,
+  "e": "El líquido entre las hojas del pericardio comprime el corazón e impide el llenado diastólico.",
+  "x": [
+   "No es un espacio real donde se acumule líquido a presión.",
+   "Eso sería un derrame pleural.",
+   "",
+   "El mediastino posterior aloja esófago y aorta."
+  ]
+ },
+ {
+  "id": "x101",
+  "m": "cardio",
+  "t": "Grandes vasos",
+  "d": 3,
+  "q": "¿Qué arterias forman el polígono de Willis?",
+  "o": [
+   "Las carótidas internas y las vertebrales, a través del tronco basilar",
+   "Las carótidas externas",
+   "Solo las vertebrales",
+   "Solo las carótidas internas"
+  ],
+  "a": 0,
+  "e": "El polígono une la circulación anterior carotídea con la posterior vertebrobasilar.",
+  "x": [
+   "",
+   "Las carótidas externas irrigan cara y cuello, no el encéfalo.",
+   "Faltaría la circulación anterior.",
+   "Faltaría la circulación posterior."
+  ]
+ },
+ {
+  "id": "x102",
+  "m": "cardio",
+  "t": "Grandes vasos",
+  "d": 2,
+  "q": "¿Qué arteria se palpa en la cara anterior de la muñeca, del lado del pulgar?",
+  "o": [
+   "Cubital",
+   "Interósea anterior",
+   "Radial",
+   "Braquial"
+  ],
+  "a": 2,
+  "e": "La radial es la referencia habitual para tomar el pulso periférico.",
+  "x": [
+   "La cubital se palpa del lado del meñique y con más dificultad.",
+   "Es profunda y no se palpa.",
+   "",
+   "La braquial se palpa en la flexura del codo."
+  ]
+ },
+ {
+  "id": "x103",
+  "m": "cardio",
+  "t": "Fisiología circulatoria",
+  "d": 2,
+  "q": "¿Qué capa de la pared arterial contiene músculo liso y fibras elásticas?",
+  "o": [
+   "Íntima",
+   "Adventicia",
+   "Endotelio",
+   "Intermedia"
+  ],
+  "a": 3,
+  "e": "La túnica media determina el calibre del vaso y su elasticidad.",
+  "x": [
+   "La íntima es el endotelio con su lámina basal.",
+   "La adventicia es conectiva y lleva los vasa vasorum.",
+   "El endotelio forma parte de la íntima.",
+   ""
+  ]
+ },
+ {
+  "id": "x104",
+  "m": "cardio",
+  "t": "Anatomía del corazón",
+  "d": 2,
+  "q": "¿Qué valva tiene la válvula mitral?",
+  "o": [
+   "Dos",
+   "Una",
+   "Tres",
+   "Cuatro"
+  ],
+  "a": 0,
+  "e": "Por eso también se la llama bicúspide.",
+  "x": [
+   "",
+   "Ninguna válvula cardíaca tiene una sola valva.",
+   "Tres tiene la tricúspide.",
+   "No existe válvula cardíaca con cuatro valvas."
+  ]
+ },
+ {
+  "id": "x105",
+  "m": "resp",
+  "t": "Vías aéreas superiores",
+  "d": 1,
+  "q": "¿Qué estructura impide el paso de alimento a la vía aérea durante la deglución?",
+  "o": [
+   "La epiglotis",
+   "La úvula",
+   "El paladar blando",
+   "El cartílago cricoides"
+  ],
+  "a": 0,
+  "e": "La epiglotis bascula y cierra el vestíbulo laríngeo.",
+  "x": [
+   "",
+   "La úvula forma parte del paladar blando.",
+   "El paladar blando cierra el paso hacia las fosas nasales.",
+   "El cricoides es un anillo cartilaginoso de la laringe."
+  ]
+ },
+ {
+  "id": "x106",
+  "m": "resp",
+  "t": "Vías aéreas superiores",
+  "d": 2,
+  "q": "¿Cuál es el único cartílago laríngeo que forma un anillo completo?",
+  "o": [
+   "Aritenoides",
+   "Tiroides",
+   "Epiglotis",
+   "Cricoides"
+  ],
+  "a": 3,
+  "e": "El cricoides tiene forma de anillo de sello y es la referencia de la cricotirotomía.",
+  "x": [
+   "Los aritenoides son pares y pequeños.",
+   "El tiroides está abierto por detrás.",
+   "La epiglotis es una lámina, no un anillo.",
+   ""
+  ]
+ },
+ {
+  "id": "x107",
+  "m": "resp",
+  "t": "Vías aéreas superiores",
+  "d": 2,
+  "q": "¿Qué nervio inerva casi todos los músculos intrínsecos de la laringe?",
+  "o": [
+   "Laríngeo recurrente",
+   "Laríngeo superior",
+   "Glosofaríngeo",
+   "Hipogloso"
+  ],
+  "a": 0,
+  "e": "El recurrente, rama del vago, inerva todos salvo el cricotiroideo.",
+  "x": [
+   "",
+   "Inerva el cricotiroideo y la sensibilidad supraglótica.",
+   "El glosofaríngeo inerva el estilofaríngeo.",
+   "El hipogloso inerva la lengua."
+  ]
+ },
+ {
+  "id": "x108",
+  "m": "resp",
+  "t": "Vías aéreas superiores",
+  "d": 3,
+  "q": "La disfonía tras una tiroidectomía suele deberse a la lesión de:",
+  "o": [
+   "El nervio vago en el cuello",
+   "El nervio laríngeo recurrente",
+   "El plexo cervical superficial",
+   "El nervio frénico"
+  ],
+  "a": 1,
+  "e": "El recurrente discurre junto a la arteria tiroidea inferior y puede lesionarse en la cirugía tiroidea.",
+  "x": [
+   "La lesión del tronco del vago daría un cuadro mucho más amplio.",
+   "",
+   "El plexo cervical superficial es sensitivo.",
+   "El frénico produciría parálisis diafragmática."
+  ]
+ },
+ {
+  "id": "x109",
+  "m": "resp",
+  "t": "Tráquea y bronquios",
+  "d": 1,
+  "q": "¿Qué forma tienen los cartílagos traqueales?",
+  "o": [
+   "Anillos incompletos en C",
+   "No existen cartílagos",
+   "Anillos completos",
+   "Placas irregulares"
+  ],
+  "a": 0,
+  "e": "Están abiertos por detrás, donde la pared es membranosa y permite la dilatación del esófago.",
+  "x": [
+   "",
+   "La tráquea sí tiene cartílago.",
+   "El único anillo completo de la vía aérea alta es el cricoides.",
+   "Las placas irregulares aparecen en los bronquios de menor calibre."
+  ]
+ },
+ {
+  "id": "x110",
+  "m": "resp",
+  "t": "Tráquea y bronquios",
+  "d": 2,
+  "q": "¿A qué altura vertebral se bifurca la tráquea?",
+  "o": [
+   "T2-T3",
+   "T4-T5",
+   "T6-T7",
+   "T8-T9"
+  ],
+  "a": 1,
+  "e": "La carina está a la altura del ángulo esternal, entre T4 y T5.",
+  "x": [
+   "Queda por encima de la carina.",
+   "",
+   "Queda por debajo.",
+   "Corresponde al paso de la cava por el diafragma."
+  ]
+ },
+ {
+  "id": "x111",
+  "m": "resp",
+  "t": "Tráquea y bronquios",
+  "d": 2,
+  "q": "¿Por qué los cuerpos extraños aspirados van más a menudo al pulmón derecho?",
+  "o": [
+   "Porque el diafragma derecho está más alto",
+   "Porque el pulmón derecho es más pequeño",
+   "Porque el bronquio derecho es más ancho, corto y vertical",
+   "Porque la carina se desvía a la izquierda"
+  ],
+  "a": 2,
+  "e": "La disposición del bronquio principal derecho lo convierte en la vía de menor resistencia.",
+  "x": [
+   "La altura del diafragma no influye en esto.",
+   "El derecho es mayor, no menor.",
+   "",
+   "La carina no se desvía de ese modo."
+  ]
+ },
+ {
+  "id": "x112",
+  "m": "resp",
+  "t": "Pulmones",
+  "d": 1,
+  "q": "¿Cuántos lóbulos tiene el pulmón izquierdo?",
+  "o": [
+   "Dos",
+   "Uno",
+   "Tres",
+   "Cuatro"
+  ],
+  "a": 0,
+  "e": "El izquierdo cede espacio al corazón y tiene solo lóbulo superior e inferior.",
+  "x": [
+   "",
+   "Ningún pulmón tiene un único lóbulo.",
+   "Tres tiene el derecho.",
+   "No existe un pulmón de cuatro lóbulos."
+  ]
+ },
+ {
+  "id": "x113",
+  "m": "resp",
+  "t": "Pulmones",
+  "d": 2,
+  "q": "¿Qué cisura existe solo en el pulmón derecho?",
+  "o": [
+   "Ninguna",
+   "La oblicua accesoria",
+   "La oblicua",
+   "La horizontal"
+  ],
+  "a": 3,
+  "e": "La cisura horizontal separa el lóbulo superior del medio en el pulmón derecho.",
+  "x": [
+   "Sí hay una diferencia entre ambos pulmones.",
+   "No es una cisura constante.",
+   "La oblicua existe en ambos pulmones.",
+   ""
+  ]
+ },
+ {
+  "id": "x114",
+  "m": "resp",
+  "t": "Pulmones",
+  "d": 2,
+  "q": "¿Qué estructura NO pasa por el hilio pulmonar?",
+  "o": [
+   "El bronquio principal",
+   "El conducto torácico",
+   "Las venas pulmonares",
+   "La arteria pulmonar"
+  ],
+  "a": 1,
+  "e": "El conducto torácico asciende por el mediastino posterior, no por el hilio pulmonar.",
+  "x": [
+   "Entra por el hilio.",
+   "",
+   "Salen por el hilio.",
+   "Entra por el hilio."
+  ]
+ },
+ {
+  "id": "q4",
+  "m": "resp",
+  "t": "Pulmones",
+  "d": 1,
+  "q": "¿Dónde se produce el intercambio gaseoso?",
+  "o": [
+   "En los alvéolos",
+   "En la tráquea",
+   "En los bronquios principales",
+   "En los bronquiolos terminales"
+  ],
+  "a": 0,
+  "e": "El alvéolo y el capilar forman la barrera alveolocapilar.",
+  "x": [
+   "",
+   "Es la vía aérea principal, sin intercambio.",
+   "Son vías de conducción.",
+   "Marcan el final de la zona de conducción."
+  ]
+ },
+ {
+  "id": "x115",
+  "m": "resp",
+  "t": "Pulmones",
+  "d": 2,
+  "q": "¿Qué célula produce el surfactante pulmonar?",
+  "o": [
+   "Célula caliciforme",
+   "Neumocito tipo II",
+   "Neumocito tipo I",
+   "Macrófago alveolar"
+  ],
+  "a": 1,
+  "e": "El neumocito tipo II reduce la tensión superficial y evita el colapso alveolar.",
+  "x": [
+   "La célula caliciforme produce moco en las vías de conducción.",
+   "",
+   "El tipo I forma la superficie de intercambio.",
+   "El macrófago alveolar limpia partículas."
+  ]
+ },
+ {
+  "id": "x116",
+  "m": "resp",
+  "t": "Pulmones",
+  "d": 3,
+  "q": "El déficit de surfactante en el prematuro produce:",
+  "o": [
+   "Neumotórax espontáneo",
+   "Enfisema congénito",
+   "Síndrome de dificultad respiratoria",
+   "Fibrosis quística"
+  ],
+  "a": 2,
+  "e": "Sin surfactante los alvéolos se colapsan en cada espiración y el trabajo respiratorio se dispara.",
+  "x": [
+   "No es la consecuencia típica.",
+   "No guarda relación con el surfactante.",
+   "",
+   "La fibrosis quística es una enfermedad genética del canal CFTR."
+  ]
+ },
+ {
+  "id": "x117",
+  "m": "resp",
+  "t": "Pulmones",
+  "d": 2,
+  "q": "¿Qué caracteriza a un segmento broncopulmonar?",
+  "o": [
+   "Que comparte bronquio con el segmento vecino",
+   "Que coincide siempre con un lóbulo",
+   "Que carece de drenaje venoso",
+   "Que tiene bronquio y rama arterial propios"
+  ],
+  "a": 3,
+  "e": "Por eso puede resecarse de forma independiente.",
+  "x": [
+   "Cada segmento tiene su propio bronquio.",
+   "Un lóbulo contiene varios segmentos.",
+   "Sí tiene drenaje venoso, por las venas intersegmentarias.",
+   ""
+  ]
+ },
+ {
+  "id": "x118",
+  "m": "resp",
+  "t": "Pleura y mediastino",
+  "d": 2,
+  "q": "¿Qué hay normalmente en la cavidad pleural?",
+  "o": [
+   "Sangre",
+   "Aire",
+   "Nada en absoluto",
+   "Una pequeña cantidad de líquido seroso"
+  ],
+  "a": 3,
+  "e": "Unos pocos mililitros de líquido permiten el deslizamiento de las hojas pleurales.",
+  "x": [
+   "La presencia de sangre es un hemotórax.",
+   "La presencia de aire es un neumotórax.",
+   "Existe una fina película de líquido.",
+   ""
+  ]
+ },
+ {
+  "id": "x119",
+  "m": "resp",
+  "t": "Pleura y mediastino",
+  "d": 2,
+  "q": "¿Qué hoja pleural está adherida a la superficie del pulmón?",
+  "o": [
+   "Visceral",
+   "Mediastínica",
+   "Parietal",
+   "Diafragmática"
+  ],
+  "a": 0,
+  "e": "La pleura visceral se adhiere al pulmón y se introduce en las cisuras.",
+  "x": [
+   "",
+   "Es una porción de la pleura parietal.",
+   "Tapiza la pared torácica.",
+   "También es una porción de la parietal."
+  ]
+ },
+ {
+  "id": "x120",
+  "m": "resp",
+  "t": "Pleura y mediastino",
+  "d": 3,
+  "q": "¿Dónde se acumula primero el líquido en un derrame pleural con el paciente sentado?",
+  "o": [
+   "En el vértice pulmonar",
+   "En el seno costodiafragmático",
+   "En la cisura horizontal",
+   "En el hilio"
+  ],
+  "a": 1,
+  "e": "Es el receso más declive de la cavidad pleural.",
+  "x": [
+   "El vértice es la zona más alta.",
+   "",
+   "Puede haber derrame cisural, pero no es lo primero.",
+   "El hilio no es un receso pleural."
+  ]
+ },
+ {
+  "id": "x121",
+  "m": "resp",
+  "t": "Pleura y mediastino",
+  "d": 2,
+  "q": "En un neumotórax a tensión, el mediastino se desplaza:",
+  "o": [
+   "Hacia arriba",
+   "No se desplaza",
+   "Hacia el lado afectado",
+   "Hacia el lado contrario"
+  ],
+  "a": 3,
+  "e": "El aire a presión empuja el mediastino al lado sano y compromete el retorno venoso.",
+  "x": [
+   "El desplazamiento es lateral.",
+   "Sí se desplaza, y es un signo de gravedad.",
+   "Eso ocurre en la atelectasia, que tira del mediastino.",
+   ""
+  ]
+ },
+ {
+  "id": "x122",
+  "m": "resp",
+  "t": "Fisiología respiratoria",
+  "d": 1,
+  "q": "La espiración en reposo es:",
+  "o": [
+   "Pasiva, por la gravedad",
+   "Activa, por el diafragma",
+   "Activa, por los abdominales",
+   "Pasiva, por retracción elástica"
+  ],
+  "a": 3,
+  "e": "Basta con que el diafragma se relaje y el pulmón y la pared recuperen su posición.",
+  "x": [
+   "La gravedad no es el mecanismo principal.",
+   "El diafragma actúa en la inspiración.",
+   "Los abdominales actúan en la espiración forzada.",
+   ""
+  ]
+ },
+ {
+  "id": "x123",
+  "m": "resp",
+  "t": "Fisiología respiratoria",
+  "d": 2,
+  "q": "¿Cuál es el volumen corriente aproximado en un adulto sano?",
+  "o": [
+   "1.200 ml",
+   "3.000 ml",
+   "500 ml",
+   "150 ml"
+  ],
+  "a": 2,
+  "e": "Es el aire movilizado en una respiración tranquila.",
+  "x": [
+   "Se acerca al volumen de reserva espiratorio.",
+   "Se acerca al volumen de reserva inspiratorio.",
+   "",
+   "Ese es el espacio muerto anatómico."
+  ]
+ },
+ {
+  "id": "x124",
+  "m": "resp",
+  "t": "Fisiología respiratoria",
+  "d": 2,
+  "q": "¿Qué es el espacio muerto anatómico?",
+  "o": [
+   "El volumen de los capilares pulmonares",
+   "El aire que queda tras una espiración forzada",
+   "El volumen de las vías de conducción, sin intercambio",
+   "El aire de los alvéolos colapsados"
+  ],
+  "a": 2,
+  "e": "Ronda los 150 ml y corresponde a nariz, tráquea y bronquios hasta los bronquiolos terminales.",
+  "x": [
+   "No tiene que ver con el espacio muerto anatómico.",
+   "Ese es el volumen residual.",
+   "",
+   "Eso sería una atelectasia."
+  ]
+ },
+ {
+  "id": "x125",
+  "m": "resp",
+  "t": "Fisiología respiratoria",
+  "d": 2,
+  "q": "¿Cuál es el principal estímulo del centro respiratorio en condiciones normales?",
+  "o": [
+   "La bajada de oxígeno",
+   "El aumento de la temperatura",
+   "La subida de dióxido de carbono",
+   "La bajada de potasio"
+  ],
+  "a": 2,
+  "e": "Los quimiorreceptores centrales responden al CO2 a través del pH del líquido cefalorraquídeo.",
+  "x": [
+   "La hipoxia es el estímulo principal solo en situaciones extremas.",
+   "La temperatura la modula, pero no es el estímulo principal.",
+   "",
+   "El potasio no regula la respiración de forma directa."
+  ]
+ },
+ {
+  "id": "x126",
+  "m": "resp",
+  "t": "Fisiología respiratoria",
+  "d": 2,
+  "q": "¿Dónde se encuentra el centro respiratorio principal?",
+  "o": [
+   "En el cerebelo",
+   "En el bulbo raquídeo",
+   "En la corteza cerebral",
+   "En el tálamo"
+  ],
+  "a": 1,
+  "e": "Los grupos respiratorios dorsal y ventral del bulbo generan el ritmo, con modulación de la protuberancia.",
+  "x": [
+   "El cerebelo coordina el movimiento.",
+   "",
+   "La corteza permite el control voluntario, no el ritmo basal.",
+   "El tálamo es una estación sensitiva."
+  ]
+ },
+ {
+  "id": "x127",
+  "m": "resp",
+  "t": "Fisiología respiratoria",
+  "d": 3,
+  "q": "¿Qué volumen pulmonar NO puede medirse con una espirometría simple?",
+  "o": [
+   "Volumen residual",
+   "Volumen de reserva espiratorio",
+   "Volumen corriente",
+   "Capacidad vital"
+  ],
+  "a": 0,
+  "e": "El volumen residual no se puede espirar, por lo que requiere pletismografía o dilución de gases.",
+  "x": [
+   "",
+   "Es movilizable y por tanto medible.",
+   "Se mide sin dificultad.",
+   "Es la suma de volúmenes movilizables."
+  ]
+ },
+ {
+  "id": "q5",
+  "m": "nerv",
+  "t": "Organización general",
+  "d": 1,
+  "q": "¿Qué estructuras forman el sistema nervioso central?",
+  "o": [
+   "Nervios y ganglios",
+   "Encéfalo y nervios craneales",
+   "Solo el cerebro",
+   "Encéfalo y médula espinal"
+  ],
+  "a": 3,
+  "e": "El encéfalo y la médula espinal constituyen el sistema nervioso central.",
+  "x": [
+   "Forman el sistema nervioso periférico.",
+   "Los nervios craneales son periféricos.",
+   "El encéfalo incluye además cerebelo y tronco.",
+   ""
+  ]
+ },
+ {
+  "id": "x128",
+  "m": "nerv",
+  "t": "Organización general",
+  "d": 2,
+  "q": "¿Qué partes forman el tronco del encéfalo?",
+  "o": [
+   "Mesencéfalo, protuberancia y bulbo",
+   "Diencéfalo y cerebelo",
+   "Tálamo, hipotálamo y epitálamo",
+   "Cerebro, cerebelo y bulbo"
+  ],
+  "a": 0,
+  "e": "De arriba abajo: mesencéfalo, protuberancia o puente y bulbo raquídeo.",
+  "x": [
+   "",
+   "El cerebelo es independiente del tronco.",
+   "Esas estructuras forman el diencéfalo.",
+   "El cerebro y el cerebelo no forman parte del tronco."
+  ]
+ },
+ {
+  "id": "x129",
+  "m": "nerv",
+  "t": "Organización general",
+  "d": 2,
+  "q": "En la médula espinal, la sustancia gris se dispone:",
+  "o": [
+   "No existe sustancia gris",
+   "En columnas aisladas",
+   "En el centro, con forma de mariposa",
+   "En la periferia"
+  ],
+  "a": 2,
+  "e": "Es lo contrario de lo que ocurre en el cerebro, donde la gris es cortical.",
+  "x": [
+   "Sí existe.",
+   "Se organiza en astas, pero en una masa central continua.",
+   "",
+   "En la periferia está la sustancia blanca."
+  ]
+ },
+ {
+  "id": "x130",
+  "m": "nerv",
+  "t": "Neurona y neuroglía",
+  "d": 2,
+  "q": "¿Qué célula produce mielina en el sistema nervioso central?",
+  "o": [
+   "Célula de Schwann",
+   "Oligodendrocito",
+   "Microglía",
+   "Astrocito"
+  ],
+  "a": 1,
+  "e": "Un oligodendrocito puede mielinizar varios axones a la vez.",
+  "x": [
+   "La célula de Schwann actúa en el sistema periférico.",
+   "",
+   "La microglía es la célula inmunitaria.",
+   "El astrocito sostiene y forma la barrera hematoencefálica."
+  ]
+ },
+ {
+  "id": "x131",
+  "m": "nerv",
+  "t": "Neurona y neuroglía",
+  "d": 2,
+  "q": "¿Qué célula glial participa en la barrera hematoencefálica?",
+  "o": [
+   "Oligodendrocito",
+   "Célula ependimaria",
+   "Microglía",
+   "Astrocito"
+  ],
+  "a": 3,
+  "e": "Los pies perivasculares de los astrocitos rodean los capilares cerebrales.",
+  "x": [
+   "El oligodendrocito forma mielina.",
+   "La ependimaria tapiza los ventrículos.",
+   "La microglía es fagocítica.",
+   ""
+  ]
+ },
+ {
+  "id": "x132",
+  "m": "nerv",
+  "t": "Neurona y neuroglía",
+  "d": 2,
+  "q": "¿Para qué sirven los nódulos de Ranvier?",
+  "o": [
+   "Nutren el axón",
+   "Forman sinapsis",
+   "Permiten la conducción saltatoria",
+   "Producen neurotransmisores"
+  ],
+  "a": 2,
+  "e": "El impulso salta de nódulo a nódulo y la conducción se acelera mucho.",
+  "x": [
+   "La nutrición depende del soma y del flujo axonal.",
+   "Las sinapsis se forman en los terminales.",
+   "",
+   "Los neurotransmisores se producen en el soma y el terminal."
+  ]
+ },
+ {
+  "id": "x133",
+  "m": "nerv",
+  "t": "Médula espinal",
+  "d": 2,
+  "q": "¿Cuántos pares de nervios espinales existen?",
+  "o": [
+   "12",
+   "31",
+   "33",
+   "24"
+  ],
+  "a": 1,
+  "e": "Ocho cervicales, doce torácicos, cinco lumbares, cinco sacros y uno coccígeo.",
+  "x": [
+   "Doce son los pares craneales.",
+   "",
+   "Treinta y tres es el número total de vértebras.",
+   "Veinticuatro son las vértebras móviles."
+  ]
+ },
+ {
+  "id": "x134",
+  "m": "nerv",
+  "t": "Médula espinal",
+  "d": 2,
+  "q": "¿Qué contiene la raíz posterior de un nervio espinal?",
+  "o": [
+   "Ninguna fibra",
+   "Fibras sensitivas",
+   "Solo fibras autónomas",
+   "Fibras motoras"
+  ],
+  "a": 1,
+  "e": "La raíz posterior es sensitiva y lleva el ganglio raquídeo; la anterior es motora.",
+  "x": [
+   "Sí contiene fibras.",
+   "",
+   "Las autónomas viajan sobre todo por la raíz anterior.",
+   "Las motoras van por la raíz anterior."
+  ]
+ },
+ {
+  "id": "x135",
+  "m": "nerv",
+  "t": "Médula espinal",
+  "d": 3,
+  "q": "¿Dónde cruza la línea media el haz espinotalámico lateral?",
+  "o": [
+   "En la médula, cerca del nivel de entrada",
+   "En el bulbo raquídeo",
+   "No cruza",
+   "En el mesencéfalo"
+  ],
+  "a": 0,
+  "e": "Cruza por la comisura blanca anterior en uno o dos segmentos, por eso el déficit termoalgésico es contralateral desde niveles bajos.",
+  "x": [
+   "",
+   "Allí cruza la vía de los cordones posteriores.",
+   "Sí cruza.",
+   "No cruza en el mesencéfalo."
+  ]
+ },
+ {
+  "id": "x136",
+  "m": "nerv",
+  "t": "Médula espinal",
+  "d": 3,
+  "q": "¿Dónde decusa la vía corticoespinal lateral?",
+  "o": [
+   "En el bulbo raquídeo",
+   "En la protuberancia",
+   "En la cápsula interna",
+   "En la médula sacra"
+  ],
+  "a": 0,
+  "e": "En la decusación de las pirámides, en la parte baja del bulbo.",
+  "x": [
+   "",
+   "No decusa en la protuberancia.",
+   "La cápsula interna es un paso, no una decusación.",
+   "No decusa a nivel sacro."
+  ]
+ },
+ {
+  "id": "x137",
+  "m": "nerv",
+  "t": "Médula espinal",
+  "d": 2,
+  "q": "¿Qué transporta la vía de los cordones posteriores?",
+  "o": [
+   "Tacto fino, vibración y propiocepción consciente",
+   "Movimiento voluntario",
+   "Reflejos autónomos",
+   "Dolor y temperatura"
+  ],
+  "a": 0,
+  "e": "Los fascículos grácil y cuneiforme ascienden sin cruzar hasta el bulbo.",
+  "x": [
+   "",
+   "El movimiento voluntario va por la vía piramidal.",
+   "No es una vía autónoma.",
+   "Eso corresponde al espinotalámico lateral."
+  ]
+ },
+ {
+  "id": "x138",
+  "m": "nerv",
+  "t": "Encéfalo",
+  "d": 1,
+  "q": "¿Qué lóbulo cerebral contiene el área visual primaria?",
+  "o": [
+   "Parietal",
+   "Frontal",
+   "Occipital",
+   "Temporal"
+  ],
+  "a": 2,
+  "e": "Se sitúa a ambos lados de la cisura calcarina, en la cara medial del lóbulo occipital.",
+  "x": [
+   "En el parietal, la sensitiva.",
+   "En el frontal está el área motora.",
+   "",
+   "En el temporal, la auditiva."
+  ]
+ },
+ {
+  "id": "x139",
+  "m": "nerv",
+  "t": "Encéfalo",
+  "d": 2,
+  "q": "¿Qué surco separa el lóbulo frontal del parietal?",
+  "o": [
+   "Cisura lateral",
+   "Surco calcarino",
+   "Surco parietooccipital",
+   "Surco central"
+  ],
+  "a": 3,
+  "e": "El surco central o cisura de Rolando separa la circunvolución precentral de la poscentral.",
+  "x": [
+   "La cisura lateral separa el temporal.",
+   "El calcarino está en el occipital.",
+   "El parietooccipital separa parietal de occipital.",
+   ""
+  ]
+ },
+ {
+  "id": "x140",
+  "m": "nerv",
+  "t": "Encéfalo",
+  "d": 2,
+  "q": "El área motora primaria se localiza en:",
+  "o": [
+   "El lóbulo de la ínsula",
+   "El giro temporal superior",
+   "La circunvolución precentral",
+   "La circunvolución poscentral"
+  ],
+  "a": 2,
+  "e": "Está justo delante del surco central, en el lóbulo frontal.",
+  "x": [
+   "La ínsula participa en funciones viscerales y gustativas.",
+   "Allí está el área auditiva.",
+   "",
+   "La poscentral es la sensitiva primaria."
+  ]
+ },
+ {
+  "id": "x141",
+  "m": "nerv",
+  "t": "Encéfalo",
+  "d": 3,
+  "q": "Un paciente comprende las órdenes pero habla con mucho esfuerzo y frases cortas. La lesión está en:",
+  "o": [
+   "El área de Broca",
+   "El cerebelo",
+   "El área de Wernicke",
+   "El tálamo"
+  ],
+  "a": 0,
+  "e": "Es una afasia motora o de expresión, por lesión del giro frontal inferior dominante.",
+  "x": [
+   "",
+   "El cerebelo produce disartria, no afasia.",
+   "En la de Wernicke la comprensión está alterada.",
+   "La lesión talámica no da este patrón típico."
+  ]
+ },
+ {
+  "id": "x142",
+  "m": "nerv",
+  "t": "Encéfalo",
+  "d": 3,
+  "q": "Un paciente habla con fluidez pero su discurso carece de sentido y no comprende lo que se le dice. Se trata de:",
+  "o": [
+   "Afasia de Wernicke",
+   "Afasia de Broca",
+   "Disartria",
+   "Apraxia"
+  ],
+  "a": 0,
+  "e": "La afasia de Wernicke es sensitiva o de comprensión, por lesión del giro temporal superior dominante.",
+  "x": [
+   "",
+   "En la de Broca el habla es trabajosa.",
+   "La disartria es un problema articulatorio, no del lenguaje.",
+   "La apraxia afecta a la ejecución de gestos aprendidos."
+  ]
+ },
+ {
+  "id": "x143",
+  "m": "nerv",
+  "t": "Encéfalo",
+  "d": 2,
+  "q": "¿Qué estructura conecta ambos hemisferios cerebrales?",
+  "o": [
+   "El fórnix",
+   "El cuerpo calloso",
+   "El acueducto de Silvio",
+   "La cápsula interna"
+  ],
+  "a": 1,
+  "e": "Es la mayor comisura interhemisférica.",
+  "x": [
+   "El fórnix conecta el hipocampo con los cuerpos mamilares.",
+   "",
+   "El acueducto es un conducto para el líquido cefalorraquídeo.",
+   "La cápsula interna es una vía de proyección."
+  ]
+ },
+ {
+  "id": "x144",
+  "m": "nerv",
+  "t": "Encéfalo",
+  "d": 2,
+  "q": "¿Cuál es la función principal del cerebelo?",
+  "o": [
+   "Procesar la visión",
+   "Coordinar el movimiento y el equilibrio",
+   "Regular la temperatura",
+   "Iniciar el movimiento voluntario"
+  ],
+  "a": 1,
+  "e": "Ajusta la fuerza, la dirección y el ritmo del movimiento.",
+  "x": [
+   "La visión se procesa en el occipital.",
+   "",
+   "La temperatura la regula el hipotálamo.",
+   "El inicio corresponde a la corteza motora."
+  ]
+ },
+ {
+  "id": "x145",
+  "m": "nerv",
+  "t": "Encéfalo",
+  "d": 2,
+  "q": "Una lesión cerebelosa unilateral produce síntomas:",
+  "o": [
+   "Sin síntomas motores",
+   "Contralaterales",
+   "Bilaterales siempre",
+   "Ipsilaterales"
+  ],
+  "a": 3,
+  "e": "La doble decusación de sus vías hace que los signos aparezcan del mismo lado de la lesión.",
+  "x": [
+   "Sí produce ataxia y dismetría.",
+   "Ese es el patrón de las lesiones corticales motoras.",
+   "No necesariamente.",
+   ""
+  ]
+ },
+ {
+  "id": "x146",
+  "m": "nerv",
+  "t": "Encéfalo",
+  "d": 2,
+  "q": "¿Qué estructura actúa como relevo de casi toda la sensibilidad hacia la corteza?",
+  "o": [
+   "El cuerpo estriado",
+   "El bulbo olfatorio",
+   "El hipotálamo",
+   "El tálamo"
+  ],
+  "a": 3,
+  "e": "La excepción es la vía olfatoria, que llega a la corteza sin relevo talámico previo.",
+  "x": [
+   "El estriado participa en el control motor.",
+   "El bulbo olfatorio es la primera estación del olfato.",
+   "El hipotálamo regula funciones vegetativas y endocrinas.",
+   ""
+  ]
+ },
+ {
+  "id": "x147",
+  "m": "nerv",
+  "t": "Encéfalo",
+  "d": 2,
+  "q": "¿Qué función NO corresponde al hipotálamo?",
+  "o": [
+   "Controlar el hambre y la sed",
+   "Controlar la hipófisis",
+   "Regular la temperatura",
+   "Coordinar el movimiento fino"
+  ],
+  "a": 3,
+  "e": "La coordinación motora fina corresponde al cerebelo.",
+  "x": [
+   "Es una función hipotalámica.",
+   "El hipotálamo controla la hipófisis.",
+   "Es una función hipotalámica.",
+   ""
+  ]
+ },
+ {
+  "id": "x148",
+  "m": "nerv",
+  "t": "Encéfalo",
+  "d": 2,
+  "q": "¿Qué núcleos forman el cuerpo estriado?",
+  "o": [
+   "Tálamo e hipotálamo",
+   "Núcleo rojo y sustancia negra",
+   "Caudado y putamen",
+   "Amígdala e hipocampo"
+  ],
+  "a": 2,
+  "e": "El caudado y el putamen forman el neoestriado; con el globo pálido constituyen el núcleo lenticular y los ganglios basales.",
+  "x": [
+   "Forman parte del diencéfalo.",
+   "Son núcleos del mesencéfalo relacionados con el movimiento.",
+   "",
+   "Son estructuras del sistema límbico."
+  ]
+ },
+ {
+  "id": "x149",
+  "m": "nerv",
+  "t": "Encéfalo",
+  "d": 3,
+  "q": "La degeneración de la sustancia negra se asocia a:",
+  "o": [
+   "Miastenia grave",
+   "Enfermedad de Parkinson",
+   "Corea de Huntington",
+   "Esclerosis múltiple"
+  ],
+  "a": 1,
+  "e": "La pérdida de neuronas dopaminérgicas nigroestriadas produce rigidez, bradicinesia y temblor de reposo.",
+  "x": [
+   "La miastenia afecta a la placa motora.",
+   "",
+   "La corea se asocia a degeneración del caudado.",
+   "La esclerosis múltiple es desmielinizante."
+  ]
+ },
+ {
+  "id": "x150",
+  "m": "nerv",
+  "t": "Encéfalo",
+  "d": 2,
+  "q": "¿Qué centros vitales se alojan en el bulbo raquídeo?",
+  "o": [
+   "De la memoria",
+   "Respiratorio y cardiovascular",
+   "Visual y auditivo",
+   "Del lenguaje"
+  ],
+  "a": 1,
+  "e": "También aloja los reflejos del vómito, la tos y la deglución.",
+  "x": [
+   "La memoria depende del hipocampo y la corteza.",
+   "",
+   "Están en la corteza.",
+   "El lenguaje es cortical."
+  ]
+ },
+ {
+  "id": "x151",
+  "m": "nerv",
+  "t": "Meninges y líquido cefalorraquídeo",
+  "d": 1,
+  "q": "¿Cuál es el orden de las meninges de fuera adentro?",
+  "o": [
+   "Piamadre, aracnoides, duramadre",
+   "Duramadre, piamadre, aracnoides",
+   "Aracnoides, duramadre, piamadre",
+   "Duramadre, aracnoides, piamadre"
+  ],
+  "a": 3,
+  "e": "La duramadre es la más externa y resistente; la piamadre se adhiere al tejido nervioso.",
+  "x": [
+   "Está invertido.",
+   "La aracnoides es intermedia.",
+   "La duramadre es la más externa.",
+   ""
+  ]
+ },
+ {
+  "id": "x152",
+  "m": "nerv",
+  "t": "Meninges y líquido cefalorraquídeo",
+  "d": 2,
+  "q": "¿Dónde circula el líquido cefalorraquídeo?",
+  "o": [
+   "Entre la duramadre y el hueso",
+   "En el espacio subdural",
+   "En el espacio epidural",
+   "En el espacio subaracnoideo"
+  ],
+  "a": 3,
+  "e": "Circula entre la aracnoides y la piamadre.",
+  "x": [
+   "Eso describe el espacio epidural.",
+   "El subdural es virtual.",
+   "El epidural es un espacio virtual con grasa y plexos venosos.",
+   ""
+  ]
+ },
+ {
+  "id": "x153",
+  "m": "nerv",
+  "t": "Meninges y líquido cefalorraquídeo",
+  "d": 2,
+  "q": "¿Dónde se produce el líquido cefalorraquídeo?",
+  "o": [
+   "En el espacio subaracnoideo",
+   "En la duramadre",
+   "En las vellosidades aracnoideas",
+   "En los plexos coroideos"
+  ],
+  "a": 3,
+  "e": "Los plexos coroideos de los ventrículos lo producen a razón de unos 500 ml al día.",
+  "x": [
+   "Allí circula, pero no se forma.",
+   "La duramadre no produce líquido.",
+   "Allí se reabsorbe, no se produce.",
+   ""
+  ]
+ },
+ {
+  "id": "x154",
+  "m": "nerv",
+  "t": "Meninges y líquido cefalorraquídeo",
+  "d": 3,
+  "q": "¿Cuál es el orden correcto de circulación del líquido cefalorraquídeo?",
+  "o": [
+   "Laterales, IV, III, acueducto",
+   "III ventrículo, laterales, acueducto, IV",
+   "Laterales, III, acueducto, IV, espacio subaracnoideo",
+   "IV, acueducto, III, laterales"
+  ],
+  "a": 2,
+  "e": "Los agujeros de Monro comunican los laterales con el tercero, y el acueducto de Silvio el tercero con el cuarto.",
+  "x": [
+   "El orden no corresponde a la anatomía.",
+   "Empieza en los ventrículos laterales.",
+   "",
+   "El sentido está invertido."
+  ]
+ },
+ {
+  "id": "x155",
+  "m": "nerv",
+  "t": "Meninges y líquido cefalorraquídeo",
+  "d": 3,
+  "q": "Un hematoma con forma de lente biconvexa en la tomografía sugiere:",
+  "o": [
+   "Hemorragia intraventricular",
+   "Hematoma epidural",
+   "Hemorragia subaracnoidea",
+   "Hematoma subdural"
+  ],
+  "a": 1,
+  "e": "El epidural suele deberse a rotura de la arteria meníngea media y queda limitado por las suturas.",
+  "x": [
+   "Ocupa el sistema ventricular.",
+   "",
+   "La subaracnoidea se distribuye por los surcos y cisternas.",
+   "El subdural tiene forma de semiluna o cóncava."
+  ]
+ },
+ {
+  "id": "x156",
+  "m": "nerv",
+  "t": "Pares craneales",
+  "d": 1,
+  "q": "¿Cuántos pares craneales hay?",
+  "o": [
+   "10",
+   "12",
+   "14",
+   "31"
+  ],
+  "a": 1,
+  "e": "Se numeran del I al XII.",
+  "x": [
+   "Faltarían dos.",
+   "",
+   "No existen catorce pares craneales.",
+   "Treinta y uno son los pares espinales."
+  ]
+ },
+ {
+  "id": "x157",
+  "m": "nerv",
+  "t": "Pares craneales",
+  "d": 2,
+  "q": "¿Qué par craneal inerva el músculo recto lateral del ojo?",
+  "o": [
+   "IV",
+   "VII",
+   "VI",
+   "III"
+  ],
+  "a": 2,
+  "e": "El VI par o abducens lleva el ojo hacia fuera; su lesión produce estrabismo convergente.",
+  "x": [
+   "El IV inerva el oblicuo superior.",
+   "El VII inerva la mímica facial.",
+   "",
+   "El III inerva la mayoría de los rectos y el oblicuo inferior."
+  ]
+ },
+ {
+  "id": "x158",
+  "m": "nerv",
+  "t": "Pares craneales",
+  "d": 2,
+  "q": "¿Qué par craneal inerva el músculo oblicuo superior del ojo?",
+  "o": [
+   "VI",
+   "III",
+   "V",
+   "IV"
+  ],
+  "a": 3,
+  "e": "El IV par o troclear es el único que emerge por la cara posterior del tronco.",
+  "x": [
+   "El VI inerva el recto lateral.",
+   "El III inerva los demás músculos salvo dos.",
+   "El V es sensitivo de la cara y motor de la masticación.",
+   ""
+  ]
+ },
+ {
+  "id": "x159",
+  "m": "nerv",
+  "t": "Pares craneales",
+  "d": 2,
+  "q": "¿Cuál es el par craneal más grueso?",
+  "o": [
+   "Facial (VII)",
+   "Óptico (II)",
+   "Trigémino (V)",
+   "Vago (X)"
+  ],
+  "a": 2,
+  "e": "El trigémino lleva la sensibilidad de toda la cara y la motricidad masticatoria.",
+  "x": [
+   "El facial es más delgado.",
+   "El óptico es un tracto del sistema nervioso central.",
+   "",
+   "El vago es el más largo, no el más grueso."
+  ]
+ },
+ {
+  "id": "x160",
+  "m": "nerv",
+  "t": "Pares craneales",
+  "d": 2,
+  "q": "¿Qué par craneal recoge el gusto de los dos tercios anteriores de la lengua?",
+  "o": [
+   "IX",
+   "XII",
+   "VII",
+   "V"
+  ],
+  "a": 2,
+  "e": "Lo hace el facial a través de la cuerda del tímpano.",
+  "x": [
+   "El IX recoge el gusto del tercio posterior.",
+   "El XII es motor de la lengua.",
+   "",
+   "El V recoge la sensibilidad general de esa zona, no el gusto."
+  ]
+ },
+ {
+  "id": "x161",
+  "m": "nerv",
+  "t": "Pares craneales",
+  "d": 2,
+  "q": "La desviación de la lengua hacia un lado al sacarla indica lesión de:",
+  "o": [
+   "El glosofaríngeo",
+   "El trigémino",
+   "El facial del lado contrario",
+   "El hipogloso del lado hacia el que se desvía"
+  ],
+  "a": 3,
+  "e": "El geniogloso sano empuja la lengua hacia el lado paralizado.",
+  "x": [
+   "El glosofaríngeo es sensitivo y gustativo del tercio posterior.",
+   "El trigémino no mueve la lengua.",
+   "El facial no mueve la lengua.",
+   ""
+  ]
+ },
+ {
+  "id": "x162",
+  "m": "nerv",
+  "t": "Pares craneales",
+  "d": 3,
+  "q": "¿Qué par craneal tiene el recorrido más largo y alcanza el abdomen?",
+  "o": [
+   "Accesorio",
+   "Trigémino",
+   "Facial",
+   "Vago"
+  ],
+  "a": 3,
+  "e": "El vago inerva vísceras torácicas y abdominales hasta el ángulo esplénico del colon.",
+  "x": [
+   "El accesorio inerva esternocleidomastoideo y trapecio.",
+   "El trigémino se limita a la cabeza.",
+   "El facial se limita a la cabeza y el cuello.",
+   ""
+  ]
+ },
+ {
+  "id": "x163",
+  "m": "nerv",
+  "t": "Pares craneales",
+  "d": 2,
+  "q": "¿Qué función tiene el VIII par craneal?",
+  "o": [
+   "Olfato",
+   "Visión",
+   "Gusto",
+   "Audición y equilibrio"
+  ],
+  "a": 3,
+  "e": "El nervio vestibulococlear tiene una porción coclear y otra vestibular.",
+  "x": [
+   "El olfato depende del I par.",
+   "La visión depende del II par.",
+   "El gusto depende del VII, IX y X.",
+   ""
+  ]
+ },
+ {
+  "id": "x164",
+  "m": "nerv",
+  "t": "Sistema nervioso autónomo",
+  "d": 2,
+  "q": "¿Qué efecto produce la estimulación simpática sobre el corazón?",
+  "o": [
+   "Disminuye la frecuencia",
+   "Aumenta la frecuencia y la contractilidad",
+   "Solo afecta a la conducción",
+   "No tiene efecto"
+  ],
+  "a": 1,
+  "e": "El simpático actúa por receptores beta-1 y acelera y refuerza el latido.",
+  "x": [
+   "Eso corresponde al parasimpático.",
+   "",
+   "Afecta a frecuencia, contractilidad y conducción.",
+   "Sí tiene efecto."
+  ]
+ },
+ {
+  "id": "x165",
+  "m": "nerv",
+  "t": "Sistema nervioso autónomo",
+  "d": 2,
+  "q": "¿De qué segmentos medulares emerge la división simpática?",
+  "o": [
+   "L3-S1",
+   "C1-C8",
+   "S2-S4",
+   "T1-L2"
+  ],
+  "a": 3,
+  "e": "Por eso se la llama división toracolumbar.",
+  "x": [
+   "No corresponde a la salida simpática.",
+   "No hay salida simpática cervical directa desde la médula.",
+   "S2-S4 corresponde al parasimpático sacro.",
+   ""
+  ]
+ },
+ {
+  "id": "x166",
+  "m": "nerv",
+  "t": "Sistema nervioso autónomo",
+  "d": 2,
+  "q": "¿Cuál es el principal nervio parasimpático del organismo?",
+  "o": [
+   "El nervio frénico",
+   "El nervio esplácnico mayor",
+   "El nervio vago",
+   "La cadena simpática"
+  ],
+  "a": 2,
+  "e": "Aporta el parasimpático de corazón, pulmones y la mayor parte del tubo digestivo.",
+  "x": [
+   "El frénico es somático motor del diafragma.",
+   "Los esplácnicos son simpáticos.",
+   "",
+   "Es simpática."
+  ]
+ },
+ {
+  "id": "x167",
+  "m": "nerv",
+  "t": "Sistema nervioso autónomo",
+  "d": 3,
+  "q": "¿Qué excepción existe en la inervación simpática posganglionar?",
+  "o": [
+   "Los vasos, que no reciben simpático",
+   "El intestino, que no recibe simpático",
+   "Las glándulas sudoríparas, que reciben fibras colinérgicas",
+   "El corazón, que es colinérgico"
+  ],
+  "a": 2,
+  "e": "Las fibras simpáticas posganglionares de las glándulas sudoríparas liberan acetilcolina en lugar de noradrenalina.",
+  "x": [
+   "Los vasos reciben inervación simpática vasoconstrictora.",
+   "El intestino sí recibe simpático.",
+   "",
+   "El corazón recibe fibras noradrenérgicas."
+  ]
+ },
+ {
+  "id": "x168",
+  "m": "nerv",
+  "t": "Plexos nerviosos",
+  "d": 2,
+  "q": "¿Qué raíces forman el plexo braquial?",
+  "o": [
+   "C5-T1",
+   "T2-T6",
+   "L1-L4",
+   "C1-C4"
+  ],
+  "a": 0,
+  "e": "De C5 a T1 nacen los cinco nervios terminales del miembro superior.",
+  "x": [
+   "",
+   "Las torácicas medias dan los nervios intercostales.",
+   "L1-L4 forman el plexo lumbar.",
+   "C1-C4 forman el plexo cervical."
+  ]
+ },
+ {
+  "id": "x169",
+  "m": "nerv",
+  "t": "Plexos nerviosos",
+  "d": 3,
+  "q": "La parálisis de Erb-Duchenne afecta a las raíces:",
+  "o": [
+   "L4-L5",
+   "C8-T1",
+   "C5-C6",
+   "S1-S2"
+  ],
+  "a": 2,
+  "e": "Produce el brazo en aducción y rotación interna con antebrazo pronado.",
+  "x": [
+   "Son raíces lumbares.",
+   "C8-T1 corresponde a la parálisis de Klumpke, con mano en garra.",
+   "",
+   "Son raíces sacras."
+  ]
+ },
+ {
+  "id": "x170",
+  "m": "nerv",
+  "t": "Plexos nerviosos",
+  "d": 2,
+  "q": "¿Qué nervio es la rama terminal más gruesa del plexo sacro?",
+  "o": [
+   "Pudendo",
+   "Femoral",
+   "Obturador",
+   "Ciático"
+  ],
+  "a": 3,
+  "e": "El ciático es el nervio más grueso del cuerpo humano.",
+  "x": [
+   "El pudendo es la rama principal para el periné, pero más delgado.",
+   "El femoral procede del plexo lumbar.",
+   "El obturador procede del plexo lumbar.",
+   ""
+  ]
+ },
+ {
+  "id": "x171",
+  "m": "nerv",
+  "t": "Médula espinal",
+  "d": 2,
+  "q": "¿Qué es la cola de caballo?",
+  "o": [
+   "Una parte del bulbo",
+   "Un ligamento de la duramadre",
+   "Un haz de fibras del cerebelo",
+   "El conjunto de raíces por debajo del final de la médula"
+  ],
+  "a": 3,
+  "e": "Está formada por las raíces lumbares, sacras y coccígeas que descienden dentro del saco dural.",
+  "x": [
+   "El bulbo es parte del tronco del encéfalo.",
+   "El filum terminale sí es un ligamento, pero no es la cola de caballo.",
+   "No tiene relación con el cerebelo.",
+   ""
+  ]
+ },
+ {
+  "id": "x172",
+  "m": "nerv",
+  "t": "Encéfalo",
+  "d": 2,
+  "q": "¿Qué estructura se sitúa justo por encima de la hipófisis y puede comprimirse en sus tumores?",
+  "o": [
+   "El acueducto de Silvio",
+   "El cerebelo",
+   "El cuerpo calloso",
+   "El quiasma óptico"
+  ],
+  "a": 3,
+  "e": "La compresión del quiasma produce hemianopsia bitemporal.",
+  "x": [
+   "El acueducto está en el mesencéfalo.",
+   "El cerebelo está en la fosa posterior.",
+   "Está muy por encima y por delante.",
+   ""
+  ]
+ },
+ {
+  "id": "x173",
+  "m": "nerv",
+  "t": "Encéfalo",
+  "d": 3,
+  "q": "¿Qué arteria irriga la mayor parte de la cara lateral del hemisferio cerebral?",
+  "o": [
+   "Cerebral media",
+   "Arteria basilar",
+   "Cerebral anterior",
+   "Cerebral posterior"
+  ],
+  "a": 0,
+  "e": "La cerebral media es la rama más voluminosa de la carótida interna y la que se ocluye con más frecuencia.",
+  "x": [
+   "",
+   "La basilar irriga tronco y cerebelo.",
+   "Irriga la cara medial y superior del lóbulo frontal y parietal.",
+   "Irriga el lóbulo occipital y la cara inferior del temporal."
+  ]
+ },
+ {
+  "id": "x174",
+  "m": "nerv",
+  "t": "Organización general",
+  "d": 2,
+  "q": "¿Qué diferencia a un ganglio de un núcleo en el sistema nervioso?",
+  "o": [
+   "El ganglio está fuera del sistema nervioso central y el núcleo dentro",
+   "No hay diferencia",
+   "El núcleo solo contiene axones",
+   "El ganglio solo existe en el encéfalo"
+  ],
+  "a": 0,
+  "e": "Ambos son agrupaciones de cuerpos neuronales, pero se distinguen por su localización.",
+  "x": [
+   "",
+   "Sí la hay.",
+   "El núcleo contiene cuerpos neuronales.",
+   "Los ganglios son periféricos."
+  ]
+ },
+ {
+  "id": "x175",
+  "m": "dig",
+  "t": "Organización general",
+  "d": 2,
+  "q": "¿Cuáles son las capas de la pared del tubo digestivo de dentro afuera?",
+  "o": [
+   "Serosa, muscular, submucosa, mucosa",
+   "Submucosa, mucosa, muscular, serosa",
+   "Mucosa, muscular, submucosa, serosa",
+   "Mucosa, submucosa, muscular, serosa"
+  ],
+  "a": 3,
+  "e": "La mucosa contacta con la luz y la serosa o adventicia cubre por fuera.",
+  "x": [
+   "Está invertido.",
+   "La mucosa es la capa más interna.",
+   "La submucosa queda entre mucosa y muscular.",
+   ""
+  ]
+ },
+ {
+  "id": "x176",
+  "m": "dig",
+  "t": "Organización general",
+  "d": 2,
+  "q": "¿Qué plexo nervioso regula la motilidad intestinal?",
+  "o": [
+   "Plexo hipogástrico",
+   "Plexo submucoso de Meissner",
+   "Plexo mientérico de Auerbach",
+   "Plexo celíaco"
+  ],
+  "a": 2,
+  "e": "Está entre las capas musculares circular y longitudinal.",
+  "x": [
+   "El hipogástrico inerva la pelvis.",
+   "El de Meissner regula la secreción y el flujo local.",
+   "",
+   "El celíaco es un plexo autónomo prevertebral."
+  ]
+ },
+ {
+  "id": "x177",
+  "m": "dig",
+  "t": "Boca y glándulas salivales",
+  "d": 2,
+  "q": "¿Cuál es la glándula salival de mayor tamaño?",
+  "o": [
+   "Submandibular",
+   "Parótida",
+   "Sublingual",
+   "Glándulas labiales"
+  ],
+  "a": 1,
+  "e": "La parótida se sitúa por delante y debajo del pabellón auricular.",
+  "x": [
+   "Es la segunda en tamaño pero la que más saliva aporta en reposo.",
+   "",
+   "Es la menor de las tres mayores.",
+   "Son glándulas menores."
+  ]
+ },
+ {
+  "id": "x178",
+  "m": "dig",
+  "t": "Boca y glándulas salivales",
+  "d": 2,
+  "q": "¿Dónde desemboca el conducto de la glándula parótida?",
+  "o": [
+   "En el suelo de la boca",
+   "Frente al segundo molar superior",
+   "En la orofaringe",
+   "Bajo la lengua"
+  ],
+  "a": 1,
+  "e": "El conducto de Stenon se abre en la mucosa de la mejilla.",
+  "x": [
+   "Ese es el territorio de las otras glándulas mayores.",
+   "",
+   "No desemboca en la faringe.",
+   "Allí desembocan la submandibular y la sublingual."
+  ]
+ },
+ {
+  "id": "x179",
+  "m": "dig",
+  "t": "Boca y glándulas salivales",
+  "d": 1,
+  "q": "¿Cuántos dientes tiene la dentición permanente completa?",
+  "o": [
+   "32",
+   "20",
+   "36",
+   "28"
+  ],
+  "a": 0,
+  "e": "Ocho incisivos, cuatro caninos, ocho premolares y doce molares.",
+  "x": [
+   "",
+   "Veinte son los de la dentición temporal.",
+   "No corresponde a la fórmula dentaria humana.",
+   "Veintiocho es el total sin los terceros molares."
+  ]
+ },
+ {
+  "id": "x180",
+  "m": "dig",
+  "t": "Esófago",
+  "d": 3,
+  "q": "¿A qué altura atraviesa el esófago el diafragma?",
+  "o": [
+   "L1",
+   "T10",
+   "T8",
+   "T12"
+  ],
+  "a": 1,
+  "e": "El hiato esofágico está a la altura de T10; la cava pasa a T8 y la aorta a T12.",
+  "x": [
+   "A L1 ya está el tronco celíaco.",
+   "",
+   "Por ahí pasa la vena cava inferior.",
+   "Por ahí pasa la aorta."
+  ]
+ },
+ {
+  "id": "x181",
+  "m": "dig",
+  "t": "Esófago",
+  "d": 2,
+  "q": "¿Qué tipo de epitelio reviste el esófago?",
+  "o": [
+   "Cúbico simple",
+   "Plano estratificado no queratinizado",
+   "Seudoestratificado ciliado",
+   "Cilíndrico simple"
+  ],
+  "a": 1,
+  "e": "Su epitelio resiste la abrasión del bolo alimenticio.",
+  "x": [
+   "Es propio de conductos glandulares pequeños.",
+   "",
+   "Es propio de la vía respiratoria.",
+   "Ese es el del estómago e intestino."
+  ]
+ },
+ {
+  "id": "x182",
+  "m": "dig",
+  "t": "Estómago",
+  "d": 2,
+  "q": "¿Qué célula gástrica produce el ácido clorhídrico y el factor intrínseco?",
+  "o": [
+   "Célula parietal",
+   "Célula mucosa del cuello",
+   "Célula principal",
+   "Célula G"
+  ],
+  "a": 0,
+  "e": "La célula parietal u oxíntica cumple ambas funciones.",
+  "x": [
+   "",
+   "Produce moco.",
+   "La principal produce pepsinógeno.",
+   "La célula G produce gastrina."
+  ]
+ },
+ {
+  "id": "x183",
+  "m": "dig",
+  "t": "Estómago",
+  "d": 2,
+  "q": "¿Qué hormona estimula la secreción ácida del estómago?",
+  "o": [
+   "Colecistoquinina",
+   "Somatostatina",
+   "Gastrina",
+   "Secretina"
+  ],
+  "a": 2,
+  "e": "La gastrina, producida por las células G del antro, estimula la célula parietal.",
+  "x": [
+   "La colecistoquinina contrae la vesícula biliar.",
+   "La somatostatina inhibe la secreción.",
+   "",
+   "La secretina estimula la secreción pancreática de bicarbonato."
+  ]
+ },
+ {
+  "id": "x184",
+  "m": "dig",
+  "t": "Estómago",
+  "d": 2,
+  "q": "¿Dónde se absorbe la vitamina B12?",
+  "o": [
+   "En el estómago",
+   "En el íleon terminal",
+   "En el yeyuno",
+   "En el duodeno"
+  ],
+  "a": 1,
+  "e": "Necesita el factor intrínseco gástrico, pero la absorción ocurre en el íleon terminal.",
+  "x": [
+   "Allí se produce el factor intrínseco, no la absorción.",
+   "",
+   "No es el lugar principal.",
+   "No es el lugar principal."
+  ]
+ },
+ {
+  "id": "x185",
+  "m": "dig",
+  "t": "Intestino delgado",
+  "d": 1,
+  "q": "¿Cuáles son las tres porciones del intestino delgado?",
+  "o": [
+   "Ciego, colon y recto",
+   "Yeyuno, ciego e íleon",
+   "Duodeno, yeyuno e íleon",
+   "Píloro, antro y cardias"
+  ],
+  "a": 2,
+  "e": "Mide unos seis metros y es donde se absorbe la mayor parte de los nutrientes.",
+  "x": [
+   "Pertenecen al intestino grueso.",
+   "El ciego pertenece al intestino grueso.",
+   "",
+   "Son partes del estómago."
+  ]
+ },
+ {
+  "id": "x186",
+  "m": "dig",
+  "t": "Intestino delgado",
+  "d": 2,
+  "q": "¿En qué porción del duodeno desemboca la ampolla de Vater?",
+  "o": [
+   "Primera",
+   "Cuarta",
+   "Segunda",
+   "Tercera"
+  ],
+  "a": 2,
+  "e": "La papila duodenal mayor se abre en la segunda porción o porción descendente.",
+  "x": [
+   "La primera es el bulbo duodenal.",
+   "Tampoco en la cuarta.",
+   "",
+   "No desemboca en la tercera."
+  ]
+ },
+ {
+  "id": "x187",
+  "m": "dig",
+  "t": "Intestino delgado",
+  "d": 2,
+  "q": "¿Qué esfínter controla la salida de bilis y jugo pancreático al duodeno?",
+  "o": [
+   "Válvula ileocecal",
+   "Esfínter pilórico",
+   "Esfínter de Oddi",
+   "Esfínter esofágico inferior"
+  ],
+  "a": 2,
+  "e": "El esfínter de Oddi rodea la ampolla de Vater.",
+  "x": [
+   "Separa el íleon del ciego.",
+   "Controla el vaciamiento gástrico.",
+   "",
+   "Impide el reflujo gastroesofágico."
+  ]
+ },
+ {
+  "id": "x188",
+  "m": "dig",
+  "t": "Intestino delgado",
+  "d": 2,
+  "q": "¿Qué estructura NO contribuye a aumentar la superficie de absorción intestinal?",
+  "o": [
+   "Vellosidades",
+   "Tenias del colon",
+   "Pliegues circulares de Kerckring",
+   "Microvellosidades"
+  ],
+  "a": 1,
+  "e": "Las tenias son bandas musculares del colon y no tienen función absortiva.",
+  "x": [
+   "La multiplican unas diez veces.",
+   "",
+   "Multiplica la superficie unas tres veces.",
+   "La multiplican unas veinte veces."
+  ]
+ },
+ {
+  "id": "x189",
+  "m": "dig",
+  "t": "Intestino grueso",
+  "d": 2,
+  "q": "¿Qué rasgo es exclusivo del intestino grueso?",
+  "o": [
+   "Las placas de Peyer",
+   "Las tenias y las haustras",
+   "Las criptas de Lieberkühn",
+   "Las vellosidades"
+  ],
+  "a": 1,
+  "e": "Las tres tenias y las haustras dan al colon su aspecto característico.",
+  "x": [
+   "Las placas de Peyer son del íleon.",
+   "",
+   "Las criptas existen en todo el intestino.",
+   "Las vellosidades son del intestino delgado."
+  ]
+ },
+ {
+  "id": "x190",
+  "m": "dig",
+  "t": "Intestino grueso",
+  "d": 2,
+  "q": "¿Cuál es la función principal del intestino grueso?",
+  "o": [
+   "Absorber agua y electrolitos",
+   "Digerir proteínas",
+   "Producir bilis",
+   "Secretar insulina"
+  ],
+  "a": 0,
+  "e": "También alberga la microbiota y forma las heces.",
+  "x": [
+   "",
+   "Las proteínas se digieren en estómago e intestino delgado.",
+   "La bilis la produce el hígado.",
+   "La insulina la produce el páncreas."
+  ]
+ },
+ {
+  "id": "x191",
+  "m": "dig",
+  "t": "Intestino grueso",
+  "d": 2,
+  "q": "El punto de McBurney se localiza en:",
+  "o": [
+   "La unión del tercio externo con los dos tercios internos de la línea espinoumbilical derecha",
+   "El epigastrio",
+   "El hipocondrio izquierdo",
+   "La línea media del abdomen"
+  ],
+  "a": 0,
+  "e": "Corresponde aproximadamente a la base del apéndice.",
+  "x": [
+   "",
+   "Corresponde al estómago y el páncreas.",
+   "Corresponde al bazo.",
+   "No está en la línea media."
+  ]
+ },
+ {
+  "id": "x192",
+  "m": "dig",
+  "t": "Intestino grueso",
+  "d": 2,
+  "q": "¿Qué segmento del colon es más propenso al vólvulo en el adulto?",
+  "o": [
+   "Ascendente",
+   "Sigmoide",
+   "Descendente",
+   "Transverso"
+  ],
+  "a": 1,
+  "e": "Su mesocolon largo permite la torsión sobre su eje.",
+  "x": [
+   "Es retroperitoneal secundario y está fijo.",
+   "",
+   "También está fijo.",
+   "Tiene meso, pero el vólvulo es menos frecuente."
+  ]
+ },
+ {
+  "id": "x193",
+  "m": "dig",
+  "t": "Hígado y vías biliares",
+  "d": 1,
+  "q": "¿Cuál es la glándula de mayor tamaño del cuerpo humano?",
+  "o": [
+   "El hígado",
+   "El páncreas",
+   "La tiroides",
+   "La parótida"
+  ],
+  "a": 0,
+  "e": "Pesa alrededor de kilo y medio en el adulto.",
+  "x": [
+   "",
+   "Pesa unos 80 gramos.",
+   "Pesa unos 20 gramos.",
+   "Pesa unos 25 gramos."
+  ]
+ },
+ {
+  "id": "x194",
+  "m": "dig",
+  "t": "Hígado y vías biliares",
+  "d": 2,
+  "q": "¿Qué estructuras forman la tríada portal?",
+  "o": [
+   "Colédoco, cístico y hepático común",
+   "Arteria hepática, vena porta y conducto biliar",
+   "Arteria hepática, vena hepática y linfáticos",
+   "Vena porta, vena cava y colédoco"
+  ],
+  "a": 1,
+  "e": "Discurren juntas en el espacio porta del lobulillo hepático y en el pedículo hepático.",
+  "x": [
+   "Son conductos biliares, no una tríada.",
+   "",
+   "La vena hepática drena hacia la cava, no forma la tríada.",
+   "La cava no forma parte de la tríada."
+  ]
+ },
+ {
+  "id": "x195",
+  "m": "dig",
+  "t": "Hígado y vías biliares",
+  "d": 2,
+  "q": "¿Qué porcentaje aproximado del flujo sanguíneo hepático aporta la vena porta?",
+  "o": [
+   "50 %",
+   "25 %",
+   "100 %",
+   "75 %"
+  ],
+  "a": 3,
+  "e": "La arteria hepática aporta el resto, pero más de la mitad del oxígeno.",
+  "x": [
+   "No corresponde al reparto habitual.",
+   "Es la aportación de la arteria hepática.",
+   "La arteria también contribuye.",
+   ""
+  ]
+ },
+ {
+  "id": "x196",
+  "m": "dig",
+  "t": "Hígado y vías biliares",
+  "d": 2,
+  "q": "¿Cuál es la función de la vesícula biliar?",
+  "o": [
+   "Neutralizar el ácido gástrico",
+   "Producir bilis",
+   "Almacenar y concentrar la bilis",
+   "Producir enzimas digestivas"
+  ],
+  "a": 2,
+  "e": "Se contrae ante el estímulo de la colecistoquinina tras una comida grasa.",
+  "x": [
+   "El bicarbonato pancreático neutraliza el ácido.",
+   "La bilis la produce el hígado.",
+   "",
+   "Las enzimas las produce el páncreas."
+  ]
+ },
+ {
+  "id": "x197",
+  "m": "dig",
+  "t": "Hígado y vías biliares",
+  "d": 2,
+  "q": "¿Qué conductos se unen para formar el colédoco?",
+  "o": [
+   "Hepático común y cístico",
+   "Hepático derecho e izquierdo",
+   "Cístico y pancreático",
+   "Pancreático principal y accesorio"
+  ],
+  "a": 0,
+  "e": "El hepático común viene del hígado y el cístico de la vesícula.",
+  "x": [
+   "",
+   "Esos forman el hepático común.",
+   "Se unen más adelante, en la ampolla.",
+   "Ambos son pancreáticos."
+  ]
+ },
+ {
+  "id": "x198",
+  "m": "dig",
+  "t": "Hígado y vías biliares",
+  "d": 2,
+  "q": "¿Para qué sirve la bilis?",
+  "o": [
+   "Neutralizar el ácido del estómago",
+   "Digerir proteínas",
+   "Emulsionar las grasas",
+   "Absorber hierro"
+  ],
+  "a": 2,
+  "e": "No contiene enzimas: facilita la acción de la lipasa dividiendo la grasa en gotas pequeñas.",
+  "x": [
+   "Esa función es sobre todo del bicarbonato pancreático.",
+   "Eso corresponde a las proteasas.",
+   "",
+   "El hierro se absorbe en el duodeno por otros mecanismos."
+  ]
+ },
+ {
+  "id": "x199",
+  "m": "dig",
+  "t": "Páncreas",
+  "d": 2,
+  "q": "¿Qué enzima pancreática digiere los hidratos de carbono?",
+  "o": [
+   "Lipasa",
+   "Amilasa",
+   "Quimotripsina",
+   "Tripsina"
+  ],
+  "a": 1,
+  "e": "La amilasa pancreática continúa la digestión del almidón iniciada por la amilasa salival.",
+  "x": [
+   "Actúa sobre las grasas.",
+   "",
+   "También es una proteasa.",
+   "Es una proteasa."
+  ]
+ },
+ {
+  "id": "x200",
+  "m": "dig",
+  "t": "Páncreas",
+  "d": 2,
+  "q": "¿Por qué las proteasas pancreáticas se secretan en forma inactiva?",
+  "o": [
+   "Para que duren más",
+   "Porque son hormonas",
+   "Para evitar la autodigestión del páncreas",
+   "Porque necesitan bilis"
+  ],
+  "a": 2,
+  "e": "Se activan en el duodeno: la enteroquinasa convierte el tripsinógeno en tripsina.",
+  "x": [
+   "No es una cuestión de conservación.",
+   "No son hormonas.",
+   "",
+   "La bilis no las activa."
+  ]
+ },
+ {
+  "id": "x201",
+  "m": "dig",
+  "t": "Peritoneo",
+  "d": 2,
+  "q": "¿Cuál de estos órganos es retroperitoneal?",
+  "o": [
+   "Riñón",
+   "Estómago",
+   "Bazo",
+   "Colon transverso"
+  ],
+  "a": 0,
+  "e": "Los riñones son retroperitoneales primarios.",
+  "x": [
+   "",
+   "Es intraperitoneal.",
+   "Es intraperitoneal.",
+   "Es intraperitoneal, con su mesocolon."
+  ]
+ },
+ {
+  "id": "x202",
+  "m": "dig",
+  "t": "Peritoneo",
+  "d": 3,
+  "q": "¿Qué porción del páncreas es intraperitoneal?",
+  "o": [
+   "La cabeza",
+   "El cuello",
+   "El cuerpo",
+   "La cola"
+  ],
+  "a": 3,
+  "e": "La cola se introduce en el ligamento esplenorrenal y es la única porción intraperitoneal.",
+  "x": [
+   "Es retroperitoneal.",
+   "Es retroperitoneal.",
+   "Es retroperitoneal.",
+   ""
+  ]
+ },
+ {
+  "id": "x203",
+  "m": "dig",
+  "t": "Peritoneo",
+  "d": 2,
+  "q": "¿Qué es el epiplón mayor?",
+  "o": [
+   "Un ligamento del hígado",
+   "Una parte del mesenterio del íleon",
+   "Un conducto linfático",
+   "Un repliegue peritoneal que cuelga del estómago sobre las asas"
+  ],
+  "a": 3,
+  "e": "Se le llama el policía del abdomen porque limita la difusión de las infecciones.",
+  "x": [
+   "Ese sería el ligamento falciforme o el redondo.",
+   "El mesenterio es distinto del epiplón.",
+   "No es un conducto.",
+   ""
+  ]
+ },
+ {
+  "id": "x204",
+  "m": "dig",
+  "t": "Organización general",
+  "d": 2,
+  "q": "¿Qué estructura separa el intestino delgado del grueso?",
+  "o": [
+   "La válvula ileocecal",
+   "El píloro",
+   "El ángulo de Treitz",
+   "El esfínter de Oddi"
+  ],
+  "a": 0,
+  "e": "La válvula ileocecal impide el reflujo del contenido colónico hacia el íleon.",
+  "x": [
+   "",
+   "Separa el estómago del duodeno.",
+   "El ángulo de Treitz marca el final del duodeno.",
+   "Regula la salida de bilis y jugo pancreático."
+  ]
+ },
+ {
+  "id": "x205",
+  "m": "uri",
+  "t": "Riñón",
+  "d": 1,
+  "q": "¿Cuál es la unidad funcional del riñón?",
+  "o": [
+   "El cáliz menor",
+   "La pirámide renal",
+   "El glomérulo",
+   "La nefrona"
+  ],
+  "a": 3,
+  "e": "Cada riñón contiene alrededor de un millón de nefronas.",
+  "x": [
+   "El cáliz recoge la orina ya formada.",
+   "La pirámide es una porción de la médula renal.",
+   "El glomérulo es solo una parte de la nefrona.",
+   ""
+  ]
+ },
+ {
+  "id": "x206",
+  "m": "uri",
+  "t": "Riñón",
+  "d": 2,
+  "q": "¿Dónde se produce la filtración del plasma?",
+  "o": [
+   "En el asa de Henle",
+   "En el túbulo proximal",
+   "En el túbulo colector",
+   "En el glomérulo"
+  ],
+  "a": 3,
+  "e": "La barrera de filtración la forman el endotelio fenestrado, la membrana basal y los podocitos.",
+  "x": [
+   "Allí se concentra la orina.",
+   "Allí se reabsorbe la mayor parte de lo filtrado.",
+   "Allí se ajusta la reabsorción final de agua.",
+   ""
+  ]
+ },
+ {
+  "id": "x207",
+  "m": "uri",
+  "t": "Riñón",
+  "d": 2,
+  "q": "¿Qué estructura renal se sitúa en la corteza?",
+  "o": [
+   "Los cálices mayores",
+   "Los corpúsculos renales",
+   "Las pirámides",
+   "Las papilas"
+  ],
+  "a": 1,
+  "e": "Los glomérulos con su cápsula de Bowman están en la corteza.",
+  "x": [
+   "Pertenecen al seno renal.",
+   "",
+   "Están en la médula.",
+   "Son el vértice de las pirámides."
+  ]
+ },
+ {
+  "id": "x208",
+  "m": "uri",
+  "t": "Riñón",
+  "d": 3,
+  "q": "¿Qué produce el aparato yuxtaglomerular?",
+  "o": [
+   "Eritropoyetina",
+   "Angiotensina II",
+   "Aldosterona",
+   "Renina"
+  ],
+  "a": 3,
+  "e": "La renina inicia el sistema renina-angiotensina-aldosterona y regula la presión arterial.",
+  "x": [
+   "La producen células intersticiales peritubulares.",
+   "Se forma en el plasma y el pulmón, por acción de la ECA.",
+   "La produce la corteza suprarrenal.",
+   ""
+  ]
+ },
+ {
+  "id": "x209",
+  "m": "uri",
+  "t": "Vías urinarias",
+  "d": 2,
+  "q": "¿Qué delimita el trígono vesical?",
+  "o": [
+   "El cuello vesical y la próstata",
+   "Los dos orificios ureterales y el uraco",
+   "Los dos orificios ureterales y el orificio uretral interno",
+   "Las tres capas del detrusor"
+  ],
+  "a": 2,
+  "e": "Es la zona de mucosa lisa del suelo de la vejiga.",
+  "x": [
+   "No delimitan un triángulo.",
+   "El uraco es un resto embrionario en la cúpula vesical.",
+   "",
+   "El detrusor es la capa muscular."
+  ]
+ },
+ {
+  "id": "x210",
+  "m": "uri",
+  "t": "Vías urinarias",
+  "d": 2,
+  "q": "¿Qué músculo se contrae para vaciar la vejiga?",
+  "o": [
+   "El detrusor",
+   "El elevador del ano",
+   "El transverso del abdomen",
+   "El esfínter externo"
+  ],
+  "a": 0,
+  "e": "Lo activa el parasimpático de S2-S4.",
+  "x": [
+   "",
+   "Sostiene las vísceras pélvicas.",
+   "Puede ayudar con la prensa abdominal, pero no es el principal.",
+   "Debe relajarse para orinar."
+  ]
+ },
+ {
+  "id": "x211",
+  "m": "uri",
+  "t": "Vías urinarias",
+  "d": 2,
+  "q": "¿Por qué las infecciones urinarias son más frecuentes en la mujer?",
+  "o": [
+   "Porque su uretra es mucho más corta",
+   "Porque tiene más uréteres",
+   "Porque su riñón filtra más",
+   "Porque su vejiga es más pequeña"
+  ],
+  "a": 0,
+  "e": "La uretra femenina mide unos 4 cm frente a los 18-20 cm de la masculina.",
+  "x": [
+   "",
+   "El número de uréteres es el mismo.",
+   "La función renal no cambia.",
+   "El tamaño vesical no es determinante."
+  ]
+ },
+ {
+  "id": "x212",
+  "m": "uri",
+  "t": "Función renal",
+  "d": 2,
+  "q": "¿Qué hormona aumenta la reabsorción de agua en el túbulo colector?",
+  "o": [
+   "Parathormona",
+   "Aldosterona",
+   "Hormona antidiurética",
+   "Cortisol"
+  ],
+  "a": 2,
+  "e": "La ADH inserta acuaporinas en el túbulo colector.",
+  "x": [
+   "Regula el calcio.",
+   "Actúa sobre el sodio en el túbulo distal.",
+   "",
+   "Tiene efectos metabólicos amplios, no específicos de este transporte."
+  ]
+ },
+ {
+  "id": "x213",
+  "m": "uri",
+  "t": "Función renal",
+  "d": 2,
+  "q": "¿Qué hormona renal estimula la eritropoyesis?",
+  "o": [
+   "Aldosterona",
+   "Renina",
+   "Calcitriol",
+   "Eritropoyetina"
+  ],
+  "a": 3,
+  "e": "Se libera en respuesta a la hipoxia y actúa sobre la médula ósea.",
+  "x": [
+   "Regula el sodio.",
+   "Regula la presión arterial.",
+   "Es la vitamina D activa, que regula el calcio.",
+   ""
+  ]
+ },
+ {
+  "id": "x214",
+  "m": "uri",
+  "t": "Función renal",
+  "d": 2,
+  "q": "La aldosterona actúa sobre el riñón:",
+  "o": [
+   "Reteniendo sodio y eliminando potasio",
+   "Eliminando sodio y reteniendo potasio",
+   "Sin efecto sobre los electrolitos",
+   "Eliminando agua y sodio"
+  ],
+  "a": 0,
+  "e": "Aumenta la reabsorción de sodio y agua y la secreción de potasio en el túbulo distal y colector.",
+  "x": [
+   "",
+   "Está invertido.",
+   "Sí tiene efecto.",
+   "Retiene agua, no la elimina."
+  ]
+ },
+ {
+  "id": "x215",
+  "m": "uri",
+  "t": "Riñón",
+  "d": 2,
+  "q": "¿Cuál de estos procesos NO ocurre en la nefrona?",
+  "o": [
+   "Reabsorción",
+   "Fagocitosis de hematíes",
+   "Secreción",
+   "Filtración"
+  ],
+  "a": 1,
+  "e": "La eliminación de hematíes envejecidos corresponde al bazo.",
+  "x": [
+   "Ocurre en los túbulos.",
+   "",
+   "Ocurre en los túbulos.",
+   "Ocurre en el glomérulo."
+  ]
+ },
+ {
+  "id": "x216",
+  "m": "uri",
+  "t": "Vías urinarias",
+  "d": 3,
+  "q": "¿En cuál de estos puntos NO se impacta típicamente un cálculo ureteral?",
+  "o": [
+   "Cruce con los vasos ilíacos",
+   "Hilio renal",
+   "Unión pieloureteral",
+   "Unión ureterovesical"
+  ],
+  "a": 1,
+  "e": "Los tres estrechamientos clásicos del uréter son los otros; el hilio renal no es un punto de impactación ureteral.",
+  "x": [
+   "Es el segundo.",
+   "",
+   "Es el primer estrechamiento.",
+   "Es el tercero."
+  ]
+ },
+ {
+  "id": "x217",
+  "m": "rep",
+  "t": "Aparato reproductor masculino",
+  "d": 2,
+  "q": "¿Dónde se produce la espermatogénesis?",
+  "o": [
+   "En el epidídimo",
+   "En la próstata",
+   "En los túbulos seminíferos",
+   "En el conducto deferente"
+  ],
+  "a": 2,
+  "e": "Las células de Sertoli sostienen el proceso dentro de los túbulos.",
+  "x": [
+   "Allí maduran y se almacenan los espermatozoides.",
+   "La próstata aporta líquido seminal.",
+   "",
+   "Es solo una vía de transporte."
+  ]
+ },
+ {
+  "id": "x218",
+  "m": "rep",
+  "t": "Aparato reproductor masculino",
+  "d": 2,
+  "q": "¿Qué célula produce la testosterona?",
+  "o": [
+   "Célula de Sertoli",
+   "Célula de Leydig",
+   "Célula mioide",
+   "Espermatogonia"
+  ],
+  "a": 1,
+  "e": "Las células de Leydig están en el intersticio y responden a la LH.",
+  "x": [
+   "La de Sertoli nutre y responde a la FSH.",
+   "",
+   "La célula mioide ayuda al transporte dentro del túbulo.",
+   "Es la célula germinal de partida."
+  ]
+ },
+ {
+  "id": "x219",
+  "m": "rep",
+  "t": "Aparato reproductor masculino",
+  "d": 2,
+  "q": "¿Qué glándula aporta la mayor parte del volumen del semen?",
+  "o": [
+   "El epidídimo",
+   "La próstata",
+   "Las glándulas bulbouretrales",
+   "Las vesículas seminales"
+  ],
+  "a": 3,
+  "e": "Aportan en torno al 60-70 % del volumen eyaculado.",
+  "x": [
+   "No es una glándula secretora de volumen.",
+   "Aporta alrededor del 25-30 %.",
+   "Su aportación es mínima y previa a la eyaculación.",
+   ""
+  ]
+ },
+ {
+  "id": "x220",
+  "m": "rep",
+  "t": "Aparato reproductor masculino",
+  "d": 2,
+  "q": "¿Qué estructura rodea la uretra justo debajo de la vejiga?",
+  "o": [
+   "El epidídimo",
+   "El conducto deferente",
+   "La próstata",
+   "La vesícula seminal"
+  ],
+  "a": 2,
+  "e": "Por eso el crecimiento prostático dificulta la micción.",
+  "x": [
+   "Está sobre el testículo.",
+   "Asciende por el conducto inguinal.",
+   "",
+   "Queda por detrás de la vejiga."
+  ]
+ },
+ {
+  "id": "x221",
+  "m": "rep",
+  "t": "Aparato reproductor femenino",
+  "d": 2,
+  "q": "¿Dónde ocurre normalmente la fecundación?",
+  "o": [
+   "En el cuello uterino",
+   "En el útero",
+   "En la ampolla de la trompa uterina",
+   "En el ovario"
+  ],
+  "a": 2,
+  "e": "El cigoto llega al útero unos cinco o seis días después para implantarse.",
+  "x": [
+   "Es solo un paso.",
+   "Allí se implanta el blastocisto, no se fecunda el ovocito.",
+   "",
+   "En el ovario se produce la ovulación."
+  ]
+ },
+ {
+  "id": "x222",
+  "m": "rep",
+  "t": "Aparato reproductor femenino",
+  "d": 2,
+  "q": "¿Cuál es la capa uterina que se descama en la menstruación?",
+  "o": [
+   "Miometrio",
+   "Parametrio",
+   "Endometrio",
+   "Perimetrio"
+  ],
+  "a": 2,
+  "e": "La capa funcional del endometrio se desprende cada ciclo.",
+  "x": [
+   "Es la capa muscular.",
+   "Es el tejido conectivo que rodea el útero.",
+   "",
+   "Es la cubierta serosa externa."
+  ]
+ },
+ {
+  "id": "x223",
+  "m": "rep",
+  "t": "Aparato reproductor femenino",
+  "d": 2,
+  "q": "¿Qué hormona produce principalmente el cuerpo lúteo?",
+  "o": [
+   "Estrógenos",
+   "Progesterona",
+   "FSH",
+   "Prolactina"
+  ],
+  "a": 1,
+  "e": "La progesterona prepara y mantiene el endometrio para una posible implantación.",
+  "x": [
+   "Los produce sobre todo el folículo en crecimiento.",
+   "",
+   "La produce la hipófisis.",
+   "También es hipofisaria."
+  ]
+ },
+ {
+  "id": "x224",
+  "m": "rep",
+  "t": "Aparato reproductor femenino",
+  "d": 3,
+  "q": "¿Qué desencadena la ovulación?",
+  "o": [
+   "El pico de FSH",
+   "El aumento de prolactina",
+   "El pico de LH",
+   "La caída de progesterona"
+  ],
+  "a": 2,
+  "e": "Ocurre unas 36 horas después del inicio del pico de LH, alrededor del día 14 de un ciclo de 28.",
+  "x": [
+   "La FSH estimula el crecimiento folicular.",
+   "La prolactina no desencadena la ovulación.",
+   "",
+   "La progesterona cae al final del ciclo."
+  ]
+ },
+ {
+  "id": "x225",
+  "m": "rep",
+  "t": "Aparato reproductor femenino",
+  "d": 2,
+  "q": "¿Cuál es el fondo de saco peritoneal más declive de la pelvis femenina?",
+  "o": [
+   "Rectouterino de Douglas",
+   "Prevesical de Retzius",
+   "Vesicouterino",
+   "Rectovesical"
+  ],
+  "a": 0,
+  "e": "Allí se acumula primero el líquido libre intraperitoneal en la mujer.",
+  "x": [
+   "",
+   "El espacio de Retzius es extraperitoneal.",
+   "Queda por delante y más alto.",
+   "Es el equivalente masculino."
+  ]
+ },
+ {
+  "id": "x226",
+  "m": "rep",
+  "t": "Aparato reproductor masculino",
+  "d": 3,
+  "q": "¿Qué estructura atraviesa el conducto inguinal en el varón?",
+  "o": [
+   "La arteria femoral",
+   "El uréter",
+   "El nervio obturador",
+   "El cordón espermático"
+  ],
+  "a": 3,
+  "e": "En la mujer, el equivalente es el ligamento redondo del útero.",
+  "x": [
+   "Pasa por debajo del ligamento inguinal, en la laguna vascular.",
+   "Es retroperitoneal y no pasa por el conducto inguinal.",
+   "Sale por el conducto obturador.",
+   ""
+  ]
+ },
+ {
+  "id": "x227",
+  "m": "endo",
+  "t": "Hipófisis",
+  "d": 2,
+  "q": "¿Dónde se aloja la hipófisis?",
+  "o": [
+   "En la silla turca del esfenoides",
+   "En el agujero magno",
+   "En el seno cavernoso",
+   "En la lámina cribosa del etmoides"
+  ],
+  "a": 0,
+  "e": "Queda justo por debajo del quiasma óptico.",
+  "x": [
+   "",
+   "Por allí pasa el bulbo raquídeo.",
+   "El seno cavernoso está a ambos lados de la silla.",
+   "Por allí pasan los filetes olfatorios."
+  ]
+ },
+ {
+  "id": "x228",
+  "m": "endo",
+  "t": "Hipófisis",
+  "d": 2,
+  "q": "¿Qué hormona NO produce la adenohipófisis?",
+  "o": [
+   "Oxitocina",
+   "Prolactina",
+   "ACTH",
+   "TSH"
+  ],
+  "a": 0,
+  "e": "La oxitocina se fabrica en el hipotálamo y se libera por la neurohipófisis.",
+  "x": [
+   "",
+   "La produce la adenohipófisis.",
+   "La produce la adenohipófisis.",
+   "La produce la adenohipófisis."
+  ]
+ },
+ {
+  "id": "x229",
+  "m": "endo",
+  "t": "Hipófisis",
+  "d": 3,
+  "q": "¿Dónde se sintetizan la oxitocina y la hormona antidiurética?",
+  "o": [
+   "En la neurohipófisis",
+   "En la adenohipófisis",
+   "En la glándula pineal",
+   "En los núcleos supraóptico y paraventricular del hipotálamo"
+  ],
+  "a": 3,
+  "e": "Viajan por los axones hasta la neurohipófisis, que solo las almacena y libera.",
+  "x": [
+   "Solo las almacena.",
+   "No las produce.",
+   "La pineal produce melatonina.",
+   ""
+  ]
+ },
+ {
+  "id": "x230",
+  "m": "endo",
+  "t": "Tiroides y paratiroides",
+  "d": 2,
+  "q": "¿Qué célula tiroidea produce la calcitonina?",
+  "o": [
+   "El tirocito basal",
+   "La célula parafolicular o C",
+   "La célula folicular",
+   "La célula oxífila"
+  ],
+  "a": 1,
+  "e": "La calcitonina baja el calcio sanguíneo, en oposición a la parathormona.",
+  "x": [
+   "No es una categoría celular diferenciada.",
+   "",
+   "Produce T3 y T4.",
+   "La célula oxífila pertenece a la paratiroides."
+  ]
+ },
+ {
+  "id": "x231",
+  "m": "endo",
+  "t": "Tiroides y paratiroides",
+  "d": 2,
+  "q": "¿Qué efecto tiene la parathormona sobre la calcemia?",
+  "o": [
+   "La disminuye",
+   "No la modifica",
+   "La disminuye solo en el niño",
+   "La aumenta"
+  ],
+  "a": 3,
+  "e": "Moviliza calcio del hueso, lo reabsorbe en el riñón y favorece su absorción intestinal vía vitamina D.",
+  "x": [
+   "Eso hace la calcitonina.",
+   "Sí la modifica.",
+   "El efecto es el mismo a cualquier edad.",
+   ""
+  ]
+ },
+ {
+  "id": "x232",
+  "m": "endo",
+  "t": "Tiroides y paratiroides",
+  "d": 2,
+  "q": "¿Cuántas glándulas paratiroides hay habitualmente?",
+  "o": [
+   "Tres",
+   "Seis",
+   "Dos",
+   "Cuatro"
+  ],
+  "a": 3,
+  "e": "Suelen ser cuatro, en la cara posterior de los lóbulos tiroideos.",
+  "x": [
+   "También es inferior.",
+   "Puede haber paratiroides supernumerarias, pero no es lo habitual.",
+   "Es un número inferior al habitual.",
+   ""
+  ]
+ },
+ {
+  "id": "x233",
+  "m": "endo",
+  "t": "Suprarrenales",
+  "d": 2,
+  "q": "¿Qué hormona produce la zona fascicular de la corteza suprarrenal?",
+  "o": [
+   "Andrógenos",
+   "Adrenalina",
+   "Cortisol",
+   "Aldosterona"
+  ],
+  "a": 2,
+  "e": "La regla sal, azúcar y sexo ordena glomerular, fascicular y reticular.",
+  "x": [
+   "Los produce la zona reticular.",
+   "La produce la médula.",
+   "",
+   "La produce la zona glomerular."
+  ]
+ },
+ {
+  "id": "x234",
+  "m": "endo",
+  "t": "Suprarrenales",
+  "d": 2,
+  "q": "¿Qué libera la médula suprarrenal?",
+  "o": [
+   "Cortisol",
+   "Aldosterona",
+   "Adrenalina y noradrenalina",
+   "Hormona del crecimiento"
+  ],
+  "a": 2,
+  "e": "Funciona como un ganglio simpático modificado.",
+  "x": [
+   "Procede de la corteza.",
+   "Procede de la corteza.",
+   "",
+   "Procede de la adenohipófisis."
+  ]
+ },
+ {
+  "id": "x235",
+  "m": "endo",
+  "t": "Páncreas endocrino",
+  "d": 2,
+  "q": "¿Qué célula del islote de Langerhans produce insulina?",
+  "o": [
+   "PP",
+   "Delta",
+   "Beta",
+   "Alfa"
+  ],
+  "a": 2,
+  "e": "Es la célula más abundante del islote.",
+  "x": [
+   "Produce polipéptido pancreático.",
+   "Produce somatostatina.",
+   "",
+   "Produce glucagón."
+  ]
+ },
+ {
+  "id": "x236",
+  "m": "endo",
+  "t": "Páncreas endocrino",
+  "d": 2,
+  "q": "¿Qué efecto tiene el glucagón?",
+  "o": [
+   "No afecta a la glucemia",
+   "Sube la glucemia",
+   "Solo actúa en el músculo",
+   "Baja la glucemia"
+  ],
+  "a": 1,
+  "e": "Estimula la glucogenólisis y la gluconeogénesis hepáticas.",
+  "x": [
+   "Sí la modifica.",
+   "",
+   "Su diana principal es el hígado.",
+   "Eso hace la insulina."
+  ]
+ },
+ {
+  "id": "x237",
+  "m": "endo",
+  "t": "Otras glándulas",
+  "d": 2,
+  "q": "¿Qué hormona produce la glándula pineal?",
+  "o": [
+   "Timosina",
+   "Calcitriol",
+   "Serotonina",
+   "Melatonina"
+  ],
+  "a": 3,
+  "e": "Regula los ritmos circadianos y aumenta con la oscuridad.",
+  "x": [
+   "La produce el timo.",
+   "Es la vitamina D activa, de origen renal.",
+   "Es un precursor, pero no la hormona secretada.",
+   ""
+  ]
+ },
+ {
+  "id": "x238",
+  "m": "endo",
+  "t": "Generalidades",
+  "d": 2,
+  "q": "¿Qué glándula tiene función exocrina y endocrina a la vez?",
+  "o": [
+   "Tiroides",
+   "Suprarrenal",
+   "Hipófisis",
+   "Páncreas"
+  ],
+  "a": 3,
+  "e": "El páncreas produce jugo digestivo y hormonas como insulina y glucagón.",
+  "x": [
+   "Es solo endocrina.",
+   "Es solo endocrina.",
+   "Es solo endocrina.",
+   ""
+  ]
+ },
+ {
+  "id": "x239",
+  "m": "endo",
+  "t": "Generalidades",
+  "d": 3,
+  "q": "En el eje hipotálamo-hipófisis-suprarrenal, ¿qué hormona ejerce la retroalimentación negativa?",
+  "o": [
+   "La aldosterona",
+   "El cortisol",
+   "La ACTH",
+   "La CRH"
+  ],
+  "a": 1,
+  "e": "El cortisol inhibe la liberación de CRH y de ACTH.",
+  "x": [
+   "La aldosterona depende sobre todo del eje renina-angiotensina.",
+   "",
+   "Es el segundo escalón.",
+   "Es el primer escalón del eje."
+  ]
+ },
+ {
+  "id": "x240",
+  "m": "sent",
+  "t": "Ojo",
+  "d": 2,
+  "q": "¿Qué estructura ocular tiene mayor poder refractivo?",
+  "o": [
+   "El cristalino",
+   "El humor vítreo",
+   "La retina",
+   "La córnea"
+  ],
+  "a": 3,
+  "e": "La córnea aporta en torno a dos tercios del poder refractivo total del ojo.",
+  "x": [
+   "Aporta menos, pero permite acomodar.",
+   "Apenas refracta.",
+   "La retina no refracta: transforma la luz en señal.",
+   ""
+  ]
+ },
+ {
+  "id": "x241",
+  "m": "sent",
+  "t": "Ojo",
+  "d": 2,
+  "q": "¿Qué fotorreceptores permiten ver en condiciones de poca luz?",
+  "o": [
+   "Los bastones",
+   "Las células ganglionares",
+   "Los conos",
+   "Las células bipolares"
+  ],
+  "a": 0,
+  "e": "Los bastones son más sensibles pero no distinguen color.",
+  "x": [
+   "",
+   "Transmiten la señal, no la captan.",
+   "Los conos necesitan más luz y ven color.",
+   "También transmiten, no captan."
+  ]
+ },
+ {
+  "id": "x242",
+  "m": "sent",
+  "t": "Ojo",
+  "d": 2,
+  "q": "¿Qué zona de la retina tiene la máxima agudeza visual?",
+  "o": [
+   "La fóvea",
+   "La papila óptica",
+   "La periferia nasal",
+   "La ora serrata"
+  ],
+  "a": 0,
+  "e": "La fóvea, en el centro de la mácula, contiene solo conos.",
+  "x": [
+   "",
+   "Es el punto ciego.",
+   "La periferia tiene sobre todo bastones.",
+   "Es el límite anterior de la retina."
+  ]
+ },
+ {
+  "id": "x243",
+  "m": "sent",
+  "t": "Ojo",
+  "d": 2,
+  "q": "¿Por qué existe el punto ciego?",
+  "o": [
+   "Porque allí la retina está más fina",
+   "Porque el cristalino la ensombrece",
+   "Porque la córnea no refracta esa zona",
+   "Porque en la papila óptica no hay fotorreceptores"
+  ],
+  "a": 3,
+  "e": "En el disco óptico salen los axones de las células ganglionares y entran los vasos.",
+  "x": [
+   "No es una cuestión de grosor.",
+   "El cristalino no proyecta sombras.",
+   "La córnea refracta de forma uniforme.",
+   ""
+  ]
+ },
+ {
+  "id": "x244",
+  "m": "sent",
+  "t": "Ojo",
+  "d": 2,
+  "q": "¿Qué músculo permite enfocar de cerca?",
+  "o": [
+   "El dilatador de la pupila",
+   "El recto medial",
+   "El músculo ciliar",
+   "El orbicular de los párpados"
+  ],
+  "a": 2,
+  "e": "Al contraerse relaja la zónula y el cristalino se abomba.",
+  "x": [
+   "Modifica el tamaño pupilar.",
+   "Produce la convergencia, no la acomodación.",
+   "",
+   "Cierra el párpado."
+  ]
+ },
+ {
+  "id": "x245",
+  "m": "sent",
+  "t": "Ojo",
+  "d": 3,
+  "q": "El glaucoma de ángulo abierto se relaciona con el drenaje deficiente de:",
+  "o": [
+   "La sangre de la vena central de la retina",
+   "El humor vítreo",
+   "El humor acuoso",
+   "La lágrima"
+  ],
+  "a": 2,
+  "e": "El humor acuoso se drena por la malla trabecular y el conducto de Schlemm.",
+  "x": [
+   "Su obstrucción causa trombosis venosa retiniana, no glaucoma.",
+   "El vítreo no se renueva ni se drena.",
+   "",
+   "La lágrima drena por la vía lagrimal."
+  ]
+ },
+ {
+  "id": "x246",
+  "m": "sent",
+  "t": "Oído",
+  "d": 2,
+  "q": "¿Cuál es el orden de los huesecillos del oído medio desde el tímpano?",
+  "o": [
+   "Yunque, martillo, estribo",
+   "Estribo, yunque, martillo",
+   "Martillo, estribo, yunque",
+   "Martillo, yunque, estribo"
+  ],
+  "a": 3,
+  "e": "El martillo se apoya en el tímpano y el estribo en la ventana oval.",
+  "x": [
+   "El martillo es el primero.",
+   "El orden está invertido.",
+   "El yunque está entre los otros dos.",
+   ""
+  ]
+ },
+ {
+  "id": "x247",
+  "m": "sent",
+  "t": "Oído",
+  "d": 2,
+  "q": "¿Cuál es el hueso más pequeño del cuerpo humano?",
+  "o": [
+   "El martillo",
+   "El hioides",
+   "El estribo",
+   "El yunque"
+  ],
+  "a": 2,
+  "e": "Mide alrededor de 3 mm.",
+  "x": [
+   "Es mayor que el estribo.",
+   "El hioides es mucho mayor.",
+   "",
+   "También es mayor."
+  ]
+ },
+ {
+  "id": "x248",
+  "m": "sent",
+  "t": "Oído",
+  "d": 2,
+  "q": "¿Qué comunica la trompa de Eustaquio?",
+  "o": [
+   "El oído externo con el medio",
+   "El oído interno con el cráneo",
+   "El oído interno con el medio",
+   "El oído medio con la nasofaringe"
+  ],
+  "a": 3,
+  "e": "Iguala la presión a ambos lados del tímpano.",
+  "x": [
+   "Los separa el tímpano.",
+   "No existe tal comunicación.",
+   "Los comunican las ventanas oval y redonda.",
+   ""
+  ]
+ },
+ {
+  "id": "x249",
+  "m": "sent",
+  "t": "Oído",
+  "d": 2,
+  "q": "¿Dónde se encuentra el órgano de Corti?",
+  "o": [
+   "En el utrículo",
+   "En los conductos semicirculares",
+   "En la cóclea",
+   "En el oído medio"
+  ],
+  "a": 2,
+  "e": "Transforma la vibración del líquido en impulso nervioso mediante células ciliadas.",
+  "x": [
+   "El utrículo detecta la aceleración lineal.",
+   "Detectan la aceleración angular.",
+   "",
+   "El oído medio solo transmite la vibración."
+  ]
+ },
+ {
+  "id": "x250",
+  "m": "sent",
+  "t": "Oído",
+  "d": 2,
+  "q": "¿Qué estructuras detectan la aceleración angular de la cabeza?",
+  "o": [
+   "El utrículo y el sáculo",
+   "Los conductos semicirculares",
+   "El tímpano",
+   "La cóclea"
+  ],
+  "a": 1,
+  "e": "Los tres conductos están en planos perpendiculares entre sí.",
+  "x": [
+   "Detectan la aceleración lineal y la gravedad.",
+   "",
+   "Solo transmite la vibración.",
+   "Es el órgano de la audición."
+  ]
+ },
+ {
+  "id": "x251",
+  "m": "sent",
+  "t": "Olfato y gusto",
+  "d": 2,
+  "q": "¿Por dónde atraviesan los filetes del nervio olfatorio?",
+  "o": [
+   "Por el conducto óptico",
+   "Por la fisura orbitaria superior",
+   "Por la lámina cribosa del etmoides",
+   "Por el agujero magno"
+  ],
+  "a": 2,
+  "e": "Por eso una fractura de la base anterior puede producir anosmia y fístula de líquido cefalorraquídeo.",
+  "x": [
+   "Por allí pasa el nervio óptico.",
+   "Por allí pasan los pares III, IV, V1 y VI.",
+   "",
+   "Por allí pasa el tronco del encéfalo."
+  ]
+ },
+ {
+  "id": "x252",
+  "m": "sent",
+  "t": "Olfato y gusto",
+  "d": 2,
+  "q": "¿Qué nervio recoge el gusto del tercio posterior de la lengua?",
+  "o": [
+   "Vago",
+   "Hipogloso",
+   "Glosofaríngeo",
+   "Facial"
+  ],
+  "a": 2,
+  "e": "El IX par recoge gusto y sensibilidad general del tercio posterior.",
+  "x": [
+   "Recoge el gusto de la epiglotis.",
+   "Es puramente motor.",
+   "",
+   "Recoge los dos tercios anteriores."
+  ]
+ },
+ {
+  "id": "x253",
+  "m": "sent",
+  "t": "Olfato y gusto",
+  "d": 2,
+  "q": "¿Qué papila lingual NO tiene botones gustativos?",
+  "o": [
+   "Caliciforme",
+   "Filiforme",
+   "Fungiforme",
+   "Foliada"
+  ],
+  "a": 1,
+  "e": "Las filiformes son mecánicas y dan aspereza a la lengua.",
+  "x": [
+   "Sí los tiene.",
+   "",
+   "Sí tiene botones gustativos.",
+   "Sí los tiene."
+  ]
+ },
+ {
+  "id": "x254",
+  "m": "piel",
+  "t": "Piel",
+  "d": 1,
+  "q": "¿Cuál es la capa más externa de la piel?",
+  "o": [
+   "Epidermis",
+   "Hipodermis",
+   "Dermis",
+   "Fascia superficial"
+  ],
+  "a": 0,
+  "e": "La epidermis es un epitelio plano estratificado queratinizado y avascular.",
+  "x": [
+   "",
+   "Es el tejido celular subcutáneo.",
+   "Queda por debajo de la epidermis.",
+   "Es otra forma de llamar a la hipodermis."
+  ]
+ },
+ {
+  "id": "x255",
+  "m": "piel",
+  "t": "Piel",
+  "d": 2,
+  "q": "¿Qué célula epidérmica produce el pigmento melanina?",
+  "o": [
+   "Melanocito",
+   "Queratinocito",
+   "Célula de Langerhans",
+   "Célula de Merkel"
+  ],
+  "a": 0,
+  "e": "Está en la capa basal y transfiere la melanina a los queratinocitos vecinos.",
+  "x": [
+   "",
+   "Recibe la melanina pero no la produce.",
+   "Participa en la respuesta inmunitaria.",
+   "Participa en la sensibilidad táctil."
+  ]
+ },
+ {
+  "id": "x256",
+  "m": "piel",
+  "t": "Piel",
+  "d": 2,
+  "q": "¿Qué capa epidérmica solo existe en la piel gruesa de palmas y plantas?",
+  "o": [
+   "Lúcida",
+   "Córnea",
+   "Espinosa",
+   "Basal"
+  ],
+  "a": 0,
+  "e": "El estrato lúcido es una capa fina y translúcida entre la granulosa y la córnea.",
+  "x": [
+   "",
+   "Existe en toda la piel.",
+   "Existe en toda la piel.",
+   "Existe en toda la piel."
+  ]
+ },
+ {
+  "id": "x257",
+  "m": "piel",
+  "t": "Piel",
+  "d": 2,
+  "q": "¿Qué receptor cutáneo detecta la vibración y la presión profunda?",
+  "o": [
+   "Corpúsculo de Pacini",
+   "Terminación libre",
+   "Disco de Merkel",
+   "Corpúsculo de Meissner"
+  ],
+  "a": 0,
+  "e": "Tiene estructura laminar en capas de cebolla y se sitúa en la dermis profunda.",
+  "x": [
+   "",
+   "Detecta dolor y temperatura.",
+   "Detecta la presión sostenida y la textura.",
+   "Detecta el tacto ligero."
+  ]
+ },
+ {
+  "id": "x258",
+  "m": "piel",
+  "t": "Piel",
+  "d": 2,
+  "q": "¿Dónde desemboca la glándula sebácea?",
+  "o": [
+   "En el folículo piloso",
+   "En la dermis profunda",
+   "Directamente en la superficie",
+   "En la hipodermis"
+  ],
+  "a": 0,
+  "e": "Su secreción es holocrina y lubrica el pelo y la piel.",
+  "x": [
+   "",
+   "No vierte al tejido conectivo.",
+   "Lo hacen las glándulas ecrinas.",
+   "Tampoco a la hipodermis."
+  ]
+ },
+ {
+  "id": "x259",
+  "m": "piel",
+  "t": "Piel",
+  "d": 2,
+  "q": "¿Qué glándulas sudoríparas intervienen en la termorregulación?",
+  "o": [
+   "Sebáceas",
+   "Apocrinas",
+   "Ceruminosas",
+   "Ecrinas"
+  ],
+  "a": 3,
+  "e": "Las ecrinas están repartidas por casi toda la piel y vierten directamente a la superficie.",
+  "x": [
+   "Producen sebo.",
+   "Se concentran en axila e ingle y aparecen en la pubertad.",
+   "Producen cerumen en el conducto auditivo externo.",
+   ""
+  ]
+ },
+ {
+  "id": "x260",
+  "m": "piel",
+  "t": "Tejido conectivo",
+  "d": 2,
+  "q": "¿Cuál es la proteína más abundante del organismo?",
+  "o": [
+   "Elastina",
+   "Actina",
+   "Colágeno",
+   "Queratina"
+  ],
+  "a": 2,
+  "e": "Representa en torno a la cuarta parte de las proteínas totales.",
+  "x": [
+   "Es minoritaria frente al colágeno.",
+   "Es abundante pero menos que el colágeno.",
+   "",
+   "Es la proteína del pelo y la uña."
+  ]
+ },
+ {
+  "id": "x261",
+  "m": "piel",
+  "t": "Tejido conectivo",
+  "d": 2,
+  "q": "¿Qué célula produce las fibras del tejido conectivo?",
+  "o": [
+   "Fibroblasto",
+   "Mastocito",
+   "Macrófago",
+   "Plasmocito"
+  ],
+  "a": 0,
+  "e": "El fibroblasto sintetiza colágeno, elastina y sustancia fundamental.",
+  "x": [
+   "",
+   "Libera histamina.",
+   "Fagocita y presenta antígenos.",
+   "Produce anticuerpos."
+  ]
+ },
+ {
+  "id": "x262",
+  "m": "piel",
+  "t": "Tejido conectivo",
+  "d": 2,
+  "q": "¿Qué tipo de cartílago recubre las superficies articulares?",
+  "o": [
+   "Elástico",
+   "Calcificado",
+   "Fibrocartílago",
+   "Hialino"
+  ],
+  "a": 3,
+  "e": "El hialino es liso y resistente a la compresión.",
+  "x": [
+   "Forma la oreja y la epiglotis.",
+   "No es una categoría del cartílago sano.",
+   "Forma meniscos y discos intervertebrales.",
+   ""
+  ]
+ },
+ {
+  "id": "x263",
+  "m": "piel",
+  "t": "Tejido conectivo",
+  "d": 2,
+  "q": "¿Qué estructura une un músculo a un hueso?",
+  "o": [
+   "Tendón",
+   "Ligamento",
+   "Fascia",
+   "Aponeurosis"
+  ],
+  "a": 0,
+  "e": "El tendón es tejido conectivo denso regular rico en colágeno tipo I.",
+  "x": [
+   "",
+   "Une hueso con hueso.",
+   "Envuelve músculos y grupos musculares.",
+   "Es una lámina tendinosa ancha, no la respuesta general."
+  ]
+ },
+ {
+  "id": "x264",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 1,
+  "q": "En la posición anatómica, las palmas de las manos miran:",
+  "o": [
+   "Hacia atrás",
+   "Hacia el cuerpo",
+   "Hacia abajo",
+   "Hacia delante"
+  ],
+  "a": 3,
+  "e": "Es la posición de referencia para toda la descripción anatómica.",
+  "x": [
+   "Esa sería la posición en reposo habitual.",
+   "Tampoco corresponde a la posición anatómica.",
+   "Tampoco.",
+   ""
+  ]
+ },
+ {
+  "id": "x265",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 1,
+  "q": "¿Qué plano divide el cuerpo en una mitad anterior y otra posterior?",
+  "o": [
+   "Sagital",
+   "Oblicuo",
+   "Frontal o coronal",
+   "Transversal"
+  ],
+  "a": 2,
+  "e": "El sagital lo divide en derecha e izquierda y el transversal en superior e inferior.",
+  "x": [
+   "Divide en derecha e izquierda.",
+   "No es un plano de referencia principal.",
+   "",
+   "Divide en superior e inferior."
+  ]
+ },
+ {
+  "id": "x266",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 2,
+  "q": "El término distal significa:",
+  "o": [
+   "Más lejos del origen del miembro",
+   "Más cerca de la superficie",
+   "Más cerca de la línea media",
+   "Hacia la cabeza"
+  ],
+  "a": 0,
+  "e": "Se aplica sobre todo a los miembros: la muñeca es distal respecto al codo.",
+  "x": [
+   "",
+   "Eso es superficial.",
+   "Eso es medial.",
+   "Eso es craneal o cefálico."
+  ]
+ },
+ {
+  "id": "x267",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 2,
+  "q": "¿Qué movimiento aleja un miembro del plano medio del cuerpo?",
+  "o": [
+   "Aducción",
+   "Flexión",
+   "Abducción",
+   "Rotación interna"
+  ],
+  "a": 2,
+  "e": "La aducción es el movimiento contrario.",
+  "x": [
+   "Acerca al plano medio.",
+   "Disminuye el ángulo entre dos segmentos.",
+   "",
+   "Gira el miembro hacia dentro."
+  ]
+ },
+ {
+  "id": "x268",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 2,
+  "q": "En supinación del antebrazo:",
+  "o": [
+   "El codo se extiende",
+   "El radio cruza sobre el cúbito",
+   "El radio y el cúbito quedan paralelos",
+   "La muñeca se flexiona"
+  ],
+  "a": 2,
+  "e": "En pronación el radio cruza por delante del cúbito.",
+  "x": [
+   "La pronosupinación es independiente de la flexoextensión del codo.",
+   "Eso ocurre en pronación.",
+   "",
+   "Tampoco implica flexión de muñeca."
+  ]
+ },
+ {
+  "id": "x269",
+  "m": "reg",
+  "t": "Regiones del abdomen",
+  "d": 2,
+  "q": "¿En cuántas regiones se divide clásicamente el abdomen?",
+  "o": [
+   "Doce",
+   "Nueve",
+   "Seis",
+   "Cuatro"
+  ],
+  "a": 1,
+  "e": "Dos líneas horizontales y dos verticales delimitan nueve regiones.",
+  "x": [
+   "Tampoco.",
+   "",
+   "No corresponde a la división clásica.",
+   "Esa es la división en cuadrantes, también usada."
+  ]
+ },
+ {
+  "id": "x270",
+  "m": "reg",
+  "t": "Regiones del abdomen",
+  "d": 2,
+  "q": "¿Qué órgano se proyecta en el hipocondrio izquierdo?",
+  "o": [
+   "Apéndice",
+   "Hígado",
+   "Vesícula biliar",
+   "Bazo"
+  ],
+  "a": 3,
+  "e": "El bazo se sitúa entre la novena y la undécima costillas izquierdas.",
+  "x": [
+   "Se proyecta en la fosa ilíaca derecha.",
+   "Ocupa sobre todo el hipocondrio derecho.",
+   "Está en el hipocondrio derecho.",
+   ""
+  ]
+ },
+ {
+  "id": "x271",
+  "m": "reg",
+  "t": "Regiones del abdomen",
+  "d": 2,
+  "q": "El dolor de la apendicitis suele empezar en:",
+  "o": [
+   "La fosa ilíaca izquierda",
+   "La fosa ilíaca derecha",
+   "La región periumbilical o el epigastrio",
+   "El hipocondrio izquierdo"
+  ],
+  "a": 2,
+  "e": "El dolor visceral inicial es mal localizado y después se desplaza a la fosa ilíaca derecha.",
+  "x": [
+   "Tampoco.",
+   "Allí se localiza después.",
+   "",
+   "No es la presentación típica."
+  ]
+ },
+ {
+  "id": "x272",
+  "m": "reg",
+  "t": "Regiones del cuerpo",
+  "d": 2,
+  "q": "¿Qué estructuras contiene la fosa poplítea?",
+  "o": [
+   "Nervio obturador y vasos obturadores",
+   "Arteria y vena poplíteas y nervios tibial y peroneo común",
+   "Solo tejido graso",
+   "Nervio femoral y arteria femoral"
+  ],
+  "a": 1,
+  "e": "De superficial a profundo: nervio, vena y arteria.",
+  "x": [
+   "Están en la pelvis y la cara medial del muslo.",
+   "",
+   "Contiene estructuras vasculonerviosas importantes.",
+   "Están en la cara anterior del muslo."
+  ]
+ },
+ {
+  "id": "x273",
+  "m": "reg",
+  "t": "Regiones del cuerpo",
+  "d": 3,
+  "q": "¿Qué hueso forma el suelo de la tabaquera anatómica?",
+  "o": [
+   "Pisiforme",
+   "Escafoides",
+   "Semilunar",
+   "Trapecio"
+  ],
+  "a": 1,
+  "e": "Por eso el dolor allí sugiere fractura de escafoides.",
+  "x": [
+   "Está en el borde cubital de la muñeca.",
+   "",
+   "No forma el suelo de la tabaquera.",
+   "Participa, pero la referencia clásica es el escafoides."
+  ]
+ },
+ {
+  "id": "x274",
+  "m": "reg",
+  "t": "Regiones del cuerpo",
+  "d": 2,
+  "q": "¿Hacia dónde drena la mayor parte de la linfa de la mama?",
+  "o": [
+   "Ganglios cervicales profundos",
+   "Ganglios supraclaviculares",
+   "Ganglios inguinales",
+   "Ganglios axilares"
+  ],
+  "a": 3,
+  "e": "Alrededor del 75 % del drenaje va a la axila, dato clave en el cáncer de mama.",
+  "x": [
+   "Tampoco.",
+   "Reciben una fracción menor.",
+   "No drenan la mama.",
+   ""
+  ]
+ },
+ {
+  "id": "x275",
+  "m": "reg",
+  "t": "Cavidades corporales",
+  "d": 3,
+  "q": "¿A qué altura atraviesa la vena cava inferior el diafragma?",
+  "o": [
+   "T12",
+   "T10",
+   "L1",
+   "T8"
+  ],
+  "a": 3,
+  "e": "Regla por número de letras: cava ocho, esófago diez, aorta doce.",
+  "x": [
+   "Por ahí pasa la aorta.",
+   "Por ahí pasa el esófago.",
+   "A L1 está el tronco celíaco.",
+   ""
+  ]
+ },
+ {
+  "id": "x276",
+  "m": "reg",
+  "t": "Cavidades corporales",
+  "d": 2,
+  "q": "¿Qué compartimento del mediastino contiene el corazón?",
+  "o": [
+   "Anterior",
+   "Medio",
+   "Superior",
+   "Posterior"
+  ],
+  "a": 1,
+  "e": "El corazón y su pericardio ocupan el mediastino medio.",
+  "x": [
+   "Contiene el timo en el niño.",
+   "",
+   "Contiene grandes vasos, tráquea y esófago.",
+   "Contiene esófago, aorta descendente y conducto torácico."
+  ]
+ },
+ {
+  "id": "x277",
+  "m": "reg",
+  "t": "Anatomía de superficie",
+  "d": 2,
+  "q": "¿Qué referencia se usa para localizar el espacio intervertebral L4-L5?",
+  "o": [
+   "El ángulo esternal",
+   "La punta de la escápula",
+   "El ombligo",
+   "La línea que une ambas crestas ilíacas"
+  ],
+  "a": 3,
+  "e": "La línea de Tuffier pasa aproximadamente por la apófisis espinosa de L4.",
+  "x": [
+   "Es una referencia torácica.",
+   "Corresponde aproximadamente a T7.",
+   "Su nivel es variable.",
+   ""
+  ]
+ },
+ {
+  "id": "x278",
+  "m": "reg",
+  "t": "Anatomía de superficie",
+  "d": 2,
+  "q": "¿Dónde se ausculta el foco mitral?",
+  "o": [
+   "Segundo espacio intercostal izquierdo",
+   "Segundo espacio intercostal derecho",
+   "Quinto espacio intercostal izquierdo, línea medioclavicular",
+   "Borde esternal izquierdo bajo"
+  ],
+  "a": 2,
+  "e": "Coincide aproximadamente con la punta del corazón.",
+  "x": [
+   "Es el foco pulmonar.",
+   "Es el foco aórtico.",
+   "",
+   "Es el foco tricuspídeo."
+  ]
+ },
+ {
+  "id": "x279",
+  "m": "reg",
+  "t": "Anatomía de superficie",
+  "d": 2,
+  "q": "¿Qué vértebra se palpa como la más prominente en la base del cuello?",
+  "o": [
+   "C7",
+   "T1",
+   "C6",
+   "C5"
+  ],
+  "a": 0,
+  "e": "Se la llama precisamente vértebra prominente.",
+  "x": [
+   "",
+   "Es prominente, pero la referencia clásica es C7.",
+   "Tampoco es la más saliente.",
+   "Su espinosa suele ser bífida y poco palpable."
+  ]
+ },
+ {
+  "id": "x280",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 2,
+  "q": "¿Qué significa el término ipsilateral?",
+  "o": [
+   "Del lado contrario",
+   "En la línea media",
+   "En ambos lados",
+   "Del mismo lado"
+  ],
+  "a": 3,
+  "e": "Contralateral significa del lado opuesto y bilateral, de los dos lados.",
+  "x": [
+   "Eso es contralateral.",
+   "Eso es medial.",
+   "Eso es bilateral.",
+   ""
+  ]
+ },
+ {
+  "id": "x281",
+  "m": "reg",
+  "t": "Regiones del cuerpo",
+  "d": 2,
+  "q": "¿Qué estructuras pasan por el conducto carpiano?",
+  "o": [
+   "El nervio cubital y la arteria cubital",
+   "El nervio radial",
+   "La arteria radial",
+   "El nervio mediano y los tendones flexores"
+  ],
+  "a": 3,
+  "e": "El retináculo flexor forma el techo del túnel.",
+  "x": [
+   "Pasan por el canal de Guyon, por fuera del túnel.",
+   "No entra en el túnel carpiano.",
+   "Pasa por la tabaquera anatómica.",
+   ""
+  ]
+ },
+ {
+  "id": "x282",
+  "m": "uri",
+  "t": "Riñón",
+  "d": 2,
+  "q": "¿Entre qué vértebras se sitúan habitualmente los riñones?",
+  "o": [
+   "L4 y S1",
+   "T12 y L3",
+   "T6 y T9",
+   "T8 y T10"
+  ],
+  "a": 1,
+  "e": "El riñón derecho suele estar algo más bajo por la presencia del hígado.",
+  "x": [
+   "Queda demasiado bajo.",
+   "",
+   "Queda demasiado alto.",
+   "Corresponde a los orificios del diafragma."
+  ]
+ },
+ {
+  "id": "x283",
+  "m": "uri",
+  "t": "Riñón",
+  "d": 2,
+  "q": "¿Qué estructura renal contiene las pirámides?",
+  "o": [
+   "La médula",
+   "El seno renal",
+   "La cápsula",
+   "La corteza"
+  ],
+  "a": 0,
+  "e": "Las pirámides desembocan por sus papilas en los cálices menores.",
+  "x": [
+   "",
+   "Contiene los cálices, la pelvis y los vasos.",
+   "Es la envoltura fibrosa.",
+   "Contiene los corpúsculos renales."
+  ]
+ },
+ {
+  "id": "x284",
+  "m": "uri",
+  "t": "Vías urinarias",
+  "d": 2,
+  "q": "¿Qué esfínter uretral es de control voluntario?",
+  "o": [
+   "El interno",
+   "El externo",
+   "Ninguno",
+   "Ambos"
+  ],
+  "a": 1,
+  "e": "El esfínter externo es de músculo estriado e inervado por el nervio pudendo.",
+  "x": [
+   "Es liso e involuntario.",
+   "",
+   "Sí hay control voluntario.",
+   "Solo uno es voluntario."
+  ]
+ },
+ {
+  "id": "x285",
+  "m": "uri",
+  "t": "Función renal",
+  "d": 2,
+  "q": "¿Dónde se reabsorbe la mayor parte del filtrado glomerular?",
+  "o": [
+   "En el túbulo contorneado proximal",
+   "En el túbulo colector",
+   "En el túbulo distal",
+   "En el asa de Henle"
+  ],
+  "a": 0,
+  "e": "El túbulo proximal reabsorbe alrededor del 65 % del sodio y el agua filtrados.",
+  "x": [
+   "",
+   "Ajusta la reabsorción final de agua.",
+   "Hace ajustes finos bajo control hormonal.",
+   "Participa en la concentración de la orina."
+  ]
+ },
+ {
+  "id": "x286",
+  "m": "rep",
+  "t": "Aparato reproductor masculino",
+  "d": 2,
+  "q": "¿Dónde maduran y adquieren movilidad los espermatozoides?",
+  "o": [
+   "En la próstata",
+   "En la uretra",
+   "En el epidídimo",
+   "En el testículo"
+  ],
+  "a": 2,
+  "e": "El tránsito por el epidídimo dura entre una y dos semanas.",
+  "x": [
+   "Aporta secreción al semen.",
+   "Es solo la vía final de salida.",
+   "",
+   "Allí se forman, pero aún no son móviles."
+  ]
+ },
+ {
+  "id": "x287",
+  "m": "rep",
+  "t": "Aparato reproductor masculino",
+  "d": 2,
+  "q": "¿Qué estructura regula la temperatura testicular?",
+  "o": [
+   "El epidídimo",
+   "El conducto deferente",
+   "La túnica albugínea",
+   "El músculo dartos y el cremáster"
+  ],
+  "a": 3,
+  "e": "Acercan o alejan el testículo del cuerpo para mantenerlo unos grados por debajo de la temperatura corporal.",
+  "x": [
+   "Almacena espermatozoides.",
+   "Es una vía de transporte.",
+   "Es la cápsula fibrosa del testículo.",
+   ""
+  ]
+ },
+ {
+  "id": "x288",
+  "m": "rep",
+  "t": "Aparato reproductor femenino",
+  "d": 2,
+  "q": "¿Cuál es la porción de la trompa uterina más próxima al ovario?",
+  "o": [
+   "Porción intramural",
+   "Infundíbulo",
+   "Ampolla",
+   "Istmo"
+  ],
+  "a": 1,
+  "e": "El infundíbulo, con sus fimbrias, recoge el ovocito tras la ovulación.",
+  "x": [
+   "Atraviesa la pared uterina.",
+   "",
+   "Es donde suele producirse la fecundación.",
+   "Es la porción estrecha junto al útero."
+  ]
+ },
+ {
+  "id": "x289",
+  "m": "rep",
+  "t": "Aparato reproductor femenino",
+  "d": 2,
+  "q": "¿Qué estructura ovárica degenera si no hay embarazo?",
+  "o": [
+   "El folículo primordial",
+   "El cuerpo lúteo",
+   "El ligamento redondo",
+   "La corteza ovárica"
+  ],
+  "a": 1,
+  "e": "Se convierte en cuerpo albicans a los 10-14 días.",
+  "x": [
+   "Permanece en reserva.",
+   "",
+   "Es un ligamento del útero.",
+   "No degenera como estructura."
+  ]
+ },
+ {
+  "id": "x290",
+  "m": "endo",
+  "t": "Tiroides y paratiroides",
+  "d": 2,
+  "q": "¿Qué oligoelemento es imprescindible para sintetizar las hormonas tiroideas?",
+  "o": [
+   "Yodo",
+   "Zinc",
+   "Hierro",
+   "Selenio"
+  ],
+  "a": 0,
+  "e": "T3 y T4 llevan tres y cuatro átomos de yodo respectivamente.",
+  "x": [
+   "",
+   "Participa en muchas enzimas, pero no en la molécula hormonal.",
+   "Es esencial para la hemoglobina.",
+   "Interviene en la desyodación, no en la estructura."
+  ]
+ },
+ {
+  "id": "x291",
+  "m": "endo",
+  "t": "Hipófisis",
+  "d": 2,
+  "q": "¿Qué hormona hipofisaria estimula la glándula tiroides?",
+  "o": [
+   "TSH",
+   "ACTH",
+   "FSH",
+   "GH"
+  ],
+  "a": 0,
+  "e": "La TSH o tirotropina estimula la síntesis y liberación de T3 y T4.",
+  "x": [
+   "",
+   "Estimula la corteza suprarrenal.",
+   "Actúa sobre las gónadas.",
+   "Favorece el crecimiento y el metabolismo."
+  ]
+ },
+ {
+  "id": "x292",
+  "m": "endo",
+  "t": "Suprarrenales",
+  "d": 3,
+  "q": "¿Qué zona de la corteza suprarrenal produce la aldosterona?",
+  "o": [
+   "Glomerular",
+   "Reticular",
+   "Médula",
+   "Fascicular"
+  ],
+  "a": 0,
+  "e": "Es la capa más externa de la corteza.",
+  "x": [
+   "",
+   "Produce andrógenos.",
+   "Produce catecolaminas.",
+   "Produce cortisol."
+  ]
+ },
+ {
+  "id": "x293",
+  "m": "endo",
+  "t": "Páncreas endocrino",
+  "d": 2,
+  "q": "¿Qué hormona de los islotes inhibe la secreción de insulina y glucagón?",
+  "o": [
+   "Glucagón",
+   "Somatostatina",
+   "Polipéptido pancreático",
+   "Insulina"
+  ],
+  "a": 1,
+  "e": "La produce la célula delta y actúa de forma local.",
+  "x": [
+   "La sube.",
+   "",
+   "Regula la secreción exocrina pancreática.",
+   "Baja la glucemia."
+  ]
+ },
+ {
+  "id": "x294",
+  "m": "endo",
+  "t": "Generalidades",
+  "d": 2,
+  "q": "¿Qué característica define a una hormona?",
+  "o": [
+   "Que se transporta por un conducto",
+   "Que viaja por la sangre hasta un órgano diana",
+   "Que es siempre una proteína",
+   "Que actúa solo localmente"
+  ],
+  "a": 1,
+  "e": "Las glándulas endocrinas vierten su producto al torrente sanguíneo.",
+  "x": [
+   "Eso define a una secreción exocrina.",
+   "",
+   "Hay hormonas esteroideas y derivadas de aminoácidos.",
+   "Esa sería una secreción paracrina."
+  ]
+ },
+ {
+  "id": "x295",
+  "m": "sent",
+  "t": "Ojo",
+  "d": 2,
+  "q": "¿Qué capa del globo ocular contiene los fotorreceptores?",
+  "o": [
+   "Coroides",
+   "Córnea",
+   "Retina",
+   "Esclerótica"
+  ],
+  "a": 2,
+  "e": "La retina es la capa nerviosa del ojo.",
+  "x": [
+   "Es la capa vascular que nutre la retina.",
+   "Es la parte anterior transparente de la capa fibrosa.",
+   "",
+   "Es la capa fibrosa protectora."
+  ]
+ },
+ {
+  "id": "x296",
+  "m": "sent",
+  "t": "Ojo",
+  "d": 2,
+  "q": "¿Qué músculo del iris se contrae con el parasimpático y reduce la pupila?",
+  "o": [
+   "Músculo ciliar",
+   "Esfínter de la pupila",
+   "Dilatador de la pupila",
+   "Recto superior"
+  ],
+  "a": 1,
+  "e": "El esfínter pupilar depende del III par y produce miosis.",
+  "x": [
+   "Interviene en la acomodación.",
+   "",
+   "Depende del simpático y produce midriasis.",
+   "Mueve el globo ocular."
+  ]
+ },
+ {
+  "id": "x297",
+  "m": "sent",
+  "t": "Ojo",
+  "d": 3,
+  "q": "La lesión del quiasma óptico produce típicamente:",
+  "o": [
+   "Hemianopsia homónima",
+   "Ceguera monocular",
+   "Hemianopsia bitemporal",
+   "Visión normal"
+  ],
+  "a": 2,
+  "e": "Se afectan las fibras nasales de ambas retinas, que recogen los campos temporales.",
+  "x": [
+   "Aparece en lesiones retroquiasmáticas.",
+   "Eso ocurre si se secciona un nervio óptico.",
+   "",
+   "Sí hay déficit visual."
+  ]
+ },
+ {
+  "id": "x298",
+  "m": "sent",
+  "t": "Oído",
+  "d": 2,
+  "q": "¿Qué estructura separa el oído externo del medio?",
+  "o": [
+   "La membrana timpánica",
+   "La ventana oval",
+   "La trompa de Eustaquio",
+   "El pabellón auricular"
+  ],
+  "a": 0,
+  "e": "El tímpano recibe la onda sonora y la transmite a la cadena de huesecillos.",
+  "x": [
+   "",
+   "Separa el oído medio del interno.",
+   "Comunica el oído medio con la faringe.",
+   "Capta el sonido en el oído externo."
+  ]
+ },
+ {
+  "id": "x299",
+  "m": "sent",
+  "t": "Oído",
+  "d": 3,
+  "q": "¿Qué nervio puede lesionarse en la cirugía del oído medio por su trayecto en el conducto facial?",
+  "o": [
+   "El trigémino",
+   "El facial",
+   "El vago",
+   "El glosofaríngeo"
+  ],
+  "a": 1,
+  "e": "El VII par atraviesa el hueso temporal por el conducto facial, junto a la cavidad timpánica.",
+  "x": [
+   "No atraviesa el oído medio.",
+   "",
+   "También pasa por el agujero yugular.",
+   "Pasa por el agujero yugular."
+  ]
+ },
+ {
+  "id": "x300",
+  "m": "piel",
+  "t": "Piel",
+  "d": 2,
+  "q": "¿Qué capa de la piel contiene los vasos sanguíneos y los receptores?",
+  "o": [
+   "Estrato granuloso",
+   "Estrato córneo",
+   "Dermis",
+   "Epidermis"
+  ],
+  "a": 2,
+  "e": "La epidermis es avascular y se nutre por difusión desde la dermis.",
+  "x": [
+   "También pertenece a la epidermis.",
+   "Es la capa más externa de la epidermis.",
+   "",
+   "Es avascular."
+  ]
+ },
+ {
+  "id": "x301",
+  "m": "piel",
+  "t": "Piel",
+  "d": 2,
+  "q": "¿Qué célula epidérmica presenta antígenos al sistema inmunitario?",
+  "o": [
+   "Melanocito",
+   "Célula de Langerhans",
+   "Célula de Merkel",
+   "Queratinocito basal"
+  ],
+  "a": 1,
+  "e": "Deriva de la médula ósea y migra a la epidermis.",
+  "x": [
+   "Produce melanina.",
+   "",
+   "Participa en la sensibilidad táctil.",
+   "Se divide para renovar la epidermis."
+  ]
+ },
+ {
+  "id": "x302",
+  "m": "piel",
+  "t": "Tejido conectivo",
+  "d": 2,
+  "q": "¿Qué tipo de tejido conectivo forma los tendones?",
+  "o": [
+   "Laxo",
+   "Denso irregular",
+   "Denso regular",
+   "Adiposo"
+  ],
+  "a": 2,
+  "e": "Sus fibras de colágeno se orientan en paralelo para resistir tracción en un eje.",
+  "x": [
+   "Rellena espacios y permite el movimiento.",
+   "Forma la dermis reticular y las cápsulas.",
+   "",
+   "Almacena grasa."
+  ]
+ },
+ {
+  "id": "x303",
+  "m": "piel",
+  "t": "Piel",
+  "d": 3,
+  "q": "En una quemadura de segundo grado superficial se afectan:",
+  "o": [
+   "Solo la hipodermis",
+   "Toda la dermis y la hipodermis",
+   "La epidermis y la dermis superficial",
+   "Solo la epidermis"
+  ],
+  "a": 2,
+  "e": "Aparecen ampollas y dolor intenso porque las terminaciones nerviosas quedan expuestas.",
+  "x": [
+   "No es una categoría habitual.",
+   "Eso correspondería al tercer grado.",
+   "",
+   "Eso define el primer grado."
+  ]
+ },
+ {
+  "id": "x304",
+  "m": "reg",
+  "t": "Regiones del cuerpo",
+  "d": 2,
+  "q": "¿Qué estructuras forman el contenido de la axila?",
+  "o": [
+   "Nervio femoral y vasos femorales",
+   "Solo ganglios linfáticos",
+   "Arteria y vena axilares, plexo braquial y ganglios",
+   "Conducto torácico"
+  ],
+  "a": 2,
+  "e": "Por eso la exploración axilar es clave en el cáncer de mama.",
+  "x": [
+   "Pertenecen al miembro inferior.",
+   "Contiene además vasos y nervios.",
+   "",
+   "Asciende por el mediastino posterior."
+  ]
+ },
+ {
+  "id": "x305",
+  "m": "reg",
+  "t": "Regiones del abdomen",
+  "d": 2,
+  "q": "¿Qué región del abdomen queda justo por debajo del apéndice xifoides?",
+  "o": [
+   "Flanco derecho",
+   "Hipogastrio",
+   "Epigastrio",
+   "Mesogastrio"
+  ],
+  "a": 2,
+  "e": "Allí se proyectan el estómago, parte del hígado y el páncreas.",
+  "x": [
+   "Es lateral, a la derecha del mesogastrio.",
+   "Es la región suprapúbica.",
+   "",
+   "Es la región central, alrededor del ombligo."
+  ]
+ },
+ {
+  "id": "x306",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 2,
+  "q": "¿Qué significa el término superficial?",
+  "o": [
+   "Más lejos del tronco",
+   "Más cerca de la línea media",
+   "Más cerca de la superficie del cuerpo",
+   "Más cerca de la cabeza"
+  ],
+  "a": 2,
+  "e": "Su opuesto es profundo.",
+  "x": [
+   "Eso es distal.",
+   "Eso es medial.",
+   "",
+   "Eso es craneal o cefálico."
+  ]
+ },
+ {
+  "id": "x307",
+  "m": "reg",
+  "t": "Cavidades corporales",
+  "d": 2,
+  "q": "¿Qué separa la cavidad torácica de la abdominal?",
+  "o": [
+   "El peritoneo",
+   "El mediastino",
+   "La pleura",
+   "El diafragma"
+  ],
+  "a": 3,
+  "e": "El diafragma es un músculo en forma de cúpula con tres orificios principales.",
+  "x": [
+   "Tapiza la cavidad abdominal.",
+   "Es el espacio central del tórax.",
+   "Tapiza la cavidad torácica alrededor del pulmón.",
+   ""
+  ]
+ },
+ {
+  "id": "x308",
+  "m": "reg",
+  "t": "Anatomía de superficie",
+  "d": 3,
+  "q": "¿Qué estructura se palpa en la línea media del cuello justo por debajo del cartílago tiroides?",
+  "o": [
+   "El cartílago cricoides",
+   "El hioides",
+   "El istmo tiroideo",
+   "La escotadura yugular"
+  ],
+  "a": 0,
+  "e": "Es la referencia para la cricotirotomía de urgencia.",
+  "x": [
+   "",
+   "Queda por encima del cartílago tiroides.",
+   "Cubre los anillos traqueales segundo a cuarto.",
+   "Está en el borde superior del manubrio."
+  ]
+ },
+ {
+  "id": "x309",
+  "m": "reg",
+  "t": "Regiones del cuerpo",
+  "d": 3,
+  "q": "El triángulo femoral está limitado por:",
+  "o": [
+   "Aductor mayor, grácil y sartorio",
+   "Ligamento inguinal, recto femoral y pectíneo",
+   "Sartorio, grácil y semitendinoso",
+   "Ligamento inguinal, sartorio y aductor largo"
+  ],
+  "a": 3,
+  "e": "Contiene el paquete vasculonervioso femoral.",
+  "x": [
+   "Tampoco.",
+   "No es la delimitación clásica.",
+   "Esos forman la pata de ganso, en la rodilla.",
+   ""
+  ]
+ },
+ {
+  "id": "x310",
+  "m": "oseo",
+  "t": "Generalidades del esqueleto",
+  "d": 2,
+  "q": "¿Qué función NO corresponde al esqueleto?",
+  "o": [
+   "Reserva de calcio",
+   "Protección de órganos",
+   "Producción de bilis",
+   "Sostén"
+  ],
+  "a": 2,
+  "e": "La bilis la produce el hígado.",
+  "x": [
+   "El hueso es el principal depósito de calcio.",
+   "Es una función esquelética.",
+   "",
+   "Es una función esquelética."
+  ]
+ },
+ {
+  "id": "x311",
+  "m": "musc",
+  "t": "Generalidades del músculo",
+  "d": 2,
+  "q": "¿De dónde procede el calcio que desencadena la contracción del músculo esquelético?",
+  "o": [
+   "Del líquido extracelular",
+   "Del núcleo",
+   "De la mitocondria",
+   "Del retículo sarcoplásmico"
+  ],
+  "a": 3,
+  "e": "El potencial de acción libera el calcio almacenado en el retículo sarcoplásmico.",
+  "x": [
+   "En el músculo cardíaco sí entra calcio extracelular, pero no es la fuente principal en el esquelético.",
+   "El núcleo no almacena calcio con este fin.",
+   "La mitocondria produce ATP.",
+   ""
+  ]
+ },
+ {
+  "id": "q3",
+  "m": "cardio",
+  "t": "Anatomía del corazón",
+  "d": 1,
+  "q": "¿Qué arteria sale del ventrículo izquierdo?",
+  "o": [
+   "Aorta",
+   "Arteria pulmonar",
+   "Vena cava superior",
+   "Arteria carótida"
+  ],
+  "a": 0,
+  "e": "La aorta lleva sangre oxigenada hacia el resto del cuerpo.",
+  "x": [
+   "",
+   "Sale del ventrículo derecho.",
+   "Es una vena que llega a la aurícula derecha.",
+   "Es rama indirecta del cayado."
+  ]
+ },
+ {
+  "id": "q6",
+  "m": "oseo",
+  "t": "Tórax óseo",
+  "d": 1,
+  "q": "¿Cuántos pares de costillas tiene típicamente una persona?",
+  "o": [
+   "10",
+   "11",
+   "12",
+   "14"
+  ],
+  "a": 2,
+  "e": "Son 12 pares.",
+  "x": [
+   "Son las que llegan al esternón directa o indirectamente.",
+   "Falta un par.",
+   "",
+   "Excede el número real."
+  ]
+ },
+ {
+  "id": "q7",
+  "m": "musc",
+  "t": "Miembro superior",
+  "d": 1,
+  "q": "¿En qué parte del cuerpo se encuentra el bíceps braquial?",
+  "o": [
+   "Brazo",
+   "Pierna",
+   "Cuello",
+   "Espalda"
+  ],
+  "a": 0,
+  "e": "Está en la cara anterior del brazo y flexiona el codo.",
+  "x": [
+   "",
+   "Allí está el tríceps sural.",
+   "Allí está el esternocleidomastoideo.",
+   "Allí está el dorsal ancho."
+  ]
+ },
+ {
+  "id": "q8",
+  "m": "oseo",
+  "t": "Miembro superior",
+  "d": 1,
+  "q": "¿Cuál de estos huesos pertenece al antebrazo?",
+  "o": [
+   "Radio",
+   "Fémur",
+   "Tibia",
+   "Húmero"
+  ],
+  "a": 0,
+  "e": "El radio y el cúbito forman el antebrazo.",
+  "x": [
+   "",
+   "Es el hueso del muslo.",
+   "Es un hueso de la pierna.",
+   "Es el hueso del brazo."
+  ]
+ }
+]

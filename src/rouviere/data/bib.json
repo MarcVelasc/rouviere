@@ -1,0 +1,170 @@
+[
+ {
+  "id": 1,
+  "subj": [
+   "gen"
+  ],
+  "cat": "Recurso de acceso abierto para contenidos introductorios",
+  "aut": "OpenStax",
+  "tit": "Anatomy and Physiology 2e",
+  "ed": "2.ª edición",
+  "anio": "Año: no verificado",
+  "edit": "OpenStax",
+  "isbn": "",
+  "acc": "abierto",
+  "uti": "Conceptos introductorios del cuerpo humano, tejidos, sistemas óseo y muscular, sistema nervioso, cardiovascular, respiratorio, digestivo, urinario y desarrollo humano.",
+  "links": [
+   [
+    "Libro completo",
+    "https://openstax.org/details/books/anatomy-and-physiology-2e"
+   ],
+   [
+    "Índice de capítulos",
+    "https://openstax.org/books/anatomy-and-physiology-2e/pages/preface"
+   ]
+  ],
+  "ver": "Enlace comprobado el 10/10/2026: la página lo presenta como libro gratuito.",
+  "nota": "Es un recurso útil para apoyar contenidos generales. No sustituye textos especializados ni el programa de la asignatura."
+ },
+ {
+  "id": 2,
+  "subj": [
+   "ana"
+  ],
+  "cat": "Anatomía Humana",
+  "aut": "Arthur F. Dalley II y Anne M. R. Agur; obra de Keith L. Moore y colaboradores",
+  "tit": "Moore's Clinically Oriented Anatomy",
+  "ed": "9.ª edición",
+  "anio": "2023",
+  "edit": "Wolters Kluwer, Filadelfia",
+  "isbn": "9781975154066 · 9781975154080",
+  "acc": "compra",
+  "uti": "Anatomía regional, relaciones entre estructuras y correlaciones clínicas.",
+  "links": [
+   [
+    "Registro en la National Library of Medicine",
+    "https://www.ncbi.nlm.nih.gov/nlmcatalog/380769"
+   ]
+  ],
+  "ver": "Edición, año, editorial e ISBN comprobados en el catálogo de la NLM el 10/10/2026.",
+  "nota": "El enlace es un registro bibliográfico; no ofrece necesariamente el libro completo."
+ },
+ {
+  "id": 3,
+  "subj": [
+   "ana"
+  ],
+  "cat": "Anatomía Humana",
+  "aut": "Frank H. Netter",
+  "tit": "Atlas of Human Anatomy",
+  "ed": "Edición: por verificar",
+  "anio": "Año: por verificar",
+  "edit": "Elsevier",
+  "isbn": "",
+  "acc": "compra",
+  "uti": "Atlas visual para identificar estructuras anatómicas y estudiar sus relaciones.",
+  "links": [
+   [
+    "Página del editor Elsevier",
+    "https://www.elsevier.com/"
+   ]
+  ],
+  "ver": "Pendiente: verificar la edición exacta en la página oficial antes de incorporarla al catálogo.",
+  "nota": "No copiar ni redistribuir ilustraciones protegidas sin permiso. La referencia bibliográfica puede mostrarse sin alojar imágenes del libro."
+ },
+ {
+  "id": 4,
+  "subj": [
+   "his"
+  ],
+  "cat": "Histología",
+  "aut": "Anthony L. Mescher",
+  "tit": "Junqueira's Basic Histology: Text and Atlas",
+  "ed": "18.ª edición",
+  "anio": "2026 (copyright 2027)",
+  "edit": "McGraw Hill",
+  "isbn": "9781266217289 (impreso) · 9781264528677 (libro electrónico)",
+  "acc": "compra",
+  "uti": "Células, tejidos básicos, microanatomía y organización histológica de órganos y sistemas.",
+  "links": [
+   [
+    "Página oficial del editor",
+    "https://www.mheducation.com/highered/mhp/product/junqueira-s-basic-histology-text-atlas-18th-edition.html"
+   ],
+   [
+    "Contenidos en AccessMedicine",
+    "https://accessmedicine.mhmedical.com/content.aspx?bookid=3702&sectionid=309981206"
+   ]
+  ],
+  "ver": "Edición, año e ISBN comprobados en la página de McGraw Hill el 10/10/2026; figura en venta.",
+  "nota": "El acceso al texto completo puede requerir compra o suscripción."
+ },
+ {
+  "id": 5,
+  "subj": [
+   "emb"
+  ],
+  "cat": "Embriología",
+  "aut": "Keith L. Moore, T. V. N. Persaud y Mark G. Torchia",
+  "tit": "The Developing Human: Clinically Oriented Embryology",
+  "ed": "11.ª edición",
+  "anio": "2019",
+  "edit": "Elsevier",
+  "isbn": "9780323611541",
+  "acc": "compra",
+  "uti": "Desarrollo embrionario y fetal normal y anormal, formación de órganos y sistemas.",
+  "links": [
+   [
+    "Página oficial del editor (11.ª ed.)",
+    "https://shop.elsevier.com/books/the-developing-human/moore/978-0-323-61154-1"
+   ],
+   [
+    "Registro en la NLM (10.ª ed., 2016, ISBN 9780323313384)",
+    "https://www.ncbi.nlm.nih.gov/nlmcatalog/101649439"
+   ]
+  ],
+  "ver": "11.ª edición (2019, ISBN 9780323611541) comprobada en Elsevier y 10.ª edición (2016) en la NLM, el 10/10/2026.",
+  "nota": "Al cargar la referencia en la plataforma, registrar la edición que efectivamente se consulte."
+ },
+ {
+  "id": 6,
+  "subj": [
+   "emb"
+  ],
+  "cat": "Embriología",
+  "aut": "T. W. Sadler",
+  "tit": "Langman's Medical Embryology",
+  "ed": "Edición: por verificar",
+  "anio": "Año: por verificar",
+  "edit": "Editorial: por verificar",
+  "isbn": "",
+  "acc": "verificar",
+  "uti": "Bases del desarrollo humano, organogénesis y alteraciones del desarrollo.",
+  "links": [],
+  "ver": "Sin enlace en el documento. Antes de publicar una ficha definitiva, verificar edición, año, editorial e ISBN en el ejemplar utilizado o en el catálogo de la editorial.",
+  "nota": ""
+ },
+ {
+  "id": 7,
+  "subj": [
+   "emb"
+  ],
+  "cat": "Recurso académico sobre competencias de Embriología",
+  "aut": "The Anatomical Society",
+  "tit": "The Anatomical Society core embryology syllabus for undergraduate medicine",
+  "ed": "Artículo académico",
+  "anio": "Año: no verificado",
+  "edit": "Publicación en PubMed Central",
+  "isbn": "",
+  "acc": "abierto",
+  "uti": "Referencia para diseñar competencias y resultados de aprendizaje. No es el programa oficial de la UCB.",
+  "links": [
+   [
+    "Artículo en PubMed Central",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6742929/"
+   ]
+  ],
+  "ver": "No se pudo comprobar automáticamente el 10/10/2026 (la página pidió verificación del navegador). Enlace tomado del documento.",
+  "nota": ""
+ }
+]
