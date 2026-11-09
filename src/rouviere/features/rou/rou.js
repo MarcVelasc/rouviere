@@ -701,34 +701,34 @@ export function rouAlto() {
   i.style.height = Math.min(i.scrollHeight, 120) + 'px';
 }
 
-/* Qué pestaña se enciende en cada sección, y a dónde lleva cada una. */
-/* Cuatro pestañas y nada más. Cada sección enciende la que le corresponde; Rou tiene
-   su propio botón flotante, fuera de la barra. */
+/* Qué pestaña se enciende en cada sección, y a dónde lleva cada una.
+   Barra de cinco: Inicio, Aprender, Rou (en el centro, abre el chat), Biblioteca y Perfil. */
 export const TAB_DE = {
   home: 'inicio',
   sobre: 'inicio',
   voces: 'inicio',
   fuentes: 'inicio',
-  modulos: 'inicio',
-  anatomia: 'anatomia',
-  atlas: 'anatomia',
-  snc: 'anatomia',
-  embrio: 'anatomia',
-  biblioteca: 'anatomia',
-  practica: 'practica',
-  tarjetas: 'practica',
-  simulacros: 'practica',
-  ruta: 'practica',
-  estudio: 'practica',
-  progreso: 'progreso',
-  examenes: 'progreso',
+  modulos: 'aprender',
+  anatomia: 'aprender',
+  atlas: 'aprender',
+  snc: 'aprender',
+  embrio: 'aprender',
+  estructuras: 'aprender',
+  practica: 'aprender',
+  tarjetas: 'aprender',
+  simulacros: 'aprender',
+  ruta: 'aprender',
+  estudio: 'aprender',
+  biblioteca: 'biblioteca',
+  progreso: 'perfil',
+  examenes: 'perfil',
   rou: 'rou',
 };
 export const TAB_A = {
   inicio: 'home',
-  anatomia: 'anatomia',
-  practica: 'practica',
-  progreso: 'progreso',
+  aprender: 'anatomia',
+  biblioteca: 'biblioteca',
+  perfil: 'progreso',
 };
 export function tabAct(k) {
   var d = TAB_A[k];
@@ -738,10 +738,9 @@ export function renderTabs(h) {
   var act = TAB_DE[h] || '';
   document.querySelectorAll('#tabbar .tbb').forEach(function (b) {
     b.classList.toggle('on', b.getAttribute('data-k') === act);
-    b.setAttribute('aria-current', b.getAttribute('data-k') === act ? 'page' : 'false');
+    if (b.getAttribute('data-k') === act) b.setAttribute('aria-current', 'page');
+    else b.removeAttribute('aria-current');
   });
-  var f = $('roufab');
-  if (f) f.classList.toggle('on', act === 'rou');
 }
 export function rouAct(a, t) {
   if (a === 'abrir') {
@@ -792,8 +791,6 @@ export async function rouInit() {
   rouChips();
   li($('roucomo'), ROUCOMO);
   li($('rounope'), ROUNOPE);
-  var f = document.querySelector('#roufab .rfi');
-  if (f) f.innerHTML = ROUSVG(46, 1);
   var hh = document.querySelector('#roup .rhi');
   if (hh) hh.innerHTML = ROUSVG(34, 1);
   var he = document.querySelector('.rouhero .rhero');

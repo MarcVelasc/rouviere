@@ -18,9 +18,8 @@ import { renderEmb } from '../features/embriologia/embriologia-3d.js';
 import { renderEst } from '../features/estructuras/estructuras.js';
 import { renderEx } from '../features/examenes/examenes.js';
 import { renderBib } from '../features/fuentes/fuentes.js';
-import { renderAreas, renderHola } from '../features/inicio/inicio.js';
-import { renderPanel, ultSet } from '../features/inicio/panel.js';
-import { homeP } from '../features/inicio/resumen.js';
+import { renderInicio } from '../features/inicio/inicio.js';
+import { ultSet } from '../features/inicio/panel.js';
 import { renderMods } from '../features/modulos/modulos.js';
 import { mvpAviso } from '../features/mvp/mvp.js';
 import { renderPrac } from '../features/practica/practica.js';
@@ -98,12 +97,7 @@ export function route() {
     a.classList.toggle('on', a.getAttribute('href') === '#' + h);
   });
   closeMenu();
-  if (h === 'home') {
-    homeP();
-    renderHola();
-    renderAreas();
-    renderPanel();
-  }
+  if (h === 'home') renderInicio();
   ultSet(h);
   if (h === 'modulos') {
     $('tgen').textContent = 'Competencia general: ' + TEM[estado.curSub].gen;

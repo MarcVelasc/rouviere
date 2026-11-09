@@ -44,26 +44,40 @@ rouviere/
 
 Para cambiar una pantalla, este es el archivo:
 
-| Pantalla (`#ruta`)  | Archivos principales                                                                    | Función que la dibuja        |
-| ------------------- | --------------------------------------------------------------------------------------- | ---------------------------- |
-| Inicio (`#home`)    | `features/inicio/` (inicio, panel, resumen, carrusel)                                   | `renderPanel`, `renderAreas` |
-| Anatomía            | `features/anatomia/` (anatomia, competencias, categorias)                               | `renderComp`, `renderAn`     |
-| Atlas 3D            | `features/atlas/` (atlas-sistemas, human-atlas, apartados, rotulos, buscar-estructuras) | `renderHA`, `renderAp`       |
-| Sistema nervioso    | `features/snc/snc.js`                                                                   | `renderSNC`                  |
-| Embriología         | `features/embriologia/`                                                                 | `renderEmb`                  |
-| Estructuras         | `features/estructuras/` (estructuras, fichas-est)                                       | `renderEst`, `renderFicha`   |
-| Tarjetas            | `features/tarjetas/` (tarjetas, ficha-estudio) · datos en `data/bank.json`              | `renderCards`                |
-| Simulacros          | `features/simulacros/` · preguntas en `data/qb.json`                                    | `exSetup`                    |
-| Ruta de aprendizaje | `features/ruta/ruta.js` · tramos en `data/ruta.json`                                    | `renderRuta`                 |
-| Mi progreso         | `features/progreso/progreso.js`                                                         | `renderPg`                   |
-| Exámenes            | `features/examenes/examenes.js`                                                         | `renderEx`                   |
-| Estudio con IA      | `features/estudio-ia/` y `features/documentos/`                                         | —                            |
-| Biblioteca          | `features/biblioteca/` · recursos en `data/lib.json`                                    | `renderLib`                  |
-| Fuentes             | `features/fuentes/` · `data/bib.json`                                                   | `renderBib`                  |
-| Módulos             | `features/modulos/modulos.js`                                                           | `renderMods`                 |
-| Práctica            | `features/practica/practica.js`                                                         | `renderPrac`                 |
-| Voces               | `features/voces/voces.js`                                                               | `renderCm`                   |
-| Rou (asistente)     | `features/rou/rou.js`                                                                   | `renderTabs`                 |
+| Pantalla (`#ruta`)  | Archivos principales                                                                            | Función que la dibuja      |
+| ------------------- | ----------------------------------------------------------------------------------------------- | -------------------------- |
+| Inicio (`#home`)    | `features/inicio/inicio.js` · marcado en `app/index.html` · `estilos/33-pantalla-de-inicio.css` | `renderInicio`             |
+| Anatomía            | `features/anatomia/` (anatomia, competencias, categorias)                                       | `renderComp`, `renderAn`   |
+| Atlas 3D            | `features/atlas/` (atlas-sistemas, human-atlas, apartados, rotulos, buscar-estructuras)         | `renderHA`, `renderAp`     |
+| Sistema nervioso    | `features/snc/snc.js`                                                                           | `renderSNC`                |
+| Embriología         | `features/embriologia/`                                                                         | `renderEmb`                |
+| Estructuras         | `features/estructuras/` (estructuras, fichas-est)                                               | `renderEst`, `renderFicha` |
+| Tarjetas            | `features/tarjetas/` (tarjetas, ficha-estudio) · datos en `data/bank.json`                      | `renderCards`              |
+| Simulacros          | `features/simulacros/` · preguntas en `data/qb.json`                                            | `exSetup`                  |
+| Ruta de aprendizaje | `features/ruta/ruta.js` · tramos en `data/ruta.json`                                            | `renderRuta`               |
+| Mi progreso         | `features/progreso/progreso.js`                                                                 | `renderPg`                 |
+| Exámenes            | `features/examenes/examenes.js`                                                                 | `renderEx`                 |
+| Estudio con IA      | `features/estudio-ia/` y `features/documentos/`                                                 | —                          |
+| Biblioteca          | `features/biblioteca/` · recursos en `data/lib.json`                                            | `renderLib`                |
+| Fuentes             | `features/fuentes/` · `data/bib.json`                                                           | `renderBib`                |
+| Módulos             | `features/modulos/modulos.js`                                                                   | `renderMods`               |
+| Práctica            | `features/practica/practica.js`                                                                 | `renderPrac`               |
+| Voces               | `features/voces/voces.js`                                                                       | `renderCm`                 |
+| Rou (asistente)     | `features/rou/rou.js`                                                                           | `renderTabs`               |
+
+**Barra de pestañas** (`#tabbar` en `app/index.html`, estilos en `14-barra-de-pestanas.css`):
+Inicio, Aprender, Rou (en el centro, abre el chat), Biblioteca y Perfil. En el celular va abajo;
+desde 960px de ancho es una barra lateral. Qué pestaña se enciende en cada sección y a dónde
+lleva cada una está en `TAB_DE` y `TAB_A` (`features/rou/rou.js`).
+
+**Pantalla de inicio**: las herramientas son enlaces fijos (Evaluaciones → `#simulacros`,
+Modelo 3D → `#atlas`, Flashcards → `#tarjetas`, Calendario → `#examenes`). Casos clínicos
+todavía no existe y figura como "Próximamente". Las competencias y su avance salen de
+`data/comp.json` y del progreso guardado en el dispositivo.
+
+Quedaron sin uso, del inicio anterior: `features/inicio/carrusel.js` y `features/buscador/`
+(el buscador del inicio), y varias reglas de los CSS 10, 11, 15, 21, 22 y 23. Se pueden
+borrar con cuidado: algunas acciones de `boot.js` las nombran por su posición en la lista `HT`.
 
 Los estilos de cada sección están en `src/rouviere/estilos/` con nombres descriptivos
 (`20-practica.css`, `08-rou.css`…). `01-base.css` tiene la base común.

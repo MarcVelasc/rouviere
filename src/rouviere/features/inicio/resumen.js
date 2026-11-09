@@ -1,11 +1,10 @@
 import { estado } from '../../estado.js';
 import { NM_PROC } from '../../core/almacenamiento.js';
-import { $, el, fmt, msg } from '../../core/dom.js';
+import { $, el, msg } from '../../core/dom.js';
 import { atLabel } from '../atlas/atlas-sistemas.js';
 import { HA_AVISO, haLeyenda } from '../atlas/human-atlas.js';
 import { PINTXT, pinNext } from '../atlas/rotulos.js';
 import { applyColors } from '../nombres/nombres-anatomicos.js';
-import { allCards } from '../tarjetas/tarjetas.js';
 export function avgSc() {
   var h = estado.S.hist;
   return h.length
@@ -17,40 +16,6 @@ export function avgSc() {
           100,
       )
     : null;
-}
-export function homeP() {
-  var c = allCards(),
-    k = c.filter(function (x) {
-      return estado.S.known[x.id] === 'k';
-    }).length,
-    h = estado.S.hist,
-    d = $('hp'),
-    av = avgSc();
-  if (!d) return;
-  d.textContent = '';
-  function bar(l, p) {
-    d.appendChild(document.createTextNode(l));
-    var b = el('div', 'pb'),
-      i = document.createElement('i');
-    i.style.setProperty('--w', p + '%');
-    b.appendChild(i);
-    d.appendChild(b);
-  }
-  if (!k && !h.length) {
-    d.appendChild(
-      el(
-        'p',
-        's',
-        'Aún sin actividad. Marca tarjetas como conocidas o haz un simulacro para ver tu avance.',
-      ),
-    );
-  } else {
-    bar('Tarjetas conocidas: ' + k + ' de ' + c.length, Math.round((k / c.length) * 100));
-    if (h.length) bar('Promedio en simulacros: ' + av + '%', av);
-  }
-  var l = h[0];
-  $('clk').textContent = l ? l.s + '/' + l.n : '—';
-  msg('hs', l ? 'Último simulacro · ' + fmt(l.t) : 'Aún no hay intentos');
 }
 export function atColorToggle() {
   if (!estado.AT3 || !estado.AT3.meshes.length) {

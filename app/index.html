@@ -155,21 +155,13 @@
   </g></svg></template>
 <div class="scrim" id="scrim" data-hc="39" hidden></div>
 <nav class="tabbar" id="tabbar" aria-label="Secciones principales">
- <button type="button" class="tbb" data-hc="130" data-k="inicio" aria-label="Inicio">
-  <span class="tbi" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-4v-6H9v6H5a1 1 0 0 1-1-1z"/></svg></span>
-  <span class="tbl">Inicio</span></button>
- <button type="button" class="tbb" data-hc="130" data-k="anatomia" aria-label="Anatomía">
-  <span class="tbi" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4M12 7.5v6M8 9.5h8M12 13.5l-2.5 7M12 13.5l2.5 7"/></svg></span>
-  <span class="tbl">Anatomía</span></button>
- <button type="button" class="tbb" data-hc="130" data-k="practica" aria-label="Práctica">
-  <span class="tbi" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.5" y="6.5" width="17" height="12" rx="2.5"/><path d="M7 3.5h10"/></svg></span>
-  <span class="tbl">Práctica</span></button>
- <button type="button" class="tbb" data-hc="130" data-k="progreso" aria-label="Mi progreso">
-  <span class="tbi" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 19.5h16M7 19.5v-6M12 19.5V7M17 19.5v-9"/></svg></span>
-  <span class="tbl">Mi progreso</span></button>
+ <a class="tblogo" href="#home" aria-label="Rouviere, inicio"><img src="img/rou.webp" alt="" width="34" height="45"><b>Rouviere</b></a>
+ <button type="button" class="tbb" data-hc="130" data-k="inicio"><span class="tbi"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg></span><span class="tbl">Inicio</span></button>
+ <button type="button" class="tbb" data-hc="130" data-k="aprender"><span class="tbi"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3.5 2.2 8.5 2.2 12 0v-5"/></svg></span><span class="tbl">Aprender</span></button>
+ <button type="button" class="tbb tbrou" data-hc="127" data-a="abrir" data-k="rou" aria-label="Hablar con Rou, el asistente"><span class="rfi"><img src="img/rou.webp" alt="" width="600" height="800"></span><span class="tbl">Rou</span><span class="tbrt"><b>Pregúntale a Rou</b><small>Tu compañero de estudio</small></span></button>
+ <button type="button" class="tbb" data-hc="130" data-k="biblioteca"><span class="tbi"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5V5.5M20 18v3H6.5"/></svg></span><span class="tbl">Biblioteca</span></button>
+ <button type="button" class="tbb" data-hc="130" data-k="perfil"><span class="tbi"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-6 8-6s8 2 8 6"/></svg></span><span class="tbl">Perfil</span></button>
 </nav>
-<button type="button" class="roufab" id="roufab" data-hc="127" data-a="abrir" aria-label="Abrir a Rou, el asistente virtual">
- <span class="rfi"></span><span class="rfl">Rou</span></button>
 <div class="roup" id="roup" role="dialog" aria-modal="false" aria-label="ROU, asistente virtual" aria-hidden="true" style="display:none">
  <div class="rouh">
   <span class="rhi"></span>
@@ -198,118 +190,34 @@
 <div class="tng"><p class="tngt">Mi plan</p><a href="#progreso">Progreso</a><a href="#examenes">Exámenes</a></div>
 <div class="tng"><p class="tngt">El proyecto</p><a href="#modulos">Temario</a><a href="#fuentes">Fuentes</a><a href="#voces">Voces</a><a href="#sobre">Sobre ROUVIÈRE</a></div></div></nav>
 <section class="view" id="home">
-<header class="hero">
-<div class="fg"><img src="img/hero-portada.jpg" alt="Figura anatómica humana con musculatura y esqueleto (imagen provisional)" fetchpriority="high"></div>
-<div class="rl" aria-hidden="true"></div><div class="lg"><img src="img/logo-rouviere.png" alt="ROUVIÈRE"></div>
-<div class="hc"><div class="eb">Anatomía · Medicina · UCB Tarija</div>
-<h1 class="ti"><span>De memorizar</span><em>a dominar</em></h1>
-<p class="lead">Explora la anatomía, comprende las estructuras y transforma tu forma de estudiar</p>
-<div class="cta"><a class="b1" href="#anatomia">Explorar anatomía</a></div>
-<nav class="sys" aria-label="Sistemas anatómicos"><a href="#snc"><svg viewBox="0 0 64 64" aria-hidden="true"><path pathLength="1" d="M14 36c-6-4-4-12 2-14 0-8 10-12 16-8 6-4 16 0 16 8 7 2 8 12 2 15-1 8-10 9-14 5-4 4-12 4-14-2-3 2-6 0-8-4z"/><path pathLength="1" d="M32 14v24M22 26c4 0 6 3 4 6"/></svg>Cerebro 3D</a><a href="#modulos"><svg viewBox="0 0 64 64" aria-hidden="true"><path pathLength="1" d="M21 42L43 20"/><path pathLength="1" d="M25 46L47 24"/><circle pathLength="1" cx="47" cy="14" r="4.5"/><circle pathLength="1" cx="52" cy="19" r="4.5"/><circle pathLength="1" cx="17" cy="50" r="4.5"/><circle pathLength="1" cx="12" cy="45" r="4.5"/></svg>Óseo</a><a href="#modulos"><svg viewBox="0 0 64 64" aria-hidden="true"><path pathLength="1" d="M32 54C14 42 10 30 16 22c5-6 13-4 16 3 3-7 11-9 16-3 6 8 2 20-16 32z"/><path pathLength="1" d="M26 22c-2-8 2-13 8-14M38 20c3-6 8-8 12-6"/></svg>Cardio</a><a href="#modulos"><svg viewBox="0 0 64 64" aria-hidden="true"><path pathLength="1" d="M32 10v18M32 28c-4 4-7 6-10 4M32 28c4 4 7 6 10 4"/><path pathLength="1" d="M28 20c-10 0-16 12-16 26 0 6 6 7 10 4 4-3 6-8 6-14z"/><path pathLength="1" d="M36 20c10 0 16 12 16 26 0 6-6 7-10 4-4-3-6-8-6-14z"/></svg>Respiratorio</a><a href="#modulos"><svg viewBox="0 0 64 64" aria-hidden="true"><path pathLength="1" d="M14 36c-6-4-4-12 2-14 0-8 10-12 16-8 6-4 16 0 16 8 7 2 8 12 2 15-1 8-10 9-14 5-4 4-12 4-14-2-3 2-6 0-8-4z"/><path pathLength="1" d="M32 14v24M22 26c4 0 6 3 4 6M42 26c-4 0-6 3-4 6M30 44c0 6 2 10 2 14"/></svg>Nervioso</a><a href="#modulos"><svg viewBox="0 0 64 64" aria-hidden="true"><path pathLength="1" d="M6 32c8-14 44-14 52 0-8 14-44 14-52 0z"/><circle pathLength="1" cx="32" cy="32" r="8"/><circle pathLength="1" cx="32" cy="32" r="3"/></svg>Sentidos</a></nav></div></header>
-
-<!-- el saludo y el buscador suben aquí; la cita baja detrás de las áreas -->
-<section class="hola" id="hola" aria-labelledby="holah"><span class="holak">Bienvenido/a</span>
-<h2 class="holah" id="holah">¿Qué vamos a estudiar hoy?</h2>
-<p id="holat"></p>
-<div class="bq" role="search">
- <span class="bqi" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.4 15.4 20 20"/></svg></span>
- <input id="gq" type="search" autocomplete="off" placeholder="Busca un tema o una sección"
-  aria-label="Buscar en ROUVIÈRE" aria-expanded="false" aria-controls="gres" data-hi="131" data-hk="132">
- <button type="button" class="bqx" id="gqx" data-hc="133" aria-label="Borrar la búsqueda" hidden>×</button>
- <div id="gres" class="bqr" role="listbox" aria-label="Resultados" hidden></div>
-</div>
-<p class="holam">Huesos, músculos, articulaciones, órganos, nervios y vasos: escribe lo que buscas.</p></section>
-<section id="continuar" aria-label="Continuar aprendiendo"><div id="pnlcont"></div></section>
-<section id="homeprac" aria-labelledby="hpract"><h2 class="h2s rv" id="hpract">¿Cómo quieres <em>aprender hoy</em>?</h2>
-<p class="s" id="hpracs"></p>
-<div class="hpg">
-<a class="hpb" href="#tarjetas"><span class="hpi" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="14" height="11" rx="2"/><path d="M7 4.5h12a2 2 0 0 1 2 2v10"/></svg></span><b>Tarjetas</b><span class="hps">Memoriza estructuras</span></a>
-<a class="hpb" href="#simulacros"><span class="hpi" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 3.5h6M12 3.5v3M6.5 9.5h11a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2z"/><path d="M9.5 14.5h5"/></svg></span><b>Simulacros</b><span class="hps">Pon a prueba lo aprendido</span></a>
-<a class="hpb" href="#anatomia"><span class="hpi" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.5 2.6 2.5 14.4 0 17M12 3.5c-2.5 2.6-2.5 14.4 0 17"/></svg></span><b>Explorar</b><span class="hps">Las siete áreas</span></a>
-<a class="hpb" href="#progreso"><span class="hpi" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 19.5h16M7 19.5v-6M12 19.5V7M17 19.5v-9"/></svg></span><b>Mi progreso</b><span class="hps">Revisa tus resultados</span></a>
-</div>
-<a class="verm" href="#practica">Ver toda la práctica <i>→</i></a></section>
-<section id="progreso-panel" aria-labelledby="pprt"><h2 class="h2s rv" id="pprt">Tu <em>progreso</em></h2>
-<div id="pnlprog"></div>
-<a class="verm" href="#progreso">Ver el progreso completo <i>→</i></a></section>
-<section id="areas" aria-labelledby="areast"><h2 class="h2s rv" id="areast">Las <em>competencias</em></h2>
-<p class="s" style="margin:-4px 0 14px">Las cinco competencias de Anatomía, más las bases que se ven antes de entrar en ellas.</p>
-<div id="homeareas"></div>
-<a class="verm" href="#anatomia">Ver las competencias y las siete áreas <i>→</i></a></section>
-
-<section id="pnlactbox" aria-labelledby="pactt" hidden><h2 class="h2s rv" id="pactt">Actividad <em>reciente</em></h2>
-<p class="s" id="pnlacts"></p>
-<div id="pnlact"></div>
-<a class="verm" href="#progreso">Ver toda la actividad <i>→</i></a></section>
-<div class="inst rv"><img src="img/ucb-medicina.png" alt="Universidad Católica Boliviana"><img src="img/ucb-logo.png" alt="Medicina"><p>Propuesta de estudiantes de Medicina · UCB Tarija</p><small>Proyecto académico en validación. No es un sitio oficial de la universidad.</small></div>
-<div class="tr rv"><span class="rule"></span><p>Estudiar anatomía es <em>explorar</em>: ver cada estructura, entender por qué está ahí y comprobar lo que recuerdas.</p></div>
-<section id="menu"><h2 class="h2s rv">Todas las <em>herramientas</em></h2>
-<div class="fts">
-<article class="nc rv"><div class="ncv"><img src="img/atlas-3d.webp" alt="Modelo anatómico tridimensional con esqueleto, órganos y vasos" loading="lazy" width="1280" height="720"><span class="ncn">01</span></div><div class="ncb"><h3>Atlas 3D</h3><p>2.234 estructuras anatómicas reales con su nombre en español, repartidas en once sistemas. Gíralas, búscalas y aíslalas.</p><span class="ncs">Operativo · BodyParts3D, CC BY 4.0</span><a class="ncg" href="#atlas">Abrir el atlas <i>→</i></a></div></article>
-<article class="nc rv"><div class="ncv"><img src="img/sistema-nervioso.webp" alt="Encéfalo humano en corte, con cerebelo y tronco encefálico" loading="lazy" width="1280" height="720"><span class="ncn">02</span></div><div class="ncb"><h3>Sistema nervioso</h3><p>Módulo piloto con el modelo real del encéfalo: 283 estructuras que puedes girar, buscar y aislar, más contenido y preguntas.</p><span class="ncs">Operativo · modelo 3D incluido</span><a class="ncg" href="#snc">Abrir el módulo <i>→</i></a></div></article>
-<article class="nc sm rv"><div class="ncv"><img src="img/estudio-ia.webp" alt="Estudiante de medicina trabajando con apuntes de anatomía y una tableta" loading="lazy" width="1280" height="720"><span class="ncn">03</span></div><div class="ncb"><h3>Estudio con IA</h3><p>Sube tus apuntes, diapositivas o una foto de la pizarra y saca de ahí un resumen, preguntas de práctica o un afiche de repaso.</p><div class="ncl"><div class="chs"><b>Resumen</b><b>Preguntas</b><b>Afiche</b></div></div><span class="ncs">Operativo · txt, md, csv, json, docx y pptx · pdf e imágenes con lector aparte</span><a class="ncg" href="#estudio">Abrir estudio <i>→</i></a></div></article>
-<article class="nc sm rv"><div class="ncv"><img src="img/tarjetas.webp" alt="Estudiante escribiendo apuntes junto a una tableta" loading="lazy" width="1280" height="720"><span class="ncn">04</span></div><div class="ncb"><h3>Tarjetas</h3><p>Voltea, recuerda y repite. Repasos cortos para cualquier momento.</p><div class="ncl"><button type="button" class="mc" data-hc="42" aria-label="Voltear tarjeta de ejemplo"><span class="f">¿Cuál es el hueso más largo del cuerpo?</span><span class="b">El fémur</span></button></div><span class="ncs">Operativo · demostración y tus propias tarjetas</span><a class="ncg" href="#tarjetas">Abrir tarjetas <i>→</i></a></div></article>
-<article class="nc sm rv"><div class="ncv"><img src="img/simulacros.webp" alt="Pantalla de un simulacro de ROUVIÈRE con una pregunta y su cronómetro" loading="lazy" width="1280" height="720"><span class="ncn">05</span></div><div class="ncb"><h3>Simulacros</h3><p>Responde contra el reloj y descubre qué te falta repasar.</p><div class="ncl"><span class="bigt" id="clk">—</span><small id="hs">Aún no hay intentos</small></div><span class="ncs">Operativo · banco de demostración (8 preguntas)</span><a class="ncg" href="#simulacros">Abrir simulacros <i>→</i></a></div></article>
-<article class="nc sm rv"><div class="ncv"><img src="img/progreso.webp" alt="Resumen de progreso de ROUVIÈRE con tarjetas conocidas y promedio de simulacros" loading="lazy" width="1280" height="720"><span class="ncn">06</span></div><div class="ncb"><h3>Progreso</h3><p>Mira tu avance por sistema para saber qué repasar primero.</p><div class="ncl bars" id="hp"></div><span class="ncs">Operativo · calculado con tu actividad</span><a class="ncg" href="#progreso">Ver progreso <i>→</i></a></div></article>
-<article class="nc sm rv"><div class="ncv"><img src="img/examenes.webp" alt="Calendario de exámenes de ROUVIÈRE con el día de hoy marcado" loading="lazy" width="1280" height="720"><span class="ncn">07</span></div><div class="ncb"><h3>Exámenes</h3><p>Programa tus fechas de examen y mira cuánto falta.</p><div class="ncl"><a class="nx" id="nx" href="#examenes"></a></div><span class="ncs">Operativo · se guarda en tu dispositivo</span><a class="ncg" href="#examenes">Abrir calendario <i>→</i></a></div></article>
-<article class="nc sm rv"><div class="ncv"><img src="img/biblioteca.webp" alt="Libro de anatomía abierto junto a una tableta con un corazón y un estetoscopio" loading="lazy" width="1280" height="720"><span class="ncn">08</span></div><div class="ncb"><h3>Biblioteca</h3><p>81 recursos académicos con enlace directo: libros abiertos, atlas, artículos, catálogos y las referencias comerciales de la carrera.</p><div class="ncl"><div class="chs"><b>81 recursos</b><b>14 materias</b><b>Marcadores</b></div></div><span class="ncs">Operativo · 66 recursos de anatomía comprobados el 11/10/2026</span><a class="ncg" href="#biblioteca">Abrir la biblioteca <i>→</i></a></div></article>
-</div>
-<section class="rouhome rv" aria-labelledby="rhh">
- <span class="rhbig" id="rouhomesvg"></span>
- <div class="rhtx">
-  <span class="fn">Asistente virtual</span>
-  <h2 class="h2s" id="rhh">Hola, soy <em>Rou</em></h2>
-  <p>Tu asistente virtual de ROUVIÈRE. Estoy aquí para ayudarte a estudiar, resolver dudas y encontrar lo que necesitas. Pregúntame de anatomía o de lo que quieras: explico temas, comparo conceptos, te armo preguntas de examen y te llevo a la sección que te haga falta.</p>
-  <p id="rouhome2" class="rvia"></p>
-  <div class="rouq" id="rouq3"></div>
-  <div class="cta">
-   <button type="button" class="b1" data-hc="127" data-a="abrir">Conversar con Rou</button>
-   <a class="b2" href="#rou">Qué puede y qué no</a>
+<!-- Pantalla de inicio. Lo dinámico (saludo, frase y competencias) lo llena renderInicio() en src/rouviere/features/inicio/inicio.js -->
+<div class="ini">
+ <header class="ini-head"><a class="ini-logo" href="#home" aria-label="Rouviere, inicio"><img src="img/rou.webp" alt="" width="34" height="45"><b>Rouviere</b></a></header>
+ <section class="ini-hero" aria-labelledby="iniT">
+  <p class="ini-hola" id="iniHola">Hola</p>
+  <h1 id="iniT">De memorizar <em>a dominar</em></h1>
+  <p class="ini-lead" id="iniLead"></p>
+  <img class="ini-rou" src="img/rou.webp" alt="" width="600" height="800">
+ </section>
+ <div class="ini-tag"><i aria-hidden="true"></i>Anatomía · Medicina · UCB Tarija</div>
+ <section class="ini-sec" aria-label="Herramientas de estudio">
+  <div class="ini-row">
+   <ul class="ini-tools" id="iniTools">
+  <li><a class="ini-tool a1" href="#simulacros"><span class="ini-tico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3h6v1"/><path d="M9 13l2 2 4-4"/></svg></span><b>Evaluaciones</b><span class="ini-tsub">Simulacros tipo examen</span></a></li>
+  <li><a class="ini-tool a2" href="#atlas"><span class="ini-tico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg></span><b>Modelo 3D</b><span class="ini-tsub">Explora en 360°</span></a></li>
+  <li><a class="ini-tool a3" href="#tarjetas"><span class="ini-tico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="13" height="14" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-3"/></svg></span><b>Flashcards</b><span class="ini-tsub">Repasa a tu ritmo</span></a></li>
+  <li><a class="ini-tool a4" href="#examenes"><span class="ini-tico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><circle cx="12" cy="15.5" r="2.5"/></svg></span><b>Calendario</b><span class="ini-tsub">Tus fechas y tu objetivo</span></a></li>
+  <li><span class="ini-tool a5 ini-soon" aria-disabled="true"><span class="ini-tico"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3v6a5 5 0 0 0 10 0V3"/><path d="M10 14v2a5 5 0 0 0 10 0v-2"/><circle cx="20" cy="12" r="2"/></svg></span><b>Casos clínicos</b><span class="ini-tsub">Próximamente</span></span></li>
+   </ul>
+   <button class="ini-more" id="iniMore" type="button" aria-label="Ver más herramientas"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
   </div>
- </div>
+ </section>
+ <section class="ini-sec" aria-labelledby="iniCompT">
+  <div class="ini-sech"><h2 id="iniCompT">Competencias</h2><span>Tu avance</span></div>
+  <ul class="ini-comps" id="iniComps"></ul>
+ </section>
+</div>
 </section>
-</section>
-<section class="stp rv"><span class="fn">Método</span><figure class="mfig"><img src="img/metodo.webp" alt="Los tres pasos del método: reconocer la estructura, practicar con tarjetas y corregir el fallo en la revisión del simulacro" loading="lazy" width="1280" height="384"></figure><h2 class="h2s">Reconoce, practica, <em>corrige</em></h2>
-<ol class="sl"><li><b>01</b><div><h3>Primero: reconoce</h3><p>Ubica la estructura y entiende cómo se relaciona con las demás.</p></div></li>
-<li><b>02</b><div><h3>Después: practica</h3><p>Responde antes de ver la solución. Si te trabas, pide una pista.</p></div></li>
-<li><b>03</b><div><h3>Finalmente: corrige</h3><p>Vuelve a intentar lo que fallaste. El registro automático de errores está en la hoja de ruta.</p></div></li></ol></section>
-<section class="vz rv"><span class="fn">Voces</span><h2 class="h2s">Escuchamos antes de <em>construir</em></h2>
-<div class="sd"><p id="sdt"></p><small id="sda"></small></div>
-<div class="sc"><button type="button" data-hc="43" aria-label="Anterior">←</button><span id="sdn"></span><button type="button" data-hc="44" aria-label="Siguiente">→</button></div>
-<a class="go" href="#voces">Ver lo que aprendimos →</a></section>
-<section class="fin rv"><h2 class="h2s">Practica hoy.<br><em>Domina mañana.</em></h2><p>Gratis y desde tu celular. Empieza con una tarjeta o programa la fecha de tu próximo examen.</p><div class="cta"><a class="b1" href="#tarjetas">Empezar a practicar</a><a class="b2" href="#examenes">Programar mi examen</a></div></section>
-<nav class="idx" id="indice" aria-labelledby="idxt">
-<h2 id="idxt">Todo lo que hay en ROUVIÈRE</h2>
-<div class="idxg">
- <div class="idxc"><h3>Explorar</h3><ul>
-  <li><a href="#anatomia">Anatomía</a><span>Las siete áreas, de anatomía general a neuroanatomía</span></li>
-  <li><a href="#atlas">Atlas 3D</a><span>2.234 estructuras con nombre</span></li>
-  <li><a href="#snc">Sistema nervioso</a><span>Encéfalo con 283 estructuras</span></li>
-  <li><a href="#embrio">Embriología 3D</a><span>Estadios 16 y 23 de Carnegie</span></li>
-  <li><a href="#biblioteca">Biblioteca</a><span>66 recursos comprobados</span></li>
- </ul></div>
- <div class="idxc"><h3>Practicar</h3><ul>
-  <li><a href="#tarjetas">Tarjetas</a><span>335 tarjetas con pistas y repaso espaciado</span></li>
-  <li><a href="#simulacros">Simulacros</a><span>319 preguntas con explicación</span></li>
-  <li><a href="#ruta">Ruta de aprendizaje</a><span>15 unidades, 84 nodos y XP</span></li>
-  <li><a href="#estudio">Estudio con IA</a><span>Sube tus apuntes y sácales partido</span></li>
- </ul></div>
- <div class="idxc"><h3>Mi plan</h3><ul>
-  <li><a href="#progreso">Progreso</a><span>Qué sabes y qué toca repasar</span></li>
-  <li><a href="#examenes">Exámenes</a><span>Tus fechas y la cuenta atrás</span></li>
-  <li><a href="#rou">Rou, el asistente</a><span>Pregúntale lo que sea</span></li>
- </ul></div>
- <div class="idxc"><h3>El proyecto</h3><ul>
-  <li><a href="#modulos">Temario</a><span>Propuesta por competencias y grupos</span></li>
-  <li><a href="#fuentes">Fuentes</a><span>Bibliografía por asignatura</span></li>
-  <li><a href="#sobre">Sobre ROUVIÈRE</a><span>Qué es y qué falta</span></li>
-  <li><a href="#voces">Voces</a><span>Lo que dijeron los estudiantes</span></li>
- </ul></div>
-</div></nav>
-<div class="mono"><img src="img/monograma.png" alt="Monograma ROUVIÈRE"></div>
-<p class="note" style="margin-top:14px">Anatomía para practicar, repasar y avanzar · UCB Tarija</p>
-</section>
-
 <section class="view" id="modulos"><a class="back" href="#home">← Inicio</a><h1>Temario</h1>
 <p class="s">Tres asignaturas separadas, organizadas por grupos y competencias.</p>
 <div class="tabs"><button type="button" class="tb on" data-hc="30">Anatomía</button><button type="button" class="tb" data-hc="31">Histología</button><button type="button" class="tb" data-hc="32">Embriología</button></div>

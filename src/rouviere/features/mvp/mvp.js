@@ -3,6 +3,7 @@ import { W, log } from '../../core/almacenamiento.js';
 import { $, el } from '../../core/dom.js';
 import { route } from '../../core/navegacion.js';
 import { fueraSec } from '../embriologia/histologia-embriologia.js';
+import { TAB_A } from '../rou/rou.js';
 /* ===== modo MVP =====
    El documento «Funciones del MVP y de la segunda versión» (Diseño Digital 1,
    DGR-151) fija seis funciones para la primera prueba con estudiantes y manda el
@@ -91,42 +92,15 @@ export function mvpPinta() {
     });
     g.hidden = v.length === 0;
   });
-  /* tarjetas del inicio, renumeradas para que no salten los números */
-  var n = 0;
-  document.querySelectorAll('#menu .nc').forEach(function (c) {
-    var l = c.querySelector('a[href^="#"]'),
-      k = l ? l.getAttribute('href').slice(1) : '';
-    var ver = !on || !!MVP_SEC[k];
-    c.hidden = !ver;
-    if (ver) {
-      n++;
-      var num = c.querySelector('.ncn');
-      if (num) num.textContent = (n < 10 ? '0' : '') + n;
-    }
+  /* herramientas del inicio y pestañas: fuera lo que no sea del MVP */
+  document.querySelectorAll('#iniTools a[href^="#"]').forEach(function (t) {
+    t.parentElement.hidden = on && !MVP_SEC[t.getAttribute('href').slice(1)];
   });
-  var t = document.querySelector('#menu .h2s');
-  if (t) t.innerHTML = on ? 'Las <em>herramientas</em> del MVP' : 'Todas las <em>herramientas</em>';
-  /* la fila de sistemas de la portada: fuera lo que no sea del MVP */
-  document.querySelectorAll('#home .sys a').forEach(function (a) {
-    var k = a.getAttribute('href').slice(1);
-    a.hidden = on && !MVP_SEC[k];
+  document.querySelectorAll('#tabbar .tbb[data-hc="130"]').forEach(function (b) {
+    b.hidden = on && !MVP_SEC[TAB_A[b.getAttribute('data-k')]];
   });
-  /* índice del pie */
-  document.querySelectorAll('#indice .idxc li').forEach(function (li) {
-    var a = li.querySelector('a'),
-      k = a ? a.getAttribute('href').slice(1) : '';
-    li.hidden = fueraSec(k) || (on && !MVP_SEC[k]);
-  });
-  document.querySelectorAll('#indice .idxc').forEach(function (c) {
-    var v = [].slice.call(c.querySelectorAll('li')).filter(function (x) {
-      return !x.hidden;
-    });
-    c.hidden = v.length === 0;
-  });
-  /* Barra de pestañas: las cuatro entran en el MVP (Inicio, Anatomía, Práctica y Mi
-     progreso son funciones del MVP), así que no se esconde ninguna. Rou sí se retira:
-     el asistente es de la segunda versión. */
-  var fb = $('roufab');
+  /* Rou, en el centro de la barra, se retira: el asistente es de la segunda versión. */
+  var fb = document.querySelector('#tabbar .tbrou');
   if (fb) fb.hidden = on;
   /* el aviso de la esquina */
   var b = $('mvpbadge');

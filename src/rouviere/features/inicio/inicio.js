@@ -1,9 +1,8 @@
 import { estado } from '../../estado.js';
-import { $, el } from '../../core/dom.js';
+import { $, el, msg } from '../../core/dom.js';
 import { compAbrir } from '../anatomia/anatomia.js';
 import { anAbrir } from '../anatomia/categorias.js';
-import { COMP, compAvance, compCuenta, compGet } from '../anatomia/competencias.js';
-import { qAll } from '../simulacros/simulacros.js';
+import { COMP, compAvance, compGet } from '../anatomia/competencias.js';
 import { allCards, cDue } from '../tarjetas/tarjetas.js';
 export /* ===== el inicio =====
    Saludo corto, las siete áreas y el acceso a la práctica. Los números salen del
@@ -28,43 +27,74 @@ function holaTexto() {
     ? s + '. ¿Seguimos donde lo dejaste?'
     : s + '. Elige una competencia y empieza a estudiar.';
 }
-export function renderHola() {
-  var p = $('holat');
-  if (p) p.textContent = holaTexto();
+/* ===== pantalla de inicio =====
+   Saludo con el nombre de la sesión, la frase del día y las competencias con su avance
+   real. Las herramientas son enlaces fijos en app/index.html. */
+export function renderInicio() {
+  msg('iniHola', 'Hola' + (nombreSesion() ? ', ' + nombreSesion() : ''));
+  msg('iniLead', holaTexto());
+  renderInicioComps();
+  iniFlecha();
 }
-export function renderAreas() {
-  var w = $('homeareas');
+
+/* El nombre lo guarda el acceso (src/) en la sesión. Solo el primer nombre. */
+function nombreSesion() {
+  try {
+    var k = 'rouviere.session';
+    var s = JSON.parse(localStorage.getItem(k) || sessionStorage.getItem(k) || 'null');
+    var n = s && s.user && s.user.name ? String(s.user.name).trim().split(/\s+/)[0] : '';
+    return n || '';
+  } catch (e) {
+    return '';
+  }
+}
+
+function renderInicioComps() {
+  var w = $('iniComps');
   if (!w || typeof COMP === 'undefined') return;
   w.textContent = '';
-  /* Las competencias de la materia: es como el docente pide que se entre al contenido.
-     Las siete áreas por sistema siguen a un toque, en la propia sección Anatomía. */
   COMP.forEach(function (a) {
-    var c = compCuenta(a[0]),
-      av = compAvance(a[0]);
-    var t = el('a', 'arc');
+    var av = compAvance(a[0]);
+    var nombre = a[1].replace(/^Competencia \d+ · /, '');
+    var num = a[0] === 'base' ? 'B' : a[0].replace('c', '');
+    var li = el('li');
+    var t = el('a', 'ini-comp');
     t.href = '#anatomia';
     t.setAttribute('data-hc', '142');
     t.setAttribute('data-k', a[0]);
-    t.appendChild(el('b', 0, a[1].replace('Competencia ', 'C').replace(' · ', '. ')));
-    t.appendChild(
-      el(
-        'span',
-        'arcn',
-        c.c + (c.c === 1 ? ' tarjeta' : ' tarjetas') + (av.k ? ' · ' + av.pc + '%' : ''),
-      ),
-    );
-    w.appendChild(t);
+    t.appendChild(el('span', 'ini-num', num));
+    t.appendChild(el('span', 'ini-ct', nombre));
+    var bar = el('span', 'ini-bar');
+    bar.setAttribute('role', 'progressbar');
+    bar.setAttribute('aria-label', 'Avance en ' + nombre);
+    bar.setAttribute('aria-valuemin', '0');
+    bar.setAttribute('aria-valuemax', '100');
+    bar.setAttribute('aria-valuenow', String(av.pc));
+    var i = document.createElement('i');
+    i.style.width = av.pc + '%';
+    bar.appendChild(i);
+    t.appendChild(bar);
+    t.appendChild(el('span', 'ini-pc', av.pc + '%'));
+    li.appendChild(t);
+    w.appendChild(li);
   });
-  var ps = $('hpracs');
-  if (ps) {
-    var n = 0,
-      q = 0;
-    try {
-      n = allCards().length;
-      q = qAll().length;
-    } catch (e) {}
-    ps.textContent = n + ' tarjetas y ' + q + ' preguntas, con revisión de errores.';
+}
+
+/* La flecha de la fila de herramientas (celular): desliza y se oculta al llegar al final. */
+function iniFlecha() {
+  var row = $('iniTools'),
+    more = $('iniMore');
+  if (!row || !more || more.dataset.ok) return;
+  more.dataset.ok = '1';
+  function upd() {
+    more.hidden = row.scrollLeft + row.clientWidth >= row.scrollWidth - 8;
   }
+  row.addEventListener('scroll', upd, { passive: true });
+  window.addEventListener('resize', upd);
+  more.addEventListener('click', function () {
+    row.scrollBy({ left: row.clientWidth * 0.8, behavior: estado.RM ? 'auto' : 'smooth' });
+  });
+  upd();
 }
 
 /* Desde el inicio se entra directo al área: un toque menos que pasar por la lista. */
