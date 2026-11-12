@@ -1,0 +1,109 @@
+/* ===== cuenta: quién entró y cerrar sesión =====
+   En el menú lateral (abajo de todo) y en Perfil (arriba). */
+.mcuenta,
+.pfcuenta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.mcuenta {
+  margin-top: auto;
+  padding: 18px 8px 6px;
+  border-top: 1px solid color-mix(in srgb, var(--ink) 14%, transparent);
+}
+.cu-av {
+  flex: none;
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--navy);
+  color: #fff;
+  font:
+    italic 600 1.4rem 'Cormorant Garamond',
+    serif;
+}
+.cu-txt {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.cu-txt b {
+  font:
+    700 0.98rem Manrope,
+    sans-serif;
+  color: var(--ink);
+}
+.cu-txt small {
+  font-size: 0.82rem;
+  color: var(--mut);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.msalir,
+.pfsalir {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  border-radius: 99px;
+  border: 1.5px solid color-mix(in srgb, #c0473c 55%, transparent);
+  color: #b23b31;
+  text-decoration: none;
+  font:
+    700 0.95rem Manrope,
+    sans-serif;
+}
+.msalir {
+  margin: 10px 8px 0;
+}
+.msalir:hover,
+.pfsalir:hover {
+  background: color-mix(in srgb, #c0473c 10%, transparent);
+}
+.msalir:focus-visible,
+.pfsalir:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+body.dk .mcuenta {
+  border-top-color: rgba(101, 195, 181, 0.25);
+}
+body.dk .cu-av {
+  background: var(--mint);
+  color: var(--navy);
+}
+body.dk .cu-txt b {
+  color: #eaf4f2;
+}
+body.dk .cu-txt small {
+  color: #a9cac4;
+}
+body.dk .msalir {
+  color: #f29a8e;
+  border-color: rgba(242, 154, 142, 0.55);
+}
+
+/* Perfil: tarjeta con la cuenta arriba del progreso */
+.pfcuenta {
+  flex-wrap: wrap;
+  margin: 6px 0 22px;
+  padding: 16px;
+  border-radius: 18px;
+  background: var(--card);
+  border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+}
+.pfcuenta .cu-txt {
+  flex: 1;
+}
+.pfsalir {
+  width: 100%;
+  padding: 0 18px;
+}
+.pfh {
+  margin: 0 0 4px;
+}

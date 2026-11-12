@@ -70,6 +70,11 @@ Inicio, Aprender, Rou (en el centro, abre el chat), Biblioteca y Perfil. En el c
 desde 960px de ancho es una barra lateral. Qué pestaña se enciende en cada sección y a dónde
 lleva cada una está en `TAB_DE` y `TAB_A` (`features/rou/rou.js`).
 
+**Cuenta y cerrar sesión** (`features/cuenta/cuenta.js`, estilos en `34-cuenta.css`): el nombre
+y el correo de quien entró aparecen al final del menú lateral y arriba de Perfil, con el botón
+"Cerrar sesión", que lleva a `../#/salir` (pantallas de acceso). La sesión se lee con
+`core/sesion.js`.
+
 **Pantalla de inicio**: las herramientas son enlaces fijos (Evaluaciones → `#simulacros`,
 Modelo 3D → `#atlas`, Flashcards → `#tarjetas`, Calendario → `#examenes`). Casos clínicos
 todavía no existe y figura como "Próximamente". Las competencias y su avance salen de

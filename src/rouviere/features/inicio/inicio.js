@@ -1,5 +1,6 @@
 import { estado } from '../../estado.js';
 import { $, el, msg } from '../../core/dom.js';
+import { primerNombre, usuarioSesion } from '../../core/sesion.js';
 import { compAbrir } from '../anatomia/anatomia.js';
 import { anAbrir } from '../anatomia/categorias.js';
 import { COMP, compAvance, compGet } from '../anatomia/competencias.js';
@@ -31,22 +32,11 @@ function holaTexto() {
    Saludo con el nombre de la sesión, la frase del día y las competencias con su avance
    real. Las herramientas son enlaces fijos en app/index.html. */
 export function renderInicio() {
-  msg('iniHola', 'Hola' + (nombreSesion() ? ', ' + nombreSesion() : ''));
+  var nombre = primerNombre(usuarioSesion());
+  msg('iniHola', 'Hola' + (nombre ? ', ' + nombre : ''));
   msg('iniLead', holaTexto());
   renderInicioComps();
   iniFlecha();
-}
-
-/* El nombre lo guarda el acceso (src/) en la sesión. Solo el primer nombre. */
-function nombreSesion() {
-  try {
-    var k = 'rouviere.session';
-    var s = JSON.parse(localStorage.getItem(k) || sessionStorage.getItem(k) || 'null');
-    var n = s && s.user && s.user.name ? String(s.user.name).trim().split(/\s+/)[0] : '';
-    return n || '';
-  } catch (e) {
-    return '';
-  }
 }
 
 function renderInicioComps() {

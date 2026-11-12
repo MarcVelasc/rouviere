@@ -19,6 +19,7 @@ import { renderEst } from '../features/estructuras/estructuras.js';
 import { renderEx } from '../features/examenes/examenes.js';
 import { renderBib } from '../features/fuentes/fuentes.js';
 import { renderInicio } from '../features/inicio/inicio.js';
+import { renderCuenta } from '../features/cuenta/cuenta.js';
 import { ultSet } from '../features/inicio/panel.js';
 import { renderMods } from '../features/modulos/modulos.js';
 import { mvpAviso } from '../features/mvp/mvp.js';
@@ -97,6 +98,7 @@ export function route() {
     a.classList.toggle('on', a.getAttribute('href') === '#' + h);
   });
   closeMenu();
+  renderCuenta();
   if (h === 'home') renderInicio();
   ultSet(h);
   if (h === 'modulos') {
