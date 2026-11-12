@@ -718,6 +718,7 @@ export const TAB_DE = {
   tarjetas: 'aprender',
   simulacros: 'aprender',
   ruta: 'aprender',
+  casos: 'aprender',
   estudio: 'aprender',
   biblioteca: 'biblioteca',
   progreso: 'perfil',

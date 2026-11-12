@@ -63,6 +63,7 @@ Para cambiar una pantalla, este es el archivo:
 | Módulos             | `features/modulos/modulos.js`                                                                   | `renderMods`               |
 | Práctica            | `features/practica/practica.js`                                                                 | `renderPrac`               |
 | Voces               | `features/voces/voces.js`                                                                       | `renderCm`                 |
+| Casos clínicos      | `features/casos/casos.js` · contenido en `data/casos.json`                                      | `renderCasos`              |
 | Rou (asistente)     | `features/rou/rou.js`                                                                           | `renderTabs`               |
 
 **Barra de pestañas** (`#tabbar` en `app/index.html`, estilos en `14-barra-de-pestanas.css`):
@@ -76,9 +77,43 @@ y el correo de quien entró aparecen al final del menú lateral y arriba de Perf
 `core/sesion.js`.
 
 **Pantalla de inicio**: las herramientas son enlaces fijos (Evaluaciones → `#simulacros`,
-Modelo 3D → `#atlas`, Flashcards → `#tarjetas`, Calendario → `#examenes`). Casos clínicos
-todavía no existe y figura como "Próximamente". Las competencias y su avance salen de
-`data/comp.json` y del progreso guardado en el dispositivo.
+Modelo 3D → `#atlas`, Flashcards → `#tarjetas`, Calendario → `#examenes`, Casos clínicos →
+`#casos`). Las competencias y su avance salen de `data/comp.json` y del progreso guardado en el
+dispositivo.
+
+**Casos clínicos** (`#casos`, solo se entra desde su tarjeta del inicio):
+`features/casos/casos.js`, estilos en `35-casos-clinicos.css`. Por competencia, un camino de
+5 fases con 5 casos cada una; una fase se abre al terminar la anterior. Al responder, verde o
+rojo y pasa solo al siguiente caso; al final de la fase, puntaje, estrellas (5/5 tres, 3-4 dos,
+1-2 una) y lo que se falló con su explicación. Rou acompaña en el camino. El avance se guarda en
+el dispositivo (`rv_casos`).
+
+El contenido va en `data/casos.json`. Mientras una competencia no tenga casos, se muestra la
+estructura con textos de ejemplo. Formato (las claves son las de `data/comp.json`):
+
+```json
+{
+  "c2": [
+    {
+      "tema": "Hombro y brazo",
+      "casos": [
+        {
+          "caso": "Un hombre de 34 años se cae de la moto…",
+          "pregunta": "¿Qué nervio se lesionó?",
+          "opciones": ["Nervio radial", "Nervio mediano", "Nervio cubital", "Nervio axilar"],
+          "correcta": 0,
+          "explicacion": "El nervio radial recorre el surco…",
+          "imagen": "img/casos/c2-f1-c1.webp"
+        }
+      ]
+    }
+  ]
+}
+```
+
+Cada competencia lleva 5 fases y cada fase 5 casos. `correcta` es la posición (0 a 3) de la
+respuesta correcta en `opciones`; la app mezcla el orden al mostrarlas. Las imágenes van en
+`public/app/img/casos/`.
 
 Quedaron sin uso, del inicio anterior: `features/inicio/carrusel.js` y `features/buscador/`
 (el buscador del inicio), y varias reglas de los CSS 10, 11, 15, 21, 22 y 23. Se pueden

@@ -203,14 +203,6 @@ a.ini-tool:active {
   line-height: 1.3;
   color: var(--ini-muted);
 }
-.ini-soon {
-  opacity: 0.62;
-  cursor: default;
-}
-.ini-soon .ini-tsub {
-  color: var(--gold);
-  font-weight: 700;
-}
 .ini-more {
   position: absolute;
   right: 10px;

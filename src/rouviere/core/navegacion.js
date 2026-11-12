@@ -20,6 +20,7 @@ import { renderEx } from '../features/examenes/examenes.js';
 import { renderBib } from '../features/fuentes/fuentes.js';
 import { renderInicio } from '../features/inicio/inicio.js';
 import { renderCuenta } from '../features/cuenta/cuenta.js';
+import { renderCasos } from '../features/casos/casos.js';
 import { ultSet } from '../features/inicio/panel.js';
 import { renderMods } from '../features/modulos/modulos.js';
 import { mvpAviso } from '../features/mvp/mvp.js';
@@ -80,6 +81,7 @@ export const V = [
   'ruta',
   'rou',
   'estructuras',
+  'casos',
 ];
 export function route() {
   var h = (location.hash || '#home').slice(1);
@@ -93,13 +95,14 @@ export function route() {
       if (window.scrollY && window.scrollY < 200) window.scrollTo(0, 0);
     }, ms);
   });
-  document.body.classList.toggle('dk', h === 'home');
+  document.body.classList.toggle('dk', h === 'home' || h === 'casos');
   document.querySelectorAll('#tn a').forEach(function (a) {
     a.classList.toggle('on', a.getAttribute('href') === '#' + h);
   });
   closeMenu();
   renderCuenta();
   if (h === 'home') renderInicio();
+  if (h === 'casos') renderCasos();
   ultSet(h);
   if (h === 'modulos') {
     $('tgen').textContent = 'Competencia general: ' + TEM[estado.curSub].gen;
