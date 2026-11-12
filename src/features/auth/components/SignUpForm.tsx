@@ -4,12 +4,10 @@ import { AuthError, type User } from '@/services';
 import { Button } from '@/shared/ui/Button';
 import { Icon } from '@/shared/ui/Icon';
 import { Mascot, type MascotTone } from '@/shared/ui/Mascot';
-import { SelectField } from '@/shared/ui/SelectField';
 import { TextField } from '@/shared/ui/TextField';
 import { useAuth } from '../model/AuthContext';
 import { ROU } from '../model/rouMessages';
 import {
-  CAREERS,
   EMPTY_SIGN_UP,
   FIELD_ORDER,
   passwordRules,
@@ -29,7 +27,6 @@ const FOCUS_ID: Record<SignUpField, string> = {
   name: 'su-name',
   email: 'su-email',
   password: 'su-password',
-  career: 'su-career',
   year: 'su-year-1',
   terms: 'su-terms',
 };
@@ -90,7 +87,6 @@ export function SignUpForm({ onCreated }: SignUpFormProps) {
         name: values.name,
         email: values.email,
         password: values.password,
-        career: values.career,
         year: Number(values.year),
       });
       onCreated(session.user);
@@ -197,17 +193,6 @@ export function SignUpForm({ onCreated }: SignUpFormProps) {
         </div>
 
         <p className={styles.group}>Tus estudios</p>
-        <SelectField
-          id="su-career"
-          label="Carrera"
-          icon="cap"
-          placeholder="Elige tu carrera"
-          options={CAREERS}
-          value={values.career}
-          error={errors.career}
-          onFocus={() => say(ROU.career)}
-          onChange={(e) => update('career', e.target.value)}
-        />
         <YearPicker
           idPrefix="su-year"
           years={YEARS}

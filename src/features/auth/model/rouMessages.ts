@@ -7,7 +7,6 @@ export const ROU = {
   password: 'Que sea solo tuya: 8 caracteres o más y un número.',
   passwordOk: '¡Buena contraseña!',
   caps: 'Ojo: tienes las mayúsculas activadas.',
-  career: 'Así te muestro los temas que te tocan.',
   yearEarly: 'Perfecto, empezamos por lo esencial.',
   yearLate: '¡Ya vas avanzado! Igual repasar nunca está de más.',
   missing: (count: number) => `Faltan ${count} datos. Te los marqué en rojo.`,

@@ -50,12 +50,6 @@
   mask: var(--silueta) center / 100% 100% no-repeat;
 }
 /* La ilustración teñida debajo de cada capa. */
-.huesos {
-  filter: grayscale(1) brightness(0.42) sepia(0.6) hue-rotate(150deg) saturate(1.6);
-}
-.musculos {
-  filter: grayscale(1) sepia(1) hue-rotate(-35deg) saturate(3.2) brightness(0.72);
-}
 .nervios {
   filter: grayscale(1) brightness(0.32) sepia(0.5) hue-rotate(160deg) saturate(1.4);
 }

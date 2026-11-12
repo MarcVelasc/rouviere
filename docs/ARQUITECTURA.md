@@ -134,12 +134,13 @@ atlas por sistema, apartados, embriología, encéfalo y modelos GLB.
 | `#/registro` | Pantalla 1 · Crear cuenta       | `src/features/auth/pages/SignUpPage.tsx`  |
 | `#/salir`    | Cierra la sesión y va al inicio | `src/features/auth/pages/LogoutPage.tsx`  |
 
-- **Rou por capas** (`components/RouAnatomy.tsx`): la ilustración de `src/assets/rou/rou.webp`
-  y tres dibujos SVG (`huesos.svg`, `musculos.svg`, `nervios.svg`) recortados a su silueta.
-  Cambian solos cada 2,2 s. Para usar las ilustraciones finales del equipo de diseño basta con
-  reemplazar esos archivos (mismo tamaño: 600 × 800).
+- **Rou por capas** (`components/RouAnatomy.tsx`): pasa sola por huesos, músculos, nervios y
+  completo. Huesos y músculos son las ilustraciones finales del equipo de diseño
+  (`src/assets/rou/huesos.svg` y `musculos.svg`; originales en `disenos/rou/`). Nervios todavía
+  es provisoria: `rou.webp` teñido con `nervios.svg` encima. Las primeras versiones de huesos y
+  músculos quedaron guardadas en `src/assets/rou/anteriores/`.
 - **Lo que dice Rou** al crear la cuenta está todo en `features/auth/model/rouMessages.ts`.
-- **Reglas del formulario** (datos obligatorios, contraseña, carreras, años) en
+- **Reglas del formulario** (datos obligatorios, contraseña, año de Medicina) en
   `features/auth/model/signUp.ts`, sin React, con sus tests al lado.
 - El botón **Tutorial** todavía no hace nada (pedido del equipo).
 - Las pantallas no conocen el backend: usan `services` desde `@/services`

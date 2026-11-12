@@ -55,10 +55,7 @@ export function SignUpPage() {
           <h2 id="su-done-title" ref={doneRef} className={styles.doneTitle} tabIndex={-1}>
             ¡Listo, {firstName(created.name)}!
           </h2>
-          <p className={styles.doneText}>
-            Tu cuenta{created.career ? ` de ${created.career}` : ''} ya está creada. Rou te espera
-            para estudiar.
-          </p>
+          <p className={styles.doneText}>Tu cuenta ya está creada. Rou te espera para estudiar.</p>
           <Button className={styles.wide} onClick={goToApp}>
             Empezar a estudiar
           </Button>

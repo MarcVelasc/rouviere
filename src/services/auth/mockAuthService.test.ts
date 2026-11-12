@@ -6,7 +6,6 @@ const ana: SignUpData = {
   name: '  Ana Flores ',
   email: 'Ana.Flores@Gmail.com',
   password: 'rouviere1',
-  career: 'Medicina',
   year: 2,
 };
 
@@ -30,7 +29,6 @@ describe('mockAuthService', () => {
       name: 'Ana Flores',
       email: 'ana.flores@gmail.com',
       provider: 'password',
-      career: 'Medicina',
       year: 2,
     });
     expect(await auth.getSession()).toEqual(s);

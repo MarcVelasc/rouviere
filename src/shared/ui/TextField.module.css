@@ -12,17 +12,11 @@
   display: flex;
   align-items: center;
 }
-.lead,
-.trail {
+.lead {
   position: absolute;
   left: 14px;
   color: var(--accent);
   pointer-events: none;
-}
-.trail {
-  left: auto;
-  right: 14px;
-  color: var(--muted);
 }
 .input {
   width: 100%;
@@ -44,16 +38,6 @@
 .withAction {
   padding-right: 52px;
 }
-.select {
-  appearance: none;
-  padding-right: 42px;
-  cursor: pointer;
-}
-.select option {
-  color: var(--on-accent);
-  background: #fff;
-}
-.empty,
 .input::placeholder {
   color: #7fa29d;
 }

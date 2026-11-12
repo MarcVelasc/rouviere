@@ -1,22 +1,12 @@
 /** Datos y reglas del formulario "Crear cuenta". Sin React: se prueban solos. */
 
-export const CAREERS = [
-  'Medicina',
-  'Odontología',
-  'Enfermería',
-  'Fisioterapia y Kinesiología',
-  'Bioquímica y Farmacia',
-  'Nutrición',
-  'Otra',
-] as const;
-
+/** Rouviere es para estudiantes de Medicina: solo se pregunta el año. */
 export const YEARS = [1, 2, 3, 4, 5, 6] as const;
 
 export interface SignUpValues {
   name: string;
   email: string;
   password: string;
-  career: string;
   /** Vacío mientras no se elige. */
   year: string;
   terms: boolean;
@@ -29,13 +19,12 @@ export const EMPTY_SIGN_UP: SignUpValues = {
   name: '',
   email: '',
   password: '',
-  career: '',
   year: '',
   terms: false,
 };
 
 /** Orden en que se revisan (y en que se enfoca el primer error). */
-export const FIELD_ORDER: SignUpField[] = ['name', 'email', 'password', 'career', 'year', 'terms'];
+export const FIELD_ORDER: SignUpField[] = ['name', 'email', 'password', 'year', 'terms'];
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
@@ -56,7 +45,6 @@ const CHECKS: Record<SignUpField, (v: SignUpValues) => string | undefined> = {
       ? undefined
       : 'Tu contraseña necesita 8 caracteres o más y un número.';
   },
-  career: (v) => (v.career ? undefined : 'Elige tu carrera.'),
   year: (v) => (v.year ? undefined : 'Elige el año que cursas.'),
   terms: (v) => (v.terms ? undefined : 'Acepta los términos para continuar.'),
 };

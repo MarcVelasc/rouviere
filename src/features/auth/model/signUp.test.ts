@@ -11,18 +11,16 @@ const valid: SignUpValues = {
   name: 'Ana Flores',
   email: 'ana.flores@gmail.com',
   password: 'rouviere1',
-  career: 'Medicina',
   year: '2',
   terms: true,
 };
 
 describe('formulario de crear cuenta', () => {
-  it('con todo vacío marca los seis datos', () => {
+  it('con todo vacío marca los cinco datos', () => {
     expect(Object.keys(validateSignUp(EMPTY_SIGN_UP))).toEqual([
       'name',
       'email',
       'password',
-      'career',
       'year',
       'terms',
     ]);

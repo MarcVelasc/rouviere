@@ -9,10 +9,19 @@ import styles from './RouAnatomy.module.css';
 const ROU_LAYERS = ['huesos', 'musculos', 'nervios', 'completo'] as const;
 type RouLayer = (typeof ROU_LAYERS)[number];
 
-const OVERLAYS: Record<Exclude<RouLayer, 'completo'>, string> = {
-  huesos: huesosUrl,
-  musculos: musculosUrl,
-  nervios: nerviosUrl,
+/**
+ * Cómo se dibuja cada capa:
+ * - 'ilustracion': una ilustración propia del equipo de diseño (huesos y músculos).
+ * - 'sobre-rou': rou.webp teñido con un dibujo encima, recortado a su silueta. Lo usa
+ *   nervios mientras no llegue su ilustración final.
+ */
+type Capa = { tipo: 'ilustracion'; src: string } | { tipo: 'sobre-rou'; src: string } | null;
+
+const CAPAS: Record<RouLayer, Capa> = {
+  huesos: { tipo: 'ilustracion', src: huesosUrl },
+  musculos: { tipo: 'ilustracion', src: musculosUrl },
+  nervios: { tipo: 'sobre-rou', src: nerviosUrl },
+  completo: null,
 };
 
 interface RouAnatomyProps {
@@ -68,17 +77,22 @@ export function RouAnatomy({ interval = 2200, className }: RouAnatomyProps) {
             className={[styles.layer, layer === current ? styles.on : ''].join(' ')}
             data-testid={`rou-${layer}`}
           >
-            <img className={[styles.art, styles[layer]].join(' ')} src={rouUrl} alt="" />
-            {layer !== 'completo' && (
-              <img
-                className={[styles.art, styles.overlay].join(' ')}
-                src={OVERLAYS[layer]}
-                alt=""
-              />
-            )}
+            <RouCapa layer={layer} />
           </span>
         ))}
       </span>
     </div>
+  );
+}
+
+function RouCapa({ layer }: { layer: RouLayer }) {
+  const capa = CAPAS[layer];
+  if (!capa) return <img className={styles.art} src={rouUrl} alt="" />;
+  if (capa.tipo === 'ilustracion') return <img className={styles.art} src={capa.src} alt="" />;
+  return (
+    <>
+      <img className={[styles.art, styles[layer]].join(' ')} src={rouUrl} alt="" />
+      <img className={[styles.art, styles.overlay].join(' ')} src={capa.src} alt="" />
+    </>
   );
 }

@@ -49,7 +49,7 @@ export function createMockAuthService({ store, delay = 900 }: MockOptions): Auth
       return startSession(DEMO_GOOGLE_USER);
     },
 
-    async signUp({ name, email, career, year }) {
+    async signUp({ name, email, year }) {
       await wait(delay);
       const normalized = email.trim().toLowerCase();
       const accounts = readJson<User[]>(ACCOUNTS_KEY, []);
@@ -61,7 +61,6 @@ export function createMockAuthService({ store, delay = 900 }: MockOptions): Auth
         name: name.trim(),
         email: normalized,
         provider: 'password',
-        career,
         year,
       };
       store.set(ACCOUNTS_KEY, JSON.stringify([...accounts, user]));

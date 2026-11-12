@@ -10,8 +10,7 @@ export interface User {
   name: string;
   email: string;
   provider: AuthProvider;
-  /** Carrera y año: se piden al crear la cuenta con correo. */
-  career?: string;
+  /** Año de la carrera de Medicina: se pide al crear la cuenta con correo. */
   year?: number;
 }
 
@@ -23,7 +22,6 @@ export interface SignUpData {
   name: string;
   email: string;
   password: string;
-  career: string;
   year: number;
 }
 
