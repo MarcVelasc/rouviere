@@ -64,6 +64,7 @@ Para cambiar una pantalla, este es el archivo:
 | Práctica            | `features/practica/practica.js`                                                                 | `renderPrac`               |
 | Voces               | `features/voces/voces.js`                                                                       | `renderCm`                 |
 | Casos clínicos      | `features/casos/casos.js` · contenido en `data/casos.json`                                      | `renderCasos`              |
+| Competencia         | `features/competencia/competencia.js` · modelos en `public/app/atlas/comp-*.json`               | `renderCompetencia`        |
 | Rou (asistente)     | `features/rou/rou.js`                                                                           | `renderTabs`               |
 
 **Barra de pestañas** (`#tabbar` en `app/index.html`, estilos en `14-barra-de-pestanas.css`):
@@ -114,6 +115,27 @@ estructura con textos de ejemplo. Formato (las claves son las de `data/comp.json
 Cada competencia lleva 5 fases y cada fase 5 casos. `correcta` es la posición (0 a 3) de la
 respuesta correcta en `opciones`; la app mezcla el orden al mostrarlas. Las imágenes van en
 `public/app/img/casos/`.
+
+**Competencia** (`#competencia`): se abre al tocar una competencia en el inicio o en Aprender
+(`compIr(k)`). `features/competencia/competencia.js`, estilos en `36-competencia.css`. Dentro
+hay sub-pantallas que no cambian el hash:
+
+- Ficha: selector de competencia y sus apartados Modelo 3D, Tarjetas, Estudio con IA (abre
+  `#estudio`) y Simulacros.
+- Modelo 3D a pantalla completa: solo la zona de la competencia. El **+** cambia entre
+  colores reales y «por colores» (uno por estructura). Al tocar una parte sale su ficha de
+  `est.js` (por código FMA); si no tiene, un aviso. El botón atrás del celular lo cierra.
+- Tarjetas: filtros Competencia, Área (las ramas de `ANAT` en `categorias.js`), Sistema,
+  Tema y Dificultad; sesiones de 10 con contador y la tarjeta se voltea al tocarla. Si una
+  tarjeta de `data/bank.json` trae `img`, se muestra; si no, queda el hueco de la imagen.
+- Simulacros: nota máxima (sobre 100, en `rv_sim_best`), 20/50/100 preguntas (se desactiva
+  la que no alcanza con el banco), preguntas de `data/qb.json` (con `img` si la traen) y al
+  final la nota y lo que se falló.
+
+Los modelos se recortan del atlas con `python3 scripts/atlas-competencias.py`: escribe
+`public/app/atlas/comp-<k>.json` y, si hace falta, `comp-<k>.bin`. La zona de cada
+competencia se ajusta en `ZONAS` dentro del script. La última competencia abierta se guarda
+en `rv_comp`.
 
 Quedaron sin uso, del inicio anterior: `features/inicio/carrusel.js` y `features/buscador/`
 (el buscador del inicio), y varias reglas de los CSS 10, 11, 15, 21, 22 y 23. Se pueden

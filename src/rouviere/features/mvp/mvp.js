@@ -13,6 +13,7 @@ import { TAB_A } from '../rou/rou.js';
 export const MVP_SEC = {
   home: 1,
   anatomia: 1,
+  competencia: 1,
   practica: 1,
   modulos: 1,
   tarjetas: 1,

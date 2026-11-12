@@ -21,6 +21,7 @@ import { renderBib } from '../features/fuentes/fuentes.js';
 import { renderInicio } from '../features/inicio/inicio.js';
 import { renderCuenta } from '../features/cuenta/cuenta.js';
 import { renderCasos } from '../features/casos/casos.js';
+import { renderCompetencia } from '../features/competencia/competencia.js';
 import { ultSet } from '../features/inicio/panel.js';
 import { renderMods } from '../features/modulos/modulos.js';
 import { mvpAviso } from '../features/mvp/mvp.js';
@@ -82,6 +83,7 @@ export const V = [
   'rou',
   'estructuras',
   'casos',
+  'competencia',
 ];
 export function route() {
   var h = (location.hash || '#home').slice(1);
@@ -95,7 +97,7 @@ export function route() {
       if (window.scrollY && window.scrollY < 200) window.scrollTo(0, 0);
     }, ms);
   });
-  document.body.classList.toggle('dk', h === 'home' || h === 'casos');
+  document.body.classList.toggle('dk', h === 'home' || h === 'casos' || h === 'competencia');
   document.querySelectorAll('#tn a').forEach(function (a) {
     a.classList.toggle('on', a.getAttribute('href') === '#' + h);
   });
@@ -103,6 +105,7 @@ export function route() {
   renderCuenta();
   if (h === 'home') renderInicio();
   if (h === 'casos') renderCasos();
+  if (h === 'competencia') renderCompetencia();
   ultSet(h);
   if (h === 'modulos') {
     $('tgen').textContent = 'Competencia general: ' + TEM[estado.curSub].gen;

@@ -2,7 +2,8 @@ import { estado } from './estado.js';
 import { EMB, fillMods } from './core/almacenamiento.js';
 import { $, conf } from './core/dom.js';
 import { closeMenu, route, toggleMenu } from './core/navegacion.js';
-import { anModo, compAbrir, compGo } from './features/anatomia/anatomia.js';
+import { anModo, compGo } from './features/anatomia/anatomia.js';
+import { compIr } from './features/competencia/competencia.js';
 import { anAbrir, anAtlas, anBack, anBuscar, anGo } from './features/anatomia/categorias.js';
 import { apAct, haOpen } from './features/atlas/apartados.js';
 import {
@@ -733,7 +734,7 @@ export function boot() {
       }, 60);
     },
     function (e, t) {
-      compAbrir(t.getAttribute('data-k'));
+      compIr(t.getAttribute('data-k'));
     },
     function (e, t) {
       compGo(t.getAttribute('data-w'));

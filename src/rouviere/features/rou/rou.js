@@ -719,6 +719,7 @@ export const TAB_DE = {
   simulacros: 'aprender',
   ruta: 'aprender',
   casos: 'aprender',
+  competencia: 'aprender',
   estudio: 'aprender',
   biblioteca: 'biblioteca',
   progreso: 'perfil',

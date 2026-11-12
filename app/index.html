@@ -400,6 +400,142 @@
 <div class="cc-sheet" id="ccSheet" hidden role="dialog" aria-modal="true" aria-labelledby="ccSheetT"><div class="cc-sheet-in"><h2 id="ccSheetT">Elige la competencia</h2><ul id="ccList"></ul></div></div>
 </section>
 
+<section class="view" id="competencia" aria-labelledby="cpNombre">
+<!-- Competencia: ficha con modelo 3D, tarjetas, estudio y simulacros. Lo dibuja
+     renderCompetencia() en src/rouviere/features/competencia/competencia.js -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="cp-i-back" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+ <symbol id="cp-i-next" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+ <symbol id="cp-i-down" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+ <symbol id="cp-i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+ <symbol id="cp-i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+ <symbol id="cp-i-cube" viewBox="0 0 24 24"><path d="M12 2.8l8 4.6v9.2l-8 4.6-8-4.6V7.4z"/><path d="M4 7.4l8 4.6 8-4.6M12 12v9.2"/></symbol>
+ <symbol id="cp-i-cards" viewBox="0 0 24 24"><rect x="3" y="6" width="13" height="15" rx="2.5"/><path d="M8 3.5h10.5A2.5 2.5 0 0121 6v12"/></symbol>
+ <symbol id="cp-i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 016.5 3H20v15H6.5A2.5 2.5 0 004 20.5z"/><path d="M4 20.5A2.5 2.5 0 006.5 23H20v-5"/><path d="M9 8h7M9 11.5h5"/></symbol>
+ <symbol id="cp-i-check" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2.5"/><path d="M8 8.5l1.5 1.5 3-3M8 15.5l1.5 1.5 3-3M15 9h1.5M15 16h1.5"/></symbol>
+ <symbol id="cp-i-reset" viewBox="0 0 24 24"><path d="M4 12a8 8 0 108-8 8.4 8.4 0 00-6 2.5L4 8.5"/><path d="M4 3.5v5h5"/></symbol>
+ <symbol id="cp-i-img" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2.5"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></symbol>
+ <symbol id="cp-i-flip" viewBox="0 0 24 24"><path d="M20 8a8 8 0 00-14.5-1.5M4 3v4h4M4 16a8 8 0 0014.5 1.5M20 21v-4h-4"/></symbol>
+ <symbol id="cp-i-star" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.8l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z" fill="currentColor"/></symbol>
+</svg>
+
+<!-- 1 · ficha de la competencia -->
+<div class="cp-v cp-ancho" id="cpFicha">
+ <div class="cp-bar"><button class="cp-ib" type="button" id="cpVolver" aria-label="Volver"><svg class="cp-i"><use href="#cp-i-back"/></svg></button><span class="cp-bt">Competencia</span></div>
+ <label class="cp-fld"><span class="cc-sr">Competencia</span><span class="cp-sel cp-gold"><select id="cpSel"></select><svg class="cp-i"><use href="#cp-i-down"/></svg></span></label>
+ <div class="cp-hero"><img id="cpImg" alt="" width="1280" height="720"><div class="cp-cap"><h1 id="cpNombre"></h1><p id="cpMeta"></p></div></div>
+ <p class="cp-desc" id="cpDesc"></p>
+ <p class="cp-sec">Contenido</p>
+ <div class="cp-rows">
+  <button class="cp-row" type="button" id="cpIr3d"><span class="cp-ico"><svg class="cp-i"><use href="#cp-i-cube"/></svg></span><span><b>Modelo 3D</b><small id="cpM3d"></small></span><svg class="cp-i cp-go"><use href="#cp-i-next"/></svg></button>
+  <button class="cp-row" type="button" id="cpIrTar"><span class="cp-ico"><svg class="cp-i"><use href="#cp-i-cards"/></svg></span><span><b>Tarjetas</b><small id="cpMTar"></small></span><svg class="cp-i cp-go"><use href="#cp-i-next"/></svg></button>
+  <button class="cp-row" type="button" id="cpIrEst"><span class="cp-ico"><svg class="cp-i"><use href="#cp-i-book"/></svg></span><span><b>Estudio con IA</b><small>Sube tus apuntes y te arma resúmenes y preguntas de este tema.</small></span><svg class="cp-i cp-go"><use href="#cp-i-next"/></svg></button>
+ </div>
+ <p class="cp-sec">Ponte a prueba</p>
+ <button class="cp-row cp-sim" type="button" id="cpIrSim"><span class="cp-ico"><svg class="cp-i"><use href="#cp-i-check"/></svg></span><span><b>Simulacros</b><small id="cpMSim"></small><span class="cp-tag" id="cpMBest"></span></span><svg class="cp-i cp-go"><use href="#cp-i-next"/></svg></button>
+</div>
+
+<!-- 2 · tarjetas: elegir -->
+<div class="cp-v" id="cpTar" hidden>
+ <div class="cp-bar"><button class="cp-ib" type="button" data-cp-ficha aria-label="Volver a la competencia"><svg class="cp-i"><use href="#cp-i-back"/></svg></button></div>
+ <h2 class="cp-h"><em>Tarjetas</em></h2>
+ <p class="cp-lead">Elige qué quieres repasar. Cada sesión es de 10 tarjetas.</p>
+ <div class="cp-form">
+  <label class="cp-fld"><span>Competencia</span><span class="cp-sel"><select id="cpTC"></select><svg class="cp-i"><use href="#cp-i-down"/></svg></span></label>
+  <label class="cp-fld"><span>Área</span><span class="cp-sel"><select id="cpTA"></select><svg class="cp-i"><use href="#cp-i-down"/></svg></span></label>
+  <label class="cp-fld"><span>Sistema</span><span class="cp-sel"><select id="cpTS"></select><svg class="cp-i"><use href="#cp-i-down"/></svg></span></label>
+  <label class="cp-fld"><span>Tema</span><span class="cp-sel"><select id="cpTT"></select><svg class="cp-i"><use href="#cp-i-down"/></svg></span></label>
+  <label class="cp-fld"><span>Dificultad</span><span class="cp-sel"><select id="cpTD"></select><svg class="cp-i"><use href="#cp-i-down"/></svg></span></label>
+  <p class="cp-avail" id="cpTAvail"></p>
+ </div>
+ <div class="cp-grow"></div>
+ <button class="cp-primary" type="button" id="cpTGo">Empezar</button>
+</div>
+
+<!-- 3 · tarjetas: sesión -->
+<div class="cp-v" id="cpCard" hidden>
+ <div class="cp-qtop"><button class="cp-ib" type="button" data-cp-tar aria-label="Salir de la sesión"><svg class="cp-i"><use href="#cp-i-x"/></svg></button><span class="cp-count" id="cpCCount" aria-live="polite"></span><span class="cp-track"><i id="cpCBar"></i></span></div>
+ <div class="cp-stage">
+  <button class="cp-card" type="button" id="cpCardB" aria-label="Tarjeta: toca para darle la vuelta">
+   <span class="cp-face">
+    <span class="cp-fimg" id="cpFImg"></span>
+    <span class="cp-fbody"><span class="cp-ftag" id="cpFTag"></span><span class="cp-fq" id="cpFQ"></span>
+     <span class="cp-fturn"><svg class="cp-i"><use href="#cp-i-flip"/></svg>Toca para ver la respuesta</span></span>
+   </span>
+   <span class="cp-face cp-back">
+    <span class="cp-fbody"><span class="cp-ftag">Respuesta</span><span class="cp-fa" id="cpFA"></span><span class="cp-fe" id="cpFE"></span>
+     <span class="cp-fturn"><svg class="cp-i"><use href="#cp-i-flip"/></svg>Toca para volver a la pregunta</span></span>
+   </span>
+  </button>
+ </div>
+ <div class="cp-nav2"><button class="cp-ghost" type="button" id="cpCPrev"><svg class="cp-i"><use href="#cp-i-back"/></svg>Anterior</button><button class="cp-next" type="button" id="cpCNext"><span id="cpCNextT">Siguiente</span><svg class="cp-i"><use href="#cp-i-next"/></svg></button></div>
+</div>
+
+<!-- 4 · tarjetas: fin -->
+<div class="cp-v" id="cpCardFin" hidden>
+ <div class="cp-big"><div class="cp-ring"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" fill="none" stroke="rgba(101,195,181,.16)" stroke-width="8"/><circle cx="50" cy="50" r="44" fill="none" stroke="#65C3B5" stroke-width="8" stroke-linecap="round" pathLength="100" stroke-dasharray="100 100"/></svg><div class="cp-rn"><b id="cpCfN"></b><small>tarjetas</small></div></div>
+  <h2>¡Sesión completa!</h2><p id="cpCfT"></p></div>
+ <div class="cp-grow"></div>
+ <div class="cp-btns"><button class="cp-primary" type="button" id="cpCfOtra">Otra sesión</button><button class="cp-ghost" type="button" data-cp-ficha>Volver a la competencia</button></div>
+</div>
+
+<!-- 5 · simulacros: elegir -->
+<div class="cp-v" id="cpSim" hidden>
+ <div class="cp-bar"><button class="cp-ib" type="button" data-cp-ficha aria-label="Volver a la competencia"><svg class="cp-i"><use href="#cp-i-back"/></svg></button></div>
+ <h2 class="cp-h"><em>Simulacros</em></h2>
+ <p class="cp-lead">Un examen de práctica de opción múltiple. Al final ves tu nota y en qué fallaste.</p>
+ <div class="cp-form">
+  <label class="cp-fld"><span>Competencia</span><span class="cp-sel"><select id="cpSC"></select><svg class="cp-i"><use href="#cp-i-down"/></svg></span></label>
+  <div class="cp-best"><div class="cp-bn" id="cpSBest"></div><div><b>Nota máxima</b><p id="cpSBestT"></p></div></div>
+  <div class="cp-fld"><span id="cpNLbl">Número de preguntas</span><div class="cp-ncirc" role="radiogroup" aria-labelledby="cpNLbl" id="cpSN"></div></div>
+  <p class="cp-avail" id="cpSAvail"></p>
+ </div>
+ <div class="cp-grow"></div>
+ <button class="cp-primary" type="button" id="cpSGo">Empezar</button>
+</div>
+
+<!-- 6 · simulacro: pregunta -->
+<div class="cp-v" id="cpQ" hidden>
+ <div class="cp-qtop"><button class="cp-ib" type="button" id="cpQX" aria-label="Salir del simulacro"><svg class="cp-i"><use href="#cp-i-x"/></svg></button><span class="cp-count" id="cpQCount" aria-live="polite"></span><span class="cp-track"><i id="cpQBar"></i></span></div>
+ <div class="cp-qhead"><span id="cpQTema"></span><span id="cpQDif"></span></div>
+ <figure class="cp-qfig" id="cpQFig" hidden></figure>
+ <p class="cp-qtext" id="cpQText"></p>
+ <ul class="cp-opts" id="cpQOpts" role="radiogroup" aria-labelledby="cpQText"></ul>
+ <div class="cp-grow"></div>
+ <button class="cp-primary" type="button" id="cpQNext" disabled>Siguiente</button>
+</div>
+
+<!-- 7 · simulacro: resultado -->
+<div class="cp-v" id="cpRes" hidden>
+ <div class="cp-big">
+  <div class="cp-ring"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" fill="none" stroke="rgba(217,164,65,.16)" stroke-width="8"/><circle id="cpRArc" cx="50" cy="50" r="44" fill="none" stroke="#D9A441" stroke-width="8" stroke-linecap="round" pathLength="100" stroke-dasharray="0 100"/></svg><div class="cp-rn"><b id="cpRN"></b><small>de 100</small></div></div>
+  <h2 id="cpRT" tabindex="-1"></h2><p id="cpRS"></p><span class="cp-rec" id="cpRRec" hidden><svg class="cp-i"><use href="#cp-i-star"/></svg>Nueva nota máxima</span>
+ </div>
+ <div class="cp-rev" id="cpRRev"></div>
+ <div class="cp-btns"><button class="cp-primary" type="button" id="cpROtra">Otro simulacro</button><button class="cp-ghost" type="button" data-cp-ficha>Volver a la competencia</button></div>
+</div>
+
+<!-- visor 3D a pantalla completa -->
+<div class="cp-3d" id="cp3d" hidden role="dialog" aria-modal="true" aria-labelledby="cp3T">
+ <canvas id="cp3cv"></canvas>
+ <div class="cp-load" id="cp3load"><div class="cp-spin"></div><span id="cp3loadT">Cargando el modelo…</span></div>
+ <div class="cp-3top">
+  <button class="cp-ib" type="button" id="cp3x" aria-label="Salir del modelo 3D"><svg class="cp-i"><use href="#cp-i-x"/></svg></button>
+  <div class="cp-3ttl"><b id="cp3T"></b><small id="cp3S"></small></div>
+  <button class="cp-ib cp-plus" type="button" id="cp3plus" aria-label="Opciones de vista" aria-expanded="false" aria-controls="cp3menu"><svg class="cp-i"><use href="#cp-i-plus"/></svg></button>
+ </div>
+ <div class="cp-menu" id="cp3menu" role="menu" hidden>
+  <div class="cp-mh">Cómo verlo</div>
+  <button class="cp-mo" type="button" role="menuitemradio" data-cp-modo="n" aria-checked="true"><span class="cp-sw cp-swn"></span><span><b>Normal</b><small>Colores reales: hueso, músculo, órgano</small></span></button>
+  <button class="cp-mo" type="button" role="menuitemradio" data-cp-modo="c" aria-checked="false"><span class="cp-sw cp-swc"></span><span><b>Por colores</b><small>Cada estructura con un color propio</small></span></button>
+  <button class="cp-mo cp-mreset" type="button" role="menuitem" id="cp3reset"><svg class="cp-i"><use href="#cp-i-reset"/></svg>Restablecer vista</button>
+ </div>
+ <div class="cp-hint" id="cp3hint">Gira con el dedo · toca una parte</div>
+ <aside class="cp-ficha" id="cp3ficha" hidden aria-live="polite"></aside>
+</div>
+<div class="cp-toast" id="cpToast" role="status"></div>
+</section>
+
 <section class="view" id="sobre"><a class="back" href="#home">← Inicio</a><h1>Sobre Rouvière</h1>
 <div class="box" id="mvpbox"><h2>El MVP que se va a probar</h2>
 <p class="s">El documento <i>Funciones del MVP y de la segunda versión</i> (Diseño Digital 1 · DGR-151) fija seis funciones para la primera prueba con estudiantes. El resto —Atlas 3D, Estudio con IA, Rou, la ruta con XP y la biblioteca ampliada— queda para una segunda versión, cuando haya resultados de la prueba y revisión docente del contenido.</p>

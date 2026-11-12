@@ -1,8 +1,8 @@
 import { estado } from '../../estado.js';
 import { $, el } from '../../core/dom.js';
-import { compAbrir } from '../anatomia/anatomia.js';
 import { anAbrir } from '../anatomia/categorias.js';
 import { COMP, compAvance, compGet } from '../anatomia/competencias.js';
+import { compIr } from '../competencia/competencia.js';
 /* ===== pantalla de inicio =====
    Las competencias con su avance real. El logo, la frase y las herramientas son fijos
    en app/index.html. */
@@ -21,7 +21,7 @@ function renderInicioComps() {
     var num = a[0] === 'base' ? 'B' : a[0].replace('c', '');
     var li = el('li');
     var t = el('a', 'ini-comp');
-    t.href = '#anatomia';
+    t.href = '#competencia';
     t.setAttribute('data-hc', '142');
     t.setAttribute('data-k', a[0]);
     t.appendChild(el('span', 'ini-num', num));
@@ -63,12 +63,14 @@ function iniFlecha() {
 export function areaIr(k) {
   /* Vale tanto para una competencia como para un área: el inicio enseña las primeras,
      la pestaña «Por sistema» las segundas. */
-  var esComp = typeof compGet === 'function' && !!compGet(k);
-  estado.AN_MODO = esComp ? 'comp' : 'area';
+  if (compGet(k)) {
+    compIr(k);
+    return;
+  }
+  estado.AN_MODO = 'area';
   location.hash = '#anatomia';
   setTimeout(function () {
-    if (esComp) compAbrir(k);
-    else anAbrir(k);
+    anAbrir(k);
   }, 60);
 }
 
