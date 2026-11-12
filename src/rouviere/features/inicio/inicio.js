@@ -1,40 +1,12 @@
 import { estado } from '../../estado.js';
-import { $, el, msg } from '../../core/dom.js';
-import { primerNombre, usuarioSesion } from '../../core/sesion.js';
+import { $, el } from '../../core/dom.js';
 import { compAbrir } from '../anatomia/anatomia.js';
 import { anAbrir } from '../anatomia/categorias.js';
 import { COMP, compAvance, compGet } from '../anatomia/competencias.js';
-import { allCards, cDue } from '../tarjetas/tarjetas.js';
-export /* ===== el inicio =====
-   Saludo corto, las siete áreas y el acceso a la práctica. Los números salen del
-   contenido que hay en ese momento, no están escritos a mano. */
-function holaTexto() {
-  var h = new Date().getHours();
-  var s =
-    h < 6 ? 'Buenas noches' : h < 13 ? 'Buenos días' : h < 20 ? 'Buenas tardes' : 'Buenas noches';
-  var d = 0;
-  try {
-    allCards().forEach(function (c) {
-      var t = cDue(c.id);
-      if (t && t <= Date.now()) d++;
-    });
-  } catch (e) {}
-  if (d) return s + '. Tienes ' + d + (d === 1 ? ' tarjeta' : ' tarjetas') + ' para repasar.';
-  var v = 0;
-  try {
-    v = (estado.S.act && Object.keys(estado.S.act).length) || 0;
-  } catch (e) {}
-  return v
-    ? s + '. ¿Seguimos donde lo dejaste?'
-    : s + '. Elige una competencia y empieza a estudiar.';
-}
 /* ===== pantalla de inicio =====
-   Saludo con el nombre de la sesión, la frase del día y las competencias con su avance
-   real. Las herramientas son enlaces fijos en app/index.html. */
+   Las competencias con su avance real. El logo, la frase y las herramientas son fijos
+   en app/index.html. */
 export function renderInicio() {
-  var nombre = primerNombre(usuarioSesion());
-  msg('iniHola', 'Hola' + (nombre ? ', ' + nombre : ''));
-  msg('iniLead', holaTexto());
   renderInicioComps();
   iniFlecha();
 }

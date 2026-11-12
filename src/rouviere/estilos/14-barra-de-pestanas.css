@@ -136,15 +136,9 @@ body.roud .tabbar {
     text-decoration: none;
   }
   .tblogo img {
-    width: 34px;
-    height: 45px;
-    object-fit: contain;
-  }
-  .tblogo b {
-    font:
-      italic 600 30px/1 'Cormorant Garamond',
-      serif;
-    color: var(--gold);
+    display: block;
+    width: 180px;
+    height: auto;
   }
   .tbb {
     flex-direction: row;

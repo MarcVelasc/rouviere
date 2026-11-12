@@ -27,15 +27,9 @@ body.dk .wrap {
   text-decoration: none;
 }
 .ini-logo img {
-  width: 34px;
-  height: 45px;
-  object-fit: contain;
-}
-.ini-logo b {
-  font:
-    italic 600 30px/1 'Cormorant Garamond',
-    serif;
-  color: var(--gold);
+  display: block;
+  width: auto;
+  height: 34px;
 }
 
 /* portada */
@@ -52,21 +46,13 @@ body.dk .wrap {
     linear-gradient(135deg, #0d4a66 0%, #0b3a51 55%, #0a3045 100%);
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
 }
-.ini-hola {
-  margin: 0 0 6px;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--mint);
-}
 .ini-hero h1 {
   position: relative;
   z-index: 1;
   margin: 0;
-  max-width: 11ch;
+  max-width: 10ch;
   font:
-    600 34px/1.02 'Cormorant Garamond',
+    600 42px/1 'Cormorant Garamond',
     serif;
   color: #eaf4f2;
 }
@@ -312,7 +298,7 @@ a.ini-tool:active {
     grid-template-columns: repeat(3, 1fr);
   }
   .ini-hero h1 {
-    font-size: 42px;
+    font-size: 50px;
   }
   .ini-rou {
     width: 150px;
@@ -329,7 +315,7 @@ a.ini-tool:active {
   }
   .ini-hero h1 {
     max-width: none;
-    font-size: 58px;
+    font-size: 68px;
   }
   .ini-lead {
     max-width: 40ch;
