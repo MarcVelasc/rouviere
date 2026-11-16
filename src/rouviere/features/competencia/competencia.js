@@ -1,3 +1,4 @@
+import IMAGENES from '../../data/imagenes.json';
 import { estado } from '../../estado.js';
 import { BANK, QB, log, mn } from '../../core/almacenamiento.js';
 import { $ } from '../../core/dom.js';
@@ -15,6 +16,8 @@ import { estCarga, estDeFma } from '../estructuras/fichas-est.js';
 
    Modelos: public/app/atlas/comp-<k>.json (los genera scripts/atlas-competencias.py).
    Descripciones: las fichas de estructura (est.js), buscadas por código FMA.
+   Imágenes: data/imagenes.json (por competencia y tema), archivos en
+   public/app/img/competencias/<k>/<tema>/NN.webp y NN-t.webp (miniatura).
    Guardado en el dispositivo: rv_comp (la última abierta) y rv_sim_best (nota máxima). */
 
 const POR_SESION = 10;
@@ -45,7 +48,7 @@ const TIPO = {
   lymphatic: 'Linfático',
   endocrine: 'Glándula endocrina',
 };
-const VISTAS = ['cpFicha', 'cpTar', 'cpCard', 'cpCardFin', 'cpSim', 'cpQ', 'cpRes'];
+const VISTAS = ['cpFicha', 'cpTar', 'cpCard', 'cpCardFin', 'cpSim', 'cpQ', 'cpRes', 'cpGal'];
 
 /* ---------- utilidades ---------- */
 
@@ -158,6 +161,7 @@ export function compIr(k) {
 export function renderCompetencia() {
   enlazar();
   cerrar3d(true);
+  cerrarLb(true);
   renderFicha();
   mostrar('cpFicha');
 }
@@ -180,6 +184,14 @@ function renderFicha() {
   $('cpM3d').textContent = MODELO[cur] + ' en 3D. Toca cada parte para ver qué es.';
   $('cpMTar').textContent = deComp(BANK).length + ' tarjetas para repasar, de 10 en 10.';
   $('cpMSim').textContent = deComp(QB).length + ' preguntas de opción múltiple.';
+  var gal = imagenesDe(cur);
+  $('cpIrGal').hidden = !gal.length;
+  if (gal.length)
+    $('cpMGal').textContent =
+      gal.length +
+      ' imágenes de ' +
+      (IMAGENES[cur] || []).length +
+      ' temas, del equipo de contenido.';
   $('cpMBest').textContent = best[cur] != null ? 'Nota máxima: ' + best[cur] : 'Aún sin nota';
 }
 
@@ -288,6 +300,7 @@ function cargar3d(k) {
   limpiar();
   T.key = k;
   $('cp3load').hidden = false;
+  $('cp3load').classList.remove('cp-err');
   $('cp3loadT').textContent = 'Cargando ' + MODELO[k].toLowerCase() + '…';
   var p = CACHE[k]
     ? Promise.resolve(CACHE[k])
@@ -314,8 +327,15 @@ function cargar3d(k) {
     $('cp3S').textContent = etiquetaNum(compGet(k)) + ' · ' + v[0].parts.length + ' estructuras';
   }).catch(function () {
     T.key = null;
-    $('cp3loadT').textContent =
-      'No se pudo cargar el modelo. Revisa tu conexión e inténtalo otra vez.';
+    var off = navigator.onLine === false;
+    $('cp3load').classList.add('cp-err');
+    $('cp3loadT').innerHTML =
+      '<svg class="ri cp-erri" aria-hidden="true"><use href="#ri-' +
+      (off ? 'sin-conexion' : 'alerta') +
+      '"/></svg>' +
+      (off
+        ? 'Estás sin conexión. Conéctate para descargar el modelo la primera vez.'
+        : 'No se pudo cargar el modelo. Inténtalo otra vez en un momento.');
   });
   estCarga(); /* las descripciones se adelantan mientras baja el modelo */
 }
@@ -442,7 +462,7 @@ function pintaFicha(m, e, cargando) {
       (TIPO[p.s] || 'Estructura') +
       '</span><h3>' +
       esc(p.n) +
-      '</h3></div><button class="cp-ib" type="button" id="cp3fx" aria-label="Cerrar descripción"><svg class="cp-i"><use href="#cp-i-x"/></svg></button></div>';
+      '</h3></div><button class="cp-ib" type="button" id="cp3fx" aria-label="Cerrar descripción"><svg class="cp-i cp-f"><use href="#ri-cerrar"/></svg></button></div>';
   if (cargando) h += '<p class="cp-none">Cargando la descripción…</p>';
   else if (e && (e.res || d.def)) {
     if (e.n && e.n !== p.n) h += '<p class="cp-of">Ficha: ' + esc(e.n) + '</p>';
@@ -769,6 +789,115 @@ function terminarSim() {
   $('cpRT').focus({ preventScroll: true });
 }
 
+/* ---------- 5 · imágenes ---------- */
+
+function imagenesDe(k) {
+  var out = [];
+  (IMAGENES[k] || []).forEach(function (g, ti) {
+    g.imgs.forEach(function (im) {
+      var base = 'img/competencias/' + k + '/' + g.dir + '/' + im.f;
+      out.push({
+        src: base + '.webp',
+        mini: base + '-t.webp',
+        tema: g.tema,
+        ti: ti,
+        w: im.w,
+        h: im.h,
+      });
+    });
+  });
+  return out;
+}
+var G = { tema: -1, lista: [], i: 0, x0: null };
+function renderGal() {
+  var temas = IMAGENES[cur] || [],
+    todas = imagenesDe(cur);
+  G.lista = todas.filter(function (im) {
+    return G.tema < 0 || im.ti === G.tema;
+  });
+  $('cpGLead').textContent =
+    todas.length + ' imágenes de ' + nombreCorto(compGet(cur)) + '. Toca una para verla en grande.';
+  $('cpGChips').innerHTML = [[-1, 'Todas', todas.length]]
+    .concat(
+      temas.map(function (g, i) {
+        return [i, g.tema, g.imgs.length];
+      }),
+    )
+    .map(function (c) {
+      return (
+        '<button class="cp-chip" type="button" data-t="' +
+        c[0] +
+        '" aria-pressed="' +
+        (c[0] === G.tema) +
+        '">' +
+        esc(c[1]) +
+        ' <small>' +
+        c[2] +
+        '</small></button>'
+      );
+    })
+    .join('');
+  $('cpGGrid').innerHTML = G.lista
+    .map(function (im, i) {
+      return (
+        '<button class="cp-gi" type="button" data-i="' +
+        i +
+        '" aria-label="' +
+        esc(im.tema) +
+        ', imagen ' +
+        (i + 1) +
+        '"><img src="' +
+        im.mini +
+        '" alt="" loading="lazy" decoding="async" width="' +
+        im.w +
+        '" height="' +
+        im.h +
+        '"></button>'
+      );
+    })
+    .join('');
+}
+function abrirLb(i) {
+  G.i = i;
+  pintaLb();
+  $('cpLb').hidden = false;
+  document.body.style.overflow = 'hidden';
+  history.pushState({ cpLb: 1 }, '', location.hash);
+  $('cpLbX').focus();
+}
+function pintaLb() {
+  var n = G.lista.length,
+    im = G.lista[G.i],
+    img = $('cpLbImg');
+  img.classList.remove('on');
+  img.onload = function () {
+    img.classList.add('on');
+  };
+  img.src = im.src;
+  img.alt = im.tema + ', imagen ' + (G.i + 1) + ' de ' + n;
+  $('cpLbT').textContent = im.tema;
+  $('cpLbN').textContent = G.i + 1 + ' / ' + n;
+  $('cpLbPrev').disabled = G.i === 0;
+  $('cpLbNext').disabled = G.i === n - 1;
+  [G.i - 1, G.i + 1].forEach(function (j) {
+    if (G.lista[j]) new Image().src = G.lista[j].src;
+  });
+}
+function pasoLb(d) {
+  var j = G.i + d;
+  if (j < 0 || j >= G.lista.length) return;
+  G.i = j;
+  pintaLb();
+}
+function cerrarLb(sinHistoria) {
+  if ($('cpLb').hidden) return;
+  $('cpLb').hidden = true;
+  document.body.style.overflow = '';
+  if (!sinHistoria && history.state && history.state.cpLb) history.back();
+  var b = document.querySelector('#cpGGrid [data-i="' + G.i + '"]');
+  if (b) b.focus();
+}
+
 /* ---------- eventos (una sola vez) ---------- */
 
 function enlazar() {
@@ -791,6 +920,40 @@ function enlazar() {
   $('cpIrSim').addEventListener('click', function () {
     renderSim();
     mostrar('cpSim');
+  });
+  $('cpIrGal').addEventListener('click', function () {
+    G.tema = -1;
+    renderGal();
+    mostrar('cpGal');
+  });
+  $('cpGChips').addEventListener('click', function (e) {
+    var b = e.target.closest('.cp-chip');
+    if (!b) return;
+    G.tema = +b.getAttribute('data-t');
+    renderGal();
+  });
+  $('cpGGrid').addEventListener('click', function (e) {
+    var b = e.target.closest('.cp-gi');
+    if (b) abrirLb(+b.getAttribute('data-i'));
+  });
+  $('cpLbX').addEventListener('click', function () {
+    cerrarLb(false);
+  });
+  $('cpLbPrev').addEventListener('click', function () {
+    pasoLb(-1);
+  });
+  $('cpLbNext').addEventListener('click', function () {
+    pasoLb(1);
+  });
+  /* deslizar a los lados para cambiar de imagen */
+  $('cpLbImgW').addEventListener('pointerdown', function (e) {
+    G.x0 = e.clientX;
+  });
+  $('cpLbImgW').addEventListener('pointerup', function (e) {
+    if (G.x0 == null) return;
+    var dx = e.clientX - G.x0;
+    G.x0 = null;
+    if (Math.abs(dx) > 50) pasoLb(dx < 0 ? 1 : -1);
   });
   $('cpIrEst').addEventListener('click', function () {
     location.hash = '#estudio';
@@ -829,9 +992,16 @@ function enlazar() {
   });
   window.addEventListener('popstate', function () {
     if (!$('cp3d').hidden) cerrar3d(true);
+    if (!$('cpLb').hidden) cerrarLb(true);
   });
   document.addEventListener('keydown', function (e) {
     if (!$('competencia').classList.contains('on')) return;
+    if (!$('cpLb').hidden) {
+      if (e.key === 'Escape') cerrarLb(false);
+      else if (e.key === 'ArrowRight') pasoLb(1);
+      else if (e.key === 'ArrowLeft') pasoLb(-1);
+      return;
+    }
     if (!$('cp3d').hidden) {
       if (e.key !== 'Escape') return;
       if (!$('cp3menu').hidden) menu(false);

@@ -53,7 +53,8 @@ export default defineConfig(({ mode }) => {
           // Al instalar se guardan las dos páginas, su código, estilos, imágenes y three.js.
           // Los modelos 3D (~97 MB) no: se guardan la primera vez que se abren.
           globPatterns: ['**/*.{js,css,html,png,webp,jpg,svg,woff2,json}'],
-          globIgnores: ['app/**/*.glb', 'app/**/*.bin'],
+          // Los modelos y las galerías de imágenes pesan: se guardan al abrirlos, no al instalar.
+          globIgnores: ['app/**/*.glb', 'app/**/*.bin', 'app/img/competencias/**'],
           maximumFileSizeToCacheInBytes: 3 * 1024 * 1024,
           // La app es otra página: no debe reemplazarse por el ingreso.
           navigateFallbackDenylist: [/\/app\//],
@@ -64,6 +65,15 @@ export default defineConfig(({ mode }) => {
               options: {
                 cacheName: 'modelos-3d',
                 expiration: { maxEntries: 80, maxAgeSeconds: 60 * 60 * 24 * 90 },
+                cacheableResponse: { statuses: [0, 200] },
+              },
+            },
+            {
+              urlPattern: ({ url }) => url.pathname.includes('/app/img/competencias/'),
+              handler: 'CacheFirst',
+              options: {
+                cacheName: 'imagenes-competencias',
+                expiration: { maxEntries: 400, maxAgeSeconds: 60 * 60 * 24 * 90 },
                 cacheableResponse: { statuses: [0, 200] },
               },
             },

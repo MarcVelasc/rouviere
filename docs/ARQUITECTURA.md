@@ -137,6 +137,22 @@ Los modelos se recortan del atlas con `python3 scripts/atlas-competencias.py`: e
 competencia se ajusta en `ZONAS` dentro del script. La última competencia abierta se guarda
 en `rv_comp`.
 
+**Imágenes de una competencia**: si `src/rouviere/data/imagenes.json` trae imágenes para la
+competencia, su ficha muestra el apartado «Imágenes» (galería por tema y visor a pantalla
+completa). Por ahora solo hay de la 5 (Sistema nervioso), del equipo de contenido. Formato:
+
+```json
+{ "c5": [{ "tema": "Cerebelo", "dir": "cerebelo", "imgs": [{ "f": "01", "w": 1600, "h": 900 }] }] }
+```
+
+Cada imagen va en `public/app/img/competencias/<k>/<dir>/<f>.webp` (máximo 1600 px) con su
+miniatura `<f>-t.webp` (480 px). No se descargan al instalar la app: se guardan al verlas.
+
+**Íconos**: los del equipo de diseño están en `disenos/iconos/` (un SVG por ícono y el PDF
+original) y en `app/index.html` como `<symbol id="ri-…">`. Se usan con
+`<svg class="ri"><use href="#ri-nombre"/></svg>` y toman el color del texto. Estilos en
+`37-iconos.css`.
+
 Quedaron sin uso, del inicio anterior: `features/inicio/carrusel.js` y `features/buscador/`
 (el buscador del inicio), y varias reglas de los CSS 10, 11, 15, 21, 22 y 23. Se pueden
 borrar con cuidado: algunas acciones de `boot.js` las nombran por su posición en la lista `HT`.

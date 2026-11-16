@@ -1,0 +1,67 @@
+/* ===== íconos del equipo de diseño =====
+   Vienen de disenos/iconos/ como <symbol id="ri-…"> al inicio de app/index.html.
+   Son rellenos: toman el color del texto (currentColor). */
+.ri {
+  display: inline-block;
+  flex: none;
+  vertical-align: middle;
+  fill: currentColor;
+  stroke: none;
+}
+.ri:not([width]) {
+  width: 24px;
+  height: 24px;
+}
+/* la flecha del equipo apunta a la derecha: girada sirve para «volver» */
+.ri-atras {
+  transform: scaleX(-1);
+}
+
+/* menú: tres barras gruesas y redondeadas como el ícono del equipo */
+.burger span {
+  width: 22px;
+  height: 3px;
+  border-radius: 3px;
+}
+.burger.x span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.burger.x span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.mx .ri,
+.rx .ri,
+.rsend .ri {
+  display: block;
+  margin: auto;
+}
+.lnk .ri {
+  margin: -2px 2px 0 0;
+}
+
+/* competencia: los íconos rellenos van un poco más chicos que los de línea */
+.cp-i.cp-f {
+  fill: currentColor;
+  stroke: none;
+  width: 20px;
+  height: 20px;
+}
+.cp-ico .cp-i.cp-f {
+  width: 24px;
+  height: 24px;
+}
+.cp-go.cp-f {
+  width: 16px;
+  height: 16px;
+}
+.cp-load.cp-err .cp-spin {
+  display: none;
+}
+.cp-load .cp-erri {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 12px;
+  color: #df3365;
+}
