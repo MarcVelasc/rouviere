@@ -1,0 +1,40 @@
+/* ===== Atlas 3D · lista de sistemas en carrusel (celular) =====
+   En el celular la cuadrícula de 11 sistemas ocupaba varias pantallas y el visor quedaba
+   muy abajo: al tocar un sistema parecía que no aparecía nada. Ahora es una sola fila que
+   se desliza a la derecha, y el visor queda justo debajo. En la compu sigue la cuadrícula. */
+.hadesl {
+  display: none;
+}
+@media (max-width: 760px) {
+  .hag {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    padding: 2px 2px 6px;
+    margin: 14px 0 4px;
+    scrollbar-width: none;
+  }
+  .hag::-webkit-scrollbar {
+    display: none;
+  }
+  .hab {
+    flex: 0 0 41%;
+    scroll-snap-align: start;
+  }
+  .hadesl {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6px;
+    margin: 0 2px 12px;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: var(--mut);
+  }
+  .hadesl::after {
+    content: '→';
+    font-size: 1rem;
+  }
+}

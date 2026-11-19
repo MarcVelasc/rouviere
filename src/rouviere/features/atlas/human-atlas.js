@@ -113,6 +113,10 @@ export function haShort(k, n) {
 export function renderHA() {
   var box = $('hagrid');
   if (!box) return;
+  /* En el celular la lista es un carrusel horizontal (39-atlas-carrusel.css): se guarda
+     hasta dónde se deslizó para no volver al principio cada vez que se redibuja. */
+  var g0 = box.querySelector('.hag'),
+    izq = g0 ? g0.scrollLeft : 0;
   box.textContent = '';
   if (!estado.HA_IX) {
     var b0 = el('button', 'pill', 'Cargar el atlas anatómico ');
@@ -164,6 +168,10 @@ export function renderHA() {
     g.appendChild(b);
   });
   box.appendChild(g);
+  g.scrollLeft = izq;
+  box.appendChild(
+    el('p', 'hadesl', 'Desliza para ver los ' + estado.HA_IX.grupos.length + ' sistemas'),
+  );
   msg(
     'hatot',
     'Anatomía de referencia de varón adulto (BodyParts3D 4.0). Cada sistema se descarga solo cuando lo abres.',
