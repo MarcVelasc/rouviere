@@ -39,6 +39,30 @@
    [
     "endo",
     "Hipófisis"
+   ],
+   [
+    "oseo",
+    "Huesos del cráneo"
+   ],
+   [
+    "oseo",
+    "Huesos de la cara"
+   ],
+   [
+    "musc",
+    "Músculos de la cabeza"
+   ],
+   [
+    "musc",
+    "Músculos de la cara"
+   ],
+   [
+    "musc",
+    "Músculos de la masticación"
+   ],
+   [
+    "musc",
+    "Músculos del cuello"
    ]
   ],
   [
@@ -115,6 +139,90 @@
    [
     "musc",
     "Miembro inferior"
+   ],
+   [
+    "oseo",
+    "Generalidades del sistema óseo"
+   ],
+   [
+    "oseo",
+    "Clasificación de los huesos"
+   ],
+   [
+    "oseo",
+    "Accidentes óseos"
+   ],
+   [
+    "oseo",
+    "Cintura escapular"
+   ],
+   [
+    "oseo",
+    "Huesos del miembro superior"
+   ],
+   [
+    "oseo",
+    "Cintura pélvica"
+   ],
+   [
+    "oseo",
+    "Huesos del miembro inferior"
+   ],
+   [
+    "oseo",
+    "Generalidades de las articulaciones"
+   ],
+   [
+    "oseo",
+    "Clasificación de las articulaciones"
+   ],
+   [
+    "oseo",
+    "Elementos articulares"
+   ],
+   [
+    "oseo",
+    "Articulaciones del cráneo y columna"
+   ],
+   [
+    "oseo",
+    "Articulaciones del miembro superior"
+   ],
+   [
+    "oseo",
+    "Articulaciones de la pelvis"
+   ],
+   [
+    "oseo",
+    "Articulaciones del miembro inferior"
+   ],
+   [
+    "oseo",
+    "Movimientos articulares"
+   ],
+   [
+    "musc",
+    "Generalidades del sistema muscular"
+   ],
+   [
+    "musc",
+    "Clasificación muscular"
+   ],
+   [
+    "musc",
+    "Músculos del hombro y brazo"
+   ],
+   [
+    "musc",
+    "Músculos del antebrazo y mano"
+   ],
+   [
+    "musc",
+    "Músculos de la cadera y muslo"
+   ],
+   [
+    "musc",
+    "Músculos de la pierna y pie"
    ]
   ],
   [
@@ -196,6 +304,26 @@
    [
     "dig",
     "Estómago"
+   ],
+   [
+    "oseo",
+    "Costillas y esternón"
+   ],
+   [
+    "oseo",
+    "Articulaciones del tórax"
+   ],
+   [
+    "musc",
+    "Músculos de la espalda"
+   ],
+   [
+    "musc",
+    "Músculos del tórax"
+   ],
+   [
+    "musc",
+    "Músculos del abdomen"
    ]
   ],
   [
@@ -273,6 +401,10 @@
    [
     "endo",
     "Páncreas endocrino"
+   ],
+   [
+    "musc",
+    "Músculos de la pelvis y periné"
    ]
   ],
   [
@@ -389,6 +521,26 @@
    [
     "endo",
     "Otras glándulas"
+   ],
+   [
+    "reg",
+    "Posición anatómica"
+   ],
+   [
+    "reg",
+    "Planos y ejes anatómicos"
+   ],
+   [
+    "reg",
+    "Regiones corporales"
+   ],
+   [
+    "reg",
+    "Cavidades del cuerpo humano"
+   ],
+   [
+    "reg",
+    "Generalidades de los sistemas anatómicos"
    ]
   ],
   [

@@ -20,6 +20,24 @@ import { renderCards } from '../tarjetas/tarjetas.js';
    k  clave · n nombre · d qué abarca · sis sistemas del temario que entran
    t  único tema incluido · xt tema excluido · at qué abre en el Atlas 3D
    lib materia de la biblioteca que lo cubre */
+/* Temas de articulaciones: la app las guarda en el sistema óseo, así que Artrología
+   toma solo estos temas y Osteología los deja fuera. */
+const ARTRO = [
+  'Articulaciones',
+  'Generalidades de las articulaciones',
+  'Clasificación de las articulaciones',
+  'Elementos articulares',
+  'Articulaciones del cráneo y columna',
+  'Articulaciones del tórax',
+  'Articulaciones del miembro superior',
+  'Articulaciones de la pelvis',
+  'Articulaciones del miembro inferior',
+  'Movimientos articulares',
+];
+/* El campo de tema de cada categoría puede ser un tema o una lista de temas. */
+export function temaEs(t, v) {
+  return Array.isArray(v) ? v.indexOf(t) >= 0 : t === v;
+}
 export const ANAT = [
   [
     'general',
@@ -37,7 +55,7 @@ export const ANAT = [
     'Los huesos: su forma, sus accidentes y cómo se arman el esqueleto axial y el apendicular.',
     ['oseo'],
     null,
-    'Articulaciones',
+    ARTRO,
     [['ha', 'oseo', 'Sistema óseo']],
     'gen',
   ],
@@ -46,7 +64,7 @@ export const ANAT = [
     'Artrología',
     'Las articulaciones: cómo se unen los huesos, de qué tipo es cada unión y cuánto se mueve.',
     ['oseo'],
-    'Articulaciones',
+    ARTRO,
     null,
     [['ha', 'oseo', 'Sistema óseo']],
     'gen',
@@ -118,8 +136,8 @@ export function anGet(k) {
 export function anCasa(c, a) {
   if (!a) return true;
   if (a[3].indexOf(c.m) < 0) return false;
-  if (a[4] && (c.t || '') !== a[4]) return false;
-  if (a[5] && (c.t || '') === a[5]) return false;
+  if (a[4] && !temaEs(c.t || '', a[4])) return false;
+  if (a[5] && temaEs(c.t || '', a[5])) return false;
   return true;
 }
 export function anCuenta(k) {

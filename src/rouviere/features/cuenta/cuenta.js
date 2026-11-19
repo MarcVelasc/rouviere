@@ -7,7 +7,7 @@ import { primerNombre, usuarioSesion } from '../../core/sesion.js';
 export function renderCuenta() {
   var u = usuarioSesion();
   var nombre = (u && u.name) || 'Tu cuenta';
-  var correo = u ? (u.provider === 'google' ? 'Google · ' : '') + (u.email || '') : '';
+  var correo = u ? (u.provider === 'google' ? 'Cuenta de prueba · ' : '') + (u.email || '') : '';
   var inicial = (primerNombre(u) || 'R').charAt(0).toUpperCase();
   ['mcu', 'pfc'].forEach(function (p) {
     var n = $(p + 'Nom'),

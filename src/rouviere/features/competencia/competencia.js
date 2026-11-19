@@ -3,7 +3,7 @@ import { estado } from '../../estado.js';
 import { BANK, QB, log, mn } from '../../core/almacenamiento.js';
 import { $ } from '../../core/dom.js';
 import { COMP, compCasa, compGet } from '../anatomia/competencias.js';
-import { ANAT } from '../anatomia/categorias.js';
+import { ANAT, temaEs } from '../anatomia/categorias.js';
 import { HA_COL, haTint } from '../atlas/human-atlas.js';
 import { con3D } from '../documentos/documentos.js';
 import { estCarga, estDeFma } from '../estructuras/fichas-est.js';
@@ -22,7 +22,7 @@ import { estCarga, estDeFma } from '../estructuras/fichas-est.js';
 
 const POR_SESION = 10;
 const NUMS = [20, 50, 100];
-const DIF = { 1: 'Básica', 2: 'Intermedia', 3: 'Avanzada' };
+const DIF = { 1: 'Básica', 2: 'Intermedia', 3: 'Avanzada', 4: 'Experta' };
 const MODELO = {
   c1: 'Cabeza y cuello',
   c2: 'Esqueleto completo',
@@ -512,8 +512,8 @@ function area(k) {
 function enArea(x, ar) {
   if (!ar) return true;
   if (ar[3].indexOf(x.m) < 0) return false;
-  if (ar[4] && x.t !== ar[4]) return false;
-  if (ar[5] && x.t === ar[5]) return false;
+  if (ar[4] && !temaEs(x.t, ar[4])) return false;
+  if (ar[5] && temaEs(x.t, ar[5])) return false;
   return true;
 }
 function filtrar(hasta) {
@@ -577,7 +577,7 @@ function renderTar() {
   opciones(
     $('cpTD'),
     'Todas las dificultades',
-    [1, 2, 3]
+    [1, 2, 3, 4]
       .filter(function (d) {
         return dd[d];
       })
@@ -620,12 +620,15 @@ function pintaCard() {
   $('cpFImg').innerHTML = c.img
     ? '<img alt="" src="' + esc(c.img) + '">'
     : '<span class="cp-fph"><svg class="cp-i"><use href="#cp-i-img"/></svg>Imagen de la tarjeta</span>';
+  /* En Miología cada tema del equipo gira en torno a un músculo: se nombra en la etiqueta
+     para que «¿Qué hacen sus fibras posteriores?» no quede sin sujeto al barajar. */
   $('cpFTag').innerHTML =
     esc(c.t) +
+    (c.sub ? '<span class="cp-sub"> · ' + esc(c.sub) + '</span>' : '') +
     '<span class="cp-dif" title="Dificultad ' +
     DIF[c.d].toLowerCase() +
     '">' +
-    [1, 2, 3]
+    [1, 2, 3, 4]
       .map(function (d) {
         return '<i' + (d <= c.d ? ' class="on"' : '') + '></i>';
       })

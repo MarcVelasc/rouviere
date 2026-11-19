@@ -70,11 +70,23 @@ export function cmv(d) {
   window.cmo = new Date(c.getFullYear(), c.getMonth() + d, 1);
   renderEx();
 }
+/* Fecha de hoy como «AAAA-MM-DD», en la hora del teléfono (no en UTC). */
+function hoyIso() {
+  var t = new Date();
+  return t.getFullYear() + '-' + pad(t.getMonth() + 1) + '-' + pad(t.getDate());
+}
 export function addEx() {
   var n = $('exn').value.trim(),
     d = $('exd').value;
   if (!n || !d) {
     msg('exmm', 'Escribe el nombre y elige la fecha.');
+    return;
+  }
+  /* Evaluación heurística, problema 9 (H5 · prevención de errores): no se guardan exámenes
+     en fechas que ya pasaron. */
+  if (d < hoyIso()) {
+    msg('exmm', 'Esa fecha ya pasó. Elige hoy o una fecha próxima.');
+    $('exd').focus();
     return;
   }
   var a = getEx();
@@ -95,6 +107,7 @@ export function renderEx() {
     y = c.getFullYear(),
     m = c.getMonth();
   msg('exm', MN[m] + ' ' + y);
+  if ($('exd')) $('exd').min = hoyIso();
   var first = (new Date(y, m, 1).getDay() + 6) % 7,
     days = new Date(y, m + 1, 0).getDate(),
     ex = getEx(),
@@ -119,7 +132,12 @@ export function renderEx() {
         b.classList.add('ex');
       if (k === td.getDate() && m === td.getMonth() && y === td.getFullYear())
         b.classList.add('td');
+      if (key < hoyIso()) b.classList.add('pas');
       b.onclick = function () {
+        if (key < hoyIso()) {
+          msg('exmm', 'Ese día ya pasó. Elige hoy o una fecha próxima.');
+          return;
+        }
         $('exd').value = key;
         $('exn').focus();
       };

@@ -5,12 +5,14 @@ import { AuthError } from '@/services';
 import { Button } from '@/shared/ui/Button';
 import { DESKTOP, useMediaQuery } from '@/shared/lib/useMediaQuery';
 import { Icon } from '@/shared/ui/Icon';
-import { GoogleButton } from '../components/GoogleButton';
 import { RouAnatomy } from '../components/RouAnatomy';
 import { useAuth } from '../model/AuthContext';
 import styles from './WelcomePage.module.css';
 
-/** Pantalla 0 · Inicio: Rou cambiando de capa, entrar con Google o crear una cuenta. */
+/** Pantalla 0 · Inicio: Rou cambiando de capa, entrar con la cuenta de prueba o crear una cuenta.
+ *  Evaluación heurística (problemas 2, 4 y 6): mientras no haya inicio de sesión real no se
+ *  usa el botón ni el logo de Google, el botón «Tutorial» sin función se quitó y la frase de
+ *  Términos se cambió por un aviso de que todo se guarda en el dispositivo. */
 export function WelcomePage() {
   const { signInWithGoogle } = useAuth();
   const navigate = useNavigate();
@@ -19,7 +21,7 @@ export function WelcomePage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  async function continueWithGoogle() {
+  async function enterWithTestAccount() {
     setLoading(true);
     setError(null);
     try {
@@ -27,9 +29,8 @@ export function WelcomePage() {
       goToApp();
     } catch (err) {
       setLoading(false);
-      // Si la persona cerró la ventana de Google no es un error que haya que explicar.
       if (err instanceof AuthError && err.code === 'cancelled') return;
-      setError('No pudimos conectar con Google. Revisa tu internet e intenta otra vez.');
+      setError('No pudimos entrar. Intenta otra vez.');
     }
   }
 
@@ -37,20 +38,14 @@ export function WelcomePage() {
     <div className={styles.page}>
       <span className={styles.glow} aria-hidden="true" />
 
-      <header className={styles.top}>
-        {/* Sin funcionalidad por ahora (pedido del equipo). */}
-        <button className={styles.tutorial} type="button" aria-label="Tutorial (próximamente)">
-          <Icon name="play" size={18} />
-          Tutorial
-        </button>
-      </header>
+      <header className={styles.top} />
 
       <main className={styles.main}>
         {desktop ? (
           <div className={styles.intro}>
             <h1 className={styles.introTitle}>Te damos la bienvenida</h1>
             <p className={styles.introText}>
-              Entra con Google o crea tu cuenta para empezar a estudiar con Rou.
+              Entra con la cuenta de prueba o crea tu cuenta para empezar a estudiar con Rou.
             </p>
           </div>
         ) : (
@@ -64,11 +59,9 @@ export function WelcomePage() {
         )}
 
         <div className={styles.actions}>
-          <GoogleButton
-            label="Continuar con Google"
-            loading={loading}
-            onClick={continueWithGoogle}
-          />
+          <Button loading={loading} loadingText="Entrando…" onClick={enterWithTestAccount}>
+            Entrar con cuenta de prueba
+          </Button>
           {error && (
             <p className={styles.error} role="alert">
               <Icon name="alert" size={16} strokeWidth={2.2} />
@@ -80,7 +73,7 @@ export function WelcomePage() {
             Crear cuenta
           </Button>
           <p className={styles.legal}>
-            Al continuar aceptas los Términos y la Política de privacidad de Rouviere.
+            Versión de prueba: tu cuenta y tu progreso se guardan solo en este dispositivo.
           </p>
         </div>
       </main>

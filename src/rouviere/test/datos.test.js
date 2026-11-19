@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest';
 /* Integridad del contenido: atrapa errores al editar los JSON de data/. */
 import BANK from '../data/bank.json';
+import BANK_EQ from '../data/bank-equipo.json';
+import COMP from '../data/comp.json';
 import QB from '../data/qb.json';
 import RUTA from '../data/ruta.json';
 import LIB from '../data/lib.json';
@@ -14,6 +16,20 @@ describe('tarjetas (data/bank.json)', () => {
       expect(c.q, c.id).toBeTruthy();
       expect(c.a, c.id).toBeTruthy();
     }
+  });
+});
+
+describe('tarjetas del equipo (data/bank-equipo.json)', () => {
+  it('no repiten id con el banco base y traen nivel del 1 al 4', () => {
+    expect(unicos(BANK.concat(BANK_EQ).map((c) => c.id))).toBe(true);
+    for (const c of BANK_EQ) {
+      expect(c.q && c.a, c.id).toBeTruthy();
+      expect([1, 2, 3, 4], c.id).toContain(c.d);
+    }
+  });
+  it('cada tema cae en alguna competencia', () => {
+    const pares = new Set(COMP.flatMap((k) => k[3].map((p) => p[0] + '|' + p[1])));
+    for (const c of BANK_EQ) expect(pares.has(c.m + '|' + c.t), c.id + ' ' + c.t).toBe(true);
   });
 });
 

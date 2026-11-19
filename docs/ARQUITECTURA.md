@@ -132,6 +132,21 @@ hay sub-pantallas que no cambian el hash:
   la que no alcanza con el banco), preguntas de `data/qb.json` (con `img` si la traen) y al
   final la nota y lo que se falló.
 
+**Tarjetas del equipo de contenido**: el banco que entrega el equipo en Word
+(`docs/contenido/ROUVIERE_Miologia_Final_Verificada.docx`: anatomía general, osteología,
+artrología y miología, 16 tarjetas por apartado en cuatro niveles) se convierte con
+`python3 scripts/tarjetas-equipo.py` a `src/rouviere/data/bank-equipo.json`, que
+`almacenamiento.js` suma a `BANK`. El texto se copia tal cual; el script solo asigna sistema,
+tema (el apartado del Word) y nivel (`d` 1-4, el 4 es «Experta»). En Miología añade `sub`
+con el músculo del apartado, que la tarjeta muestra junto al tema. Cada apartado nuevo está
+asignado a una competencia en `data/comp.json`, y los de articulaciones van en la lista
+`ARTRO` de `categorias.js`. Si el equipo corrige el Word, se reemplaza el archivo y se vuelve
+a correr el script.
+
+**Atlas 3D**: al tocar un sistema o apartado, `irAlVisor()` (en `atlas-sistemas.js`) baja la
+pantalla hasta el visor para que se vea el «Cargando…», y otra vez al terminar, con un anillo
+dorado breve.
+
 Los modelos se recortan del atlas con `python3 scripts/atlas-competencias.py`: escribe
 `public/app/atlas/comp-<k>.json` y, si hace falta, `comp-<k>.bin`. La zona de cada
 competencia se ajusta en `ZONAS` dentro del script. La última competencia abierta se guarda

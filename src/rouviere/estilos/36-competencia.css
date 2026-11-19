@@ -458,6 +458,9 @@
   text-transform: uppercase;
   color: var(--cp-gold);
 }
+.cp-ftag .cp-sub {
+  color: #f4efe4;
+}
 .cp-fq {
   display: block;
   margin-top: 10px;

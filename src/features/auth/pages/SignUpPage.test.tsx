@@ -10,7 +10,7 @@ async function fillValid(email = 'ana.flores@gmail.com') {
   await userEvent.type(screen.getByLabelText('Correo electrónico'), email);
   await userEvent.type(screen.getByLabelText('Contraseña'), 'rouviere1');
   await userEvent.click(screen.getByLabelText('2° año'));
-  await userEvent.click(screen.getByRole('checkbox', { name: /Acepto los Términos/ }));
+  await userEvent.click(screen.getByRole('checkbox', { name: /cuenta de prueba/ }));
 }
 
 describe('crear cuenta', () => {
@@ -26,7 +26,7 @@ describe('crear cuenta', () => {
     expect(screen.getByText('Escribe tu correo.')).toBeInTheDocument();
     expect(screen.getByText(/necesita 8 caracteres/)).toBeInTheDocument();
     expect(screen.getByText('Elige el año que cursas.')).toBeInTheDocument();
-    expect(screen.getByText('Acepta los términos para continuar.')).toBeInTheDocument();
+    expect(screen.getByText('Marca la casilla para continuar.')).toBeInTheDocument();
     expect(screen.getByRole('status')).toHaveTextContent('Faltan 5 datos');
     expect(screen.getByLabelText('Nombre y apellido')).toHaveFocus();
   });

@@ -270,8 +270,32 @@ export function atEmpty() {
   $('aov').textContent = 'Elige un modelo de la lista.';
   msg('amsg', 'Visor vacío.');
 }
+/* Lleva la pantalla al visor. En el celular la lista de sistemas ocupa toda la pantalla
+   y el visor queda debajo: al tocar un sistema parecía que no pasaba nada y la gente se
+   quedaba esperando sin ver el «Cargando…» ni el modelo ya cargado (pruebas con
+   estudiantes, nov. 2026). Se llama al empezar a cargar y otra vez al terminar, por si
+   la persona volvió a subir mientras tanto; al terminar, el visor parpadea un instante. */
+export function irAlVisor(listo) {
+  var v = $('acv');
+  if (!v || !v.offsetParent || !v.getBoundingClientRect) return;
+  var r = v.getBoundingClientRect(),
+    arriba = 72,
+    abajo = window.innerHeight - 96;
+  if (r.top < arriba || r.bottom > abajo) {
+    var suave = !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+    var y = window.scrollY + r.top - arriba;
+    if (r.height < abajo - arriba) y -= (abajo - arriba - r.height) / 2;
+    window.scrollTo({ top: Math.max(0, y), behavior: suave ? 'smooth' : 'auto' });
+  }
+  if (listo) {
+    v.classList.remove('acv-listo');
+    void v.offsetWidth;
+    v.classList.add('acv-listo');
+  }
+}
 export function atLoad(m) {
   if (!tresListo()) {
+    irAlVisor();
     con3D(function () {
       atLoad(m);
     }, 'amsg');
@@ -288,6 +312,7 @@ export function atLoad(m) {
   $('aov').style.display = '';
   $('aov').textContent = 'Cargando ' + m.n + '…';
   msg('amsg', 'Cargando ' + m.n + '…');
+  irAlVisor();
   atChunks(m.id, function (buf) {
     if (!buf) {
       atFail(m);
@@ -382,6 +407,7 @@ export function atAdd(obj, m) {
   }
   atProc(m);
   $('aov').style.display = 'none';
+  irAlVisor(true);
   msg(
     'amsg',
     m.n +

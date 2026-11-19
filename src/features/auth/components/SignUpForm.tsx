@@ -18,7 +18,6 @@ import {
   type SignUpField,
   type SignUpValues,
 } from '../model/signUp';
-import { GoogleButton } from './GoogleButton';
 import { YearPicker } from './YearPicker';
 import styles from './SignUpForm.module.css';
 
@@ -215,7 +214,8 @@ export function SignUpForm({ onCreated }: SignUpFormProps) {
               onChange={(e) => update('terms', e.target.checked)}
             />
             <span>
-              Acepto los <b>Términos</b> y la <b>Política de privacidad</b> de Rouviere.
+              Entiendo que es una <b>cuenta de prueba</b>: se guarda solo en este dispositivo y la
+              contraseña no se envía a ningún servidor.
             </span>
           </label>
           {errors.terms && (
@@ -230,11 +230,14 @@ export function SignUpForm({ onCreated }: SignUpFormProps) {
           Crear mi cuenta
         </Button>
         <div className={styles.or}>o</div>
-        <GoogleButton
-          label="Registrarme con Google"
+        <Button
+          variant="outline"
           loading={googleLoading}
+          loadingText="Entrando…"
           onClick={registerWithGoogle}
-        />
+        >
+          Entrar con cuenta de prueba
+        </Button>
       </form>
     </>
   );

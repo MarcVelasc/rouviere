@@ -1,0 +1,27 @@
+/* ===== Legibilidad (evaluación heurística, problemas 3 y 9) =====
+   Letra mínima de 14 px en notas y textos chicos (antes .mini medía unos 11 px), y los
+   avisos de «sin revisión docente» con fondo propio para que no se pierdan. El cuerpo ya
+   usa 16 px (tamaño base del navegador). */
+.mini,
+.note {
+  font-size: 0.875rem;
+}
+.aviso-rev {
+  display: block;
+  margin: 10px 0;
+  padding: 10px 14px;
+  border-left: 4px solid var(--gold);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--gold) 16%, transparent);
+  color: var(--ink);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+.aviso-rev b {
+  font-weight: 800;
+}
+/* Días ya pasados en el calendario de exámenes: se ven apagados y no se eligen. */
+.dc.pas {
+  opacity: 0.4;
+}

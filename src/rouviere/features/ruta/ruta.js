@@ -481,7 +481,9 @@ export function rtAbrir(id) {
       ul.appendChild(el('li', 0, o));
     });
     caja.appendChild(ul);
-    caja.appendChild(el('p', 's mini', 'Contenido redactado para ROUVIÈRE, sin revisión docente.'));
+    caja.appendChild(
+      el('p', 'aviso-rev', 'Contenido redactado para ROUVIÈRE, sin revisión docente.'),
+    );
     p.appendChild(caja);
   }
   if (st !== 'lock') {

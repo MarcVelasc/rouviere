@@ -1,6 +1,7 @@
 import { estado } from '../estado.js';
 import { $, el } from './dom.js';
 import BANK__json from '../data/bank.json';
+import BANK_EQ__json from '../data/bank-equipo.json';
 import QB__json from '../data/qb.json';
 import TEM__json from '../data/tem.json';
 import NM_GEO__json from '../data/nm-geo.json';
@@ -57,8 +58,11 @@ export function log(m) {
 }
 /* Banco académico de ROUVIÈRE. Redactado para la plataforma a partir de anatomía
    descriptiva de manual. NO está revisado por un docente: la ficha de cada tarjeta
-   y el pie de los simulacros lo advierten. */
-export const BANK = BANK__json;
+   y el pie de los simulacros lo advierten.
+   A ese banco se suman las tarjetas del equipo de contenido (bank-equipo.json, campo
+   f: 'vanesa'), generadas desde su Word con scripts/tarjetas-equipo.py: anatomía general,
+   osteología, artrología y miología en cuatro niveles (d 1-4). */
+export const BANK = BANK__json.concat(BANK_EQ__json);
 export const QB = QB__json;
 export const TEM = TEM__json;
 export const TNOTA =

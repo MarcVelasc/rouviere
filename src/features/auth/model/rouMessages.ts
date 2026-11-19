@@ -11,6 +11,6 @@ export const ROU = {
   yearLate: '¡Ya vas avanzado! Igual repasar nunca está de más.',
   missing: (count: number) => `Faltan ${count} datos. Te los marqué en rojo.`,
   loading: 'Un momento, estoy preparando tu cuenta…',
-  emailTaken: 'Ese correo ya tiene una cuenta. Prueba con otro o entra con Google.',
+  emailTaken: 'Ese correo ya tiene una cuenta. Prueba con otro o entra con la cuenta de prueba.',
   network: 'No pude conectarme. Revisa tu internet e intenta otra vez.',
 } as const;

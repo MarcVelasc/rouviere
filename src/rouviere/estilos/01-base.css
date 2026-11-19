@@ -1523,6 +1523,23 @@ input[type='search'] {
   background: linear-gradient(160deg, #06202d, #0d3347);
   touch-action: none;
 }
+/* Aviso de «ya cargó»: un anillo dorado que se apaga solo (ver irAlVisor). */
+#acv.acv-listo {
+  animation: acvListo 1.4s ease-out;
+}
+@keyframes acvListo {
+  0% {
+    box-shadow: 0 0 0 0 rgba(217, 164, 65, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 0 14px rgba(217, 164, 65, 0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #acv.acv-listo {
+    animation: none;
+  }
+}
 #aov {
   position: absolute;
   inset: 0;

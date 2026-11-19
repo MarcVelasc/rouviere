@@ -46,7 +46,7 @@ const CHECKS: Record<SignUpField, (v: SignUpValues) => string | undefined> = {
       : 'Tu contraseña necesita 8 caracteres o más y un número.';
   },
   year: (v) => (v.year ? undefined : 'Elige el año que cursas.'),
-  terms: (v) => (v.terms ? undefined : 'Acepta los términos para continuar.'),
+  terms: (v) => (v.terms ? undefined : 'Marca la casilla para continuar.'),
 };
 
 export function validateField(field: SignUpField, values: SignUpValues): string | undefined {

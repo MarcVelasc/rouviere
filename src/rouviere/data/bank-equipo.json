@@ -1,0 +1,5954 @@
+[
+ {
+  "id": "v001",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 1,
+  "q": "¿Qué es la posición anatómica?",
+  "a": "Postura de referencia con el cuerpo erguido, mirada al frente, brazos a los lados y palmas hacia adelante.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v002",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 1,
+  "q": "¿Hacia dónde miran las palmas?",
+  "a": "Hacia adelante, con los antebrazos en supinación.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v003",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 1,
+  "q": "¿Qué es el decúbito supino?",
+  "a": "Posición acostada sobre la espalda, con la cara hacia arriba.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v004",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 1,
+  "q": "¿Qué es el decúbito prono?",
+  "a": "Posición acostada sobre el abdomen, con la cara hacia abajo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v005",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 2,
+  "q": "¿Cómo se orientan los pulgares?",
+  "a": "Lateralmente, alejados del plano medio del cuerpo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v006",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 2,
+  "q": "¿Cómo se orientan los pies?",
+  "a": "Hacia adelante, con los miembros inferiores extendidos en la postura de referencia.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v007",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 2,
+  "q": "¿La posición anatómica depende del observador?",
+  "a": "No. Los términos anatómicos se refieren al cuerpo estudiado, no a la posición del observador.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v008",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 2,
+  "q": "¿Dónde se sitúan los miembros superiores?",
+  "a": "A ambos lados del tronco, extendidos y con las palmas dirigidas hacia adelante.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v009",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 3,
+  "q": "¿Por qué el radio es lateral a la ulna?",
+  "a": "Porque en posición anatómica el radio queda del lado del pulgar y la ulna del meñique.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v010",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 3,
+  "q": "¿La rodilla está anterior o posterior al hueco poplíteo?",
+  "a": "La región anterior de la rodilla está por delante de la fosa poplítea, que es posterior.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v011",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 3,
+  "q": "¿La cara palmar mira anterior o posterior?",
+  "a": "Anteriormente, cuando el antebrazo está en supinación y el cuerpo en posición anatómica.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v012",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 3,
+  "q": "¿Cómo se ubica el dorso de la mano?",
+  "a": "Hacia posterior en posición anatómica, opuesto a la superficie palmar.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v013",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 4,
+  "q": "¿Cómo cambia la orientación del pulgar en pronación?",
+  "a": "En pronación, el radio rota sobre la ulna y la palma mira posteriormente; el pulgar deja de señalar lateralmente como en la posición anatómica.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v014",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 4,
+  "q": "¿El cúbito cambia de lado al pronar?",
+  "a": "Su relación espacial aparente con el radio cambia, pero la denominación anatómica se define en posición de referencia.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v015",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 4,
+  "q": "¿En qué posición se cruzan radio y ulna?",
+  "a": "En pronación, el radio cruza por delante de la ulna en el antebrazo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v016",
+  "m": "reg",
+  "t": "Posición anatómica",
+  "d": 4,
+  "q": "¿Cómo se describen derecha e izquierda en anatomía?",
+  "a": "Siempre desde el lado derecho o izquierdo del propio cuerpo estudiado, no del observador.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v017",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 1,
+  "q": "¿Qué divide el plano sagital medio?",
+  "a": "El cuerpo en mitades derecha e izquierda.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v018",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 1,
+  "q": "¿Qué divide el plano frontal?",
+  "a": "El cuerpo en porciones anterior y posterior.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v019",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 1,
+  "q": "¿Qué divide el plano transversal?",
+  "a": "El cuerpo en porciones superior e inferior.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v020",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 1,
+  "q": "¿Qué es un eje anatómico?",
+  "a": "Una línea imaginaria alrededor de la cual se produce un movimiento.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v021",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 2,
+  "q": "¿Qué plano corresponde a la flexión habitual?",
+  "a": "El plano sagital, alrededor de un eje transversal o mediolateral.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v022",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 2,
+  "q": "¿En qué plano ocurre la abducción?",
+  "a": "Generalmente en el plano frontal, alrededor del eje anteroposterior.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v023",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 2,
+  "q": "¿En qué plano ocurre la rotación axial?",
+  "a": "En el plano transversal, alrededor del eje longitudinal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v024",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 2,
+  "q": "¿Qué diferencia hay entre plano sagital y medio?",
+  "a": "El sagital puede ser paralelo al plano medio; el medio pasa exactamente por la línea media.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v025",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 3,
+  "q": "¿Qué eje atraviesa el cuerpo de arriba abajo?",
+  "a": "El eje longitudinal o vertical, asociado a movimientos de rotación.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v026",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 3,
+  "q": "¿Qué eje se relaciona con la inclinación lateral?",
+  "a": "El eje anteroposterior, para movimientos en el plano frontal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v027",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 3,
+  "q": "¿Qué plano muestra simultáneamente ambos pulmones en un corte horizontal?",
+  "a": "Un plano transversal del tórax a la altura correspondiente.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v028",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 3,
+  "q": "¿Qué plano permite comparar estructuras anteriores y posteriores?",
+  "a": "El plano frontal o coronal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v029",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 4,
+  "q": "¿Qué plano separa los hemisferios cerebrales simétricamente?",
+  "a": "El plano sagital medio, que atraviesa la fisura longitudinal cerebral.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v030",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 4,
+  "q": "¿Qué eje rige la pronación y supinación?",
+  "a": "El eje longitudinal del antebrazo, aproximadamente entre las articulaciones radioulnares.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v031",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 4,
+  "q": "¿Por qué una rotación cervical no es movimiento sagital?",
+  "a": "Porque gira alrededor de un eje vertical y ocurre predominantemente en el plano transversal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v032",
+  "m": "reg",
+  "t": "Planos y ejes anatómicos",
+  "d": 4,
+  "q": "¿Qué plano usarías para evaluar una desviación lateral de columna?",
+  "a": "El frontal o coronal, que permite valorar la desviación respecto de la línea media.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v033",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 1,
+  "q": "¿Qué significa medial?",
+  "a": "Más próximo al plano medio del cuerpo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v034",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 1,
+  "q": "¿Qué significa lateral?",
+  "a": "Más alejado del plano medio del cuerpo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v035",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 1,
+  "q": "¿Qué significa proximal?",
+  "a": "Más cercano al origen o punto de unión de un miembro o estructura.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v036",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 1,
+  "q": "¿Qué significa distal?",
+  "a": "Más alejado del origen o punto de unión de un miembro o estructura.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v037",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 2,
+  "q": "¿Qué significa superficial?",
+  "a": "Más cercano a la superficie corporal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v038",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 2,
+  "q": "¿Qué significa profundo?",
+  "a": "Más alejado de la superficie corporal, hacia el interior.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v039",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 2,
+  "q": "¿Qué significa ipsilateral?",
+  "a": "Situado en el mismo lado del cuerpo que otra estructura.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v040",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 2,
+  "q": "¿Qué significa contralateral?",
+  "a": "Situado en el lado opuesto del cuerpo respecto de otra estructura.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v041",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 3,
+  "q": "¿Qué término describe una estructura hacia la cabeza?",
+  "a": "Superior o craneal, según la región y el contexto anatómico.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v042",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 3,
+  "q": "¿Qué término describe una estructura hacia los pies?",
+  "a": "Inferior o caudal, según la región y el contexto anatómico.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v043",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 3,
+  "q": "¿Qué diferencia hay entre anterior y ventral?",
+  "a": "En el tronco humano suelen corresponder; anterior indica dirección al frente y ventral hacia el vientre.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v044",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 3,
+  "q": "¿Qué significa bilateral?",
+  "a": "Que está presente o afecta ambos lados del cuerpo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v045",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 4,
+  "q": "¿Qué términos describen la relación entre riñones y columna?",
+  "a": "Los riñones son laterales a la columna vertebral y posteriores al peritoneo parietal, en el retroperitoneo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v046",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 4,
+  "q": "¿El corazón es medial a los pulmones?",
+  "a": "Sí; ocupa el mediastino, entre ambos pulmones.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v047",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 4,
+  "q": "¿La piel es superficial a la fascia profunda?",
+  "a": "Sí; la piel está externa al tejido subcutáneo y a la fascia profunda.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v048",
+  "m": "reg",
+  "t": "Terminología anatómica",
+  "d": 4,
+  "q": "¿La falange distal está proximal al metacarpiano?",
+  "a": "No. Está más alejada de la raíz del miembro que el metacarpiano.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v049",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 1,
+  "q": "¿Cuáles son las dos grandes regiones corporales?",
+  "a": "La región axial y la región apendicular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v050",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 1,
+  "q": "¿Qué comprende la región axial?",
+  "a": "Cabeza, cuello y tronco.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v051",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 1,
+  "q": "¿Qué comprende la región apendicular?",
+  "a": "Miembros superiores e inferiores y sus cinturas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v052",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 1,
+  "q": "¿Dónde se ubica la región poplítea?",
+  "a": "En la cara posterior de la rodilla.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v053",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 2,
+  "q": "¿Qué región corresponde a la axila?",
+  "a": "La región axilar, en la unión del miembro superior con el tronco.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v054",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 2,
+  "q": "¿Dónde se encuentra la región inguinal?",
+  "a": "En la transición anteroinferior del abdomen hacia el muslo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v055",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 2,
+  "q": "¿Qué comprende la región braquial?",
+  "a": "El segmento del miembro superior situado entre hombro y codo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v056",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 2,
+  "q": "¿Qué comprende la región crural?",
+  "a": "La pierna, entre rodilla y tobillo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v057",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 3,
+  "q": "¿Qué limita superiormente la región cervical?",
+  "a": "La transición con la cabeza, definida por referencias mandibulares y occipitales.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v058",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 3,
+  "q": "¿Qué región se sitúa detrás del codo?",
+  "a": "La región olecraniana, centrada en el olécranon de la ulna.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v059",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 3,
+  "q": "¿Dónde se localiza la región glútea?",
+  "a": "En la parte posterolateral de la pelvis, sobre los músculos glúteos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v060",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 3,
+  "q": "¿Qué diferencia hay entre región palmar y dorsal?",
+  "a": "La palmar es la cara anterior de la mano; la dorsal es su cara posterior en posición anatómica.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v061",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 4,
+  "q": "¿La región femoral incluye la rodilla?",
+  "a": "La región femoral corresponde al muslo; la rodilla constituye una región diferenciada.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v062",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 4,
+  "q": "¿Qué referencias delimitan la región esternal?",
+  "a": "Se sitúa en la línea media anterior del tórax, sobre el manubrio, cuerpo y apófisis xifoides del esternón.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v063",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 4,
+  "q": "¿Dónde se sitúa la región lumbar?",
+  "a": "En la parte posterior del tronco, entre la región torácica y la sacra.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v064",
+  "m": "reg",
+  "t": "Regiones corporales",
+  "d": 4,
+  "q": "¿Qué diferencia la región plantar de la dorsal del pie?",
+  "a": "La plantar es la superficie de apoyo inferior; la dorsal corresponde a la cara superior del pie.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v065",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 1,
+  "q": "¿Qué contiene la cavidad craneal?",
+  "a": "El encéfalo y sus cubiertas meníngeas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v066",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 1,
+  "q": "¿Qué contiene el conducto vertebral?",
+  "a": "La médula espinal, meninges, raíces nerviosas y estructuras vasculares asociadas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v067",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 1,
+  "q": "¿Qué separa tórax y abdomen?",
+  "a": "El diafragma, músculo principal de la respiración.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v068",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 1,
+  "q": "¿Dónde se encuentra el corazón?",
+  "a": "En el mediastino medio, dentro del saco pericárdico.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v069",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 2,
+  "q": "¿Qué cavidades serosas rodean los pulmones?",
+  "a": "Las cavidades pleurales derecha e izquierda.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v070",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 2,
+  "q": "¿Qué membrana serosa rodea el corazón?",
+  "a": "El pericardio seroso, con hojas parietal y visceral.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v071",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 2,
+  "q": "¿Qué subdivisiones principales tiene la cavidad abdominopélvica?",
+  "a": "La cavidad abdominal y la cavidad pélvica, continuas entre sí.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v072",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 2,
+  "q": "¿Qué contiene principalmente la cavidad pélvica?",
+  "a": "Vejiga urinaria, recto y órganos reproductores internos según el sexo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v073",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 3,
+  "q": "¿Dónde se localiza el mediastino?",
+  "a": "En el compartimento central del tórax, entre las cavidades pleurales.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v074",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 3,
+  "q": "¿Qué separa mediastino superior e inferior?",
+  "a": "El plano transversal torácico a nivel del ángulo esternal y el disco T4-T5.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v075",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 3,
+  "q": "¿Dónde se sitúa la cavidad pericárdica?",
+  "a": "Entre las hojas parietal y visceral del pericardio seroso; contiene una fina película líquida.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v076",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 3,
+  "q": "¿Qué diferencia hay entre pleura visceral y parietal?",
+  "a": "La visceral recubre directamente el pulmón; la parietal tapiza la pared torácica, diafragma y mediastino.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v077",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 4,
+  "q": "¿La cavidad peritoneal contiene los órganos abdominales?",
+  "a": "No literalmente: es un espacio potencial entre peritoneo parietal y visceral; los órganos están revestidos o situados fuera de él.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v078",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 4,
+  "q": "¿Qué órganos son retroperitoneales primarios?",
+  "a": "Los riñones, glándulas suprarrenales y uréteres, entre otros.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v079",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 4,
+  "q": "¿Dónde termina normalmente la médula espinal adulta?",
+  "a": "A nivel aproximado de L1-L2, en el cono medular; inferiormente continúa la cola de caballo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v080",
+  "m": "reg",
+  "t": "Cavidades del cuerpo humano",
+  "d": 4,
+  "q": "¿Qué comunica el espacio subaracnoideo craneal y espinal?",
+  "a": "La continuidad del espacio subaracnoideo alrededor del encéfalo y la médula, que contiene líquido cefalorraquídeo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v081",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 1,
+  "q": "¿Qué sistema proporciona sostén corporal?",
+  "a": "El sistema esquelético, integrado por huesos y cartílagos asociados.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v082",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 1,
+  "q": "¿Qué sistema transporta sangre?",
+  "a": "El sistema cardiovascular, formado por corazón y vasos sanguíneos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v083",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 1,
+  "q": "¿Qué sistema transmite impulsos nerviosos?",
+  "a": "El sistema nervioso.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v084",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 1,
+  "q": "¿Qué sistema produce hormonas?",
+  "a": "El sistema endocrino, mediante glándulas y células secretoras.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v085",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 2,
+  "q": "¿Qué órganos integran las vías respiratorias principales?",
+  "a": "Nariz, faringe, laringe, tráquea, bronquios y pulmones.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v086",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 2,
+  "q": "¿Qué función cumple el sistema linfático?",
+  "a": "Drena líquido intersticial, participa en la defensa inmunitaria y transporta lípidos absorbidos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v087",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 2,
+  "q": "¿Qué diferencia hay entre tendón y ligamento?",
+  "a": "El tendón conecta músculo con hueso u otra estructura; el ligamento une huesos y estabiliza articulaciones.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v088",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 2,
+  "q": "¿Qué sistema participa en la excreción de orina?",
+  "a": "El urinario, formado por riñones, uréteres, vejiga y uretra.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v089",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 3,
+  "q": "¿Qué tejidos forman el aparato locomotor?",
+  "a": "Principalmente huesos, articulaciones, músculos esqueléticos, tendones y ligamentos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v090",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 3,
+  "q": "¿Cómo coopera el sistema nervioso con el muscular?",
+  "a": "Las motoneuronas activan fibras musculares en la unión neuromuscular para generar contracción.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v091",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 3,
+  "q": "¿Qué diferencia la circulación pulmonar de la sistémica?",
+  "a": "La pulmonar conecta corazón y pulmones; la sistémica conecta corazón y tejidos del resto del cuerpo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v092",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 3,
+  "q": "¿Qué estructura permite el intercambio gaseoso pulmonar?",
+  "a": "La membrana alveolocapilar entre el aire alveolar y la sangre capilar.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v093",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 4,
+  "q": "¿Qué sistema regula el calcio junto con el esqueleto?",
+  "a": "El endocrino, especialmente mediante parathormona y calcitriol, en coordinación con riñones e intestino.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v094",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 4,
+  "q": "¿Qué relación existe entre médula ósea y sangre?",
+  "a": "La médula ósea roja contiene tejido hematopoyético productor de células sanguíneas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v095",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 4,
+  "q": "¿Cómo vuelve la linfa a la circulación venosa?",
+  "a": "Por el conducto torácico y el conducto linfático derecho hacia los ángulos venosos correspondientes.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v096",
+  "m": "reg",
+  "t": "Generalidades de los sistemas anatómicos",
+  "d": 4,
+  "q": "¿Qué diferencia hay entre control endocrino y nervioso?",
+  "a": "El nervioso usa impulsos y neurotransmisores de acción habitualmente rápida; el endocrino libera hormonas a la sangre, a menudo de efecto más prolongado.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v097",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 1,
+  "q": "¿Qué células forman matriz ósea?",
+  "a": "Los osteoblastos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v098",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 1,
+  "q": "¿Qué células reabsorben hueso?",
+  "a": "Los osteoclastos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v099",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 1,
+  "q": "¿Qué es el periostio?",
+  "a": "Membrana conjuntiva que recubre externamente el hueso, excepto las superficies articulares.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v100",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 1,
+  "q": "¿Qué es el hueso compacto?",
+  "a": "Tejido óseo denso que forma principalmente la corteza de los huesos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v101",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 2,
+  "q": "¿Qué es el endostio?",
+  "a": "Membrana celular que reviste cavidades medulares y superficies internas del hueso.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v102",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 2,
+  "q": "¿Qué caracteriza al hueso esponjoso?",
+  "a": "Trabéculas óseas con espacios medulares interpuestos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v103",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 2,
+  "q": "¿Qué es una osteona?",
+  "a": "Unidad estructural del hueso compacto con laminillas concéntricas alrededor de un conducto central.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v104",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 2,
+  "q": "¿Qué función cumplen los osteocitos?",
+  "a": "Mantienen la matriz mineralizada y participan en la mecanosensibilidad ósea.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v105",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 3,
+  "q": "¿Qué atraviesa los conductos de Havers?",
+  "a": "Vasos sanguíneos y nervios longitudinales del hueso compacto.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v106",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 3,
+  "q": "¿Cómo se conectan las osteonas entre sí?",
+  "a": "Mediante conductos perforantes de Volkmann, orientados transversal u oblicuamente.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v107",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 3,
+  "q": "¿Dónde se localiza la placa epifisaria?",
+  "a": "Entre epífisis y metáfisis de huesos largos inmaduros.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v108",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 3,
+  "q": "¿Qué produce la osificación endocondral?",
+  "a": "Reemplaza un molde cartilaginoso por tejido óseo durante el desarrollo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v109",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 4,
+  "q": "¿Qué distingue a la osificación intramembranosa?",
+  "a": "El hueso se forma directamente en mesénquima, sin molde cartilaginoso previo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v110",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 4,
+  "q": "¿Qué irriga principalmente la diáfisis interna?",
+  "a": "La arteria nutricia y sus ramas medulares, junto a aportes metafisarios.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v111",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 4,
+  "q": "¿Qué determina las líneas de tensión trabecular?",
+  "a": "La adaptación del hueso a las cargas mecánicas habituales.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v112",
+  "m": "oseo",
+  "t": "Generalidades del sistema óseo",
+  "d": 4,
+  "q": "¿Qué papel cumple la zona hipertrófica del cartílago de crecimiento?",
+  "a": "Sus condrocitos aumentan de tamaño antes de la calcificación y sustitución ósea.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v113",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 1,
+  "q": "¿Cómo se clasifica el fémur por su forma?",
+  "a": "Hueso largo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v114",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 1,
+  "q": "¿Cómo se clasifican los huesos del carpo?",
+  "a": "Huesos cortos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v115",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 1,
+  "q": "¿Cómo se clasifica el esternón?",
+  "a": "Hueso plano.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v116",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 1,
+  "q": "¿Cómo se clasifica una vértebra?",
+  "a": "Hueso irregular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v117",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 2,
+  "q": "¿Qué es un hueso sesamoideo?",
+  "a": "Hueso desarrollado dentro de un tendón, como la patela.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v118",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 2,
+  "q": "¿Qué huesos son neumáticos?",
+  "a": "Huesos que contienen cavidades aéreas, como frontal y maxilar.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v119",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 2,
+  "q": "¿Qué caracteriza a un hueso irregular?",
+  "a": "Morfología compleja que no corresponde a las categorías larga, corta o plana.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v120",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 2,
+  "q": "¿Qué estructura predomina en la diáfisis de un hueso largo?",
+  "a": "Una gruesa cortical compacta alrededor de la cavidad medular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v121",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 3,
+  "q": "¿Qué partes tiene un hueso largo en crecimiento?",
+  "a": "Diáfisis, metáfisis, epífisis y placas de crecimiento.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v122",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 3,
+  "q": "¿Cómo se distribuye el hueso esponjoso en un hueso plano?",
+  "a": "Entre dos láminas de hueso compacto; en cráneo se denomina díploe.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v123",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 3,
+  "q": "¿Qué ventaja mecánica aportan los huesos sesamoideos?",
+  "a": "Modifican la dirección de tracción y pueden aumentar el brazo de palanca tendinoso.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v124",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 3,
+  "q": "¿Qué diferencia un hueso corto de uno largo?",
+  "a": "Sus dimensiones son relativamente semejantes y carece de diáfisis alargada.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v125",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 4,
+  "q": "¿Por qué una vértebra no se clasifica como hueso plano?",
+  "a": "Presenta cuerpo, arco y apófisis de configuración tridimensional irregular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v126",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 4,
+  "q": "¿Qué particularidad tiene el hioides?",
+  "a": "No se articula directamente con otros huesos; está suspendido por músculos y ligamentos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v127",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 4,
+  "q": "¿Dónde se encuentran huesos suturales?",
+  "a": "En algunas suturas del cráneo, especialmente la lambdoidea.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v128",
+  "m": "oseo",
+  "t": "Clasificación de los huesos",
+  "d": 4,
+  "q": "¿Por qué el maxilar se considera neumático?",
+  "a": "Contiene el seno maxilar, una cavidad revestida de mucosa.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v129",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 1,
+  "q": "¿Qué es un foramen?",
+  "a": "Orificio óseo que permite el paso de estructuras.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v130",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 1,
+  "q": "¿Qué es una tuberosidad?",
+  "a": "Prominencia ósea generalmente rugosa.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v131",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 1,
+  "q": "¿Qué es un cóndilo?",
+  "a": "Prominencia articular redondeada.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v132",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 1,
+  "q": "¿Qué es una fosa ósea?",
+  "a": "Depresión en la superficie de un hueso.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v133",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 2,
+  "q": "¿Qué es una cresta ósea?",
+  "a": "Reborde o elevación lineal de un hueso.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v134",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 2,
+  "q": "¿Qué es una espina ósea?",
+  "a": "Proyección puntiaguda que suele servir de inserción.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v135",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 2,
+  "q": "¿Qué es un surco óseo?",
+  "a": "Depresión alargada que puede alojar tendones, vasos o nervios.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v136",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 2,
+  "q": "¿Qué es una carilla articular?",
+  "a": "Superficie relativamente lisa que contacta con otro hueso.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v137",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 3,
+  "q": "¿Qué pasa por el surco del nervio radial?",
+  "a": "El nervio radial y la arteria braquial profunda en la cara posterior del húmero.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v138",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 3,
+  "q": "¿Qué se inserta en la tuberosidad deltoidea?",
+  "a": "El músculo deltoides, en la cara lateral del húmero.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v139",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 3,
+  "q": "¿Qué estructura ocupa la fosa olecraniana?",
+  "a": "El olécranon del cúbito durante la extensión del codo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v140",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 3,
+  "q": "¿Qué atraviesa el foramen obturador?",
+  "a": "El conducto obturador permite paso del nervio y vasos obturadores.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v141",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 4,
+  "q": "¿Qué diferencia un trocánter de un cóndilo?",
+  "a": "El trocánter es prominencia de inserción; el cóndilo integra una superficie articular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v142",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 4,
+  "q": "¿Qué contiene el canal del hipogloso?",
+  "a": "El nervio hipogloso, par craneal XII.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v143",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 4,
+  "q": "¿Qué estructuras pasan por el foramen yugular?",
+  "a": "Nervios IX, X y XI, además de drenaje venoso hacia la yugular interna.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v144",
+  "m": "oseo",
+  "t": "Accidentes óseos",
+  "d": 4,
+  "q": "¿Qué comunica el conducto óptico?",
+  "a": "La órbita con la fosa craneal media; conduce nervio óptico y arteria oftálmica.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v145",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 1,
+  "q": "¿Cuántos huesos forman el neurocráneo adulto?",
+  "a": "Ocho.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v146",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 1,
+  "q": "¿Qué hueso forma gran parte de la frente?",
+  "a": "El frontal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v147",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 1,
+  "q": "¿Dónde está el foramen magno?",
+  "a": "En el hueso occipital.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v148",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 1,
+  "q": "¿Qué hueso contiene la silla turca?",
+  "a": "El esfenoides.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v149",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 2,
+  "q": "¿Qué huesos son pares en el neurocráneo?",
+  "a": "Parietales y temporales.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v150",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 2,
+  "q": "¿Qué huesos son impares en el neurocráneo?",
+  "a": "Frontal, occipital, esfenoides y etmoides.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v151",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 2,
+  "q": "¿Qué sutura une ambos parietales?",
+  "a": "La sutura sagital.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v152",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 2,
+  "q": "¿Qué sutura une frontal y parietales?",
+  "a": "La sutura coronal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v153",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 3,
+  "q": "¿Qué contiene la fosa hipofisaria?",
+  "a": "La hipófisis, en la silla turca del esfenoides.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v154",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 3,
+  "q": "¿Qué forma la lámina cribosa del etmoides?",
+  "a": "Parte del techo de la cavidad nasal; la atraviesan filetes olfatorios.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v155",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 3,
+  "q": "¿Qué estructura aloja la porción petrosa temporal?",
+  "a": "El oído interno y parte del oído medio.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v156",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 3,
+  "q": "¿Qué forma el clivus?",
+  "a": "Superficie inclinada de esfenoides y occipital anterior al foramen magno.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v157",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 4,
+  "q": "¿Qué es el pterion?",
+  "a": "Confluencia de frontal, parietal, temporal y ala mayor del esfenoides.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v158",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 4,
+  "q": "¿Qué arteria es vulnerable bajo el pterion?",
+  "a": "La rama anterior de la arteria meníngea media.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v159",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 4,
+  "q": "¿Qué atraviesa el foramen espinoso?",
+  "a": "La arteria meníngea media y vasos acompañantes; también ramo meníngeo del V3.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v160",
+  "m": "oseo",
+  "t": "Huesos del cráneo",
+  "d": 4,
+  "q": "¿Qué relación tiene el seno cavernoso con la carótida interna?",
+  "a": "La arteria carótida interna discurre dentro del seno, acompañada del nervio abducens.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v161",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 1,
+  "q": "¿Cuál es el único hueso móvil del cráneo, excluidos los huesecillos del oído?",
+  "a": "La mandíbula.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v162",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 1,
+  "q": "¿Qué huesos forman la mayor parte de la mandíbula superior?",
+  "a": "Los maxilares.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v163",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 1,
+  "q": "¿Qué hueso forma la prominencia del pómulo?",
+  "a": "El cigomático.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v164",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 1,
+  "q": "¿Qué hueso constituye la porción posterior del tabique nasal óseo?",
+  "a": "El vómer.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v165",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 2,
+  "q": "¿Qué hueso forma el puente óseo nasal?",
+  "a": "Los huesos nasales, junto a las apófisis frontales maxilares.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v166",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 2,
+  "q": "¿Qué hueso forma la pared lateral de la órbita?",
+  "a": "Principalmente el cigomático y el ala mayor del esfenoides.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v167",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 2,
+  "q": "¿Qué hueso contiene los alvéolos dentarios superiores?",
+  "a": "El maxilar.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v168",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 2,
+  "q": "¿Qué hueso contiene los alvéolos dentarios inferiores?",
+  "a": "La mandíbula.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v169",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 3,
+  "q": "¿Qué forma el paladar duro anterior?",
+  "a": "Las apófisis palatinas de los maxilares.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v170",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 3,
+  "q": "¿Qué forma el paladar duro posterior?",
+  "a": "Las láminas horizontales de los palatinos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v171",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 3,
+  "q": "¿Qué huesos componen el tabique nasal óseo?",
+  "a": "Lámina perpendicular del etmoides y vómer, con apoyo en crestas óseas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v172",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 3,
+  "q": "¿Qué atraviesa el foramen infraorbitario?",
+  "a": "El nervio y los vasos infraorbitarios.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v173",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 4,
+  "q": "¿Qué pasa por el foramen mandibular?",
+  "a": "Nervio y vasos alveolares inferiores hacia el conducto mandibular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v174",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 4,
+  "q": "¿Dónde termina el conducto mandibular hacia la cara?",
+  "a": "En el foramen mentoniano, para nervio y vasos mentonianos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v175",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 4,
+  "q": "¿Qué huesos participan en el arco cigomático?",
+  "a": "Apófisis temporal del cigomático y apófisis cigomática del temporal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v176",
+  "m": "oseo",
+  "t": "Huesos de la cara",
+  "d": 4,
+  "q": "¿Qué estructura separa las coanas?",
+  "a": "El borde posterior del vómer.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v177",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 1,
+  "q": "¿Cuántas vértebras cervicales hay normalmente?",
+  "a": "Siete.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v178",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 1,
+  "q": "¿Cuántas vértebras torácicas hay normalmente?",
+  "a": "Doce.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v179",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 1,
+  "q": "¿Qué vértebra se denomina atlas?",
+  "a": "C1.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v180",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 1,
+  "q": "¿Qué vértebra presenta la apófisis odontoides?",
+  "a": "El axis (C2).",
+  "f": "vanesa"
+ },
+ {
+  "id": "v181",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 2,
+  "q": "¿Cuántas vértebras lumbares hay habitualmente?",
+  "a": "Cinco.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v182",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 2,
+  "q": "¿Qué caracteriza a las vértebras torácicas?",
+  "a": "Carillas costales para articularse con las costillas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v183",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 2,
+  "q": "¿Qué distingue al atlas?",
+  "a": "Carece de cuerpo vertebral y apófisis espinosa típica; posee masas laterales.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v184",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 2,
+  "q": "¿Qué estructura permite la rotación atlantoaxoidea?",
+  "a": "El diente del axis como pivote en la articulación atlantoaxoidea media.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v185",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 3,
+  "q": "¿Qué atraviesa los forámenes transversos cervicales?",
+  "a": "Vasos vertebrales; la arteria suele entrar en C6, con variantes.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v186",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 3,
+  "q": "¿Qué ligamento une láminas vertebrales adyacentes?",
+  "a": "El ligamento amarillo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v187",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 3,
+  "q": "¿Qué forma el agujero intervertebral?",
+  "a": "Escotaduras vertebrales superior e inferior de vértebras contiguas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v188",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 3,
+  "q": "¿Qué estructura sale por el agujero intervertebral?",
+  "a": "Un nervio espinal, acompañado por vasos radiculares.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v189",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 4,
+  "q": "¿Dónde termina habitualmente la médula espinal adulta?",
+  "a": "A nivel de L1–L2, con variaciones individuales.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v190",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 4,
+  "q": "¿Qué es la cauda equina?",
+  "a": "Conjunto de raíces lumbares, sacras y coccígea bajo el cono medular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v191",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 4,
+  "q": "¿Qué ligamento limita la flexión entre apófisis espinosas?",
+  "a": "Los ligamentos interespinosos y supraespinoso.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v192",
+  "m": "oseo",
+  "t": "Columna vertebral",
+  "d": 4,
+  "q": "¿Qué orientación favorece la flexoextensión lumbar?",
+  "a": "Las carillas articulares predominantemente sagitales de las vértebras lumbares.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v193",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 1,
+  "q": "¿Cuántos pares de costillas hay normalmente?",
+  "a": "Doce pares.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v194",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 1,
+  "q": "¿Cuáles son las costillas verdaderas?",
+  "a": "Las costillas 1 a 7.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v195",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 1,
+  "q": "¿Qué partes tiene el esternón?",
+  "a": "Manubrio, cuerpo y apófisis xifoides.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v196",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 1,
+  "q": "¿Con qué se articula la cabeza de una costilla típica?",
+  "a": "Con cuerpos de vértebras torácicas y el disco intervertebral correspondiente.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v197",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 2,
+  "q": "¿Qué costillas se consideran falsas?",
+  "a": "Las costillas 8 a 12, que no se unen directamente al esternón.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v198",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 2,
+  "q": "¿Qué costillas son flotantes?",
+  "a": "Las costillas 11 y 12.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v199",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 2,
+  "q": "¿Qué partes tiene una costilla típica?",
+  "a": "Cabeza, cuello, tubérculo, ángulo y cuerpo con surco costal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v200",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 2,
+  "q": "¿Qué contiene el surco costal?",
+  "a": "Paquete intercostal, usualmente vena, arteria y nervio de superior a inferior.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v201",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 3,
+  "q": "¿Qué distingue a la primera costilla?",
+  "a": "Es corta, ancha y presenta surcos para vasos subclavios separados por tubérculo escaleno.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v202",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 3,
+  "q": "¿Dónde se inserta el escaleno anterior?",
+  "a": "En el tubérculo del escaleno anterior de la primera costilla.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v203",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 3,
+  "q": "¿Qué particularidad articular tienen las costillas 11 y 12?",
+  "a": "Carecen de articulación costotransversa porque no poseen tubérculo articular; se articulan únicamente por su cabeza con T11 o T12.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v204",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 3,
+  "q": "¿Qué se articula con el ángulo esternal?",
+  "a": "El segundo cartílago costal, referencia para contar costillas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v205",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 4,
+  "q": "¿Qué diferencia la cabeza de la primera costilla de una típica?",
+  "a": "La primera costilla tiene una sola carilla articular en su cabeza para T1; una costilla típica suele presentar dos carillas para cuerpos vertebrales contiguos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v206",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 4,
+  "q": "¿Qué pasa por delante del escaleno anterior?",
+  "a": "La vena subclavia, sobre la primera costilla.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v207",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 4,
+  "q": "¿Qué pasa detrás del escaleno anterior?",
+  "a": "Arteria subclavia y troncos del plexo braquial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v208",
+  "m": "oseo",
+  "t": "Costillas y esternón",
+  "d": 4,
+  "q": "¿Qué músculos elevan principalmente las costillas durante inspiración?",
+  "a": "Intercostales externos y porción intercondral de intercostales internos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v209",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 1,
+  "q": "¿Qué huesos forman la cintura escapular?",
+  "a": "Clavícula y escápula.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v210",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 1,
+  "q": "¿Dónde se encuentra la cavidad glenoidea?",
+  "a": "En la escápula.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v211",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 1,
+  "q": "¿Qué estructura de la escápula continúa con su espina?",
+  "a": "El acromion.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v212",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 1,
+  "q": "¿Qué une la clavícula medialmente?",
+  "a": "El manubrio del esternón mediante la articulación esternoclavicular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v213",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 2,
+  "q": "¿Qué forma el extremo lateral de la clavícula?",
+  "a": "Una superficie articular para el acromion.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v214",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 2,
+  "q": "¿Qué estructura une clavícula y esternón?",
+  "a": "La articulación esternoclavicular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v215",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 2,
+  "q": "¿Qué divide la espina de la escápula?",
+  "a": "Las fosas supraespinosa e infraespinosa.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v216",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 2,
+  "q": "¿Qué es la apófisis coracoides?",
+  "a": "Proyección anterior de la escápula para inserciones musculares y ligamentosas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v217",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 3,
+  "q": "¿Qué músculos se insertan en la apófisis coracoides?",
+  "a": "Pectoral menor; se originan allí la cabeza corta del bíceps y coracobraquial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v218",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 3,
+  "q": "¿Qué músculo ocupa la fosa subescapular?",
+  "a": "El subescapular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v219",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 3,
+  "q": "¿Qué ligamentos estabilizan la unión coracoclavicular?",
+  "a": "Los ligamentos conoide y trapezoide.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v220",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 3,
+  "q": "¿Qué pasa por la escotadura supraescapular?",
+  "a": "El nervio supraescapular bajo el ligamento transverso superior.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v221",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 4,
+  "q": "¿Qué pasa generalmente sobre ese ligamento?",
+  "a": "La arteria supraescapular, con variaciones anatómicas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v222",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 4,
+  "q": "¿Qué estructura forma el techo óseo del hombro?",
+  "a": "El acromion y la apófisis coracoides unidos por el ligamento coracoacromial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v223",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 4,
+  "q": "¿Qué nervio rodea el cuello quirúrgico del húmero?",
+  "a": "El nervio axilar, con arteria circunfleja humeral posterior.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v224",
+  "m": "oseo",
+  "t": "Cintura escapular",
+  "d": 4,
+  "q": "¿Por qué es importante el borde medial escapular?",
+  "a": "Da inserción a romboides y serrato anterior en distintas superficies.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v225",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 1,
+  "q": "¿Qué hueso forma el esqueleto del brazo?",
+  "a": "El húmero.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v226",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 1,
+  "q": "¿Qué hueso del antebrazo está del lado del pulgar?",
+  "a": "El radio, en posición anatómica.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v227",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 1,
+  "q": "¿Qué hueso tiene el olécranon?",
+  "a": "El cúbito o ulna.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v228",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 1,
+  "q": "¿Cuántos huesos carpianos hay en una mano?",
+  "a": "Ocho.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v229",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 2,
+  "q": "¿Qué estructura articula con la cabeza del radio?",
+  "a": "El capítulo humeral.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v230",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 2,
+  "q": "¿Qué estructura articula con la tróclea humeral?",
+  "a": "La escotadura troclear del cúbito.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v231",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 2,
+  "q": "¿Qué huesos forman la articulación radiocarpiana?",
+  "a": "Radio distal y disco articular con escafoides, semilunar y piramidal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v232",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 2,
+  "q": "¿Qué hueso no articula directamente con el carpo?",
+  "a": "El cúbito, separado por el disco articular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v233",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 3,
+  "q": "¿Qué se inserta en la tuberosidad radial?",
+  "a": "El tendón del bíceps braquial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v234",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 3,
+  "q": "¿Qué se inserta en la tuberosidad cubital?",
+  "a": "El músculo braquial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v235",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 3,
+  "q": "¿Qué pasa por el canal carpiano?",
+  "a": "Nervio mediano y nueve tendones flexores con sus vainas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v236",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 3,
+  "q": "¿Qué forma el techo del túnel carpiano?",
+  "a": "El retináculo flexor o ligamento transverso del carpo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v237",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 4,
+  "q": "¿Qué hueso del carpo se fractura con frecuencia tras caída?",
+  "a": "El escafoides, especialmente en su cintura.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v238",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 4,
+  "q": "¿Qué arteria irriga principalmente el escafoides?",
+  "a": "Ramas de la arteria radial, con flujo importante de distal a proximal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v239",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 4,
+  "q": "¿Qué nervio pasa por detrás del epicóndilo medial?",
+  "a": "El nervio cubital.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v240",
+  "m": "oseo",
+  "t": "Huesos del miembro superior",
+  "d": 4,
+  "q": "¿Qué estructuras pasan por el espacio cuadrangular del hombro?",
+  "a": "Nervio axilar y vasos circunflejos humerales posteriores.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v241",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 1,
+  "q": "¿Qué tres huesos se fusionan para formar cada coxal?",
+  "a": "Ilion, isquion y pubis.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v242",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 1,
+  "q": "¿Qué cavidad recibe la cabeza femoral?",
+  "a": "El acetábulo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v243",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 1,
+  "q": "¿Dónde está la tuberosidad isquiática?",
+  "a": "En la porción inferior y posterior del isquion.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v244",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 1,
+  "q": "¿Qué une ambos pubis anteriormente?",
+  "a": "La sínfisis púbica.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v245",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 2,
+  "q": "¿Qué es la cresta ilíaca?",
+  "a": "Borde superior del ilion entre espinas ilíacas anterosuperior y posterosuperior.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v246",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 2,
+  "q": "¿Qué estructura soporta peso al sentarse?",
+  "a": "La tuberosidad isquiática.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v247",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 2,
+  "q": "¿Qué constituye el borde anterior del foramen obturador?",
+  "a": "Principalmente ramas del pubis.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v248",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 2,
+  "q": "¿Qué forma la sínfisis púbica?",
+  "a": "Unión fibrocartilaginosa entre cuerpos de ambos pubis.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v249",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 3,
+  "q": "¿Qué músculo ocupa la fosa ilíaca?",
+  "a": "El músculo ilíaco.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v250",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 3,
+  "q": "¿Qué se inserta en la espina isquiática?",
+  "a": "El ligamento sacroespinoso y músculos relacionados.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v251",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 3,
+  "q": "¿Qué ligamento une sacro con tuberosidad isquiática?",
+  "a": "El ligamento sacrotuberoso.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v252",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 3,
+  "q": "¿Qué delimita la escotadura ciática mayor como foramen?",
+  "a": "Los ligamentos sacroespinoso y sacrotuberoso.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v253",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 4,
+  "q": "¿Qué estructura atraviesa el foramen ciático mayor bajo piriforme?",
+  "a": "El nervio ciático, entre otras estructuras glúteas y pudendas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v254",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 4,
+  "q": "¿Qué pasa por el conducto obturador?",
+  "a": "Nervio obturador y vasos obturadores.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v255",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 4,
+  "q": "¿Qué delimita la línea terminal de la pelvis?",
+  "a": "Promontorio, alas sacras, línea arcuata, pecten y crestas púbicas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v256",
+  "m": "oseo",
+  "t": "Cintura pélvica",
+  "d": 4,
+  "q": "¿Qué diferencia pelvis mayor y menor?",
+  "a": "La abertura superior de la pelvis separa región superior abdominal de cavidad pélvica inferior.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v257",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 1,
+  "q": "¿Cuál es el hueso más largo del cuerpo?",
+  "a": "El fémur.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v258",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 1,
+  "q": "¿Qué hueso forma la rótula?",
+  "a": "La patela o rótula, hueso sesamoideo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v259",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 1,
+  "q": "¿Cuál es el principal hueso que soporta peso en la pierna?",
+  "a": "La tibia.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v260",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 1,
+  "q": "¿Qué hueso forma el talón?",
+  "a": "El calcáneo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v261",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 2,
+  "q": "¿Qué huesos forman la pierna?",
+  "a": "Tibia y fíbula o peroné.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v262",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 2,
+  "q": "¿Qué hueso transmite la mayor parte del peso en la pierna?",
+  "a": "La tibia.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v263",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 2,
+  "q": "¿Qué estructura articula con el acetábulo?",
+  "a": "La cabeza del fémur.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v264",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 2,
+  "q": "¿Qué forma el maléolo lateral?",
+  "a": "El extremo distal de la fíbula.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v265",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 3,
+  "q": "¿Qué se inserta en la tuberosidad tibial?",
+  "a": "El ligamento patelar, continuación del tendón del cuádriceps.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v266",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 3,
+  "q": "¿Qué se inserta en el trocánter menor?",
+  "a": "El tendón del iliopsoas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v267",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 3,
+  "q": "¿Qué estructura une ambos cóndilos femorales por detrás?",
+  "a": "La fosa intercondílea.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v268",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 3,
+  "q": "¿Qué huesos forman la mortaja del tobillo?",
+  "a": "Extremos distales de tibia y fíbula alrededor de la tróclea del talo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v269",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 4,
+  "q": "¿Qué hueso transmite peso de la pierna al pie?",
+  "a": "El talo o astrágalo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v270",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 4,
+  "q": "¿Qué sostiene el sustentáculo del talo?",
+  "a": "La cara medial del talo sobre una proyección ósea del calcáneo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v271",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 4,
+  "q": "¿Qué arteria irriga principalmente la cabeza femoral adulta?",
+  "a": "Ramas retinaculares de la circunfleja femoral medial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v272",
+  "m": "oseo",
+  "t": "Huesos del miembro inferior",
+  "d": 4,
+  "q": "¿Qué ligamento se inserta en la fóvea de la cabeza femoral?",
+  "a": "El ligamento de la cabeza del fémur, con una pequeña arteria acompañante.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v273",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 1,
+  "q": "¿Qué es una articulación?",
+  "a": "Unión entre dos o más elementos esqueléticos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v274",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 1,
+  "q": "¿Qué caracteriza a una articulación sinovial?",
+  "a": "Cavidad articular, cápsula y líquido sinovial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v275",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 1,
+  "q": "¿Qué es una sindesmosis?",
+  "a": "Articulación fibrosa unida por ligamentos o membrana interósea.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v276",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 1,
+  "q": "¿Qué es una sínfisis?",
+  "a": "Articulación cartilaginosa secundaria con fibrocartílago.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v277",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 2,
+  "q": "¿Qué es una sinartrosis?",
+  "a": "Articulación funcionalmente inmóvil o de movilidad mínima.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v278",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 2,
+  "q": "¿Qué es una anfiartrosis?",
+  "a": "Articulación que permite movimiento limitado.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v279",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 2,
+  "q": "¿Qué caracteriza a una articulación fibrosa?",
+  "a": "Huesos unidos por tejido conjuntivo fibroso, sin cavidad sinovial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v280",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 2,
+  "q": "¿Qué caracteriza a una sínfisis?",
+  "a": "Unión de superficies óseas mediante fibrocartílago.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v281",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 3,
+  "q": "¿Qué capas tiene una cápsula sinovial?",
+  "a": "Membrana fibrosa externa y membrana sinovial interna.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v282",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 3,
+  "q": "¿Qué función tiene el cartílago articular?",
+  "a": "Reduce fricción y distribuye cargas sobre las superficies óseas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v283",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 3,
+  "q": "¿Qué diferencia un ligamento intracapsular de uno extracapsular?",
+  "a": "El primero está dentro de la cápsula fibrosa; el segundo fuera de ella.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v284",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 3,
+  "q": "¿Qué es un disco articular?",
+  "a": "Estructura fibrocartilaginosa que separa parcial o totalmente una cavidad articular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v285",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 4,
+  "q": "¿Qué distingue a una sindesmosis?",
+  "a": "Huesos unidos por ligamentos o membrana interósea con movilidad limitada.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v286",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 4,
+  "q": "¿Qué tipo de articulación es la gonfosis?",
+  "a": "Articulación fibrosa entre raíz dental y alvéolo mediante ligamento periodontal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v287",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 4,
+  "q": "¿Qué es una sincondrosis?",
+  "a": "Unión cartilaginosa primaria mediante cartílago hialino.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v288",
+  "m": "oseo",
+  "t": "Generalidades de las articulaciones",
+  "d": 4,
+  "q": "¿Por qué una articulación sinovial requiere estabilizadores?",
+  "a": "La movilidad depende de superficies congruentes, cápsula, ligamentos y acción muscular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v289",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 1,
+  "q": "¿Qué articulaciones permiten mayor amplitud de movimiento?",
+  "a": "Las sinoviales, en general.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v290",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 1,
+  "q": "¿Qué tipo de articulación es la glenohumeral?",
+  "a": "Sinovial esferoidea o enartrosis.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v291",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 1,
+  "q": "¿Qué tipo de articulación es la interfalángica?",
+  "a": "Sinovial de tipo gínglimo o bisagra.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v292",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 1,
+  "q": "¿Qué tipo de articulación es la radiocubital proximal?",
+  "a": "Sinovial trocoide o pivote.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v293",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 2,
+  "q": "¿Qué movimiento permite una trocoide?",
+  "a": "Rotación alrededor de un eje longitudinal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v294",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 2,
+  "q": "¿Qué articulación ejemplifica una bisagra?",
+  "a": "La humerocubital, con flexión y extensión predominantes.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v295",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 2,
+  "q": "¿Qué articulación es condílea o elipsoidea?",
+  "a": "La radiocarpiana, con movimientos en dos ejes principales.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v296",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 2,
+  "q": "¿Qué tipo es la carpometacarpiana del pulgar?",
+  "a": "Sinovial sellar o en silla de montar.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v297",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 3,
+  "q": "¿Qué movimientos permite una enartrosis?",
+  "a": "Flexión, extensión, abducción, aducción, rotación y circunducción.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v298",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 3,
+  "q": "¿Qué articulación permite pronosupinación proximal?",
+  "a": "La radiocubital proximal, de tipo trocoide.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v299",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 3,
+  "q": "¿Qué caracteriza a una articulación plana?",
+  "a": "Deslizamientos pequeños entre superficies relativamente planas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v300",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 3,
+  "q": "¿Qué movimiento combina la circunducción?",
+  "a": "Secuencia de flexión, abducción, extensión y aducción.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v301",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 4,
+  "q": "¿Qué diferencia una sellar de una condílea?",
+  "a": "La sellar tiene superficies recíprocamente cóncava y convexa en ejes perpendiculares.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v302",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 4,
+  "q": "¿Qué limita la extensión de la cadera?",
+  "a": "Principalmente el ligamento iliofemoral.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v303",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 4,
+  "q": "¿Qué estructura permite oposición del pulgar?",
+  "a": "La articulación trapeciometacarpiana junto a articulaciones del pulgar.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v304",
+  "m": "oseo",
+  "t": "Clasificación de las articulaciones",
+  "d": 4,
+  "q": "¿Por qué la glenohumeral es menos estable que la coxofemoral?",
+  "a": "La cavidad glenoidea es poco profunda frente a la cabeza humeral, con gran movilidad.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v305",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 1,
+  "q": "¿Qué recubre las superficies de la mayoría de articulaciones sinoviales?",
+  "a": "Cartílago hialino articular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v306",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 1,
+  "q": "¿Qué produce la membrana sinovial?",
+  "a": "Líquido sinovial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v307",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 1,
+  "q": "¿Qué función tienen los ligamentos?",
+  "a": "Refuerzan y estabilizan articulaciones, limitando movimientos excesivos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v308",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 1,
+  "q": "¿Qué es un menisco articular?",
+  "a": "Estructura fibrocartilaginosa que mejora la congruencia y distribuye cargas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v309",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 2,
+  "q": "¿Dónde se encuentran meniscos articulares?",
+  "a": "En la rodilla, entre cóndilos femorales y mesetas tibiales.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v310",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 2,
+  "q": "¿Qué es un rodete articular?",
+  "a": "Anillo fibrocartilaginoso que profundiza una cavidad, como el labrum glenoideo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v311",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 2,
+  "q": "¿Qué es una bursa sinovial?",
+  "a": "Saco lubricado que reduce fricción entre tejidos vecinos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v312",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 2,
+  "q": "¿Qué función cumple el líquido sinovial?",
+  "a": "Lubrica superficies y contribuye a nutrir el cartílago articular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v313",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 3,
+  "q": "¿Por qué el cartílago articular cicatriza poco?",
+  "a": "Es avascular y tiene capacidad limitada de reparación.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v314",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 3,
+  "q": "¿Qué estructura estabiliza pasivamente una articulación?",
+  "a": "Ligamentos y cápsula fibrosa, además de la congruencia ósea.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v315",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 3,
+  "q": "¿Qué es una vaina sinovial tendinosa?",
+  "a": "Envoltura de doble hoja que facilita deslizamiento de un tendón.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v316",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 3,
+  "q": "¿Qué tejido forma el labrum acetabular?",
+  "a": "Fibrocartílago adherido al reborde del acetábulo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v317",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 4,
+  "q": "¿Qué diferencia cartílago articular y menisco?",
+  "a": "El primero suele ser hialino superficial; el segundo es fibrocartílago intraarticular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v318",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 4,
+  "q": "¿Qué superficie de la rodilla carece de membrana sinovial?",
+  "a": "Los ligamentos cruzados son intracapsulares pero extrasinoviales.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v319",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 4,
+  "q": "¿Qué arterias nutren una cápsula articular?",
+  "a": "Ramas periarticulares que forman redes anastomóticas alrededor de la articulación.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v320",
+  "m": "oseo",
+  "t": "Elementos articulares",
+  "d": 4,
+  "q": "¿Qué es el receso suprapatelar?",
+  "a": "Prolongación superior de la cavidad sinovial de la rodilla bajo el cuádriceps.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v321",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 1,
+  "q": "¿Cómo se llaman las articulaciones fibrosas entre huesos del cráneo?",
+  "a": "Suturas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v322",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 1,
+  "q": "¿Qué movimiento predomina en la articulación atlantooccipital?",
+  "a": "Flexión y extensión de la cabeza.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v323",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 1,
+  "q": "¿Qué movimiento predomina en la atlantoaxoidea media?",
+  "a": "Rotación de la cabeza.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v324",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 1,
+  "q": "¿Qué une los cuerpos vertebrales adyacentes?",
+  "a": "Los discos intervertebrales y ligamentos asociados.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v325",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 2,
+  "q": "¿Qué es una sutura dentada?",
+  "a": "Unión fibrosa de bordes óseos interdigitados, como la sagital.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v326",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 2,
+  "q": "¿Qué es una esquindilesis?",
+  "a": "Articulación fibrosa en la que una cresta encaja en una ranura.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v327",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 2,
+  "q": "¿Qué huesos forman la atlantooccipital?",
+  "a": "Cóndilos occipitales y carillas superiores del atlas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v328",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 2,
+  "q": "¿Qué superficies forman la atlantoaxoidea media?",
+  "a": "La cara anterior del diente del axis articula con la carilla posterior del arco anterior del atlas; posteriormente, el diente contacta con el ligamento transverso.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v329",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 3,
+  "q": "¿Qué ligamento retiene el diente del axis?",
+  "a": "El ligamento transverso del atlas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v330",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 3,
+  "q": "¿Qué ligamentos limitan rotación excesiva de la cabeza?",
+  "a": "Los ligamentos alares del diente del axis al occipital.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v331",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 3,
+  "q": "¿Qué tipo es la articulación temporomandibular?",
+  "a": "Sinovial compleja, con disco y movimientos de bisagra y traslación.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v332",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 3,
+  "q": "¿Qué músculo protruye la mandíbula bilateralmente?",
+  "a": "El pterigoideo lateral, con participación de otros músculos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v333",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 4,
+  "q": "¿Qué nervio aporta sensibilidad a la ATM?",
+  "a": "Principalmente el auriculotemporal, ramo de V3.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v334",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 4,
+  "q": "¿Qué relación tiene el disco con la ATM?",
+  "a": "Divide la cavidad en compartimentos superior e inferior.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v335",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 4,
+  "q": "¿Qué ocurre en el compartimento superior de la ATM?",
+  "a": "Predomina traslación entre disco y eminencia articular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v336",
+  "m": "oseo",
+  "t": "Articulaciones del cráneo y columna",
+  "d": 4,
+  "q": "¿Qué ocurre en el compartimento inferior de la ATM?",
+  "a": "Predomina rotación de la cabeza mandibular respecto al disco.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v337",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 1,
+  "q": "¿Qué une la articulación esternoclavicular?",
+  "a": "Extremo esternal de la clavícula y manubrio del esternón, con el primer cartílago costal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v338",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 1,
+  "q": "¿Qué son las articulaciones costovertebrales?",
+  "a": "Uniones entre costillas y vértebras torácicas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v339",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 1,
+  "q": "¿Qué tipo de unión es la primera esternocostal?",
+  "a": "Sincondrosis.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v340",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 1,
+  "q": "¿Qué permiten las articulaciones costales durante la respiración?",
+  "a": "Movimientos de elevación y descenso de las costillas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v341",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 2,
+  "q": "¿Qué tipo de articulación es la esternoclavicular?",
+  "a": "Sinovial sellar funcionalmente multiaxial, con disco articular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v342",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 2,
+  "q": "¿Qué articulación une acromion y clavícula?",
+  "a": "La acromioclavicular, de tipo sinovial plana.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v343",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 2,
+  "q": "¿Qué articulación une costilla y apófisis transversa?",
+  "a": "La costotransversa, presente en costillas 1 a 10.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v344",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 2,
+  "q": "¿Qué esternocostales son sinoviales?",
+  "a": "Generalmente las articulaciones esternocostales segunda a séptima son sinoviales planas; la primera es una sincondrosis.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v345",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 3,
+  "q": "¿Qué refuerza superiormente la esternoclavicular?",
+  "a": "El ligamento interclavicular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v346",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 3,
+  "q": "¿Qué ligamento limita desplazamiento de la clavícula en el tórax?",
+  "a": "El costoclavicular, estabilizador de la esternoclavicular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v347",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 3,
+  "q": "¿Qué ligamentos unen tubérculo costal y apófisis transversa?",
+  "a": "Los ligamentos costotransversos propios y laterales, entre otros.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v348",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 3,
+  "q": "¿Qué eje predomina en el movimiento de las costillas inferiores?",
+  "a": "En las costillas inferiores predomina el movimiento en asa de cubo, que aumenta el diámetro transversal del tórax.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v349",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 4,
+  "q": "¿Qué estructura divide la esternoclavicular?",
+  "a": "Un disco articular fibrocartilaginoso completo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v350",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 4,
+  "q": "¿Qué movimiento costal aumenta el diámetro anteroposterior?",
+  "a": "Movimiento en asa de bomba, más evidente en costillas superiores.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v351",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 4,
+  "q": "¿Qué movimiento aumenta el diámetro transversal torácico?",
+  "a": "Movimiento en asa de cubo, predominante en costillas medias e inferiores.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v352",
+  "m": "oseo",
+  "t": "Articulaciones del tórax",
+  "d": 4,
+  "q": "¿Por qué la esternoclavicular es esencial para elevar el brazo?",
+  "a": "Transmite movimientos de la cintura escapular al esqueleto axial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v353",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 1,
+  "q": "¿Qué huesos forman la articulación del codo?",
+  "a": "Húmero, radio y cúbito.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v354",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 1,
+  "q": "¿Qué movimiento realiza principalmente la humerocubital?",
+  "a": "Flexión y extensión.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v355",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 1,
+  "q": "¿Qué huesos participan en la radiocarpiana?",
+  "a": "Radio y fila proximal del carpo, principalmente escafoides y semilunar.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v356",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 1,
+  "q": "¿Qué articulación permite oposición del pulgar?",
+  "a": "La carpometacarpiana del pulgar.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v357",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 2,
+  "q": "¿Qué tipo es la articulación humerorradial?",
+  "a": "Sinovial entre capítulo humeral y cabeza radial, integrada al codo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v358",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 2,
+  "q": "¿Qué mantiene la cabeza radial contra el cúbito?",
+  "a": "El ligamento anular del radio.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v359",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 2,
+  "q": "¿Qué articula con la escotadura radial del cúbito?",
+  "a": "La circunferencia articular de la cabeza radial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v360",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 2,
+  "q": "¿Qué movimiento realiza la radiocubital distal?",
+  "a": "Rotación del radio alrededor del cúbito durante pronosupinación.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v361",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 3,
+  "q": "¿Qué ligamento estabiliza medialmente el codo?",
+  "a": "El ligamento colateral cubital, especialmente su fascículo anterior.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v362",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 3,
+  "q": "¿Qué estabiliza lateralmente el complejo del codo?",
+  "a": "Complejo colateral lateral, incluido ligamento colateral radial y cubital lateral.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v363",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 3,
+  "q": "¿Qué estructura separa cúbito distal y carpo?",
+  "a": "El disco articular del complejo fibrocartilaginoso triangular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v364",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 3,
+  "q": "¿Qué nervio pasa por el túnel cubital?",
+  "a": "El nervio cubital detrás del epicóndilo medial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v365",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 4,
+  "q": "¿Qué articulaciones componen el codo?",
+  "a": "Humerocubital, humerorradial y radiocubital proximal en cápsula común.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v366",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 4,
+  "q": "¿Qué ocurre con radio y cúbito en pronación?",
+  "a": "El radio cruza anteriormente al cúbito.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v367",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 4,
+  "q": "¿Qué ligamento transmite fuerzas entre radio y cúbito?",
+  "a": "La membrana interósea del antebrazo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v368",
+  "m": "oseo",
+  "t": "Articulaciones del miembro superior",
+  "d": 4,
+  "q": "¿Qué estabiliza la radiocubital distal?",
+  "a": "El complejo fibrocartilaginoso triangular y ligamentos radiocubitales.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v369",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 1,
+  "q": "¿Qué une la articulación sacroilíaca?",
+  "a": "Sacro e ilion.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v370",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 1,
+  "q": "¿Qué tipo de articulación es la sínfisis púbica?",
+  "a": "Cartilaginosa secundaria.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v371",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 1,
+  "q": "¿Qué tipo de articulación es la coxofemoral?",
+  "a": "Sinovial esferoidea.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v372",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 1,
+  "q": "¿Qué estructuras estabilizan la cadera?",
+  "a": "Cápsula, labrum acetabular, ligamentos y músculos periarticulares.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v373",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 2,
+  "q": "¿Qué superficie recibe la cabeza femoral?",
+  "a": "La superficie semilunar del acetábulo, recubierta de cartílago articular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v374",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 2,
+  "q": "¿Qué ligamento refuerza la cápsula por delante y arriba?",
+  "a": "El iliofemoral.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v375",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 2,
+  "q": "¿Qué ligamento refuerza la cápsula por delante e inferiormente?",
+  "a": "El pubofemoral.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v376",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 2,
+  "q": "¿Qué ligamento refuerza la cápsula por detrás?",
+  "a": "El isquiofemoral.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v377",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 3,
+  "q": "¿Qué movimiento limita el ligamento iliofemoral?",
+  "a": "La hiperextensión de la cadera.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v378",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 3,
+  "q": "¿Qué refuerza el borde acetabular?",
+  "a": "El labrum acetabular, que aumenta profundidad y estabilidad.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v379",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 3,
+  "q": "¿Qué estructura completa inferiormente el labrum?",
+  "a": "El ligamento transverso del acetábulo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v380",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 3,
+  "q": "¿Qué ligamentos estabilizan la sacroilíaca posteriormente?",
+  "a": "Los ligamentos sacroilíacos posteriores e interóseos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v381",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 4,
+  "q": "¿Qué característica tiene la sacroilíaca?",
+  "a": "Combina superficies sinoviales anteriores y potentes uniones ligamentarias posteriores.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v382",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 4,
+  "q": "¿Qué vasos irrigan la cabeza femoral principalmente?",
+  "a": "Ramas retinaculares de la circunfleja femoral medial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v383",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 4,
+  "q": "¿Qué nervios aportan inervación a la cadera?",
+  "a": "Ramos femoral, obturador, glúteo superior y nervio del cuadrado femoral, variables.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v384",
+  "m": "oseo",
+  "t": "Articulaciones de la pelvis",
+  "d": 4,
+  "q": "¿Por qué es estable la coxofemoral?",
+  "a": "Acetábulo profundo, labrum, cápsula resistente y ligamentos espirales.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v385",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 1,
+  "q": "¿Qué articulaciones forman el complejo de la rodilla?",
+  "a": "Femorotibiales y femoropatelar.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v386",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 1,
+  "q": "¿Qué ligamento limita el desplazamiento anterior de la tibia?",
+  "a": "El ligamento cruzado anterior.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v387",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 1,
+  "q": "¿Qué huesos forman la articulación talocrural?",
+  "a": "Tibia, fíbula o peroné y talo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v388",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 1,
+  "q": "¿Qué movimiento principal permite la talocrural?",
+  "a": "Dorsiflexión y flexión plantar.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v389",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 2,
+  "q": "¿Qué desplazamiento limita el ligamento cruzado posterior?",
+  "a": "Impide principalmente la traslación posterior de la tibia respecto del fémur, especialmente con la rodilla flexionada.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v390",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 2,
+  "q": "¿Qué menisco tiene menor movilidad?",
+  "a": "El medial, por su unión a cápsula y ligamento colateral tibial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v391",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 2,
+  "q": "¿Qué menisco es más móvil?",
+  "a": "El lateral, menos unido al ligamento colateral fibular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v392",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 2,
+  "q": "¿Qué ligamento estabiliza medialmente la rodilla?",
+  "a": "El ligamento colateral tibial o medial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v393",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 3,
+  "q": "¿Qué ligamento estabiliza lateralmente la rodilla?",
+  "a": "El ligamento colateral fibular o lateral.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v394",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 3,
+  "q": "¿Qué función tienen los meniscos?",
+  "a": "Distribuyen cargas, aumentan congruencia y contribuyen a estabilidad.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v395",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 3,
+  "q": "¿Qué estructura conecta patela con tuberosidad tibial?",
+  "a": "El ligamento patelar.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v396",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 3,
+  "q": "¿Qué músculo inicia el desbloqueo de la rodilla?",
+  "a": "El poplíteo, mediante rotación relativa tibiofemoral.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v397",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 4,
+  "q": "¿Qué es el mecanismo de bloqueo de la rodilla?",
+  "a": "Rotación terminal durante extensión que incrementa estabilidad articular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v398",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 4,
+  "q": "¿Qué arterias forman la red articular de rodilla?",
+  "a": "Ramas geniculares de la poplítea con aportes femorales y tibiales.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v399",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 4,
+  "q": "¿Qué lesión se asocia a valgo forzado de rodilla?",
+  "a": "Puede comprometer ligamento colateral medial y otras estructuras según mecanismo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v400",
+  "m": "oseo",
+  "t": "Articulaciones del miembro inferior",
+  "d": 4,
+  "q": "¿Qué fascículo del LCA se tensa más en flexión?",
+  "a": "El fascículo anteromedial se tensa relativamente más durante la flexión; el posterolateral, durante la extensión.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v401",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 1,
+  "q": "¿Qué es la abducción?",
+  "a": "Movimiento que aleja una parte del plano medio, generalmente en plano frontal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v402",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 1,
+  "q": "¿Qué es la aducción?",
+  "a": "Movimiento hacia el plano medio.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v403",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 1,
+  "q": "¿Qué es la pronación del antebrazo?",
+  "a": "Rotación que orienta la palma posteriormente en posición anatómica.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v404",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 1,
+  "q": "¿Qué es la dorsiflexión?",
+  "a": "Movimiento del pie que acerca su dorso a la pierna.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v405",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 2,
+  "q": "¿Qué es la flexión?",
+  "a": "Movimiento que suele disminuir el ángulo entre segmentos articulares.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v406",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 2,
+  "q": "¿Qué es la extensión?",
+  "a": "Movimiento que suele aumentar el ángulo entre segmentos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v407",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 2,
+  "q": "¿Qué hueso gira durante la pronación?",
+  "a": "El radio cruza sobre el cúbito al rotar el antebrazo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v408",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 2,
+  "q": "¿Qué es la supinación del antebrazo?",
+  "a": "Rotación que orienta la palma anteriormente en posición anatómica.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v409",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 3,
+  "q": "¿Qué eje atraviesa la articulación durante la abducción?",
+  "a": "Un eje aproximadamente anteroposterior, perpendicular al plano frontal del movimiento.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v410",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 3,
+  "q": "¿En qué plano ocurre principalmente la flexión?",
+  "a": "En el plano sagital alrededor de un eje transversal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v411",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 3,
+  "q": "¿Qué músculo es principal dorsiflexor del tobillo?",
+  "a": "El tibial anterior, asistido por extensores largos y peroneo tercero.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v412",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 3,
+  "q": "¿Qué es la inversión del pie?",
+  "a": "Movimiento combinado que orienta la planta hacia medial.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v413",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 4,
+  "q": "¿Qué es la eversión del pie?",
+  "a": "Movimiento combinado que orienta la planta hacia lateral.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v414",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 4,
+  "q": "¿Qué es la oposición del pulgar?",
+  "a": "Movimiento que aproxima la yema del pulgar a otras yemas con rotación metacarpiana.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v415",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 4,
+  "q": "¿Qué es la rotación medial?",
+  "a": "Giro de un segmento hacia el plano medio sobre su eje longitudinal.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v416",
+  "m": "oseo",
+  "t": "Movimientos articulares",
+  "d": 4,
+  "q": "¿Qué es la protracción escapular?",
+  "a": "Desplazamiento de la escápula hacia delante y lateral sobre el tórax.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v417",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 1,
+  "q": "¿Qué es el origen muscular?",
+  "a": "Fijación convencionalmente más estable o proximal de un músculo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v418",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 1,
+  "q": "¿Qué es la inserción muscular?",
+  "a": "Fijación convencionalmente más móvil o distal de un músculo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v419",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 1,
+  "q": "¿Qué es un tendón?",
+  "a": "Tejido conjuntivo denso que transmite fuerza muscular al punto de fijación.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v420",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 1,
+  "q": "¿Qué significa inervación muscular?",
+  "a": "Nervio o nervios que suministran fibras al músculo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v421",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 2,
+  "q": "¿Qué diferencia un tendón de un ligamento?",
+  "a": "El tendón transmite fuerza muscular; el ligamento une estructuras óseas y estabiliza articulaciones.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v422",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 2,
+  "q": "¿Qué es una aponeurosis?",
+  "a": "Lámina tendinosa ancha que sirve de inserción o expansión muscular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v423",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 2,
+  "q": "¿Qué es una unidad motora?",
+  "a": "Motoneurona alfa y todas las fibras musculares que inerva.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v424",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 2,
+  "q": "¿Qué es un músculo agonista?",
+  "a": "Músculo que contribuye directamente al movimiento considerado.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v425",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 3,
+  "q": "¿Qué es una contracción isométrica?",
+  "a": "Generación de tensión sin cambio apreciable de longitud muscular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v426",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 3,
+  "q": "¿Qué es una contracción concéntrica?",
+  "a": "Acortamiento muscular activo al superar una resistencia.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v427",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 3,
+  "q": "¿Qué es una contracción excéntrica?",
+  "a": "Alargamiento muscular controlado mientras desarrolla tensión.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v428",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 3,
+  "q": "¿Qué es el epimisio?",
+  "a": "Capa conjuntiva que envuelve el músculo completo.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v429",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 4,
+  "q": "¿Qué es el perimisio?",
+  "a": "Tejido conjuntivo que rodea fascículos de fibras musculares.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v430",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 4,
+  "q": "¿Qué es el endomisio?",
+  "a": "Delgada envoltura conjuntiva de cada fibra muscular.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v431",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 4,
+  "q": "¿Qué es la insuficiencia activa?",
+  "a": "Disminución de fuerza de un músculo biarticular excesivamente acortado.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v432",
+  "m": "musc",
+  "t": "Generalidades del sistema muscular",
+  "d": 4,
+  "q": "¿Qué es la insuficiencia pasiva?",
+  "a": "Limitación del movimiento por tensión de un músculo biarticular estirado.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v433",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 1,
+  "q": "¿Qué tres tipos de tejido muscular existen?",
+  "a": "Esquelético, cardíaco y liso.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v434",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 1,
+  "q": "¿Qué tipo de músculo suele estar bajo control voluntario?",
+  "a": "El músculo esquelético.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v435",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 1,
+  "q": "¿Qué es un músculo fusiforme?",
+  "a": "Músculo con vientre grueso central y extremos estrechos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v436",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 1,
+  "q": "¿Qué es un músculo penniforme?",
+  "a": "Músculo cuyas fibras se disponen oblicuamente respecto al tendón.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v437",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 2,
+  "q": "¿Qué músculo tiene discos intercalares?",
+  "a": "El cardíaco, con uniones mecánicas y eléctricas entre cardiomiocitos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v438",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 2,
+  "q": "¿Qué músculo carece de estriaciones visibles?",
+  "a": "El músculo liso.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v439",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 2,
+  "q": "¿Qué proteína se une al calcio en músculo esquelético?",
+  "a": "La troponina C, que participa en regulación del complejo actina-miosina.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v440",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 2,
+  "q": "¿Qué estructura almacena calcio intracelular?",
+  "a": "El retículo sarcoplásmico.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v441",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 3,
+  "q": "¿Qué es un sarcómero?",
+  "a": "Unidad contráctil entre dos líneas Z de una miofibrilla.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v442",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 3,
+  "q": "¿Qué bandas cambian de ancho al contraerse el sarcómero?",
+  "a": "Disminuyen banda I y zona H; banda A conserva su longitud.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v443",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 3,
+  "q": "¿Qué neurotransmisor actúa en la unión neuromuscular?",
+  "a": "La acetilcolina liberada por motoneuronas somáticas.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v444",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 3,
+  "q": "¿Qué ion desencadena la interacción actina-miosina?",
+  "a": "Calcio citosólico que se une a troponina C.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v445",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 4,
+  "q": "¿Qué proteína ancla filamentos gruesos a línea Z?",
+  "a": "La titina, que contribuye a elasticidad sarcomérica.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v446",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 4,
+  "q": "¿Qué distingue la regulación del músculo liso?",
+  "a": "Calcio-calmodulina activa cinasa de cadenas ligeras de miosina.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v447",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 4,
+  "q": "¿Qué característica facilita sincronía cardíaca?",
+  "a": "Uniones comunicantes en discos intercalares entre cardiomiocitos.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v448",
+  "m": "musc",
+  "t": "Clasificación muscular",
+  "d": 4,
+  "q": "¿Qué permite la contracción sostenida del músculo liso?",
+  "a": "Ciclo lento de puentes cruzados y estado de cerrojo con bajo gasto energético.",
+  "f": "vanesa"
+ },
+ {
+  "id": "v449",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 1,
+  "q": "¿Dónde se ubica el músculo Temporal?",
+  "a": "En la región de la cabeza.",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v450",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 1,
+  "q": "¿Cuál es el origen del Temporal?",
+  "a": "Fosa temporal y fascia temporal.",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v451",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 1,
+  "q": "¿Dónde se inserta el Temporal?",
+  "a": "Apófisis coronoides de la mandíbula.",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v452",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 1,
+  "q": "¿Qué nervio inerva el Temporal?",
+  "a": "Nervios temporales profundos (V3).",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v453",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 2,
+  "q": "¿Qué forma la fascia temporal?",
+  "a": "Cubierta fibrosa del músculo temporal que se fija en línea temporal y arco cigomático.",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v454",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 2,
+  "q": "¿Qué función principal tiene el temporal?",
+  "a": "Eleva la mandíbula durante el cierre bucal.",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v455",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 2,
+  "q": "¿Qué hacen sus fibras posteriores?",
+  "a": "Retraen la mandíbula.",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v456",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 2,
+  "q": "¿Qué músculos colaboran en la elevación mandibular?",
+  "a": "Temporal, masetero y pterigoideo medial, con acciones complementarias.",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v457",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 3,
+  "q": "¿Dónde se inserta el tendón temporal?",
+  "a": "Apófisis coronoides y borde anterior de la rama mandibular.",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v458",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 3,
+  "q": "¿Qué arterias irrigan el temporal?",
+  "a": "Arterias temporales profundas, ramas de la maxilar.",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v459",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 3,
+  "q": "¿Qué estructura pasa superficial al arco cigomático?",
+  "a": "La arteria temporal superficial asciende por delante de la oreja.",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v460",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 3,
+  "q": "¿Qué relación tiene el temporal con la fosa infratemporal?",
+  "a": "Su tendón desciende medial al arco cigomático hacia la coronoides.",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v461",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 4,
+  "q": "¿Qué fibras predominan al elevar con fuerza la mandíbula?",
+  "a": "Fibras anteriores y medias del temporal, junto a otros elevadores.",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v462",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 4,
+  "q": "¿Qué nervio craneal origina su inervación motora?",
+  "a": "El trigémino, por su división mandibular V3.",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v463",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 4,
+  "q": "¿Qué espacio atraviesa su tendón?",
+  "a": "Pasa profundo al arco cigomático hasta la apófisis coronoides.",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v464",
+  "m": "musc",
+  "t": "Músculos de la cabeza",
+  "d": 4,
+  "q": "¿Qué diferencia funcional tiene respecto al pterigoideo lateral?",
+  "a": "El temporal eleva y retrae; el pterigoideo lateral contribuye a protrusión y traslación.",
+  "f": "vanesa",
+  "sub": "Temporal"
+ },
+ {
+  "id": "v465",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 1,
+  "q": "¿Dónde se ubica el músculo Orbicular de los ojos?",
+  "a": "En la región de la cara.",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v466",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 1,
+  "q": "¿Cuál es el origen del Orbicular de los ojos?",
+  "a": "Borde orbitario medial, ligamento palpebral medial y hueso lagrimal.",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v467",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 1,
+  "q": "¿Dónde se inserta el Orbicular de los ojos?",
+  "a": "Piel de los párpados y alrededor de la órbita.",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v468",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 1,
+  "q": "¿Qué nervio inerva el Orbicular de los ojos?",
+  "a": "Nervio facial (VII).",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v469",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 2,
+  "q": "¿Qué función tiene la porción palpebral?",
+  "a": "Cierra suavemente los párpados durante parpadeo.",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v470",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 2,
+  "q": "¿Qué función tiene la porción orbitaria?",
+  "a": "Cierre fuerte de los párpados.",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v471",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 2,
+  "q": "¿Qué efecto produce la contracción bilateral palpebral?",
+  "a": "Aproxima los bordes palpebrales y distribuye la película lagrimal sobre la córnea.",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v472",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 2,
+  "q": "¿Qué músculo eleva el párpado superior?",
+  "a": "Elevador del párpado superior, inervado por III.",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v473",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 3,
+  "q": "¿Qué es el músculo de Horner?",
+  "a": "Porción lagrimal profunda del orbicular que ayuda al drenaje de lágrimas.",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v474",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 3,
+  "q": "¿Qué estructura separa el orbicular del contenido orbitario?",
+  "a": "El tabique orbitario y tejidos palpebrales asociados.",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v475",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 3,
+  "q": "¿Qué arterias contribuyen a irrigarlo?",
+  "a": "Ramas oftálmica, facial y temporal superficial.",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v476",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 3,
+  "q": "¿Qué efecto tiene una lesión del facial?",
+  "a": "Debilidad del cierre palpebral y riesgo de exposición corneal.",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v477",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 4,
+  "q": "¿Qué porción participa en la bomba lagrimal?",
+  "a": "La porción lagrimal y la palpebral durante el parpadeo.",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v478",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 4,
+  "q": "¿Qué distingue cierre palpebral de elevación del párpado?",
+  "a": "El cierre depende del VII; la elevación principal, del III.",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v479",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 4,
+  "q": "¿Qué relación tiene con los ligamentos palpebrales?",
+  "a": "Se fija medialmente y se continúa lateralmente con el rafe palpebral.",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v480",
+  "m": "musc",
+  "t": "Músculos de la cara",
+  "d": 4,
+  "q": "¿Qué sucede con el reflejo corneal si falla su vía eferente?",
+  "a": "No se cierra el párpado ipsilateral por disfunción del VII.",
+  "f": "vanesa",
+  "sub": "Orbicular de los ojos"
+ },
+ {
+  "id": "v481",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 1,
+  "q": "¿Dónde se ubica el músculo Masetero?",
+  "a": "En la región de la masticación.",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v482",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 1,
+  "q": "¿Cuál es el origen del Masetero?",
+  "a": "Arco cigomático.",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v483",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 1,
+  "q": "¿Dónde se inserta el Masetero?",
+  "a": "Cara lateral de rama y ángulo mandibulares.",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v484",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 1,
+  "q": "¿Qué nervio inerva el Masetero?",
+  "a": "Nervio masetérico (V3).",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v485",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 2,
+  "q": "¿Qué forma la fascia masetérica?",
+  "a": "Cubierta fascial que envuelve al masetero y se continúa con fascia parotídea.",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v486",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 2,
+  "q": "¿Qué función principal tiene?",
+  "a": "Elevar la mandíbula para cerrar la boca.",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v487",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 2,
+  "q": "¿Qué papel cumple en la masticación unilateral?",
+  "a": "Eleva la mandíbula del lado activo y contribuye al control de fuerzas oclusales.",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v488",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 2,
+  "q": "¿Qué arteria lo irriga principalmente?",
+  "a": "Arteria masetérica, rama de la maxilar, con aportes faciales.",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v489",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 3,
+  "q": "¿Qué fibras ayudan a protruir la mandíbula?",
+  "a": "Las fibras superficiales del masetero.",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v490",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 3,
+  "q": "¿Qué fibras contribuyen a retrusión?",
+  "a": "Las fibras profundas, especialmente posteriores.",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v491",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 3,
+  "q": "¿Qué conducto cruza su superficie?",
+  "a": "El conducto parotídeo antes de perforar el buccinador.",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v492",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 3,
+  "q": "¿Qué relación tiene con la glándula parótida?",
+  "a": "La glándula cubre parte de su región posterolateral.",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v493",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 4,
+  "q": "¿Qué vasos atraviesan la incisura mandibular?",
+  "a": "La arteria y vena masetéricas, acompañadas por el nervio masetérico, pasan por la incisura mandibular hacia la cara profunda del masetero.",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v494",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 4,
+  "q": "¿Qué diferencia el masetero del buccinador?",
+  "a": "El masetero mastica elevando mandíbula; el buccinador comprime mejilla.",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v495",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 4,
+  "q": "¿Qué estructura separa masetero y pterigoideo medial?",
+  "a": "La rama mandibular, formando una cincha muscular elevadora.",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v496",
+  "m": "musc",
+  "t": "Músculos de la masticación",
+  "d": 4,
+  "q": "¿Qué nervio craneal controla los músculos masticadores?",
+  "a": "El trigémino, por fibras motoras de su división mandibular.",
+  "f": "vanesa",
+  "sub": "Masetero"
+ },
+ {
+  "id": "v497",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 1,
+  "q": "¿Dónde se ubica el músculo Esternocleidomastoideo?",
+  "a": "Músculos del cuello.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v498",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 1,
+  "q": "¿Cuál es el origen del Esternocleidomastoideo?",
+  "a": "Manubrio esternal y tercio medial de clavícula.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v499",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 1,
+  "q": "¿Dónde se inserta el Esternocleidomastoideo?",
+  "a": "Apófisis mastoides y línea nucal superior.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v500",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 1,
+  "q": "¿Qué nervio inerva el Esternocleidomastoideo?",
+  "a": "Nervio accesorio (XI), con ramos C2–C3 sensitivos/propioceptivos.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v501",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 2,
+  "q": "¿Qué cabezas tiene el esternocleidomastoideo?",
+  "a": "Una esternal desde el manubrio y otra clavicular desde el tercio medial de clavícula.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v502",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 2,
+  "q": "¿Qué hace unilateralmente?",
+  "a": "Inclina cabeza hacia su lado y rota cara hacia lado contrario.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v503",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 2,
+  "q": "¿Qué hace bilateralmente?",
+  "a": "Flexiona cuello y puede ayudar a extender cabeza según postura.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v504",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 2,
+  "q": "¿Qué articulaciones moviliza principalmente?",
+  "a": "Articulaciones cervicales, especialmente en inclinación y rotación de cabeza y cuello.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v505",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 3,
+  "q": "¿Qué divide el esternocleidomastoideo?",
+  "a": "Los triángulos anterior y posterior del cuello.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v506",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 3,
+  "q": "¿Qué estructura emerge cerca de su borde posterior medio?",
+  "a": "Ramas cutáneas del plexo cervical en punto nervioso del cuello.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v507",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 3,
+  "q": "¿Qué vasos discurren profundos a él?",
+  "a": "Carótida común e interna y vena yugular interna en vaina carotídea.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v508",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 3,
+  "q": "¿Qué nervio acompaña la vaina carotídea?",
+  "a": "El nervio vago, X.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v509",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 4,
+  "q": "¿Qué arterias lo irrigan?",
+  "a": "Ramas occipital, tiroidea superior y supraescapular, variables.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v510",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 4,
+  "q": "¿Qué efecto produce parálisis unilateral del XI?",
+  "a": "Debilidad de rotación contralateral de cabeza y de elevación del hombro.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v511",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 4,
+  "q": "¿Qué relación tiene con la vena yugular externa?",
+  "a": "La vena cruza superficialmente su porción inferior.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v512",
+  "m": "musc",
+  "t": "Músculos del cuello",
+  "d": 4,
+  "q": "¿Qué función tiene como músculo inspiratorio accesorio?",
+  "a": "Con cabeza fija puede elevar esternón y clavícula en inspiración forzada.",
+  "f": "vanesa",
+  "sub": "Esternocleidomastoideo"
+ },
+ {
+  "id": "v513",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 1,
+  "q": "¿Dónde se ubica el músculo Trapecio?",
+  "a": "En la región de la espalda.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v514",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 1,
+  "q": "¿Cuál es el origen del Trapecio?",
+  "a": "Occipital, ligamento nucal y apófisis espinosas C7–T12.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v515",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 1,
+  "q": "¿Dónde se inserta el Trapecio?",
+  "a": "Clavícula lateral, acromion y espina escapular.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v516",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 1,
+  "q": "¿Qué nervio inerva el Trapecio?",
+  "a": "Nervio accesorio (XI), con ramos C3–C4 propioceptivos.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v517",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 2,
+  "q": "¿Qué configuración tiene el trapecio?",
+  "a": "Músculo superficial triangular que, con el contralateral, forma una figura trapezoidal.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v518",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 2,
+  "q": "¿Qué hacen las fibras superiores?",
+  "a": "Elevan la escápula y ayudan a su rotación superior.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v519",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 2,
+  "q": "¿Qué hacen las fibras medias?",
+  "a": "Retraen la escápula.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v520",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 2,
+  "q": "¿Qué hacen las fibras inferiores?",
+  "a": "Descienden y contribuyen a rotación superior de la escápula.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v521",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 3,
+  "q": "¿Dónde discurre el nervio accesorio al llegar al trapecio?",
+  "a": "Atraviesa el triángulo posterior del cuello y alcanza la cara profunda del trapecio, donde aporta su inervación motora.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v522",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 3,
+  "q": "¿Qué nervios aportan sensibilidad propioceptiva?",
+  "a": "Ramos cervicales C3–C4.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v523",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 3,
+  "q": "¿Qué arteria irriga principalmente su región superficial?",
+  "a": "Rama superficial de arteria cervical transversa, con variaciones.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v524",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 3,
+  "q": "¿Qué músculos cooperan en rotación superior escapular?",
+  "a": "Trapecio superior e inferior y serrato anterior.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v525",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 4,
+  "q": "¿Qué signo produce lesión del nervio accesorio?",
+  "a": "Caída del hombro y debilidad al encogerlo, con alteración escapular.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v526",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 4,
+  "q": "¿Qué papel cumple al elevar el brazo sobre la horizontal?",
+  "a": "Rota superiormente la escápula para orientar la cavidad glenoidea.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v527",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 4,
+  "q": "¿Qué diferencia trapecio y romboides en rotación escapular?",
+  "a": "Trapecio contribuye a rotación superior; romboides a rotación inferior.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v528",
+  "m": "musc",
+  "t": "Músculos de la espalda",
+  "d": 4,
+  "q": "¿Qué región del trapecio ayuda a estabilizar la escápula contra el tórax?",
+  "a": "Sus tres porciones coordinadas junto con serrato anterior y romboides.",
+  "f": "vanesa",
+  "sub": "Trapecio"
+ },
+ {
+  "id": "v529",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 1,
+  "q": "¿Dónde se ubica el músculo Pectoral mayor?",
+  "a": "Músculos del tórax.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v530",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 1,
+  "q": "¿Cuál es el origen del Pectoral mayor?",
+  "a": "Clavícula medial, esternón y cartílagos costales superiores.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v531",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 1,
+  "q": "¿Dónde se inserta el Pectoral mayor?",
+  "a": "Labio lateral del surco intertubercular del húmero.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v532",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 1,
+  "q": "¿Qué nervio inerva el Pectoral mayor?",
+  "a": "Nervios pectorales lateral y medial.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v533",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 2,
+  "q": "¿Qué surco recibe el tendón del pectoral mayor?",
+  "a": "Su inserción se sitúa en el labio lateral del surco intertubercular humeral.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v534",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 2,
+  "q": "¿Qué función tiene su porción clavicular?",
+  "a": "Flexiona el brazo y contribuye a aducción y rotación medial.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v535",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 2,
+  "q": "¿Qué función tiene la porción esternocostal?",
+  "a": "Aduce y rota medialmente; puede extender brazo desde posición flexionada.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v536",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 2,
+  "q": "¿Qué fibras colaboran en la aducción del brazo?",
+  "a": "Ambas porciones convergen para aproximar el húmero al tronco.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v537",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 3,
+  "q": "¿Qué arterias irrigan el pectoral mayor?",
+  "a": "Rama pectoral toracoacromial y arteria torácica lateral.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v538",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 3,
+  "q": "¿Qué pliegue axilar forma?",
+  "a": "El pliegue axilar anterior.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v539",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 3,
+  "q": "¿Qué estructura está profunda al pectoral mayor?",
+  "a": "Pectoral menor y fascia clavipectoral, en región superior.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v540",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 3,
+  "q": "¿Qué músculos actúan en aducción potente del brazo?",
+  "a": "Pectoral mayor, dorsal ancho y redondo mayor.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v541",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 4,
+  "q": "¿Qué nervio pectoral perfora a menudo el pectoral menor?",
+  "a": "El nervio pectoral medial.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v542",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 4,
+  "q": "¿Qué separa las porciones clavicular y esternocostal?",
+  "a": "Sus orígenes y orientación de fibras; convergen en un tendón humeral.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v543",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 4,
+  "q": "¿Qué movimiento realiza al trepar con el brazo fijo?",
+  "a": "Puede elevar el tronco hacia el miembro superior.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v544",
+  "m": "musc",
+  "t": "Músculos del tórax",
+  "d": 4,
+  "q": "¿Qué relación tiene con la axila?",
+  "a": "Constituye gran parte de la pared anterior axilar.",
+  "f": "vanesa",
+  "sub": "Pectoral mayor"
+ },
+ {
+  "id": "v545",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 1,
+  "q": "¿Dónde se ubica el músculo Recto del abdomen?",
+  "a": "Músculos del abdomen.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v546",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 1,
+  "q": "¿Cuál es el origen del Recto del abdomen?",
+  "a": "Cresta y sínfisis del pubis.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v547",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 1,
+  "q": "¿Dónde se inserta el Recto del abdomen?",
+  "a": "Apófisis xifoides y cartílagos costales 5–7.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v548",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 1,
+  "q": "¿Qué nervio inerva el Recto del abdomen?",
+  "a": "Nervios toracoabdominales T7–T11 y subcostal T12.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v549",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 2,
+  "q": "¿Qué separa los dos rectos abdominales?",
+  "a": "La línea alba, rafe tendinoso medio de la pared abdominal.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v550",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 2,
+  "q": "¿Cuál es la función principal del recto del abdomen?",
+  "a": "Flexiona el tronco y comprime vísceras abdominales.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v551",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 2,
+  "q": "¿Qué son las intersecciones tendinosas?",
+  "a": "Bandas fibrosas transversales adheridas a la vaina anterior del recto.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v552",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 2,
+  "q": "¿Cómo contribuye el recto a la espiración forzada?",
+  "a": "Comprime el abdomen y eleva presión intraabdominal, favoreciendo ascenso diafragmático.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v553",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 3,
+  "q": "¿Qué arterias lo irrigan principalmente?",
+  "a": "Epigástricas superior e inferior, que se anastomosan.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v554",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 3,
+  "q": "¿Qué forma la vaina del recto?",
+  "a": "Aponeurosis de oblicuo externo, interno y transverso abdominal.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v555",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 3,
+  "q": "¿Qué estructuras forman la línea alba?",
+  "a": "El entrecruzamiento de las aponeurosis de los músculos anchos del abdomen en la línea media, entre ambos rectos.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v556",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 3,
+  "q": "¿Qué cambia bajo la línea arcuata?",
+  "a": "Las aponeurosis pasan por delante del recto; detrás queda fascia transversalis.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v557",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 4,
+  "q": "¿De dónde procede la epigástrica superior?",
+  "a": "Continuación terminal de la arteria torácica interna.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v558",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 4,
+  "q": "¿De dónde procede la epigástrica inferior?",
+  "a": "Rama de la arteria ilíaca externa.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v559",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 4,
+  "q": "¿Qué papel cumple al aumentar presión intraabdominal?",
+  "a": "Comprime contenido abdominal junto a músculos laterales y diafragma.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v560",
+  "m": "musc",
+  "t": "Músculos del abdomen",
+  "d": 4,
+  "q": "¿Qué referencia anatómica marca la línea arcuata?",
+  "a": "Límite inferior de la hoja posterior aponeurótica de la vaina del recto.",
+  "f": "vanesa",
+  "sub": "Recto del abdomen"
+ },
+ {
+  "id": "v561",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 1,
+  "q": "¿Dónde se ubica el músculo Elevador del ano?",
+  "a": "En la región de la pelvis y periné.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v562",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 1,
+  "q": "¿Cuál es el origen del Elevador del ano?",
+  "a": "Pubis, arco tendinoso de fascia obturatriz y espina isquiática.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v563",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 1,
+  "q": "¿Dónde se inserta el Elevador del ano?",
+  "a": "Cuerpo perineal, cóccix y ligamento anococcígeo.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v564",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 1,
+  "q": "¿Qué nervio inerva el Elevador del ano?",
+  "a": "Nervio para el elevador del ano (S3–S4), con contribuciones variables.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v565",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 2,
+  "q": "¿Qué músculos integran el elevador del ano?",
+  "a": "Puborrectal, pubococcígeo e iliococcígeo.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v566",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 2,
+  "q": "¿Qué función tiene el puborrectal?",
+  "a": "Mantiene el ángulo anorrectal y contribuye a continencia fecal.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v567",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 2,
+  "q": "¿Qué función global cumple el elevador del ano?",
+  "a": "Sostiene vísceras pélvicas y resiste aumentos de presión abdominal.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v568",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 2,
+  "q": "¿Qué función tiene el tono basal del elevador del ano?",
+  "a": "Mantiene el soporte visceral y contribuye al cierre funcional de hiatos pélvicos.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v569",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 3,
+  "q": "¿Qué estructura forma su arco tendinoso?",
+  "a": "Engrosamiento de fascia del obturador interno.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v570",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 3,
+  "q": "¿Qué músculos forman el diafragma pélvico?",
+  "a": "Elevador del ano y coccígeo, con sus fascias.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v571",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 3,
+  "q": "¿Qué abertura deja el elevador del ano anteriormente?",
+  "a": "Hiato urogenital para uretra y, en mujer, vagina.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v572",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 3,
+  "q": "¿Qué relación tiene con el conducto anal?",
+  "a": "El puborrectal forma un cabestrillo posterior a unión anorrectal.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v573",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 4,
+  "q": "¿Qué inserciones posteriores tiene el iliococcígeo?",
+  "a": "Rafe anococcígeo y cóccix.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v574",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 4,
+  "q": "¿Qué diferencia elevador del ano y esfínter anal externo?",
+  "a": "El primero sostiene suelo pélvico; el segundo rodea conducto anal y cierra su luz.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v575",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 4,
+  "q": "¿Qué ocurre al relajarse el puborrectal?",
+  "a": "Al relajarse el puborrectal, el ángulo anorrectal se hace más obtuso (se endereza), lo que facilita el paso de las heces durante la defecación.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v576",
+  "m": "musc",
+  "t": "Músculos de la pelvis y periné",
+  "d": 4,
+  "q": "¿Qué arteria aporta ramas importantes al elevador del ano?",
+  "a": "Principalmente ramas de la arteria pudenda interna y de otras ramas viscerales y parietales de la ilíaca interna; la contribución varía por región.",
+  "f": "vanesa",
+  "sub": "Elevador del ano"
+ },
+ {
+  "id": "v577",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 1,
+  "q": "¿Dónde se ubica el músculo Deltoides?",
+  "a": "Músculos del hombro y brazo.",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v578",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 1,
+  "q": "¿Cuál es el origen del Deltoides?",
+  "a": "Tercio lateral clavicular, acromion y espina escapular.",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v579",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 1,
+  "q": "¿Dónde se inserta el Deltoides?",
+  "a": "Tuberosidad deltoidea del húmero.",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v580",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 1,
+  "q": "¿Qué nervio inerva el Deltoides?",
+  "a": "Nervio axilar (C5–C6).",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v581",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 2,
+  "q": "¿Qué forma el relieve lateral del hombro?",
+  "a": "La masa muscular del deltoides cubriendo la articulación glenohumeral.",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v582",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 2,
+  "q": "¿Qué hacen sus fibras medias?",
+  "a": "Abducen el brazo, especialmente tras el inicio por supraespinoso.",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v583",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 2,
+  "q": "¿Qué hacen sus fibras anteriores?",
+  "a": "Flexionan y rotan medialmente el brazo.",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v584",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 2,
+  "q": "¿Qué hacen sus fibras posteriores del deltoides?",
+  "a": "Extienden y rotan lateralmente el brazo.",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v585",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 3,
+  "q": "¿Qué raíz del nervio axilar predomina en la abducción del deltoides?",
+  "a": "Las fibras motoras del nervio axilar proceden principalmente de C5, con contribución de C6.",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v586",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 3,
+  "q": "¿Qué arteria lo irriga?",
+  "a": "Circunfleja humeral posterior y rama deltoidea toracoacromial.",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v587",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 3,
+  "q": "¿Qué estructura pasa profunda al deltoides?",
+  "a": "Bursa subacromial-subdeltoidea y tendones del manguito rotador.",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v588",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 3,
+  "q": "¿Qué músculo inicia la abducción glenohumeral?",
+  "a": "El supraespinoso, con colaboración del deltoides.",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v589",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 4,
+  "q": "¿Qué espacio atraviesa el nervio axilar?",
+  "a": "Espacio cuadrangular con arteria circunfleja humeral posterior.",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v590",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 4,
+  "q": "¿Qué signo motor sugiere lesión del nervio axilar?",
+  "a": "Debilidad de abducción y atrofia del contorno deltoideo.",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v591",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 4,
+  "q": "¿Qué zona cutánea puede perder sensibilidad?",
+  "a": "Cara superolateral del brazo, por ramo cutáneo lateral superior.",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v592",
+  "m": "musc",
+  "t": "Músculos del hombro y brazo",
+  "d": 4,
+  "q": "¿Qué relación tiene con el cuello quirúrgico?",
+  "a": "El nervio axilar lo rodea por detrás, vulnerable en fracturas y luxaciones.",
+  "f": "vanesa",
+  "sub": "Deltoides"
+ },
+ {
+  "id": "v593",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 1,
+  "q": "¿Dónde se ubica el músculo Flexor radial del carpo?",
+  "a": "Músculos del antebrazo y mano.",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v594",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 1,
+  "q": "¿Cuál es el origen del Flexor radial del carpo?",
+  "a": "Epicóndilo medial del húmero.",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v595",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 1,
+  "q": "¿Dónde se inserta el Flexor radial del carpo?",
+  "a": "Bases de metacarpianos II y III.",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v596",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 1,
+  "q": "¿Qué nervio inerva el Flexor radial del carpo?",
+  "a": "Nervio mediano (C6–C7).",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v597",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 2,
+  "q": "¿Qué compartimento ocupa el flexor radial del carpo?",
+  "a": "La capa superficial del compartimento anterior del antebrazo.",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v598",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 2,
+  "q": "¿Qué movimiento produce en muñeca?",
+  "a": "Flexión y desviación radial o abducción.",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v599",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 2,
+  "q": "¿Con qué músculo coopera en la flexión radial de muñeca?",
+  "a": "Con los extensores radiales largo y corto del carpo, que contribuyen a la desviación radial y equilibran la flexión.",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v600",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 2,
+  "q": "¿Qué arterias irrigan su región?",
+  "a": "Ramas de arterias radial y cubital mediante redes musculares.",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v601",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 3,
+  "q": "¿Qué origen tendinoso comparte?",
+  "a": "Tendón flexor común en epicóndilo medial humeral.",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v602",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 3,
+  "q": "¿Qué estructura pasa lateral a su tendón en muñeca?",
+  "a": "La arteria radial, referencia palpable del pulso.",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v603",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 3,
+  "q": "¿Pasa su tendón dentro del túnel carpiano?",
+  "a": "No; discurre en un compartimento propio del retináculo flexor.",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v604",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 3,
+  "q": "¿Qué músculo antagoniza su desviación radial?",
+  "a": "Flexor cubital del carpo y extensores cubitales según movimiento.",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v605",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 4,
+  "q": "¿Qué diferencia flexor radial y palmar largo?",
+  "a": "El radial se fija en metacarpianos; el palmar largo termina en aponeurosis palmar.",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v606",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 4,
+  "q": "¿Qué tendones delimitan palpación de arteria radial?",
+  "a": "Flexor radial del carpo medialmente y braquiorradial lateralmente.",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v607",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 4,
+  "q": "¿Qué efecto tiene lesión del mediano proximal?",
+  "a": "Puede debilitar flexión y desviación radial de muñeca, entre otras funciones.",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v608",
+  "m": "musc",
+  "t": "Músculos del antebrazo y mano",
+  "d": 4,
+  "q": "¿Qué relación tiene su tendón con el retináculo flexor?",
+  "a": "Atraviesa un conducto osteofibroso propio en el retináculo flexor, separado del túnel carpiano que contiene el nervio mediano.",
+  "f": "vanesa",
+  "sub": "Flexor radial del carpo"
+ },
+ {
+  "id": "v609",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 1,
+  "q": "¿Dónde se ubica el músculo Glúteo mayor?",
+  "a": "En la región de la cadera y muslo.",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v610",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 1,
+  "q": "¿Cuál es el origen del Glúteo mayor?",
+  "a": "Ilion posterior, sacro y cóccix.",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v611",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 1,
+  "q": "¿Dónde se inserta el Glúteo mayor?",
+  "a": "Tracto iliotibial y tuberosidad glútea.",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v612",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 1,
+  "q": "¿Qué nervio inerva el Glúteo mayor?",
+  "a": "Nervio glúteo inferior (L5–S2).",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v613",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 2,
+  "q": "¿Qué forma el relieve posterior de la nalga?",
+  "a": "Principalmente el volumen superficial del glúteo mayor.",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v614",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 2,
+  "q": "¿Cuál es la función principal del glúteo mayor?",
+  "a": "Extensión potente de cadera, especialmente al levantarse y subir escaleras.",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v615",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 2,
+  "q": "¿Cómo actúa el glúteo mayor con el pie fijo?",
+  "a": "Extiende el tronco sobre el fémur, como al incorporarse desde una silla o enderezarse tras inclinarse.",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v616",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 2,
+  "q": "¿Qué arterias irrigan el glúteo mayor?",
+  "a": "Arterias glúteas superior e inferior, especialmente la inferior.",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v617",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 3,
+  "q": "¿Qué función tienen sus fibras superiores?",
+  "a": "Contribuyen a abducción y estabilización lateral por tracto iliotibial.",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v618",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 3,
+  "q": "¿Qué función tienen sus fibras inferiores?",
+  "a": "Contribuyen a aducción y extensión de cadera.",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v619",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 3,
+  "q": "¿Qué estructura pasa profunda a él?",
+  "a": "Nervio ciático, habitualmente inferior al piriforme.",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v620",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 3,
+  "q": "¿Qué músculo es principal estabilizador pélvico en apoyo monopodal?",
+  "a": "Glúteo medio, asistido por glúteo menor.",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v621",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 4,
+  "q": "¿Qué signo aparece con debilidad de glúteo mayor?",
+  "a": "Dificultad para levantarse de silla o subir escaleras sin compensación.",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v622",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 4,
+  "q": "¿Qué nervio se debe evitar en inyección glútea?",
+  "a": "El ciático; se prefieren zonas ventroglúteas seguras.",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v623",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 4,
+  "q": "¿Qué diferencia glúteo mayor de glúteo medio?",
+  "a": "El mayor extiende cadera; el medio abduce y estabiliza pelvis.",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v624",
+  "m": "musc",
+  "t": "Músculos de la cadera y muslo",
+  "d": 4,
+  "q": "¿Qué relación tiene con el tracto iliotibial?",
+  "a": "Sus fibras superficiales se insertan en él y transmiten tensión a la pierna.",
+  "f": "vanesa",
+  "sub": "Glúteo mayor"
+ },
+ {
+  "id": "v625",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 1,
+  "q": "¿Dónde se ubica el músculo Gastrocnemio?",
+  "a": "En la región de la pierna y pie.",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ },
+ {
+  "id": "v626",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 1,
+  "q": "¿Cuál es el origen del Gastrocnemio?",
+  "a": "Cóndilos femorales medial y lateral.",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ },
+ {
+  "id": "v627",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 1,
+  "q": "¿Dónde se inserta el Gastrocnemio?",
+  "a": "Calcáneo mediante tendón calcáneo.",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ },
+ {
+  "id": "v628",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 1,
+  "q": "¿Qué nervio inerva el Gastrocnemio?",
+  "a": "Nervio tibial (S1–S2).",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ },
+ {
+  "id": "v629",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 2,
+  "q": "¿Qué cabezas presenta el gastrocnemio?",
+  "a": "Cabezas medial y lateral, originadas cerca de los cóndilos femorales.",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ },
+ {
+  "id": "v630",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 2,
+  "q": "¿Qué movimiento principal produce?",
+  "a": "Flexión plantar del tobillo.",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ },
+ {
+  "id": "v631",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 2,
+  "q": "¿Qué acción adicional tiene en rodilla?",
+  "a": "Ayuda a flexionar la rodilla por cruzar su articulación.",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ },
+ {
+  "id": "v632",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 2,
+  "q": "¿Qué papel tiene en el impulso de la marcha?",
+  "a": "Genera fuerza de flexión plantar en la fase final de apoyo.",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ },
+ {
+  "id": "v633",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 3,
+  "q": "¿Qué arterias irrigan el gastrocnemio?",
+  "a": "Ramas surales de la arteria poplítea.",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ },
+ {
+  "id": "v634",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 3,
+  "q": "¿Qué músculos forman el tríceps sural?",
+  "a": "Gastrocnemio y sóleo.",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ },
+ {
+  "id": "v635",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 3,
+  "q": "¿Qué diferencia funcional tiene respecto al sóleo?",
+  "a": "El gastrocnemio cruza rodilla y tobillo; el sóleo solo actúa sobre tobillo.",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ },
+ {
+  "id": "v636",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 3,
+  "q": "¿Qué reflejo explora el tendón calcáneo?",
+  "a": "Reflejo aquíleo, principalmente segmento S1 del nervio tibial.",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ },
+ {
+  "id": "v637",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 4,
+  "q": "¿Qué estructura separa sus dos cabezas proximalmente?",
+  "a": "La fosa poplítea, cuyos bordes inferiores contribuyen a formar.",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ },
+ {
+  "id": "v638",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 4,
+  "q": "¿Qué ocurre con su fuerza al flexionar mucho la rodilla?",
+  "a": "Disminuye su eficacia en flexión plantar por acortamiento proximal.",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ },
+ {
+  "id": "v639",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 4,
+  "q": "¿Qué relación tiene con la vena safena menor?",
+  "a": "La safena menor asciende superficialmente entre las cabezas en región posterior.",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ },
+ {
+  "id": "v640",
+  "m": "musc",
+  "t": "Músculos de la pierna y pie",
+  "d": 4,
+  "q": "¿Qué signo clínico sugiere rotura completa del tendón calcáneo?",
+  "a": "Pérdida marcada de la flexión plantar activa y prueba de Thompson positiva: al comprimir la pantorrilla no aparece la flexión plantar habitual.",
+  "f": "vanesa",
+  "sub": "Gastrocnemio"
+ }
+]

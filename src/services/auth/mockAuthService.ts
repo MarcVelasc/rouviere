@@ -3,14 +3,15 @@ import type { KeyValueStore } from '../storage/KeyValueStore';
 
 /**
  * Autenticación de prueba, sin servidor: sirve para presentar y desarrollar las pantallas.
- * - "Continuar con Google" entra siempre con la cuenta de Google de ejemplo.
+ * - "Entrar con cuenta de prueba" entra siempre con esta misma cuenta de ejemplo (no hay
+ *   conexión con Google: se cambió tras la evaluación heurística, problema 2).
  * - "Crear cuenta" guarda la cuenta en este navegador. Las contraseñas NO se guardan:
  *   esta implementación no es segura y no debe usarse con datos reales.
  */
 export const DEMO_GOOGLE_USER: User = {
   id: 'g-demo',
   name: 'Estudiante Rouviere',
-  email: 'estudiante.rouviere@gmail.com',
+  email: 'prueba@rouviere.app',
   provider: 'google',
 };
 

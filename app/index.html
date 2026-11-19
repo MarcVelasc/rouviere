@@ -259,7 +259,7 @@
 <div class="box"><b>Contenidos sugeridos</b><ul class="vl" id="mdcont"></ul></div>
 <div class="box"><b>Evidencia de aprendizaje</b><p id="mdev" style="margin:6px 0 0"></p></div>
 <div class="box"><b>Fuentes de esta asignatura</b><div id="mdsrc"></div><p class="s" style="margin:8px 0 0">Material propio (lecturas, imágenes y modelos) todavía sin cargar. Ninguna fuente está revisada por un docente.</p></div>
-<div class="box"><b>Practicar este grupo</b><p class="s" style="margin:6px 0 10px">Las tarjetas y preguntas disponibles son de demostración.</p>
+<div class="box"><b>Practicar este grupo</b><p class="aviso-rev" style="margin:6px 0 10px">Contenido completo para estudiar, todavía sin revisión docente.</p>
 <button type="button" class="pill" data-hc="35">Estudiar tarjetas <span>→</span></button><button type="button" class="pill" data-hc="36">Practicar preguntas <span>→</span></button><button type="button" class="pill" data-hc="37">Abrir en el atlas 3D <span>→</span></button></div></div></section>
 
 <section class="view" id="practica"><a class="back" href="#home">← Inicio</a><h1>Práctica</h1>
@@ -291,7 +291,7 @@
 <div class="crow s"><span id="cpos"></span><span id="cst"></span></div>
 <div class="fcbar"><i id="cbar"></i></div>
 <section class="fhbox" id="cficha" aria-label="Ficha de la estructura" hidden></section>
-<p class="s mini" id="corig"></p>
+<p class="aviso-rev" id="corig"></p>
 <div class="box" id="cin"><b>Primero intenta recordar</b>
 <input id="ans" class="in1" style="margin-top:10px" placeholder="Escribe lo que recuerdas..." maxlength="120">
 <div class="two"><button type="button" class="pill sm" data-hc="112" data-a="pista">Pista</button><button type="button" class="pill sm" data-hc="112" data-a="comprobar">Comprobar</button></div>
@@ -309,14 +309,14 @@
 <div class="box" id="cedit" style="display:none"><b>Editar tu tarjeta</b>
 <label class="sl2" for="emod">Sistema</label><select id="emod" class="in1"></select>
 <input id="etema" class="in1" placeholder="Tema" maxlength="60">
-<label class="sl2" for="edif">Dificultad</label><select id="edif" class="in1"><option value="1">Básica</option><option value="2">Intermedia</option><option value="3">Avanzada</option></select>
+<label class="sl2" for="edif">Dificultad</label><select id="edif" class="in1"><option value="1">Básica</option><option value="2">Intermedia</option><option value="3">Avanzada</option><option value="4">Experta</option></select>
 <input id="eq" class="in1" placeholder="Pregunta" maxlength="300"><input id="ea" class="in1" placeholder="Respuesta" maxlength="500"><input id="eh" class="in1" placeholder="Pista (opcional)" maxlength="200">
 <div class="two"><button type="button" class="pill" data-hc="112" data-a="guardar-edicion">Guardar cambios</button><button type="button" class="pill sm" data-hc="112" data-a="cancelar-edicion">Cancelar</button></div>
 <p id="cmsg2" class="s" role="status"></p></div>
 <details class="box" style="margin-top:16px"><summary>Crear mi tarjeta</summary>
 <label class="sl2" for="cmod">Sistema</label><select id="cmod" class="in1"></select>
 <input id="ctema" class="in1" placeholder="Tema (opcional)" maxlength="60">
-<label class="sl2" for="cdif">Dificultad</label><select id="cdif" class="in1"><option value="1">Básica</option><option value="2" selected>Intermedia</option><option value="3">Avanzada</option></select>
+<label class="sl2" for="cdif">Dificultad</label><select id="cdif" class="in1"><option value="1">Básica</option><option value="2" selected>Intermedia</option><option value="3">Avanzada</option><option value="4">Experta</option></select>
 <input id="cq" class="in1" placeholder="Pregunta" maxlength="300"><input id="ca" class="in1" placeholder="Respuesta" maxlength="500"><input id="ch" class="in1" placeholder="Pista (opcional)" maxlength="200">
 <button type="button" class="pill" data-hc="112" data-a="crear">Guardar tarjeta <span>+</span></button><p id="cmsg" class="s" role="status"></p></details>
 <details class="box"><summary>Importar y exportar</summary>
@@ -327,7 +327,7 @@
 <p class="s mini">Columnas del CSV: sistema, tema, dificultad, pregunta, respuesta, explicación, pista. Y, si las tienes, los campos de la ficha en este orden: ub (ubicación), car (características), rel (relaciones), oi (origen e inserción), inerv (inervación), vasc (vascularización), dren (drenaje), imp (dato importante). Lo que no venga, no se enseña. Si la pregunta ya está en el banco no se duplica: se le añaden los campos de ficha que le falten.</p>
 <p id="cmsg3" class="s" role="status"></p></details>
 <details class="box"><summary>Estadísticas de las tarjetas</summary><div id="cstats"></div></details>
-<p class="s mini">El banco de ROUVIÈRE lo redactó la plataforma a partir de anatomía descriptiva de manual. <b>No está revisado por un docente</b>: contrástalo con tu bibliografía antes de darlo por bueno.</p>
+<p class="aviso-rev">El banco de ROUVIÈRE lo redactó la plataforma a partir de anatomía descriptiva de manual. <b>No está revisado por un docente</b>: contrástalo con tu bibliografía antes de darlo por bueno.</p>
 </div>
 <div id="cstudy" style="display:none">
 <div class="box"><div class="xhead"><b id="stpos"></b><button type="button" class="pill sm" data-hc="112" data-a="st-salir">Salir del modo estudio</button></div>
@@ -349,7 +349,7 @@
 <details class="box ajustes" id="xaj"><summary>Ajustes del simulacro</summary>
 <div class="fgrid" id="xcfg"></div></details></div>
 <h2 style="font-size:1.8rem;margin:18px 0 10px">Intentos anteriores</h2><div id="exh"></div>
-<p class="s mini">Las preguntas las redactó la plataforma a partir de anatomía descriptiva de manual. <b>No están revisadas por un docente</b> y no llevan cita bibliográfica: usa la Biblioteca para contrastarlas.</p>
+<p class="aviso-rev">Las preguntas las redactó la plataforma a partir de anatomía descriptiva de manual. <b>No están revisadas por un docente</b> y no llevan cita bibliográfica: usa la Biblioteca para contrastarlas.</p>
 </div>
 <div id="exq" style="display:none"><div class="box">
 <div class="xhead"><b id="exp"></b><span class="timer" id="tm">00:00</span></div>
@@ -664,7 +664,7 @@
 <div class="box"><h2>Del docente</h2><ul class="vl"><li>Anatomía Humana tiene 48 temas en cinco elementos de competencia, para tres grupos que pueden avanzar a distinto ritmo.</li><li>Pide estudiar antes de clase. Los estudiantes arman sus propias tarjetas y dibujan estructuras.</li><li>El sistema nervioso central es lo que más se complica. También antebrazo y cabeza y cuello. Es su experiencia, no una medición.</li><li>Pidió que la herramienta sea interactiva: aprender haciendo, no solo ver respuestas.</li><li>Anatomía, Histología y Embriología deben seguir separadas, pero coordinadas por órgano o sistema.</li><li>Ofreció facilitar el programa analítico. Todavía no lo tenemos.</li></ul></div>
 <div class="box"><h2>De los estudiantes</h2><ul class="vl"><li>Modelos 3D, sobre todo para Embriología.</li><li>Ver el cuerpo por capas y desde distintos ángulos.</li><li>Saber de qué libro o artículo viene cada dato.</li><li>Tener los materiales de clase ordenados en un solo lugar.</li></ul></div>
 <div class="box"><h2>Qué hicimos con esto</h2><ul class="vl">
-<li><span class="st1">Aplicado</span>Tarjetas: respondes antes de ver y pides pistas graduales (3 tarjetas de ejemplo).</li>
+<li><span class="st1">Aplicado</span>Tarjetas: respondes antes de ver y pides pistas graduales.</li>
 <li><span class="st1">Aplicado</span>Módulos: Anatomía, Histología y Embriología como espacios separados, cada uno con sus tarjetas y preguntas.</li>
 <li><span class="st1">Aplicado</span>Temario por competencias y grupos, con sus contenidos y criterios de evaluación en cada grupo.</li>
 <li><span class="st1">Aplicado</span>Fuentes visibles y una biblioteca de 81 recursos comprobados uno a uno, con su licencia.</li>

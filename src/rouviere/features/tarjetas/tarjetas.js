@@ -143,6 +143,7 @@ export function cFilters() {
       ['1', 'Básica'],
       ['2', 'Intermedia'],
       ['3', 'Avanzada'],
+      ['4', 'Experta'],
     ],
     estado.CF.d,
     'd',
@@ -213,9 +214,14 @@ export function show() {
     msg('cst', '');
     return;
   }
-  var dif = ['', 'Básica', 'Intermedia', 'Avanzada'][c.d || 2];
+  var dif = ['', 'Básica', 'Intermedia', 'Avanzada', 'Experta'][c.d || 2];
   $('fs').textContent =
-    (estado.rev ? 'Respuesta' : 'Pregunta') + ' · ' + mn(c.m) + ' · ' + (c.t || 'Sin tema');
+    (estado.rev ? 'Respuesta' : 'Pregunta') +
+    ' · ' +
+    mn(c.m) +
+    ' · ' +
+    (c.t || 'Sin tema') +
+    (c.sub ? ' · ' + c.sub : '');
   $('ft').textContent = estado.rev ? c.a : c.q;
   var ex = $('fx');
   if (ex) {
@@ -252,7 +258,8 @@ export function show() {
     }
     if (estado.CF.m !== 'all') pt.push(mn(estado.CF.m));
     if (estado.CF.t !== 'all') pt.push(estado.CF.t);
-    if (estado.CF.d !== 'all') pt.push(['', 'básica', 'intermedia', 'avanzada'][+estado.CF.d]);
+    if (estado.CF.d !== 'all')
+      pt.push(['', 'básica', 'intermedia', 'avanzada', 'experta'][+estado.CF.d]);
     if (estado.CF.st !== 'all')
       pt.push(
         {

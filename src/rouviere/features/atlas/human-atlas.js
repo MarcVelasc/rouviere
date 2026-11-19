@@ -2,7 +2,7 @@ import { estado } from '../../estado.js';
 import { log } from '../../core/almacenamiento.js';
 import { $, el, msg } from '../../core/dom.js';
 import { apDe, apPadDe, renderAp } from './apartados.js';
-import { atClear, atFicha, atFit, atInit, atParts } from './atlas-sistemas.js';
+import { atClear, atFicha, atFit, atInit, atParts, irAlVisor } from './atlas-sistemas.js';
 import { pinCache } from './rotulos.js';
 import { con3D, tresListo } from '../documentos/documentos.js';
 export const HA_BUF = {};
@@ -140,7 +140,10 @@ export function renderHA() {
     if (c != null) b.style.setProperty('--hc', '#' + ('000000' + c.toString(16)).slice(-6));
     if (HA_TH[x.k]) {
       var th = el('span', 'habth');
-      th.style.setProperty('--th', 'url(img/' + HA_TH[x.k] + '.webp)');
+      /* Dirección completa: una ruta relativa dentro de una variable CSS se resuelve contra la
+         hoja de estilos (assets/), no contra la página, y en GitHub Pages daba 404. */
+      var src = new URL('img/' + HA_TH[x.k] + '.webp', document.baseURI).href;
+      th.style.setProperty('--th', 'url("' + src + '")');
       b.appendChild(th);
     }
     b.appendChild(el('b', 0, haShort(x.k, x.n)));
@@ -226,6 +229,7 @@ export function haChunks(key, n, cb) {
     .then(cb);
 }
 export function haLoad(key) {
+  if (!tresListo() && !apPadDe(key)) irAlVisor();
   if (!tresListo()) {
     con3D(function () {
       haLoad(key);
@@ -284,6 +288,7 @@ export function haLoad(key) {
     $('aov').style.display = '';
     $('aov').textContent = 'Cargando ' + g.n + ' (' + haBytes(g.bytes) + ')…';
     msg('amsg', 'Cargando ' + g.n + '…');
+    irAlVisor();
     if (HA_BUF[key]) {
       estado.HA_LD = null;
       renderHA();
@@ -353,6 +358,7 @@ export function haBuild(g, buf) {
   atFit();
   pinCache(estado.AT3.meshes);
   $('aov').style.display = 'none';
+  irAlVisor(true);
   msg(
     'amsg',
     g.n +

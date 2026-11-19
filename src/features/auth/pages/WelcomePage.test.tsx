@@ -15,15 +15,17 @@ describe('pantalla de inicio', () => {
     renderAuth('/inicio');
     expect(await screen.findByRole('heading', { name: 'Rouviere' })).toBeInTheDocument();
     expect(screen.getByRole('img', { name: /Rou, la lechuza/ })).toBeInTheDocument();
-    expect(screen.getByRole('button', { name: /Tutorial/ })).toBeInTheDocument();
-    expect(screen.getByRole('button', { name: 'Continuar con Google' })).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: /Tutorial/ })).not.toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Entrar con cuenta de prueba' })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: 'Crear cuenta' })).toBeInTheDocument();
   });
 
-  it('con Google entra a la app', async () => {
+  it('con la cuenta de prueba entra a la app', async () => {
     renderAuth('/inicio');
-    await userEvent.click(await screen.findByRole('button', { name: 'Continuar con Google' }));
-    expect(screen.getByRole('button', { name: /Conectando con Google/ })).toBeDisabled();
+    await userEvent.click(
+      await screen.findByRole('button', { name: 'Entrar con cuenta de prueba' }),
+    );
+    expect(screen.getByRole('button', { name: /Entrando/ })).toBeDisabled();
     await waitFor(() => expect(goToApp).toHaveBeenCalledOnce(), { timeout: 3000 });
   });
 

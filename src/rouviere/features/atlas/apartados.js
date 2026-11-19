@@ -1,7 +1,7 @@
 import { estado } from '../../estado.js';
 import { ATL_M } from '../../core/almacenamiento.js';
 import { $, el, msg } from '../../core/dom.js';
-import { ATL_AP, ATL_PEND, atClear, atFicha, atInit, atLoad } from './atlas-sistemas.js';
+import { ATL_AP, ATL_PEND, atClear, atFicha, atInit, atLoad, irAlVisor } from './atlas-sistemas.js';
 import { HA_ATR, haBuild, haBytes, haIndex, haLoad, renderHA } from './human-atlas.js';
 import { con3D, tresListo } from '../documentos/documentos.js';
 /* Qué sistema del atlas abre cada juego de apartados. Es el puente entre la
@@ -156,6 +156,7 @@ export function apAbrir(k) {
   var a = apGet(k);
   if (!a) return;
   if (!tresListo()) {
+    irAlVisor();
     con3D(function () {
       apAbrir(k);
     }, 'amsg');
@@ -205,6 +206,7 @@ export function apAbrir(k) {
     $('aov').style.display = '';
     $('aov').textContent = 'Cargando ' + a.n + ' (' + haBytes(a.bytes) + ')…';
     msg('amsg', 'Cargando ' + a.n + '…');
+    irAlVisor();
     var meta = {
       n: a.n,
       parts: a.parts,
