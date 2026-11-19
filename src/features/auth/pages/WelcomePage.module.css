@@ -166,3 +166,28 @@
     opacity: 1;
   }
 }
+
+/* «Probar sin cuenta»: tercera opción, con menos peso que los dos botones. */
+.guest {
+  align-self: center;
+  margin: 2px 0 0;
+  padding: 8px 12px;
+  border: 0;
+  background: none;
+  color: #e3c27a;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.guest:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+.guest:focus-visible {
+  outline: 2px solid #e3c27a;
+  outline-offset: 2px;
+  border-radius: 8px;
+}

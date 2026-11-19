@@ -2,6 +2,7 @@ import { createHashRouter, Navigate } from 'react-router-dom';
 import { AuthLayout } from './layouts/AuthLayout';
 import { WelcomePage } from '@/features/auth/pages/WelcomePage';
 import { SignUpPage } from '@/features/auth/pages/SignUpPage';
+import { LoginPage } from '@/features/auth/pages/LoginPage';
 import { LogoutPage } from '@/features/auth/pages/LogoutPage';
 
 /**
@@ -15,6 +16,7 @@ export const router = createHashRouter([
     children: [
       { path: '/inicio', element: <WelcomePage /> },
       { path: '/registro', element: <SignUpPage /> },
+      { path: '/entrar', element: <LoginPage /> },
     ],
   },
   { path: '/salir', element: <LogoutPage /> },

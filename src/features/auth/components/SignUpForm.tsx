@@ -1,4 +1,5 @@
 import { useState, type FormEvent } from 'react';
+import { Link } from 'react-router-dom';
 import { goToApp } from '@/app/navigation';
 import { AuthError, type User } from '@/services';
 import { Button } from '@/shared/ui/Button';
@@ -35,7 +36,7 @@ interface SignUpFormProps {
 }
 
 export function SignUpForm({ onCreated }: SignUpFormProps) {
-  const { signUp, signInWithGoogle } = useAuth();
+  const { signUp, signInAsGuest } = useAuth();
   const [values, setValues] = useState<SignUpValues>(EMPTY_SIGN_UP);
   const [errors, setErrors] = useState<SignUpErrors>({});
   const [formError, setFormError] = useState<string | null>(null);
@@ -97,15 +98,31 @@ export function SignUpForm({ onCreated }: SignUpFormProps) {
         say(ROU.emailTaken, 'error');
         return;
       }
+      if (err instanceof AuthError && err.code === 'confirm-email') {
+        setFormError(
+          `Tu cuenta se creó. Te enviamos un correo a ${values.email.trim()}: ábrelo para confirmarla y después inicia sesión.`,
+        );
+        say(ROU.confirmEmail, 'ok');
+        return;
+      }
+      if (err instanceof AuthError && err.code === 'weak-password') {
+        setErrors((x) => ({
+          ...x,
+          password: 'Esa contraseña es muy fácil de adivinar. Prueba otra.',
+        }));
+        focusField('password');
+        say(ROU.network, 'error');
+        return;
+      }
       setFormError('No pudimos crear tu cuenta. Revisa tu internet e intenta otra vez.');
       say(ROU.network, 'error');
     }
   }
 
-  async function registerWithGoogle() {
+  async function enterAsGuest() {
     setGoogleLoading(true);
     try {
-      await signInWithGoogle();
+      await signInAsGuest();
       goToApp();
     } catch (err) {
       setGoogleLoading(false);
@@ -214,8 +231,8 @@ export function SignUpForm({ onCreated }: SignUpFormProps) {
               onChange={(e) => update('terms', e.target.checked)}
             />
             <span>
-              Entiendo que es una <b>cuenta de prueba</b>: se guarda solo en este dispositivo y la
-              contraseña no se envía a ningún servidor.
+              Entiendo que mi <b>nombre, correo y progreso de estudio</b> se guardan en mi cuenta de
+              Rouviere para verlos en cualquier dispositivo.
             </span>
           </label>
           {errors.terms && (
@@ -234,10 +251,13 @@ export function SignUpForm({ onCreated }: SignUpFormProps) {
           variant="outline"
           loading={googleLoading}
           loadingText="Entrando…"
-          onClick={registerWithGoogle}
+          onClick={enterAsGuest}
         >
-          Entrar con cuenta de prueba
+          Probar sin cuenta
         </Button>
+        <p className={styles.login}>
+          ¿Ya tienes cuenta? <Link to="/entrar">Inicia sesión</Link>
+        </p>
       </form>
     </>
   );

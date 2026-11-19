@@ -14,7 +14,8 @@ type Status = 'loading' | 'signed-in' | 'signed-out';
 interface AuthContextValue {
   status: Status;
   session: Session | null;
-  signInWithGoogle: () => Promise<Session>;
+  signInAsGuest: () => Promise<Session>;
+  signIn: (email: string, password: string) => Promise<Session>;
   signUp: (data: SignUpData) => Promise<Session>;
   signOut: () => Promise<void>;
 }
@@ -43,8 +44,14 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     return s;
   }, []);
 
-  const signInWithGoogle = useCallback(
-    async () => signedIn(await services.auth.signInWithGoogle()),
+  const signInAsGuest = useCallback(
+    async () => signedIn(await services.auth.signInAsGuest()),
+    [signedIn],
+  );
+
+  const signIn = useCallback(
+    async (email: string, password: string) =>
+      signedIn(await services.auth.signIn(email, password)),
     [signedIn],
   );
 
@@ -60,8 +67,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const value = useMemo(
-    () => ({ status, session, signInWithGoogle, signUp, signOut }),
-    [status, session, signInWithGoogle, signUp, signOut],
+    () => ({ status, session, signInAsGuest, signIn, signUp, signOut }),
+    [status, session, signInAsGuest, signIn, signUp, signOut],
   );
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }

@@ -3,16 +3,16 @@ import type { KeyValueStore } from '../storage/KeyValueStore';
 
 /**
  * Autenticación de prueba, sin servidor: sirve para presentar y desarrollar las pantallas.
- * - "Entrar con cuenta de prueba" entra siempre con esta misma cuenta de ejemplo (no hay
- *   conexión con Google: se cambió tras la evaluación heurística, problema 2).
+ * - "Probar sin cuenta" entra siempre con esta misma cuenta de ejemplo.
+ * - "Iniciar sesión" busca la cuenta por correo (la contraseña no se comprueba).
  * - "Crear cuenta" guarda la cuenta en este navegador. Las contraseñas NO se guardan:
  *   esta implementación no es segura y no debe usarse con datos reales.
  */
-export const DEMO_GOOGLE_USER: User = {
+export const DEMO_GUEST_USER: User = {
   id: 'g-demo',
   name: 'Estudiante Rouviere',
   email: 'prueba@rouviere.app',
-  provider: 'google',
+  provider: 'guest',
 };
 
 /** La app de public/app/ revisa esta misma clave para saber si hay sesión. */
@@ -45,9 +45,17 @@ export function createMockAuthService({ store, delay = 900 }: MockOptions): Auth
   };
 
   return {
-    async signInWithGoogle() {
+    async signInAsGuest() {
       await wait(delay);
-      return startSession(DEMO_GOOGLE_USER);
+      return startSession(DEMO_GUEST_USER);
+    },
+
+    async signIn(email) {
+      await wait(delay);
+      const normalized = email.trim().toLowerCase();
+      const user = readJson<User[]>(ACCOUNTS_KEY, []).find((a) => a.email === normalized);
+      if (!user) throw new AuthError('invalid-credentials', 'Correo o contraseña incorrectos.');
+      return startSession(user);
     },
 
     async signUp({ name, email, year }) {

@@ -5,6 +5,7 @@
  */
 import type { AuthService } from './auth/AuthService';
 import { createMockAuthService } from './auth/mockAuthService';
+import { createSupabaseAuthService } from './auth/supabaseAuthService';
 import { persistentStore } from './storage/KeyValueStore';
 
 export type { AuthService, Session, SignUpData, User } from './auth/AuthService';
@@ -13,7 +14,8 @@ export { AuthError } from './auth/AuthService';
 function createAuthService(): AuthService {
   const provider = import.meta.env.VITE_AUTH_PROVIDER ?? 'mock';
   switch (provider) {
-    // case 'firebase': return createFirebaseAuthService(...);
+    case 'supabase':
+      return createSupabaseAuthService({ store: persistentStore() });
     case 'mock':
     default:
       return createMockAuthService({ store: persistentStore() });

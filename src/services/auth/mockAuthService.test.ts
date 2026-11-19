@@ -1,4 +1,4 @@
-import { createMockAuthService, DEMO_GOOGLE_USER, SESSION_KEY } from './mockAuthService';
+import { createMockAuthService, DEMO_GUEST_USER, SESSION_KEY } from './mockAuthService';
 import { memoryStore } from '../storage/KeyValueStore';
 import { AuthError, type SignUpData } from './AuthService';
 
@@ -15,10 +15,10 @@ const setup = () => {
 };
 
 describe('mockAuthService', () => {
-  it('con Google entra con la cuenta de ejemplo y guarda la sesión', async () => {
+  it('sin cuenta entra con la cuenta de ejemplo y guarda la sesión', async () => {
     const { auth, store } = setup();
-    const s = await auth.signInWithGoogle();
-    expect(s.user).toEqual(DEMO_GOOGLE_USER);
+    const s = await auth.signInAsGuest();
+    expect(s.user).toEqual(DEMO_GUEST_USER);
     expect(store.get(SESSION_KEY)).not.toBeNull();
   });
 
@@ -49,9 +49,20 @@ describe('mockAuthService', () => {
     await expect(again).rejects.toMatchObject({ code: 'email-taken' });
   });
 
+  it('inicia sesión con una cuenta creada y rechaza un correo desconocido', async () => {
+    const { auth } = setup();
+    await auth.signUp(ana);
+    await auth.signOut();
+    const s = await auth.signIn('ANA.flores@gmail.com ', 'rouviere1');
+    expect(s.user.email).toBe('ana.flores@gmail.com');
+    await expect(auth.signIn('nadie@gmail.com', 'x')).rejects.toMatchObject({
+      code: 'invalid-credentials',
+    });
+  });
+
   it('al cerrar sesión ya no hay sesión', async () => {
     const { auth } = setup();
-    await auth.signInWithGoogle();
+    await auth.signInAsGuest();
     await auth.signOut();
     expect(await auth.getSession()).toBeNull();
   });

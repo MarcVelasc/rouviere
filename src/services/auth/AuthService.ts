@@ -3,7 +3,8 @@
  * Para conectar un backend real (Firebase, Supabase, API propia) se crea otra
  * implementación en esta carpeta y se elige en src/services/index.ts.
  */
-export type AuthProvider = 'google' | 'password';
+/** 'guest' = probar sin cuenta (todo queda en el dispositivo); 'google' queda para el futuro. */
+export type AuthProvider = 'guest' | 'google' | 'password';
 
 export interface User {
   id: string;
@@ -25,7 +26,14 @@ export interface SignUpData {
   year: number;
 }
 
-export type AuthErrorCode = 'email-taken' | 'cancelled' | 'network' | 'unknown';
+export type AuthErrorCode =
+  | 'email-taken'
+  | 'invalid-credentials'
+  | 'confirm-email'
+  | 'weak-password'
+  | 'cancelled'
+  | 'network'
+  | 'unknown';
 
 export class AuthError extends Error {
   readonly code: AuthErrorCode;
@@ -38,9 +46,12 @@ export class AuthError extends Error {
 }
 
 export interface AuthService {
-  /** Abre la ventana de Google. Si la persona la cierra, falla con el código 'cancelled'. */
-  signInWithGoogle(): Promise<Session>;
-  /** Crea la cuenta con correo y deja la sesión iniciada. */
+  /** Entra sin cuenta: el progreso queda solo en este dispositivo. */
+  signInAsGuest(): Promise<Session>;
+  /** Entra con una cuenta ya creada. Falla con 'invalid-credentials' si no coinciden. */
+  signIn(email: string, password: string): Promise<Session>;
+  /** Crea la cuenta con correo y deja la sesión iniciada. Si el servidor pide confirmar el
+   *  correo antes de entrar, falla con 'confirm-email' (la cuenta sí quedó creada). */
   signUp(data: SignUpData): Promise<Session>;
   signOut(): Promise<void>;
   getSession(): Promise<Session | null>;

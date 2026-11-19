@@ -107,3 +107,14 @@ body.dk .msalir {
 .pfh {
   margin: 0 0 4px;
 }
+
+/* Estado del progreso en la nube (core/nube.js) */
+.cu-txt .cu-nube {
+  display: block;
+  margin-top: 2px;
+  color: var(--teal);
+  font-weight: 700;
+}
+.cu-txt .cu-nube[hidden] {
+  display: none;
+}

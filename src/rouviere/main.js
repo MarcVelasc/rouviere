@@ -11,5 +11,7 @@ import '@fontsource/manrope/600.css';
 import '@fontsource/manrope/700.css';
 import './estilos/index.css';
 import { boot } from './boot.js';
+import { iniciarNube } from './core/nube.js';
 
+iniciarNube();
 boot();

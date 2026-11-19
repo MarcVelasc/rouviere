@@ -254,3 +254,19 @@ atlas por sistema, apartados, embriología, encéfalo y modelos GLB.
   y three.js (~5 MB).
 - Cada modelo 3D se guarda la primera vez que se abre; después funciona sin internet.
 - Las librerías externas que usa "Estudio con IA" (lector de PDF, OCR) se guardan al usarlas.
+
+## Cuentas y progreso en la nube (Supabase)
+
+- **Acceso** (`src/`, React): `src/services/auth/supabaseAuthService.ts` crea cuentas e inicia
+  sesión con correo y contraseña. «Probar sin cuenta» usa la cuenta de ejemplo local y no toca
+  Supabase. Las pantallas son Inicio (`#/inicio`), Iniciar sesión (`#/entrar`) y Crear cuenta
+  (`#/registro`). En desarrollo y en los tests se sigue usando el servicio de prueba (`mock`).
+- **Configuración**: `.env.production` trae `VITE_AUTH_PROVIDER=supabase`, la URL del proyecto y
+  la clave **publicable**. Nunca va la clave secreta ni la `service_role`.
+- **Base de datos**: `supabase/esquema.sql` crea la tabla `progreso` (una fila por estudiante,
+  con el progreso en `datos`) y las reglas RLS para que cada cuenta solo vea y cambie su fila.
+  Se pega en Supabase › SQL Editor › Run.
+- **Sincronización** (`src/rouviere/core/nube.js`): la app sigue usando localStorage. Al abrir,
+  trae la copia de la nube si es más nueva (y recarga una vez); cuando cambia el progreso, lo
+  sube a los pocos segundos. Al cerrar sesión se borra del teléfono el progreso de esa cuenta.
+  Perfil muestra si quedó guardado.

@@ -6,6 +6,8 @@ coverage
 .env
 .env.*
 !.env.example
+# Solo trae la URL y la clave PUBLICABLE de Supabase (pueden ser públicas).
+!.env.production
 .DS_Store
 .vscode/*
 !.vscode/extensions.json

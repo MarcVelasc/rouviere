@@ -9,23 +9,23 @@ import { RouAnatomy } from '../components/RouAnatomy';
 import { useAuth } from '../model/AuthContext';
 import styles from './WelcomePage.module.css';
 
-/** Pantalla 0 · Inicio: Rou cambiando de capa, entrar con la cuenta de prueba o crear una cuenta.
- *  Evaluación heurística (problemas 2, 4 y 6): mientras no haya inicio de sesión real no se
- *  usa el botón ni el logo de Google, el botón «Tutorial» sin función se quitó y la frase de
- *  Términos se cambió por un aviso de que todo se guarda en el dispositivo. */
+/** Pantalla 0 · Inicio: Rou cambiando de capa, iniciar sesión, crear una cuenta o probar sin
+ *  cuenta. Evaluación heurística (problemas 2, 4 y 6): no se usa el logo de Google, el botón
+ *  «Tutorial» sin función se quitó y no se mencionan Términos que no existen; el aviso de abajo
+ *  dice dónde se guarda el progreso en cada caso. */
 export function WelcomePage() {
-  const { signInWithGoogle } = useAuth();
+  const { signInAsGuest } = useAuth();
   const navigate = useNavigate();
   // En la compu, Rou y la marca van en el panel izquierdo (AuthLayout).
   const desktop = useMediaQuery(DESKTOP);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  async function enterWithTestAccount() {
+  async function enterAsGuest() {
     setLoading(true);
     setError(null);
     try {
-      await signInWithGoogle();
+      await signInAsGuest();
       goToApp();
     } catch (err) {
       setLoading(false);
@@ -45,7 +45,7 @@ export function WelcomePage() {
           <div className={styles.intro}>
             <h1 className={styles.introTitle}>Te damos la bienvenida</h1>
             <p className={styles.introText}>
-              Entra con la cuenta de prueba o crea tu cuenta para empezar a estudiar con Rou.
+              Inicia sesión o crea tu cuenta para empezar a estudiar con Rou.
             </p>
           </div>
         ) : (
@@ -59,9 +59,7 @@ export function WelcomePage() {
         )}
 
         <div className={styles.actions}>
-          <Button loading={loading} loadingText="Entrando…" onClick={enterWithTestAccount}>
-            Entrar con cuenta de prueba
-          </Button>
+          <Button onClick={() => navigate('/entrar')}>Iniciar sesión</Button>
           {error && (
             <p className={styles.error} role="alert">
               <Icon name="alert" size={16} strokeWidth={2.2} />
@@ -72,8 +70,12 @@ export function WelcomePage() {
           <Button variant="outline" onClick={() => navigate('/registro')}>
             Crear cuenta
           </Button>
+          <button className={styles.guest} type="button" disabled={loading} onClick={enterAsGuest}>
+            {loading ? 'Entrando…' : 'Probar sin cuenta'}
+          </button>
           <p className={styles.legal}>
-            Versión de prueba: tu cuenta y tu progreso se guardan solo en este dispositivo.
+            Con una cuenta, tu progreso se guarda en la nube y lo ves en cualquier dispositivo. Sin
+            cuenta, se guarda solo en este.
           </p>
         </div>
       </main>

@@ -10,7 +10,7 @@ async function fillValid(email = 'ana.flores@gmail.com') {
   await userEvent.type(screen.getByLabelText('Correo electrónico'), email);
   await userEvent.type(screen.getByLabelText('Contraseña'), 'rouviere1');
   await userEvent.click(screen.getByLabelText('2° año'));
-  await userEvent.click(screen.getByRole('checkbox', { name: /cuenta de prueba/ }));
+  await userEvent.click(screen.getByRole('checkbox', { name: /progreso de estudio/ }));
 }
 
 describe('crear cuenta', () => {
