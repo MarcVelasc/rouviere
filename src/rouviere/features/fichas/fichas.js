@@ -1,7 +1,8 @@
 /* ===== Fichas anatómicas (Biblioteca) =====
    Las fichas de huesos, articulaciones y músculos, y los resúmenes por tema, que preparó el
-   equipo de contenido (Vanesa). Vienen de data/fichas-equipo.json, que se genera desde su
-   Word con scripts/fichas-equipo.py; el texto se muestra tal cual.
+   equipo de contenido. Vienen de data/fichas-equipo.json (Vanesa, scripts/fichas-equipo.py)
+   y data/fichas-emi-leo.json (Emi y Leo, scripts/contenido-emi-leo.py); el texto se muestra
+   tal cual.
 
    - Los datos se cargan solo al abrir la sección (unos 240 KB, en su propio archivo).
    - Filtros por bloque (Osteología, Miología…) y buscador sin tildes.
@@ -20,8 +21,36 @@ var D = null,
 function cargar() {
   if (D) return Promise.resolve(D);
   if (!cargando)
-    cargando = import('../../data/fichas-equipo.json').then(function (m) {
-      D = m.default || m;
+    cargando = Promise.all([
+      import('../../data/fichas-equipo.json'),
+      import('../../data/fichas-emi-leo.json'),
+    ]).then(function (ms) {
+      var a = ms[0].default || ms[0],
+        b = ms[1].default || ms[1];
+      D = {
+        estado: a.estado,
+        bibliografia: a.bibliografia,
+        bloques: a.bloques.concat(
+          b.bloques.filter(function (x) {
+            return a.bloques.indexOf(x) < 0;
+          }),
+        ),
+        fichas: a.fichas.concat(b.fichas),
+      };
+      // Por bloque (estable): las de Leo de sistema nervioso van junto a las de Vanesa.
+      var pos = function (f) {
+        return D.bloques.indexOf(f.b);
+      };
+      D.fichas = D.fichas
+        .map(function (f, i) {
+          return [f, i];
+        })
+        .sort(function (x, y) {
+          return pos(x[0]) - pos(y[0]) || x[1] - y[1];
+        })
+        .map(function (x) {
+          return x[0];
+        });
       D.fichas.forEach(function (f) {
         f._q = nz(f.n + ' ' + f.z + ' ' + f.b + ' ' + f.p.join(' '));
         f._n = nz(f.n);

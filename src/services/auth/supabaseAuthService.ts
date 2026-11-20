@@ -24,6 +24,7 @@ export const CLAVES_PROGRESO = [
   'rv_snc',
   'rv_sim_best',
   'rv_comp',
+  'rv_casos2',
   'rv_nube_uid',
   'rv_nube_t',
 ];

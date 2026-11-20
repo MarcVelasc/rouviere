@@ -1,1 +1,367 @@
-{}
+{
+ "c5": [
+  {
+   "tema": "Encéfalo",
+   "casos": [
+    {
+     "n": 1,
+     "titulo": "Debilidad y alteración del lenguaje después de un traumatismo",
+     "caso": "Varón de 27 años que llega a emergencias después de caer de una motocicleta y golpearse la región anterior de la cabeza. Un acompañante refiere que permaneció consciente, pero desde el accidente habla con dificultad. En el examen se observa debilidad de predominio en el lado derecho del cuerpo. Comprende órdenes sencillas, aunque produce frases cortas y esforzadas; no presenta alteración evidente de la sensibilidad.",
+     "pregunta": "¿Qué región anatómica del encéfalo explica mejor la asociación de debilidad derecha y dificultad para producir el lenguaje?",
+     "opciones": [
+      "Giro precentral del hemisferio izquierdo",
+      "Área de Broca del giro frontal inferior izquierdo",
+      "Corteza visual primaria del lóbulo occipital izquierdo",
+      "Giro poscentral del hemisferio derecho",
+      "Corteza auditiva primaria del lóbulo temporal derecho"
+     ],
+     "correcta": 1,
+     "explicacion": "La producción motora del lenguaje se relaciona con el área de Broca, habitualmente en el hemisferio dominante izquierdo. Su compromiso causa habla no fluida con comprensión relativamente conservada. La debilidad derecha sugiere extensión o lesión asociada de regiones motoras izquierdas, cuyas fibras controlan principalmente el hemicuerpo contralateral.",
+     "descartes": [
+      "A. Una lesión aislada del giro precentral causa déficit motor, pero no explica por sí sola el habla no fluida.",
+      "C. La corteza visual primaria produce alteraciones del campo visual, no afasia motora.",
+      "D. El giro poscentral procesa sensibilidad somática y además está en el hemisferio opuesto al patrón motor descrito.",
+      "E. La corteza auditiva primaria participa en la recepción del sonido, no en la programación motora del habla."
+     ],
+     "imagen": "",
+     "imagenTxt": "Vista lateral del hemisferio cerebral izquierdo con los lóbulos frontal, parietal, temporal y occipital; una marca señala la región frontal inferior y otra la corteza motora."
+    },
+    {
+     "n": 2,
+     "titulo": "Inestabilidad y falta de coordinación después de una caída",
+     "caso": "Mujer de 41 años que consulta luego de caer por unas escaleras y golpearse la región posterolateral del cráneo. Desde el accidente refiere dificultad para caminar en línea recta y para alcanzar objetos con la mano izquierda. En el examen presenta marcha de base amplia y errores al realizar la prueba dedo-nariz con el miembro superior izquierdo. La fuerza muscular está conservada y no se detecta pérdida primaria de sensibilidad.",
+     "pregunta": "¿Qué estructura del sistema nervioso central es la localización más probable de la lesión?",
+     "opciones": [
+      "Tálamo izquierdo",
+      "Cápsula interna derecha",
+      "Hemisferio cerebeloso izquierdo",
+      "Lóbulo occipital izquierdo",
+      "Hipocampo derecho"
+     ],
+     "correcta": 2,
+     "explicacion": "La dismetría y la ataxia con fuerza conservada orientan a compromiso cerebeloso. Los hemisferios cerebelosos participan en la coordinación de los movimientos de las extremidades y sus lesiones suelen producir signos ipsilaterales. Por eso, los hallazgos del lado izquierdo señalan el hemisferio cerebeloso izquierdo.",
+     "descartes": [
+      "A. El tálamo es un relevo sensitivo y su lesión suele producir alteraciones sensitivas, no este patrón cerebeloso aislado.",
+      "B. La cápsula interna contiene fibras motoras; una lesión derecha produciría principalmente déficit motor izquierdo.",
+      "D. El lóbulo occipital se relaciona con la visión.",
+      "E. El hipocampo participa principalmente en procesos de memoria, no en la coordinación apendicular."
+     ],
+     "imagen": "",
+     "imagenTxt": "Vista posterior del encéfalo donde se distinguen el cerebelo, el vermis y ambos hemisferios cerebelosos; una flecha señala el hemisferio izquierdo."
+    }
+   ]
+  },
+  {
+   "tema": "Médula espinal",
+   "casos": [
+    {
+     "n": 3,
+     "titulo": "Déficit motor y sensitivo desigual tras un accidente vial",
+     "caso": "Varón de 34 años involucrado en una colisión automovilística con traumatismo penetrante en la región torácica derecha. Tras el accidente nota dificultad para mover la pierna derecha y sensación de adormecimiento por debajo del nivel de la lesión. El examen muestra pérdida de fuerza y de sentido de posición en el miembro inferior derecho por debajo de la lesión. En el miembro inferior izquierdo disminuye la percepción de dolor y temperatura, comenzando algunos segmentos por debajo del traumatismo.",
+     "pregunta": "¿Qué patrón de lesión medular explica mejor la combinación de hallazgos descrita?",
+     "opciones": [
+      "Lesión central limitada a la sustancia gris alrededor del conducto central",
+      "Lesión aislada de los cordones posteriores derechos",
+      "Lesión completa transversal de la médula espinal",
+      "Hemisección derecha de la médula espinal",
+      "Lesión aislada de las raíces anteriores derechas"
+     ],
+     "correcta": 3,
+     "explicacion": "La hemisección medular derecha compromete el tracto corticoespinal lateral y los cordones posteriores del mismo lado, causando déficit motor y pérdida de propiocepción ipsilaterales. También interrumpe fibras del sistema anterolateral que ya cruzaron desde el lado opuesto, por lo que se pierde dolor y temperatura contralaterales por debajo de la lesión. Este conjunto corresponde al patrón clásico de Brown-Séquard.",
+     "descartes": [
+      "A. Una lesión central suele afectar fibras que cruzan cerca del conducto central y no explica el déficit motor y propioceptivo ipsilateral extenso.",
+      "B. El cordón posterior aislado altera vibración y propiocepción, pero no causa debilidad ni pérdida contralateral de dolor y temperatura.",
+      "C. Una sección completa produciría déficits bilaterales por debajo del nivel.",
+      "E. Las raíces anteriores producen déficit motor segmentario, no el patrón sensitivo cruzado descrito."
+     ],
+     "imagen": "",
+     "imagenTxt": "Corte transversal de médula espinal con sustancia gris central y cordones de sustancia blanca; se indica una mitad y la disposición general de los tractos."
+    },
+    {
+     "n": 4,
+     "titulo": "Pérdida bilateral de función por debajo de una lesión torácica",
+     "caso": "Mujer de 22 años que sufre un accidente de tránsito con impacto importante sobre la espalda media. Después del evento no puede mover voluntariamente ambas piernas y refiere ausencia de sensibilidad desde el abdomen inferior hacia los pies. En la exploración se constata pérdida bilateral de fuerza y de sensibilidad por debajo de un nivel torácico definido. Los miembros superiores conservan movilidad y sensibilidad.",
+     "pregunta": "¿Qué estructura anatómica debe considerarse lesionada para explicar un déficit bilateral motor y sensitivo por debajo de un mismo nivel?",
+     "opciones": [
+      "Nervio intercostal unilateral",
+      "Médula espinal con interrupción transversal completa",
+      "Ganglio de la raíz dorsal de un solo lado",
+      "Nervio femoral bilateral",
+      "Tracto óptico"
+     ],
+     "correcta": 1,
+     "explicacion": "La médula espinal contiene vías motoras descendentes y vías sensitivas ascendentes para ambos lados del cuerpo. Una interrupción transversal completa en un nivel torácico puede producir pérdida bilateral de función por debajo de ese nivel, mientras que los miembros superiores permanecen indemnes al estar representados por segmentos cervicales superiores.",
+     "descartes": [
+      "A. Un nervio intercostal es segmentario y unilateral; no explica parálisis y anestesia de ambas piernas.",
+      "C. Un ganglio dorsal unilateral afecta sensibilidad de un territorio, no la función motora bilateral.",
+      "D. Los nervios femorales no explican pérdida sensitiva extensa ni compromiso de todos los territorios de ambas piernas.",
+      "E. El tracto óptico pertenece a la vía visual."
+     ],
+     "imagen": "",
+     "imagenTxt": "Esquema longitudinal de la médula espinal con sus regiones y un nivel torácico señalado, acompañado de un corte transversal."
+    }
+   ]
+  },
+  {
+   "tema": "Vía espinotalámica",
+   "casos": [
+    {
+     "n": 5,
+     "titulo": "Pérdida de dolor y temperatura en el lado opuesto",
+     "caso": "Varón de 30 años que presenta una herida por arma blanca en la región lateral izquierda del tórax, con lesión vertebral asociada. Refiere que no siente adecuadamente los estímulos dolorosos ni el frío en la pierna derecha. El examen confirma disminución de dolor y temperatura en el lado derecho del cuerpo, comenzando por debajo de algunos dermatomas cercanos al nivel de la lesión. El tacto discriminativo y la percepción de vibración se encuentran relativamente conservados.",
+     "pregunta": "¿Qué vía ascendente está más probablemente comprometida en el lado izquierdo de la médula espinal?",
+     "opciones": [
+      "Fascículo grácil",
+      "Tracto corticoespinal lateral",
+      "Fascículo cuneiforme",
+      "Lemnisco medial",
+      "Tracto espinotalámico lateral"
+     ],
+     "correcta": 4,
+     "explicacion": "Las fibras de dolor y temperatura ingresan por la raíz posterior, hacen sinapsis en el asta posterior y cruzan por la comisura blanca anterior. Luego ascienden por el tracto espinotalámico lateral del lado opuesto al estímulo. Por ello, una lesión izquierda de este tracto causa pérdida de dolor y temperatura en el hemicuerpo derecho, habitualmente unos segmentos por debajo.",
+     "descartes": [
+      "A. El fascículo grácil conduce principalmente tacto discriminativo, vibración y propiocepción de la mitad inferior del cuerpo.",
+      "B. El tracto corticoespinal lateral es una vía motora descendente.",
+      "C. El fascículo cuneiforme conduce sensibilidad epicrítica y propioceptiva del tronco superior y miembro superior.",
+      "D. El lemnisco medial conduce tacto discriminativo, vibración y propiocepción después del relevo bulbar."
+     ],
+     "imagen": "",
+     "imagenTxt": "Diagrama de un corte transversal medular que muestra fibras sensitivas entrando por la región posterior, cruzando cerca del conducto central y ascendiendo por el cuadrante anterolateral."
+    },
+    {
+     "n": 6,
+     "titulo": "Alteración sensitiva segmentaria bilateral",
+     "caso": "Mujer de 38 años que consulta por quemaduras pequeñas y repetidas en ambas manos, que no recuerda haber sentido. Refiere disminución de la percepción del dolor y de la temperatura en hombros y miembros superiores, con distribución semejante a una capa. El examen confirma conservación relativa de la vibración y de la posición articular en las manos. No presenta debilidad marcada en la evaluación inicial.",
+     "pregunta": "¿Qué región de la médula espinal explica mejor la interrupción bilateral de las fibras de dolor y temperatura que están cruzando?",
+     "opciones": [
+      "Comisura blanca anterior",
+      "Cordón posterior",
+      "Asta anterior",
+      "Tracto corticoespinal anterior",
+      "Fascículo longitudinal medial"
+     ],
+     "correcta": 0,
+     "explicacion": "Las neuronas de segundo orden de la vía del dolor y la temperatura cruzan la línea media por la comisura blanca anterior, cerca del conducto central. Una lesión central que comprometa estas fibras en varios segmentos puede causar pérdida bilateral y segmentaria de dolor y temperatura, con preservación relativa de modalidades que ascienden por los cordones posteriores.",
+     "descartes": [
+      "B. Los cordones posteriores transmiten vibración, propiocepción y tacto discriminativo, modalidades relativamente conservadas.",
+      "C. El asta anterior contiene neuronas motoras somáticas.",
+      "D. El tracto corticoespinal anterior es motor descendente.",
+      "E. El fascículo longitudinal medial coordina conexiones relacionadas con movimientos oculares y de la cabeza, no la sensibilidad dolorosa del tronco y miembros."
+     ],
+     "imagen": "",
+     "imagenTxt": "Corte transversal de médula cervical con conducto central, sustancia gris y comisura blanca anterior; flechas muestran fibras sensitivas que cruzan la línea media."
+    }
+   ]
+  },
+  {
+   "tema": "Arco reflejo",
+   "casos": [
+    {
+     "n": 13,
+     "titulo": "Disminución de la respuesta al golpear el tendón rotuliano",
+     "caso": "Varón de 49 años que consulta por debilidad al subir escaleras después de una lesión en la región anterior del muslo. Durante la exploración, la percusión del tendón rotuliano produce una extensión de la rodilla mucho menor que la del lado contrario. Se observa disminución de la sensibilidad en una zona de la cara anterior del muslo y medial de la pierna. La movilidad voluntaria de la articulación de la cadera está relativamente conservada.",
+     "pregunta": "¿Qué nervio periférico forma parte de la vía eferente y aferente principal del reflejo rotuliano?",
+     "opciones": [
+      "Nervio obturador",
+      "Nervio tibial",
+      "Nervio fibular común",
+      "Nervio femoral",
+      "Nervio glúteo superior"
+     ],
+     "correcta": 3,
+     "explicacion": "El reflejo rotuliano es un reflejo miotático del cuádriceps. La distensión del músculo activa husos neuromusculares cuyas aferencias viajan por el nervio femoral hacia segmentos L2–L4, principalmente L4; la respuesta motora regresa por el mismo nervio y contrae el cuádriceps, extendiendo la rodilla. La distribución sensitiva también orienta al nervio femoral.",
+     "descartes": [
+      "A. El obturador inerva principalmente músculos aductores del muslo y no es el nervio principal del reflejo rotuliano.",
+      "B. El tibial participa en la flexión plantar y en el reflejo aquíleo.",
+      "C. El fibular común se relaciona con dorsiflexión/eversión y sensibilidad de regiones de la pierna y pie.",
+      "E. El glúteo superior inerva glúteo medio, glúteo menor y tensor de la fascia lata."
+     ],
+     "imagen": "",
+     "imagenTxt": "Diagrama del reflejo rotuliano que muestra el tendón, el cuádriceps, una vía sensitiva hacia la médula lumbar y una vía motora de retorno."
+    },
+    {
+     "n": 14,
+     "titulo": "Ausencia de respuesta al estímulo del tendón calcáneo",
+     "caso": "Mujer de 57 años que refiere dificultad para impulsarse al caminar y sensación de debilidad en la pantorrilla izquierda. En la exploración, la percusión del tendón calcáneo produce una flexión plantar mínima o ausente en ese lado. Puede extender la rodilla y el reflejo rotuliano está presente. Se identifica además disminución de la sensibilidad en parte de la planta del pie.",
+     "pregunta": "¿Qué nervio periférico conduce principalmente los componentes del arco reflejo aquíleo?",
+     "opciones": [
+      "Nervio femoral",
+      "Nervio tibial",
+      "Nervio obturador",
+      "Nervio fibular profundo",
+      "Nervio safeno"
+     ],
+     "correcta": 1,
+     "explicacion": "El reflejo aquíleo estira el tríceps sural al percutir el tendón calcáneo. Las aferencias y eferencias viajan principalmente por el nervio tibial, con integración medular en S1–S2 y predominio de S1. La respuesta normal es la flexión plantar del pie; la alteración sensitiva plantar también es compatible con compromiso del nervio tibial.",
+     "descartes": [
+      "A. El femoral participa en el reflejo rotuliano y en la extensión de la rodilla.",
+      "C. El obturador inerva principalmente el compartimento medial del muslo.",
+      "D. El fibular profundo participa en dorsiflexión y sensibilidad del primer espacio interdigital, no en la respuesta aquílea principal.",
+      "E. El safeno es una rama sensitiva del femoral y no conduce la respuesta motora del tríceps sural."
+     ],
+     "imagen": "",
+     "imagenTxt": "Diagrama posterior de la pierna que muestra el tendón calcáneo, el tríceps sural y el arco reflejo que conecta con segmentos sacros."
+    }
+   ]
+  }
+ ],
+ "c2": [
+  {
+   "tema": "Músculos del antebrazo",
+   "casos": [
+    {
+     "n": 7,
+     "titulo": "Dificultad para realizar la pinza con pulgar e índice",
+     "caso": "Varón de 25 años que sufrió una herida profunda en la cara anterior del antebrazo, cerca del tercio distal. Desde entonces tiene dificultad para flexionar la falange distal del pulgar y la falange distal del dedo índice. Al intentar unir las puntas del pulgar y del índice, realiza una pinza aplanada en lugar de una forma redondeada. La sensibilidad cutánea de la mano se encuentra conservada.",
+     "pregunta": "¿Qué nervio motor del antebrazo está más probablemente lesionado?",
+     "opciones": [
+      "Nervio radial superficial",
+      "Nervio cubital",
+      "Nervio interóseo anterior",
+      "Nervio mediano en el túnel carpiano",
+      "Nervio musculocutáneo"
+     ],
+     "correcta": 2,
+     "explicacion": "El nervio interóseo anterior es una rama motora del nervio mediano. Inerva, entre otros, al flexor largo del pulgar y a la porción lateral del flexor profundo de los dedos para el índice y medio. La pérdida de flexión distal del pulgar y del índice explica la pinza aplanada, mientras que la sensibilidad cutánea puede permanecer normal.",
+     "descartes": [
+      "A. El radial superficial es sensitivo y no inerva los flexores profundos descritos.",
+      "B. El cubital inerva la mayoría de los músculos intrínsecos de la mano y parte del flexor profundo, pero no el flexor largo del pulgar.",
+      "D. Una lesión en el túnel carpiano afecta ramas distales del mediano y no suele paralizar los músculos profundos del antebrazo.",
+      "E. El musculocutáneo inerva músculos del compartimento anterior del brazo, no los flexores profundos del antebrazo."
+     ],
+     "imagen": "",
+     "imagenTxt": "Vista anterior profunda del antebrazo que muestra el flexor largo del pulgar, el flexor profundo de los dedos y un trayecto nervioso acompañante."
+    },
+    {
+     "n": 8,
+     "titulo": "Incapacidad para extender los dedos después de una fractura",
+     "caso": "Mujer de 46 años que presenta una fractura de la porción proximal del radio tras una caída mientras practicaba ciclismo. Una vez evaluada, se observa que puede extender la muñeca, aunque con desviación radial. No consigue extender adecuadamente las articulaciones metacarpofalángicas de los dedos ni el pulgar. La sensibilidad del dorso de la mano está conservada.",
+     "pregunta": "¿Qué nervio está más probablemente comprometido en esta lesión?",
+     "opciones": [
+      "Nervio mediano",
+      "Nervio cubital",
+      "Nervio radial superficial",
+      "Nervio interóseo posterior",
+      "Nervio interóseo anterior"
+     ],
+     "correcta": 3,
+     "explicacion": "El nervio interóseo posterior es la continuación profunda y principalmente motora de la rama profunda del nervio radial. Inerva los músculos extensores del antebrazo, incluidos los extensores de los dedos y del pulgar. La conservación de la sensibilidad y cierta extensión de muñeca por acción del extensor radial largo del carpo, proximal a la lesión, apoyan esta localización.",
+     "descartes": [
+      "A. El mediano inerva principalmente músculos flexores y pronadores, no los extensores digitales.",
+      "B. El cubital participa en la musculatura intrínseca de la mano y en algunos flexores, no en la extensión de los dedos.",
+      "C. El radial superficial es sensitivo y no produce el déficit motor descrito.",
+      "E. El interóseo anterior es una rama motora del mediano que inerva flexores profundos, no extensores."
+     ],
+     "imagen": "",
+     "imagenTxt": "Vista posterior del antebrazo con los músculos extensores y el trayecto de un nervio motor profundo hacia el compartimento posterior."
+    }
+   ]
+  }
+ ],
+ "c1": [
+  {
+   "tema": "Cabeza y cuello",
+   "casos": [
+    {
+     "n": 9,
+     "titulo": "Ronquera persistente después de una cirugía cervical",
+     "caso": "Mujer de 52 años que consulta por voz ronca y débil desde una intervención quirúrgica realizada en la región anterior del cuello. Refiere que le cuesta elevar el volumen de la voz y que se fatiga al hablar durante varios minutos. En la exploración, la movilidad de la lengua es normal y puede elevar ambos hombros contra resistencia. No presenta pérdida de sensibilidad en la cara.",
+     "pregunta": "¿Qué nervio explica mejor la alteración de la función laríngea descrita?",
+     "opciones": [
+      "Nervio hipogloso",
+      "Nervio laríngeo recurrente",
+      "Nervio accesorio",
+      "Nervio glosofaríngeo",
+      "Nervio facial"
+     ],
+     "correcta": 1,
+     "explicacion": "El nervio laríngeo recurrente, rama del vago, inerva la mayoría de los músculos intrínsecos de la laringe y participa en la movilidad de los pliegues vocales. Su lesión puede producir disfonía o ronquera. La movilidad lingual y la elevación de hombros conservadas hacen menos probables lesiones de los nervios hipogloso y accesorio.",
+     "descartes": [
+      "A. El hipogloso es motor para los músculos de la lengua; su lesión altera los movimientos linguales.",
+      "C. El accesorio inerva esternocleidomastoideo y trapecio, relacionados con giro de cabeza y elevación del hombro.",
+      "D. El glosofaríngeo participa en sensibilidad y gusto del tercio posterior de la lengua y en la inervación del estilofaríngeo.",
+      "E. El facial inerva músculos de la expresión facial."
+     ],
+     "imagen": "",
+     "imagenTxt": "Vista anterior del cuello con laringe, tráquea, tiroides y trayecto ascendente de los nervios laríngeos recurrentes."
+    },
+    {
+     "n": 10,
+     "titulo": "Caída del hombro y dificultad para girar la cabeza",
+     "caso": "Varón de 39 años que sufrió una herida cortante en la región lateral posterior del cuello durante un accidente laboral. Desde entonces nota que el hombro derecho queda más bajo y tiene dificultad para elevarlo. Al girar la cabeza hacia el lado izquierdo contra resistencia, la fuerza es menor de lo esperado. La sensibilidad facial y los movimientos de la lengua se encuentran conservados.",
+     "pregunta": "¿Qué nervio craneal está más probablemente lesionado?",
+     "opciones": [
+      "Nervio trigémino",
+      "Nervio vago",
+      "Nervio accesorio",
+      "Nervio hipogloso",
+      "Nervio facial"
+     ],
+     "correcta": 2,
+     "explicacion": "El nervio accesorio (XI) proporciona inervación motora al esternocleidomastoideo y al trapecio. El trapecio eleva el hombro y contribuye a la rotación superior de la escápula; el esternocleidomastoideo gira la cabeza hacia el lado opuesto. La combinación de hombro descendido y debilidad al girar la cabeza es característica de su compromiso.",
+     "descartes": [
+      "A. El trigémino aporta sensibilidad facial y motricidad a los músculos de la masticación.",
+      "B. El vago participa en funciones faríngeas, laríngeas y viscerales, no en la elevación del hombro.",
+      "D. El hipogloso controla los movimientos de la lengua.",
+      "E. El facial inerva los músculos de la expresión facial."
+     ],
+     "imagen": "",
+     "imagenTxt": "Vista lateral del cuello y hombro con los músculos esternocleidomastoideo y trapecio, además de un trayecto nervioso hacia ambos."
+    }
+   ]
+  }
+ ],
+ "c3": [
+  {
+   "tema": "Corazón e irrigación",
+   "casos": [
+    {
+     "n": 11,
+     "titulo": "Dolor torácico con alteración de la pared anterior del corazón",
+     "caso": "Varón de 61 años que presenta dolor opresivo en el centro del tórax mientras camina cuesta arriba. El dolor se acompaña de sudoración y sensación de falta de aire; el electrocardiograma muestra cambios compatibles con isquemia anterior. Los estudios de imagen describen una alteración de la perfusión de la pared anterior del ventrículo izquierdo y de la porción anterior del tabique interventricular. No se identifican datos de lesión predominante de la pared inferior.",
+     "pregunta": "¿Qué arteria coronaria está más probablemente obstruida?",
+     "opciones": [
+      "Arteria coronaria derecha",
+      "Arteria circunfleja",
+      "Arteria marginal derecha",
+      "Arteria interventricular posterior",
+      "Arteria interventricular anterior (descendente anterior)"
+     ],
+     "correcta": 4,
+     "explicacion": "La arteria interventricular anterior, rama de la coronaria izquierda, discurre por el surco interventricular anterior. Irriga gran parte de la pared anterior del ventrículo izquierdo y los dos tercios anteriores del tabique interventricular mediante ramas septales. La distribución descrita corresponde a su territorio.",
+     "descartes": [
+      "A. La coronaria derecha suele irrigar principalmente territorios derechos y, según la dominancia, la cara inferior/posterior.",
+      "B. La circunfleja irriga sobre todo la pared lateral del ventrículo izquierdo.",
+      "C. La marginal derecha irriga la pared libre del ventrículo derecho.",
+      "D. La interventricular posterior irriga la región posterior del tabique y parte de la cara inferior, según la dominancia."
+     ],
+     "imagen": "",
+     "imagenTxt": "Vista anterior del corazón con arterias coronarias derecha e izquierda y ramas que recorren los surcos coronarios e interventriculares."
+    },
+    {
+     "n": 12,
+     "titulo": "Isquemia de la pared inferior y región posterior del tabique",
+     "caso": "Mujer de 68 años que consulta por dolor torácico opresivo acompañado de náuseas y sudoración. El electrocardiograma presenta cambios predominantes en las derivaciones inferiores. El estudio anatómico-coronario muestra una obstrucción en el vaso que discurre por el surco interventricular posterior. Se informa que el patrón de circulación corresponde a dominancia coronaria derecha.",
+     "pregunta": "¿Qué arteria está directamente comprometida según el trayecto anatómico descrito?",
+     "opciones": [
+      "Arteria interventricular posterior",
+      "Arteria interventricular anterior",
+      "Arteria circunfleja proximal",
+      "Arteria marginal izquierda",
+      "Arteria del cono arterioso"
+     ],
+     "correcta": 0,
+     "explicacion": "En la dominancia coronaria derecha, la arteria coronaria derecha suele dar origen a la arteria interventricular posterior. Esta recorre el surco interventricular posterior e irriga la porción posterior del tabique interventricular y áreas adyacentes de los ventrículos. La dominancia debe especificarse porque el origen de esta arteria puede variar.",
+     "descartes": [
+      "B. La interventricular anterior recorre el surco interventricular anterior y nutre la pared anterior y el tabique anterior.",
+      "C. La circunfleja recorre el surco coronario izquierdo y se relaciona principalmente con la pared lateral/posterolateral del ventrículo izquierdo.",
+      "D. La marginal izquierda suele ser rama de la circunfleja y se dirige hacia la pared lateral.",
+      "E. La arteria del cono arterioso irriga el tracto de salida del ventrículo derecho, no el surco interventricular posterior."
+     ],
+     "imagen": "",
+     "imagenTxt": "Vista posterior e inferior del corazón que muestra el surco interventricular posterior y los vasos coronarios que lo recorren."
+    }
+   ]
+  }
+ ]
+}

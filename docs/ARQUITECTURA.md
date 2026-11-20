@@ -83,14 +83,17 @@ Modelo 3D → `#atlas`, Flashcards → `#tarjetas`, Calendario → `#examenes`, 
 dispositivo.
 
 **Casos clínicos** (`#casos`, solo se entra desde su tarjeta del inicio):
-`features/casos/casos.js`, estilos en `35-casos-clinicos.css`. Por competencia, un camino de
-5 fases con 5 casos cada una; una fase se abre al terminar la anterior. Al responder, verde o
-rojo y pasa solo al siguiente caso; al final de la fase, puntaje, estrellas (5/5 tres, 3-4 dos,
-1-2 una) y lo que se falló con su explicación. Rou acompaña en el camino. El avance se guarda en
-el dispositivo (`rv_casos`).
+`features/casos/casos.js`, estilos en `35-casos-clinicos.css`. Por competencia, un camino con
+una fase por tema; una fase se abre al terminar la anterior. Al responder, verde o rojo y pasa
+solo al siguiente caso; al final de la fase, puntaje, estrellas (todo bien tres, 60 % dos, algo
+una) y lo que se falló con su explicación y por qué no eran las otras opciones. Rou acompaña en
+el camino. El avance se guarda en `rv_casos2` y se sincroniza con la cuenta (`core/nube.js`).
 
-El contenido va en `data/casos.json`. Mientras una competencia no tenga casos, se muestra la
-estructura con textos de ejemplo. Formato (las claves son las de `data/comp.json`):
+El contenido va en `data/casos.json` y lo genera `scripts/casos-equipo.py` desde
+`docs/contenido/Banco_casos_clinicos_Anatomia_Humana.docx` (14 casos de cinco opciones: 8 de
+sistema nervioso y 2 de cabeza y cuello, antebrazo y corazón). Mientras una competencia no tenga
+casos, se muestra la estructura con textos de ejemplo (5 fases de 5 casos). Formato (las claves
+son las de `data/comp.json`):
 
 ```json
 {
@@ -112,9 +115,11 @@ estructura con textos de ejemplo. Formato (las claves son las de `data/comp.json
 }
 ```
 
-Cada competencia lleva 5 fases y cada fase 5 casos. `correcta` es la posición (0 a 3) de la
-respuesta correcta en `opciones`; la app mezcla el orden al mostrarlas. Las imágenes van en
-`public/app/img/casos/`.
+Las fases y los casos por fase pueden variar. `correcta` es la posición (desde 0) de la respuesta
+correcta en `opciones` (de 4 a 5). Opcionales: `descartes` (por qué no son las otras, una línea
+por opción) e `imagenTxt` (descripción de la imagen sugerida, que se muestra mientras no hay
+`imagen`). Las opciones se muestran en el orden del archivo, porque las explicaciones las citan
+por letra. Las imágenes van en `public/app/img/casos/`.
 
 **Competencia** (`#competencia`): se abre al tocar una competencia en el inicio o en Aprender
 (`compIr(k)`). `features/competencia/competencia.js`, estilos en `36-competencia.css`. Dentro
@@ -142,6 +147,16 @@ texto se copia tal cual; el script solo asigna sistema, tema (el apartado del Wo
 muestra junto al tema. Cada tema está asignado a una competencia en `data/comp.json`, y los de
 articulaciones van en la lista `ARTRO` de `categorias.js`. Si el equipo corrige el Word, se
 reemplaza el archivo y se vuelven a correr los dos scripts.
+
+**Tarjetas y fichas de Emi y Leo**: sus bancos en PDF
+(`docs/contenido/ROUVIERE_Emi_Biblioteca_y_Flashcards.pdf` y `…_Leo_…`, 640 tarjetas cada uno,
+16 por apartado en cuatro niveles) se convierten con `python3 scripts/contenido-emi-leo.py`
+(requiere `pdfplumber`) a `data/bank-emi-leo.json` (1280 tarjetas, `f: 'emi' | 'leo'`) y
+`data/fichas-emi-leo.json` (97 fichas de sus anexos). Las tablas se leen por la posición de las
+columnas. Cada apartado del PDF se asigna a un tema que ya existe en `data/comp.json` (lista
+`TEMA` del script) y su título va en `sub`. Emi: cardiovascular, linfático, respiratorio,
+digestivo, urinario y reproductor. Leo: endocrino, sentidos, nervioso periférico y autónomo y
+neuroanatomía. `fichas.js` junta las fichas de los dos archivos y las ordena por bloque.
 
 **Fichas anatómicas** (`#fichas`, se entra desde Biblioteca): el anexo «Biblioteca anatómica»
 del mismo Word se convierte con `python3 scripts/fichas-equipo.py` a

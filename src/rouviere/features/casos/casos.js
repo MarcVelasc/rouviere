@@ -3,23 +3,28 @@ import { COMP } from '../anatomia/competencias.js';
 
 /* ===== casos clínicos =====
    Se abre desde la tarjeta «Casos clínicos» del inicio (#casos).
-   Cada competencia tiene un camino de 5 fases y cada fase 5 casos. Una fase se abre al
-   terminar la anterior. Al final de cada fase: puntaje, estrellas y lo que se falló.
+   Cada competencia tiene un camino de fases (una por tema) y cada fase sus casos. Una fase
+   se abre al terminar la anterior. Al final de cada fase: puntaje, estrellas y lo que se falló.
 
-   El contenido sale de data/casos.json (formato en docs/ARQUITECTURA.md). Mientras una
-   competencia no tenga contenido, se muestra la estructura con textos de ejemplo. */
+   El contenido sale de data/casos.json, que genera scripts/casos-equipo.py desde el banco
+   de casos del equipo (14 casos, cinco opciones). Las opciones se muestran en el orden del
+   Word porque la explicación las nombra por letra. Mientras una competencia no tenga
+   contenido, se muestra la estructura con textos de ejemplo (5 fases de 5 casos). */
 
-const FASES = 5;
-const POR_FASE = 5;
-const CLAVE = 'rv_casos';
-/* Posición de cada fase dentro del camino, en % (x, y). */
-const POS = [
-  [30, 8],
-  [70, 28],
-  [30, 49],
-  [70, 70],
-  [50, 91],
-];
+const FASES_EJ = 5;
+const POR_FASE_EJ = 5;
+const CLAVE = 'rv_casos2'; // «2»: el avance hecho con el contenido de ejemplo no cuenta
+const LETRAS = 'ABCDE';
+/* Posición de cada fase dentro del camino, en % (x, y): zigzag de arriba abajo y la
+   última al centro. Con 5 fases da 30/8, 70/28, 30/49, 70/70, 50/91. */
+function posiciones(n) {
+  if (n <= 1) return [[50, 34]];
+  var out = [];
+  for (var i = 0; i < n; i++)
+    out.push([i === n - 1 ? 50 : i % 2 ? 70 : 30, Math.round(8 + (i * 83) / (n - 1))]);
+  return out;
+}
+var POS = posiciones(FASES_EJ);
 
 const ICON = {
   star: '<svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg>',
@@ -51,9 +56,9 @@ function competencias() {
 /* Estructura de ejemplo para las competencias que todavía no tienen casos. */
 function ejemplo() {
   var fases = [];
-  for (var f = 0; f < FASES; f++) {
+  for (var f = 0; f < FASES_EJ; f++) {
     var casos = [];
-    for (var c = 0; c < POR_FASE; c++)
+    for (var c = 0; c < POR_FASE_EJ; c++)
       casos.push({
         caso:
           'Aquí va el caso clínico ' +
@@ -95,12 +100,18 @@ function orden(fi, ci) {
 var cache = {};
 function fasesDe(k) {
   if (cache[k]) return cache[k];
-  var datos = CASOS_DATA && CASOS_DATA[k] && CASOS_DATA[k].length ? CASOS_DATA[k] : ejemplo();
+  var real = !!(CASOS_DATA && CASOS_DATA[k] && CASOS_DATA[k].length),
+    datos = real ? CASOS_DATA[k] : ejemplo();
   cache[k] = datos.map(function (f, fi) {
     return {
       tema: f.tema,
       casos: f.casos.map(function (c, ci) {
-        var o = orden(fi, ci);
+        // Solo el ejemplo se mezcla; los casos reales citan sus opciones por letra.
+        var o = real
+          ? c.opciones.map(function (_, i) {
+              return i;
+            })
+          : orden(fi, ci);
         return {
           caso: c.caso,
           pregunta: c.pregunta,
@@ -109,7 +120,9 @@ function fasesDe(k) {
           }),
           correcta: o.indexOf(c.correcta),
           explicacion: c.explicacion,
+          descartes: c.descartes || [],
           imagen: c.imagen || '',
+          imagenTxt: c.imagenTxt || '',
         };
       }),
     };
@@ -117,9 +130,9 @@ function fasesDe(k) {
   return cache[k];
 }
 
-/* ---------- avance (solo en este dispositivo) ---------- */
+/* ---------- avance (se sincroniza con la cuenta en core/nube.js) ---------- */
 
-var st = { comp: 'c1', prog: {} };
+var st = { comp: 'c5', prog: {} };
 function cargar() {
   try {
     var g = JSON.parse(localStorage.getItem(CLAVE) || 'null');
@@ -148,8 +161,9 @@ function esc(s) {
 var reduce = function () {
   return !!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
 };
-function estrellas(score) {
-  var n = score >= 5 ? 3 : score >= 3 ? 2 : score >= 1 ? 1 : 0,
+function estrellas(score, total) {
+  var r = total ? score / total : 0,
+    n = r >= 1 ? 3 : r >= 0.6 ? 2 : r > 0 ? 1 : 0,
     h = '';
   for (var k = 0; k < 3; k++)
     h +=
@@ -158,8 +172,9 @@ function estrellas(score) {
       '" stroke="#D9A441" stroke-width="1.6" stroke-linejoin="round"/></svg>';
   return '<span class="cc-stars" role="img" aria-label="' + n + ' de 3 estrellas">' + h + '</span>';
 }
-function etiqueta(i) {
-  return i === 0 ? 'Inicio' : i === FASES - 1 ? 'Final' : 'Fase ' + (i + 1);
+function etiqueta(i, n) {
+  if (n === 1) return 'Fase única';
+  return i === 0 ? 'Inicio' : i === n - 1 ? 'Final' : 'Fase ' + (i + 1);
 }
 function mostrar(id) {
   ['ccCamino', 'ccCaso', 'ccRes'].forEach(function (v) {
@@ -179,7 +194,8 @@ var guiaEn = null;
 function lugarGuia(i) {
   var x = POS[i][0],
     y = POS[i][1];
-  if (i === FASES - 1) return [20, y - 2, 'cc-arriba'];
+  if (POS.length === 1) return [x + 30, y + 4, 'cc-der'];
+  if (i === POS.length - 1) return [20, y - 2, 'cc-arriba'];
   return x > 50 ? [x - 26, y + 4, 'cc-izq'] : [x + 26, y + 4, 'cc-der'];
 }
 function compActual() {
@@ -196,15 +212,32 @@ function renderCamino() {
     fases = fasesDe(c.k),
     p = prog();
   st.comp = c.k;
-  var hechas = p.filter(Boolean).length;
+  var FASES = fases.length;
+  POS = posiciones(FASES);
+  var hechas = p.slice(0, FASES).filter(Boolean).length;
+  var nCasos = fases.reduce(function (s, f) {
+    return s + f.casos.length;
+  }, 0);
   $('ccChip').textContent = 'Competencia ' + c.n + ' · ' + c.t;
+  var intro =
+    FASES === 1
+      ? 'Una fase de ' + nCasos + ' casos para razonar con la anatomía.'
+      : FASES +
+        ' fases, una por tema, con ' +
+        nCasos +
+        ' casos en total. Termina una para abrir la siguiente.';
   var head =
-    '<h1 id="ccT">Casos <em>clínicos</em></h1><p>Cinco fases, de lo simple a lo integrado. Cada una tiene 5 casos: termina una para abrir la siguiente.</p>' +
+    '<h1 id="ccT">Casos <em>clínicos</em></h1><p>' +
+    intro +
+    '</p>' +
     '<div class="cc-prog"><div class="cc-track"><i style="width:' +
     (hechas / FASES) * 100 +
     '%"></i></div><b>' +
     hechas +
-    ' de 5 fases</b></div>';
+    ' de ' +
+    FASES +
+    (FASES === 1 ? ' fase' : ' fases') +
+    '</b></div>';
   $('ccHead').innerHTML = head;
   var tot = p.reduce(function (s, x) {
     return s + (x ? x.score : 0);
@@ -220,7 +253,9 @@ function renderCamino() {
     '</p><p style="margin:6px 0 0;color:var(--cc-muted)">Aciertos acumulados: <b style="color:var(--gold)">' +
     tot +
     ' de ' +
-    hechas * POR_FASE +
+    fases.reduce(function (s, f, i) {
+      return s + (p[i] ? f.casos.length : 0);
+    }, 0) +
     '</b></p></div>' +
     '<button class="cc-reset" type="button" data-cc-reset>' +
     ICON.reset +
@@ -228,6 +263,8 @@ function renderCamino() {
 
   var w = $('ccPath');
   w.innerHTML = '';
+  // El camino de ejemplo (5 fases) usa la altura de la hoja de estilos; uno más corto, menos.
+  w.style.height = FASES < 5 ? Math.max(260, FASES * 124 + 40) + 'px' : '';
   var d = '';
   POS.forEach(function (q, i) {
     if (!i) {
@@ -271,18 +308,22 @@ function renderCamino() {
       '" ' +
       (cls === 'cc-locked' ? 'aria-disabled="true"' : '') +
       ' aria-label="' +
-      etiqueta(i) +
+      etiqueta(i, FASES) +
       ': ' +
       esc(f.tema) +
-      (r ? ', ' + r.score + ' de 5 aciertos' : cls === 'cc-locked' ? ', bloqueada' : '') +
+      (r
+        ? ', ' + r.score + ' de ' + f.casos.length + ' aciertos'
+        : cls === 'cc-locked'
+          ? ', bloqueada'
+          : '') +
       '">' +
       icon +
       '</button>' +
       '<span class="cc-nl"><b>' +
-      etiqueta(i) +
+      etiqueta(i, FASES) +
       '</b>' +
       esc(f.tema) +
-      (r ? estrellas(r.score) : '') +
+      (r ? estrellas(r.score, f.casos.length) : '') +
       '</span>';
     w.appendChild(node);
   }
@@ -290,7 +331,7 @@ function renderCamino() {
   var actual = Math.min(hechas, FASES - 1),
     todo = hechas >= FASES;
   var msg = todo
-    ? '¡Terminaste las cinco fases!'
+    ? '¡Terminaste el camino!'
     : hechas === 0
       ? '¡Empecemos! Toca la estrella.'
       : '¡Vamos con la fase ' + (hechas + 1) + '!';
@@ -346,10 +387,12 @@ function empezar(fi) {
   pintarCaso();
 }
 function pintarCaso() {
-  var fase = fasesDe(st.comp)[F.fase],
-    c = fase.casos[F.i];
+  var fases = fasesDe(st.comp),
+    fase = fases[F.fase],
+    c = fase.casos[F.i],
+    total = fase.casos.length;
   var segs = '';
-  for (var k = 0; k < POR_FASE; k++) {
+  for (var k = 0; k < total; k++) {
     var r = F.res[k];
     segs +=
       '<i class="' +
@@ -358,13 +401,21 @@ function pintarCaso() {
   }
   $('ccSegs').innerHTML = segs;
   $('ccSegs').setAttribute('aria-valuenow', String(F.i + 1));
-  $('ccCount').textContent = F.i + 1 + '/' + POR_FASE;
+  $('ccSegs').setAttribute('aria-valuemax', String(total));
+  $('ccCount').textContent = F.i + 1 + '/' + total;
   $('ccFig').innerHTML = c.imagen
     ? '<img src="' + esc(c.imagen) + '" alt="Imagen del caso ' + (F.i + 1) + '">'
-    : '<div class="cc-figph">' +
-      ICON.imagen +
-      '<b>Imagen del caso</b><span>La entrega el Equipo 2</span></div>';
-  $('ccPh').textContent = etiqueta(F.fase) + ' · ' + fase.tema + ' · Caso ' + (F.i + 1);
+    : c.imagenTxt
+      ? '<div class="cc-figph cc-figtxt">' +
+        ICON.imagen +
+        '<b>Imagen sugerida</b><span>' +
+        esc(c.imagenTxt) +
+        '</span></div>'
+      : '<div class="cc-figph">' +
+        ICON.imagen +
+        '<b>Imagen del caso</b><span>La entrega el Equipo 2</span></div>';
+  $('ccPh').textContent =
+    etiqueta(F.fase, fases.length) + ' · ' + fase.tema + ' · Caso ' + (F.i + 1);
   $('ccCaso1').textContent = c.caso;
   $('ccAsk').textContent = c.pregunta;
   var fb = $('ccFb');
@@ -376,7 +427,7 @@ function pintarCaso() {
         '<li><button class="cc-opt" type="button" data-op="' +
         i +
         '"><span class="cc-lt">' +
-        'ABCD'[i] +
+        LETRAS[i] +
         '</span><span>' +
         esc(o) +
         '</span></button></li>'
@@ -401,20 +452,22 @@ function responder(i) {
   fb.className = 'cc-fb ' + (ok ? 'cc-ok' : 'cc-bad');
   fb.innerHTML = ok
     ? ICON.ok + ' ¡Correcto!'
-    : ICON.x + ' La correcta era la ' + 'ABCD'[c.correcta] + '.';
+    : ICON.x + ' La correcta era la ' + LETRAS[c.correcta] + '.';
   $('ccSegs').children[F.i].className = ok ? 'cc-ok' : 'cc-bad';
   clearTimeout(avance);
   avance = setTimeout(
     function () {
       F.i++;
-      if (F.i < POR_FASE) pintarCaso();
+      if (F.i < fasesDe(st.comp)[F.fase].casos.length) pintarCaso();
       else terminar();
     },
     ok ? 1300 : 2200,
   );
 }
 function terminar() {
-  var score = F.res.filter(function (r) {
+  var fases = fasesDe(st.comp),
+    POR_FASE = fases[F.fase].casos.length,
+    score = F.res.filter(function (r) {
       return r.ok;
     }).length,
     p = prog();
@@ -428,9 +481,9 @@ function terminar() {
     '¡Muy bien!',
     '¡Perfecto!',
   ];
-  $('ccResT').textContent = msgs[score];
+  $('ccResT').textContent = msgs[Math.floor((score / POR_FASE) * 5)];
   $('ccNum').innerHTML = score + '<small>/' + POR_FASE + '</small>';
-  $('ccStars').innerHTML = estrellas(score);
+  $('ccStars').innerHTML = estrellas(score, POR_FASE);
   $('ccSub').textContent =
     score === POR_FASE
       ? 'Acertaste todos los casos de esta fase.'
@@ -444,7 +497,7 @@ function terminar() {
     },
     reduce() ? 0 : 120,
   );
-  var fase = fasesDe(st.comp)[F.fase],
+  var fase = fases[F.fase],
     fall = '',
     bien = '';
   fase.casos.forEach(function (c, k) {
@@ -464,14 +517,25 @@ function terminar() {
       esc(c.opciones[c.correcta]) +
       '</dd></dl><p class="cc-ex">' +
       esc(c.explicacion) +
-      '</p></li>';
+      '</p>' +
+      (c.descartes.length
+        ? '<p class="cc-exn">Por qué no son las otras</p><ul class="cc-desc">' +
+          c.descartes
+            .map(function (d) {
+              return '<li>' + esc(d) + '</li>';
+            })
+            .join('') +
+          '</ul>'
+        : '') +
+      '</li>';
     if (r.ok) bien += item;
     else fall += item;
   });
   $('ccRev').innerHTML =
     (fall ? '<h3>Lo que fallaste</h3><ul>' + fall + '</ul>' : '') +
     (bien ? '<h3>Lo que acertaste</h3><ul>' + bien + '</ul>' : '');
-  $('ccSeguir').textContent = F.fase < FASES - 1 ? 'Continuar el camino' : 'Volver al camino';
+  $('ccSeguir').textContent =
+    F.fase < fases.length - 1 ? 'Continuar el camino' : 'Volver al camino';
   $('ccResT').focus({ preventScroll: true });
 }
 
@@ -480,7 +544,11 @@ function terminar() {
 function abrirSheet() {
   $('ccList').innerHTML = competencias()
     .map(function (c) {
-      var real = !!(CASOS_DATA && CASOS_DATA[c.k] && CASOS_DATA[c.k].length);
+      var real = !!(CASOS_DATA && CASOS_DATA[c.k] && CASOS_DATA[c.k].length),
+        fs = fasesDe(c.k),
+        nc = fs.reduce(function (s, f) {
+          return s + f.casos.length;
+        }, 0);
       return (
         '<li><button class="cc-cb" type="button" data-comp="' +
         c.k +
@@ -490,7 +558,11 @@ function abrirSheet() {
         c.n +
         '</span><span><b>' +
         esc(c.t) +
-        '</b><small>5 fases · 25 casos' +
+        '</b><small>' +
+        fs.length +
+        (fs.length === 1 ? ' fase · ' : ' fases · ') +
+        nc +
+        ' casos' +
         (real ? '' : ' · contenido de ejemplo') +
         '</small></span></button></li>'
       );

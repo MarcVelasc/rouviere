@@ -22,6 +22,7 @@ const CLAVES = [
   'rv_snc',
   'rv_sim_best',
   'rv_comp',
+  'rv_casos2',
 ];
 const T = 'rv_nube_t'; // cuándo cambió el progreso del teléfono (ms)
 const UID = 'rv_nube_uid'; // de qué cuenta es el progreso del teléfono

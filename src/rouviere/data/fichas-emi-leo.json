@@ -1,0 +1,1083 @@
+{
+ "fuente": "Bibliotecas anatómicas de Emi y Leo (equipo de contenido de ROUVIÈRE)",
+ "bloques": [
+  "Cardiovascular",
+  "Linfático",
+  "Respiratorio",
+  "Digestivo",
+  "Urinario",
+  "Reproductor",
+  "Endocrino",
+  "Órganos de los sentidos",
+  "Sistema nervioso"
+ ],
+ "fichas": [
+  {
+   "id": "emi-e05-01",
+   "tipo": "ficha",
+   "b": "Cardiovascular",
+   "z": "Cardiovascular",
+   "n": "Corazón",
+   "p": [
+    "Ubicación: Mediastino medio, dentro del pericardio; el vértice se dirige abajo, adelante y a la izquierda. Partes anatómicas: Aurículas derecha e izquierda, ventrículos derecho e izquierdo, tabiques y esqueleto fibroso. Características principales: Órgano muscular hueco; pared formada por endocardio, miocardio y epicardio; el ventrículo izquierdo tiene pared más gruesa. Relaciones anatómicas: Posterior al esternón; anterior al esófago; descansa sobre el diafragma y se relaciona lateralmente con pulmones y pleuras. Irrigación: Arterias coronarias derecha e izquierda, originadas en los senos aórticos; retorno por venas cardíacas y seno coronario. Inervación: Fibras simpáticas y parasimpáticas (vago) del plexo cardíaco; modulan frecuencia, conducción y contractilidad. Función: Impulsar sangre hacia las circulaciones pulmonar y sistémica."
+   ],
+   "cod": "E05-01"
+  },
+  {
+   "id": "emi-e05-02",
+   "tipo": "ficha",
+   "b": "Cardiovascular",
+   "z": "Cardiovascular",
+   "n": "Válvulas cardíacas",
+   "p": [
+    "Ubicación: En los orificios auriculoventriculares y en las salidas del tronco pulmonar y de la aorta. Partes anatómicas: Tricúspide (derecha), mitral o bicúspide (izquierda), pulmonar y aórtica; cuerdas tendinosas y músculos papilares en las auriculoventriculares. Características principales: Las valvas permiten flujo unidireccional; las semilunares no tienen cuerdas tendinosas. Relaciones anatómicas: Tricúspide entre aurícula y ventrículo derechos; mitral entre los izquierdos; pulmonar y aórtica en los tractos de salida ventriculares. Irrigación: Valvas avasculares en su mayor parte; nutrición principalmente por difusión desde sangre y tejidos adyacentes. Inervación: Sin inervación motora independiente; su apertura y cierre son pasivos por diferencias de presión. Función: Evitar el reflujo de sangre durante el ciclo cardíaco."
+   ],
+   "cod": "E05-02"
+  },
+  {
+   "id": "emi-e05-03",
+   "tipo": "ficha",
+   "b": "Cardiovascular",
+   "z": "Cardiovascular",
+   "n": "Arterias coronarias",
+   "p": [
+    "Ubicación: En la superficie del corazón; nacen de la aorta ascendente, inmediatamente por encima de la válvula aórtica. Partes anatómicas: Coronaria derecha y coronaria izquierda; esta última suele dividirse en interventricular anterior y circunfleja. Características principales: Su distribución presenta variantes; discurren en surcos cardíacos y emiten ramas intramiocárdicas. Relaciones anatómicas: Acompañadas por venas cardíacas; la interventricular anterior sigue el surco interventricular anterior. Irrigación: Proceden directamente de la raíz aórtica; a su vez suministran sangre al miocardio. Inervación: Fibras vasomotoras simpáticas de plexos cardíacos; regulación adicional local y metabólica. Función: Aportar oxígeno y nutrientes al músculo cardíaco."
+   ],
+   "cod": "E05-03"
+  },
+  {
+   "id": "emi-e05-04",
+   "tipo": "ficha",
+   "b": "Cardiovascular",
+   "z": "Cardiovascular",
+   "n": "Aorta",
+   "p": [
+    "Ubicación: Se origina en el ventrículo izquierdo y recorre el tórax y el abdomen hasta bifurcarse aproximadamente en L4. Partes anatómicas: Aorta ascendente, arco aórtico y aorta descendente torácica y abdominal. Características principales: Arteria elástica de gran calibre; posee capas íntima, media y adventicia. Relaciones anatómicas: El arco pasa sobre el bronquio principal izquierdo; la aorta abdominal se sitúa anterior a la columna, generalmente a la izquierda de la línea media. Irrigación: Recibe sangre del ventrículo izquierdo; su pared se nutre en parte por vasa vasorum. Inervación: Fibras vasomotoras simpáticas para su pared; los barorreceptores del arco envían aferencias por el vago. Función: Distribuir sangre oxigenada hacia la circulación sistémica."
+   ],
+   "cod": "E05-04"
+  },
+  {
+   "id": "emi-e05-05",
+   "tipo": "ficha",
+   "b": "Cardiovascular",
+   "z": "Cardiovascular",
+   "n": "Venas cavas",
+   "p": [
+    "Ubicación: La superior desciende por el mediastino superior y termina en la aurícula derecha; la inferior asciende por el abdomen y atraviesa el diafragma. Partes anatómicas: Vena cava superior y vena cava inferior; ambas desembocan en la aurícula derecha. Características principales: Grandes venas sistémicas de pared relativamente delgada respecto a su calibre. Relaciones anatómicas: La vena cava superior se relaciona con la aorta ascendente y el pulmón derecho; la inferior atraviesa el orificio caval del diafragma. Irrigación: Recogen retorno venoso de tributarias sistémicas; pared alimentada por pequeños vasos propios. Inervación: Inervación autonómica vasomotora de la pared venosa; no existe control voluntario. Función: Devolver sangre venosa de la mayor parte del cuerpo al corazón derecho."
+   ],
+   "cod": "E05-05"
+  },
+  {
+   "id": "emi-e05-06",
+   "tipo": "ficha",
+   "b": "Cardiovascular",
+   "z": "Cardiovascular",
+   "n": "Capilares sanguíneos",
+   "p": [
+    "Ubicación: Redes microscópicas entre arteriolas y vénulas de la mayoría de los tejidos. Partes anatómicas: Continuos, fenestrados y sinusoides o discontinuos, según órgano. Características principales: Pared formada principalmente por endotelio y lámina basal; el tipo condiciona la permeabilidad. Relaciones anatómicas: Se interponen entre vasos de resistencia y vasos de retorno; íntima relación con células del tejido irrigado. Irrigación: Reciben flujo de arteriolas y lo conducen a vénulas; no tienen una red arterial propia separada. Inervación: No poseen inervación motora propia; el flujo depende sobre todo de arteriolas y mecanismos locales. Función: Permitir intercambio de gases, solutos y agua entre sangre y tejidos."
+   ],
+   "cod": "E05-06"
+  },
+  {
+   "id": "emi-e06-01",
+   "tipo": "ficha",
+   "b": "Linfático",
+   "z": "Linfático",
+   "n": "Ganglio linfático",
+   "p": [
+    "Ubicación: A lo largo de vasos linfáticos; forma grupos cervicales, axilares, inguinales, mesentéricos y otros. Partes anatómicas: Cápsula, corteza con folículos, paracorteza y médula con cordones y senos. Características principales: Órgano encapsulado; recibe varios vasos aferentes y drena por vasos eferentes en el hilio. Relaciones anatómicas: Se sitúa en trayectos de drenaje linfático regional y en vecindad de vasos sanguíneos. Irrigación: Pequeñas arterias ingresan por el hilio; vénulas de endotelio alto facilitan tránsito de linfocitos. Inervación: Fibras vasomotoras autónomas en sus vasos; la respuesta inmune no requiere inervación motora. Función: Filtrar linfa y facilitar encuentro entre antígenos y células inmunitarias."
+   ],
+   "cod": "E06-01"
+  },
+  {
+   "id": "emi-e06-02",
+   "tipo": "ficha",
+   "b": "Linfático",
+   "z": "Linfático",
+   "n": "Bazo",
+   "p": [
+    "Ubicación: Hipocondrio izquierdo, bajo el diafragma, aproximadamente frente a las costillas 9 a 11. Partes anatómicas: Cápsula y trabéculas; pulpa blanca y pulpa roja; hilio esplénico. Características principales: Órgano linfoide muy vascularizado que filtra sangre, no linfa. Relaciones anatómicas: Adyacente al estómago, al riñón izquierdo y a la cola del páncreas en cercanía del hilio. Irrigación: Arteria esplénica, rama del tronco celíaco; vena esplénica hacia el sistema porta. Inervación: Fibras simpáticas del plexo celíaco/esplénico, principalmente vasomotoras. Función: Participar en vigilancia inmunitaria de la sangre y retirar eritrocitos envejecidos."
+   ],
+   "cod": "E06-02"
+  },
+  {
+   "id": "emi-e06-03",
+   "tipo": "ficha",
+   "b": "Linfático",
+   "z": "Linfático",
+   "n": "Timo",
+   "p": [
+    "Ubicación: Mediastino anterior y superior, especialmente desarrollado en la infancia; puede extenderse al cuello. Partes anatómicas: Dos lóbulos con lobulillos; corteza y médula tímicas; corpúsculos de Hassall. Características principales: Órgano linfoide primario; su tejido funcional disminuye con la edad y es sustituido parcialmente por tejido adiposo. Relaciones anatómicas: Anterior al pericardio y grandes vasos; posterior al esternón. Irrigación: Ramas de arterias torácicas internas y tiroideas inferiores, entre otras. Inervación: Fibras autonómicas relacionadas con sus vasos; no controla voluntariamente la maduración linfocitaria. Función: Favorecer maduración y selección de linfocitos T."
+   ],
+   "cod": "E06-03"
+  },
+  {
+   "id": "emi-e06-04",
+   "tipo": "ficha",
+   "b": "Linfático",
+   "z": "Linfático",
+   "n": "Conducto torácico",
+   "p": [
+    "Ubicación: Comienza habitualmente en la cisterna del quilo abdominal y asciende por el mediastino posterior hasta el ángulo venoso izquierdo. Partes anatómicas: Tramo abdominal, torácico y cervical; recibe troncos linfáticos de territorios extensos. Características principales: Principal vía de retorno linfático; presenta válvulas y una trayectoria variable. Relaciones anatómicas: Asciende próximo a la columna, aorta y esófago; termina en la unión yugular interna-subclavia izquierda. Irrigación: Pequeños vasos de su pared; lleva linfa, no sangre arterial. Inervación: Fibras autonómicas de músculo liso de la pared; además influye la compresión por movimientos respiratorios. Función: Devolver linfa de casi todo el cuerpo a la circulación venosa, excepto el cuadrante superior derecho."
+   ],
+   "cod": "E06-04"
+  },
+  {
+   "id": "emi-e07-01",
+   "tipo": "ficha",
+   "b": "Respiratorio",
+   "z": "Respiratorio",
+   "n": "Cavidad nasal",
+   "p": [
+    "Ubicación: Interior de la nariz, desde las narinas hasta las coanas que comunican con la nasofaringe. Partes anatómicas: Vestíbulo, tabique, cornetes superior, medio e inferior y meatos nasales. Características principales: Mucosa respiratoria vascularizada y región olfatoria en el techo; cornetes amplían la superficie. Relaciones anatómicas: Superior al paladar duro; inferior a la cavidad craneal; lateral a senos paranasales y órbitas. Irrigación: Ramas de arterias esfenopalatina, facial y etmoidales; plexos venosos de la mucosa. Inervación: Olfato por nervio I; sensibilidad general por V1 y V2; control autónomo de glándulas y vasos. Función: Filtrar, humidificar y calentar aire; alojar receptores olfatorios."
+   ],
+   "cod": "E07-01"
+  },
+  {
+   "id": "emi-e07-02",
+   "tipo": "ficha",
+   "b": "Respiratorio",
+   "z": "Respiratorio",
+   "n": "Faringe",
+   "p": [
+    "Ubicación: Tubo musculomembranoso detrás de cavidades nasal y oral y de la laringe, desde base craneal hasta aproximadamente C6. Partes anatómicas: Nasofaringe, orofaringe y laringofaringe. Características principales: Vía compartida para respiración y deglución; contiene músculos constrictores y elevadores. Relaciones anatómicas: Anterior a columna cervical; posterior a cavidades nasal y oral y a laringe. Irrigación: Ramas de arteria faríngea ascendente, facial y tiroideas, con variaciones regionales. Inervación: Plexo faríngeo (vago motor para casi todos los músculos); sensibilidad varía según segmento: V2, IX y X. Función: Conducir aire hacia laringe y bolo alimenticio hacia esófago."
+   ],
+   "cod": "E07-02"
+  },
+  {
+   "id": "emi-e07-03",
+   "tipo": "ficha",
+   "b": "Respiratorio",
+   "z": "Respiratorio",
+   "n": "Laringe",
+   "p": [
+    "Ubicación: Cuello anterior, aproximadamente entre C3 y C6; conecta faringe con tráquea. Partes anatómicas: Cartílagos tiroides, cricoides, epiglotis, aritenoides y otros; pliegues vestibulares y vocales. Características principales: Esqueleto cartilaginoso unido por membranas y músculos; contiene la glotis. Relaciones anatómicas: Anterior a laringofaringe; inferior al hioides; superior a tráquea. Irrigación: Arterias laríngeas superior e inferior, relacionadas con arterias tiroideas. Inervación: Nervio laríngeo recurrente para casi todos los músculos intrínsecos; laríngeo superior (rama externa) para cricotiroideo. Función: Permitir fonación, regular el paso de aire y proteger la vía respiratoria al deglutir."
+   ],
+   "cod": "E07-03"
+  },
+  {
+   "id": "emi-e07-04",
+   "tipo": "ficha",
+   "b": "Respiratorio",
+   "z": "Respiratorio",
+   "n": "Tráquea",
+   "p": [
+    "Ubicación: Desde borde inferior del cartílago cricoides (C6) hasta carina, cerca del ángulo esternal (T4-T5). Partes anatómicas: Porción cervical y torácica; anillos cartilaginosos incompletos y pared membranosa posterior. Características principales: Revestimiento respiratorio ciliado; músculo traqueal cierra la pared posterior. Relaciones anatómicas: Anterior al esófago; se bifurca en bronquios principales. Irrigación: Ramas de tiroideas inferiores en cuello y bronquiales en tórax. Inervación: Fibras del vago y simpáticas en plexos traqueales. Función: Conducir aire hacia los bronquios y contribuir a su limpieza mucociliar."
+   ],
+   "cod": "E07-04"
+  },
+  {
+   "id": "emi-e07-05",
+   "tipo": "ficha",
+   "b": "Respiratorio",
+   "z": "Respiratorio",
+   "n": "Bronquios principales",
+   "p": [
+    "Ubicación: Nacen en la bifurcación traqueal y penetran en cada pulmón por el hilio. Partes anatómicas: Bronquio principal derecho e izquierdo, bronquios lobares y segmentarios. Características principales: El bronquio principal derecho suele ser más corto, ancho y vertical que el izquierdo. Relaciones anatómicas: El bronquio izquierdo pasa inferior al arco aórtico; el derecho se relaciona con estructuras del hilio pulmonar derecho. Irrigación: Arterias bronquiales para paredes bronquiales; circulación pulmonar para intercambio alveolar. Inervación: Plexos pulmonares: parasimpático vagal broncoconstrictor y simpático principalmente broncodilatador. Función: Distribuir aire a lóbulos y segmentos pulmonares."
+   ],
+   "cod": "E07-05"
+  },
+  {
+   "id": "emi-e07-06",
+   "tipo": "ficha",
+   "b": "Respiratorio",
+   "z": "Respiratorio",
+   "n": "Pulmones",
+   "p": [
+    "Ubicación: Cavidades pleurales derecha e izquierda, a ambos lados del mediastino y apoyados sobre el diafragma. Partes anatómicas: Derecho con tres lóbulos; izquierdo generalmente con dos; cada uno presenta ápice, base, caras e hilio. Características principales: Parénquima esponjoso con árbol bronquial, vasos pulmonares y unidades de intercambio gaseoso. Relaciones anatómicas: Medialmente con corazón y mediastino; inferiormente con diafragma; lateralmente con parrilla costal. Irrigación: Arterias pulmonares para intercambio gaseoso y arterias bronquiales para nutrición; retorno por venas pulmonares y bronquiales. Inervación: Plexos pulmonares con fibras vagales y simpáticas; pleura parietal tiene inervación somática distinta. Función: Realizar intercambio de O₂ y CO₂ mediante alvéolos y capilares."
+   ],
+   "cod": "E07-06"
+  },
+  {
+   "id": "emi-e07-07",
+   "tipo": "ficha",
+   "b": "Respiratorio",
+   "z": "Respiratorio",
+   "n": "Pleuras",
+   "p": [
+    "Ubicación: Membranas serosas que recubren cada pulmón y tapizan la superficie interna de la cavidad torácica correspondiente. Partes anatómicas: Pleura visceral y pleura parietal (costal, mediastínica, diafragmática y cervical); cavidad pleural virtual. Características principales: Películas delgadas con líquido pleural que reduce fricción durante la respiración. Relaciones anatómicas: Visceral adherida al pulmón; parietal relacionada con pared torácica, diafragma y mediastino. Irrigación: Visceral: aporte asociado a arterias bronquiales; parietal: vasos de la pared torácica y frénicos. Inervación: Visceral: fibras autónomas poco sensibles al dolor; parietal: nervios intercostales y frénico. Función: Permitir deslizamiento pulmonar y contribuir al acoplamiento mecánico entre pulmón y pared torácica."
+   ],
+   "cod": "E07-07"
+  },
+  {
+   "id": "emi-e07-08",
+   "tipo": "ficha",
+   "b": "Respiratorio",
+   "z": "Respiratorio",
+   "n": "Alvéolos pulmonares",
+   "p": [
+    "Ubicación: Porción distal del árbol respiratorio, agrupados en sacos alveolares dentro de los pulmones. Partes anatómicas: Neumocitos tipo I, neumocitos tipo II, macrófagos alveolares y membrana alveolocapilar. Características principales: Pared muy delgada para difusión; neumocitos tipo II producen surfactante. Relaciones anatómicas: En contacto íntimo con capilares pulmonares y conectados a conductos alveolares. Irrigación: Capilares derivados de arterias pulmonares; sangre oxigenada retorna por venas pulmonares. Inervación: No tienen control motor individual; calibre de vías adyacentes depende de regulación autónoma. Función: Intercambiar O₂ y CO₂ entre aire alveolar y sangre."
+   ],
+   "cod": "E07-08"
+  },
+  {
+   "id": "emi-e08-01",
+   "tipo": "ficha",
+   "b": "Digestivo",
+   "z": "Digestivo",
+   "n": "Cavidad bucal",
+   "p": [
+    "Ubicación: Porción inicial del tubo digestivo, limitada por labios, mejillas, paladar y piso de boca. Partes anatómicas: Vestíbulo oral y cavidad oral propiamente dicha; lengua, dientes y paladar. Características principales: Epitelio escamoso estratificado en la mayor parte; participa en masticación y preparación del bolo. Relaciones anatómicas: Continúa posteriormente con la orofaringe por el istmo de las fauces. Irrigación: Ramas de arterias facial, maxilar y lingual; drenaje venoso regional. Inervación: Sensibilidad general por trigémino; gusto lingual por VII, IX y X según región; motricidad lingual principalmente XII. Función: Iniciar digestión mecánica y colaborar en deglución y gusto."
+   ],
+   "cod": "E08-01"
+  },
+  {
+   "id": "emi-e08-02",
+   "tipo": "ficha",
+   "b": "Digestivo",
+   "z": "Digestivo",
+   "n": "Esófago",
+   "p": [
+    "Ubicación: Desde faringe (C6) hasta cardias gástrico, atravesando cuello, mediastino y hiato esofágico del diafragma. Partes anatómicas: Porciones cervical, torácica y abdominal; capas mucosa, submucosa y muscular. Características principales: Tubo muscular con peristalsis; su músculo cambia de estriado a liso hacia distal. Relaciones anatómicas: Posterior a tráquea en cuello; cercano a aorta torácica, bronquio principal izquierdo y aurícula izquierda en tórax. Irrigación: Ramas tiroideas inferiores, aórticas esofágicas y gástrica izquierda según región. Inervación: Plexo esofágico vagal y fibras simpáticas; participación entérica en su pared. Función: Transportar el bolo alimenticio hasta el estómago."
+   ],
+   "cod": "E08-02"
+  },
+  {
+   "id": "emi-e08-03",
+   "tipo": "ficha",
+   "b": "Digestivo",
+   "z": "Digestivo",
+   "n": "Estómago",
+   "p": [
+    "Ubicación: Cuadrante superior izquierdo del abdomen, principalmente epigastrio e hipocondrio izquierdo. Partes anatómicas: Cardias, fondo, cuerpo y región pilórica; curvaturas mayor y menor. Características principales: Presenta pliegues gástricos y glándulas secretoras; pared muscular con capa oblicua adicional. Relaciones anatómicas: Anterior al páncreas; inferior al diafragma; comunica con esófago y duodeno. Irrigación: Arterias gástricas derecha e izquierda, gastro-omentales y gástricas cortas del tronco celíaco y sus ramas. Inervación: Troncos vagales y fibras simpáticas del plexo celíaco; plexos entéricos locales. Función: Almacenar, mezclar y comenzar digestión química de alimentos."
+   ],
+   "cod": "E08-03"
+  },
+  {
+   "id": "emi-e08-04",
+   "tipo": "ficha",
+   "b": "Digestivo",
+   "z": "Digestivo",
+   "n": "Duodeno",
+   "p": [
+    "Ubicación: Primer tramo del intestino delgado, mayormente retroperitoneal, rodea la cabeza del páncreas. Partes anatómicas: Cuatro porciones: superior, descendente, horizontal y ascendente. Características principales: Recibe quimo, bilis y secreción pancreática; la papila duodenal mayor suele estar en la segunda porción. Relaciones anatómicas: En contacto con cabeza pancreática; la tercera porción pasa anterior a aorta y cava inferior. Irrigación: Arterias pancreaticoduodenales superiores (tronco celíaco) e inferiores (mesentérica superior). Inervación: Plexos celíaco y mesentérico superior; fibras vagales y simpáticas; sistema entérico. Función: Neutralizar quimo ácido e iniciar gran parte de digestión intestinal."
+   ],
+   "cod": "E08-04"
+  },
+  {
+   "id": "emi-e08-05",
+   "tipo": "ficha",
+   "b": "Digestivo",
+   "z": "Digestivo",
+   "n": "Yeyuno e íleon",
+   "p": [
+    "Ubicación: Asas intraperitoneales del abdomen, desde flexura duodenoyeyunal hasta unión ileocecal. Partes anatómicas: Yeyuno proximal e íleon distal; ambos suspendidos por el mesenterio. Características principales: Yeyuno suele tener pliegues circulares más desarrollados; íleon posee placas de Peyer más abundantes. Relaciones anatómicas: Se relacionan con colon periférico, mesenterio y peritoneo; íleon termina en ciego. Irrigación: Ramas yeyunales e ileales de arteria mesentérica superior; drenaje a vena mesentérica superior. Inervación: Plexo mesentérico superior, vagal y simpático; red nerviosa entérica. Función: Absorber la mayor parte de nutrientes; el íleon recupera sales biliares y vitamina B12 unida a factor intrínseco."
+   ],
+   "cod": "E08-05"
+  },
+  {
+   "id": "emi-e08-06",
+   "tipo": "ficha",
+   "b": "Digestivo",
+   "z": "Digestivo",
+   "n": "Intestino grueso",
+   "p": [
+    "Ubicación: Desde unión ileocecal hasta recto; enmarca habitualmente las asas del intestino delgado. Partes anatómicas: Ciego y apéndice; colon ascendente, transverso, descendente y sigmoide; recto. Características principales: Colon presenta tenias, haustras y apéndices omentales; recto no presenta tenias típicas. Relaciones anatómicas: Colon derecho cercano a hígado; colon izquierdo próximo a bazo; mesocolon en segmentos móviles. Irrigación: Mesentérica superior para colon proximal e inferior para colon distal; retorno al sistema porta. Inervación: Vago para territorio proximal y esplácnicos pélvicos para distal; simpáticos y plexos entéricos. Función: Absorber agua y electrolitos, formar y desplazar heces."
+   ],
+   "cod": "E08-06"
+  },
+  {
+   "id": "emi-e08-07",
+   "tipo": "ficha",
+   "b": "Digestivo",
+   "z": "Digestivo",
+   "n": "Hígado",
+   "p": [
+    "Ubicación: Hipocondrio derecho y epigastrio, justo inferior al diafragma. Partes anatómicas: Lóbulos anatómicos derecho e izquierdo, caudado y cuadrado; segmentos funcionales y porta hepatis. Características principales: Órgano glandular con lobulillos y sinusoides; recibe doble aporte sanguíneo. Relaciones anatómicas: Inferior al diafragma; vecino de vesícula biliar, duodeno, colon y estómago. Irrigación: Arteria hepática propia y vena porta; drenaje por venas hepáticas hacia vena cava inferior. Inervación: Plexo hepático con fibras simpáticas y parasimpáticas vagales; cápsula con sensibilidad visceral. Función: Procesar nutrientes, sintetizar proteínas plasmáticas, metabolizar sustancias y producir bilis."
+   ],
+   "cod": "E08-07"
+  },
+  {
+   "id": "emi-e08-08",
+   "tipo": "ficha",
+   "b": "Digestivo",
+   "z": "Digestivo",
+   "n": "Vesícula biliar y vía biliar extrahepática",
+   "p": [
+    "Ubicación: Vesícula bajo la cara visceral del hígado; los conductos desembocan en el duodeno. Partes anatómicas: Fondo, cuerpo y cuello vesicular; conductos hepáticos, cístico y colédoco. Características principales: La vesícula concentra bilis; el colédoco transporta bilis al duodeno y suele unirse al conducto pancreático principal. Relaciones anatómicas: Vesícula próxima a hígado, duodeno y colon; colédoco cercano a cabeza del páncreas. Irrigación: Arteria cística, generalmente rama de hepática derecha; pequeñas ramas para conductos. Inervación: Plexo celíaco y nervio vago; dolor referido puede involucrar vías esplácnicas y frénicas según región. Función: Almacenar y concentrar bilis; conducirla al intestino cuando se necesita."
+   ],
+   "cod": "E08-08"
+  },
+  {
+   "id": "emi-e08-09",
+   "tipo": "ficha",
+   "b": "Digestivo",
+   "z": "Digestivo",
+   "n": "Páncreas",
+   "p": [
+    "Ubicación: Retroperitoneal secundario en epigastrio; se extiende desde marco duodenal hacia hilio esplénico. Partes anatómicas: Cabeza, proceso unciforme, cuello, cuerpo y cola; conductos pancreáticos. Características principales: Glándula mixta: acinos exocrinos y islotes endocrinos. Relaciones anatómicas: Cabeza abrazada por duodeno; cola próxima al bazo; vena porta se forma detrás del cuello pancreático. Irrigación: Arterias pancreaticoduodenales y ramas pancreáticas de la arteria esplénica. Inervación: Plexos celíaco y mesentérico superior, fibras simpáticas y vagales; modulación neuroendocrina. Función: Secretar enzimas y bicarbonato al duodeno; producir hormonas como insulina y glucagón."
+   ],
+   "cod": "E08-09"
+  },
+  {
+   "id": "emi-e08-10",
+   "tipo": "ficha",
+   "b": "Digestivo",
+   "z": "Digestivo",
+   "n": "Recto y conducto anal",
+   "p": [
+    "Ubicación: Pelvis menor y periné; recto sigue al sigmoide y continúa con el conducto anal. Partes anatómicas: Ampolla rectal; conducto anal con columnas anales; esfínteres anal interno y externo. Características principales: El recto almacena heces; esfínter interno es músculo liso y el externo músculo estriado voluntario. Relaciones anatómicas: Recto anterior al sacro; por delante se relaciona con próstata y vejiga o con vagina y útero según anatomía. Irrigación: Arterias rectales superior, media e inferior; drenaje venoso portal y sistémico con anastomosis. Inervación: Plexos hipogástricos; esfínter externo inervado principalmente por nervio pudendo. Función: Almacenar y evacuar heces con coordinación de reflejos y control voluntario."
+   ],
+   "cod": "E08-10"
+  },
+  {
+   "id": "emi-e09-01",
+   "tipo": "ficha",
+   "b": "Urinario",
+   "z": "Urinario",
+   "n": "Riñón",
+   "p": [
+    "Ubicación: Órgano retroperitoneal par a cada lado de la columna, aproximadamente T12-L3; el derecho suele situarse algo más bajo. Partes anatómicas: Corteza, médula con pirámides, papilas, cálices y pelvis renal; hilio y seno renal. Características principales: Cápsula fibrosa; nefronas corticales y yuxtamedulares; sistema colector. Relaciones anatómicas: Posterior a peritoneo; superior con glándulas suprarrenales; posterior con diafragma y músculos de pared abdominal. Irrigación: Arteria renal de la aorta abdominal; venas renales hacia cava inferior. Inervación: Plexo renal con fibras simpáticas; aferencias viscerales relacionadas con segmentos toracolumbares. Función: Filtrar plasma, regular volumen y electrolitos y secretar hormonas como renina y eritropoyetina."
+   ],
+   "cod": "E09-01"
+  },
+  {
+   "id": "emi-e09-02",
+   "tipo": "ficha",
+   "b": "Urinario",
+   "z": "Urinario",
+   "n": "Nefrona",
+   "p": [
+    "Ubicación: Unidad microscópica de corteza y médula renales, según tipo cortical o yuxtamedular. Partes anatómicas: Corpúsculo renal, túbulo proximal, asa de Henle y túbulo distal; comunica con conducto colector. Características principales: Barrera de filtración formada por endotelio fenestrado, membrana basal y podocitos; aparato yuxtaglomerular. Relaciones anatómicas: Vinculada a arteriola aferente, glomérulo, arteriola eferente y capilares peritubulares o vasos rectos. Irrigación: Recibe sangre de arteriola aferente y drena por eferente; no existe una segunda irrigación independiente de cada segmento. Inervación: Control simpático renal sobre vasos y liberación de renina; transporte tubular regulado también por hormonas. Función: Filtrar sangre y modificar ultrafiltrado mediante reabsorción y secreción para formar orina."
+   ],
+   "cod": "E09-02"
+  },
+  {
+   "id": "emi-e09-03",
+   "tipo": "ficha",
+   "b": "Urinario",
+   "z": "Urinario",
+   "n": "Cálices y pelvis renal",
+   "p": [
+    "Ubicación: Dentro del seno renal y continuados hacia el uréter en el hilio. Partes anatómicas: Cálices menores, cálices mayores y pelvis renal. Características principales: Estructuras recolectoras revestidas por urotelio; reciben orina desde papilas renales. Relaciones anatómicas: En el seno renal se relacionan con vasos y tejido adiposo; la pelvis se continúa con uréter. Irrigación: Pequeñas ramas de vasos renales para sus paredes. Inervación: Fibras autonómicas del plexo renal y ureteral proximal; actividad peristáltica propia. Función: Recoger orina de las papilas y conducirla hacia el uréter."
+   ],
+   "cod": "E09-03"
+  },
+  {
+   "id": "emi-e09-04",
+   "tipo": "ficha",
+   "b": "Urinario",
+   "z": "Urinario",
+   "n": "Uréteres",
+   "p": [
+    "Ubicación: Conductos retroperitoneales desde pelvis renal hasta vejiga, con trayecto abdominal y pélvico. Partes anatómicas: Porciones abdominal, pélvica e intramural; estrechamientos fisiológicos. Características principales: Pared muscular lisa con peristalsis; epitelio de transición o urotelio. Relaciones anatómicas: Cruzan el borde pélvico sobre vasos ilíacos; pasan debajo de la arteria uterina cerca de cuello uterino en anatomía femenina. Irrigación: Aporte segmentario por vasos renales, gonadales, ilíacos y vesicales/uterinos según trayecto. Inervación: Plexos renal, aórtico e hipogástricos; sensibilidad visceral segmentaria. Función: Transportar orina desde pelvis renal hasta vejiga."
+   ],
+   "cod": "E09-04"
+  },
+  {
+   "id": "emi-e09-05",
+   "tipo": "ficha",
+   "b": "Urinario",
+   "z": "Urinario",
+   "n": "Vejiga urinaria",
+   "p": [
+    "Ubicación: Pelvis menor, detrás de la sínfisis del pubis; asciende hacia abdomen cuando se llena. Partes anatómicas: Vértice, cuerpo, fondo y cuello; trígono vesical y músculo detrusor. Características principales: Reservorio muscular distensible con urotelio; trígono delimitado por orificios ureterales y uretral interno. Relaciones anatómicas: Posterior al pubis; en anatomía masculina, superior a próstata; en femenina, anterior a vagina e inferior al útero. Irrigación: Arterias vesicales superiores y ramas vesicales inferiores o vaginales; plexo venoso vesical. Inervación: Parasimpáticos pélvicos S2-S4 contraen detrusor; simpáticos favorecen almacenamiento; pudendo controla esfínter externo. Función: Almacenar orina y expulsarla durante la micción."
+   ],
+   "cod": "E09-05"
+  },
+  {
+   "id": "emi-e09-06",
+   "tipo": "ficha",
+   "b": "Urinario",
+   "z": "Urinario",
+   "n": "Uretra",
+   "p": [
+    "Ubicación: Desde cuello vesical al exterior; trayecto corto en anatomía femenina y largo, a través de próstata y pene, en masculina. Partes anatómicas: Masculina: intramural/preprostática, prostática, membranosa y esponjosa; femenina: conducto corto hacia vestíbulo. Características principales: Conducto final de la orina; la uretra masculina también conduce semen en la eyaculación. Relaciones anatómicas: Se relaciona con piso pélvico y esfínter uretral externo; masculina atraviesa próstata y cuerpo esponjoso. Irrigación: Ramas pudendas internas, vesicales y vaginales o prostáticas según segmento. Inervación: Esfínter externo por nervio pudendo (somático); músculo liso del cuello y trayecto por fibras autónomas. Función: Conducir orina al exterior y, en anatomía masculina, también semen."
+   ],
+   "cod": "E09-06"
+  },
+  {
+   "id": "emi-e10-01",
+   "tipo": "ficha",
+   "b": "Reproductor",
+   "z": "Masculino",
+   "n": "Testículo",
+   "p": [
+    "Ubicación: Dentro del escroto, suspendido por el cordón espermático. Partes anatómicas: Túnica albugínea, lobulillos con túbulos seminíferos, túbulos rectos y red testicular. Características principales: Contiene células germinales, Sertoli y Leydig; producción de espermatozoides y testosterona. Relaciones anatómicas: Posterior con epidídimo; rodeado por túnica vaginal derivada del peritoneo. Irrigación: Arteria testicular de aorta abdominal; retorno por plexo pampiniforme y venas testiculares. Inervación: Plexo testicular con fibras autonómicas; aferencias viscerales acompañan vasos gonadales. Función: Producir espermatozoides y hormonas androgénicas."
+   ],
+   "cod": "E10-01"
+  },
+  {
+   "id": "emi-e10-02",
+   "tipo": "ficha",
+   "b": "Reproductor",
+   "z": "Masculino",
+   "n": "Epidídimo",
+   "p": [
+    "Ubicación: Adosado al borde posterolateral del testículo dentro del escroto. Partes anatómicas: Cabeza, cuerpo y cola; conductillos eferentes y conducto epididimario. Características principales: Conducto muy enrollado; el espermatozoide adquiere madurez funcional durante el tránsito. Relaciones anatómicas: Cabeza se relaciona con polo superior testicular; cola continúa con conducto deferente. Irrigación: Ramas de arteria testicular y deferencial; retorno venoso hacia redes testiculares. Inervación: Fibras simpáticas y parasimpáticas del plexo testicular/deferencial; contracciones durante emisión. Función: Madurar, concentrar, almacenar y transportar espermatozoides."
+   ],
+   "cod": "E10-02"
+  },
+  {
+   "id": "emi-e10-03",
+   "tipo": "ficha",
+   "b": "Reproductor",
+   "z": "Masculino",
+   "n": "Conducto deferente",
+   "p": [
+    "Ubicación: Desde cola del epidídimo, asciende en cordón espermático, cruza conducto inguinal y entra en pelvis. Partes anatómicas: Porción escrotal, funicular, inguinal y pélvica; ampolla terminal. Características principales: Pared muscular lisa gruesa que propulsa espermatozoides durante la emisión. Relaciones anatómicas: En pelvis cruza superior al uréter y se aproxima a vesícula seminal y base vesical. Irrigación: Arteria deferencial, usualmente de ramas vesicales; conexiones con arteria testicular. Inervación: Simpáticos de plexo hipogástrico que coordinan contracciones durante emisión. Función: Conducir espermatozoides hacia el conducto eyaculador."
+   ],
+   "cod": "E10-03"
+  },
+  {
+   "id": "emi-e10-04",
+   "tipo": "ficha",
+   "b": "Reproductor",
+   "z": "Masculino",
+   "n": "Vesículas seminales",
+   "p": [
+    "Ubicación: Posteriores a base de vejiga y superiores a próstata, anteriores al recto. Partes anatómicas: Glándulas pares alargadas con conducto excretor. Características principales: Secreción rica en fructosa y otras sustancias que contribuyen al líquido seminal. Relaciones anatómicas: Se relacionan lateralmente con ampollas deferenciales y posteriormente con recto. Irrigación: Arterias vesicales inferiores y rectales medias, con variabilidad. Inervación: Plexo hipogástrico inferior, predominio simpático en emisión seminal. Función: Aportar una proporción importante del plasma seminal."
+   ],
+   "cod": "E10-04"
+  },
+  {
+   "id": "emi-e10-05",
+   "tipo": "ficha",
+   "b": "Reproductor",
+   "z": "Masculino",
+   "n": "Próstata",
+   "p": [
+    "Ubicación: Bajo el cuello vesical, rodea la uretra prostática y se ubica delante del recto. Partes anatómicas: Base, vértice, caras y zonas periférica, central, transicional y estroma fibromuscular anterior. Características principales: Glándula fibromuscular; aporta secreción al semen; la zona de transición rodea uretra. Relaciones anatómicas: Superior con vejiga, posterior con recto e inferior con diafragma pélvico/periné. Irrigación: Ramas prostáticas de arterias vesical inferior, pudenda interna y rectal media; plexo venoso prostático. Inervación: Plexo prostático derivado del hipogástrico inferior; fibras simpáticas y parasimpáticas. Función: Producir secreción prostática y colaborar en expulsión seminal."
+   ],
+   "cod": "E10-05"
+  },
+  {
+   "id": "emi-e10-06",
+   "tipo": "ficha",
+   "b": "Reproductor",
+   "z": "Masculino",
+   "n": "Pene",
+   "p": [
+    "Ubicación: Órgano genital externo anterior al escroto, unido al periné por su raíz. Partes anatómicas: Raíz, cuerpo y glande; dos cuerpos cavernosos y un cuerpo esponjoso con uretra. Características principales: Tejido eréctil especializado; el cuerpo esponjoso rodea uretra y continúa en glande. Relaciones anatómicas: Raíz fijada a ramas isquiopubianas y membrana perineal; piel y fascias superficiales. Irrigación: Arterias profunda y dorsal del pene y del bulbo, ramas de pudenda interna; venas dorsales. Inervación: Parasimpáticos cavernosos para erección; simpáticos para emisión/detumescencia; pudendo para sensibilidad y musculatura perineal. Función: Permitir micción y conducir semen durante eyaculación."
+   ],
+   "cod": "E10-06"
+  },
+  {
+   "id": "emi-e10-07",
+   "tipo": "ficha",
+   "b": "Reproductor",
+   "z": "Femenino",
+   "n": "Ovario",
+   "p": [
+    "Ubicación: Pelvis menor, lateral al útero en la fosa ovárica; sujeto por mesovario y ligamentos. Partes anatómicas: Corteza con folículos y médula vascular; polos tubárico y uterino. Características principales: Gónada que contiene folículos ováricos y produce hormonas sexuales. Relaciones anatómicas: Próximo a fimbrias tubáricas; ligado al útero por ligamento propio y a pared pélvica por suspensorio. Irrigación: Arteria ovárica de aorta abdominal, anastomosada con ramas uterinas; drenaje por venas ováricas. Inervación: Plexo ovárico con fibras autonómicas; aferencias viscerales acompañan vasos ováricos. Función: Producir ovocitos, estrógenos y progesterona."
+   ],
+   "cod": "E10-07"
+  },
+  {
+   "id": "emi-e10-08",
+   "tipo": "ficha",
+   "b": "Reproductor",
+   "z": "Femenino",
+   "n": "Trompa uterina",
+   "p": [
+    "Ubicación: En borde superior del ligamento ancho, se extiende desde cuerno uterino hacia ovario. Partes anatómicas: Infundíbulo con fimbrias, ampolla, istmo y porción uterina intramural. Características principales: Epitelio ciliado y músculo liso transportan ovocito/cigoto; extremo abdominal abierto a cavidad peritoneal. Relaciones anatómicas: Fimbrias próximas a ovario; porción uterina penetra pared uterina. Irrigación: Ramas tubáricas de arterias uterina y ovárica. Inervación: Plexos ovárico y uterovaginal, autonómicos. Función: Captar ovocito y conducirlo hacia cavidad uterina; sitio habitual de fecundación: ampolla."
+   ],
+   "cod": "E10-08"
+  },
+  {
+   "id": "emi-e10-09",
+   "tipo": "ficha",
+   "b": "Reproductor",
+   "z": "Femenino",
+   "n": "Útero",
+   "p": [
+    "Ubicación: Pelvis menor, entre vejiga anterior y recto posterior; habitualmente en anteversión y anteflexión. Partes anatómicas: Fondo, cuerpo, istmo y cuello; endometrio, miometrio y perimetrio. Características principales: Órgano muscular hueco con mucosa endometrial cíclica; cuello comunica con vagina. Relaciones anatómicas: Anterior con vejiga y fondo de saco vesicouterino; posterior con fondo de saco rectouterino. Irrigación: Arterias uterinas de ilíaca interna, anastomosadas con ováricas; plexos venosos uterinos. Inervación: Plexo uterovaginal autónomo; fibras aferentes variables según región, con contribución pélvica. Función: Permitir implantación, gestación y expulsión del feto durante parto."
+   ],
+   "cod": "E10-09"
+  },
+  {
+   "id": "emi-e10-10",
+   "tipo": "ficha",
+   "b": "Reproductor",
+   "z": "Femenino",
+   "n": "Vagina",
+   "p": [
+    "Ubicación: Conducto fibromuscular desde cuello uterino hasta vestíbulo de la vulva. Partes anatómicas: Fornices alrededor del cuello uterino; paredes anterior y posterior; capas mucosa y muscular. Características principales: Mucosa de epitelio escamoso estratificado no queratinizado, sin glándulas propias importantes. Relaciones anatómicas: Anterior a recto y posterior a vejiga/uretra; extremo superior rodea porción vaginal del cuello. Irrigación: Arterias vaginales, uterinas y pudendas internas; plexo venoso vaginal. Inervación: Plexo uterovaginal para porción superior; porción inferior recibe sensibilidad somática del pudendo. Función: Canal para flujo menstrual y parto; órgano de la copulación."
+   ],
+   "cod": "E10-10"
+  },
+  {
+   "id": "emi-e10-11",
+   "tipo": "ficha",
+   "b": "Reproductor",
+   "z": "Femenino",
+   "n": "Vulva",
+   "p": [
+    "Ubicación: Conjunto de genitales externos en periné femenino, entre monte del pubis y periné posterior. Partes anatómicas: Labios mayores y menores, clítoris, vestíbulo, bulbos vestibulares y glándulas vestibulares. Características principales: Clítoris y bulbos contienen tejido eréctil; el vestíbulo alberga orificios uretral y vaginal. Relaciones anatómicas: Anterior al ano; superficial a membrana perineal y músculos del periné. Irrigación: Ramas pudendas internas y externas, con anastomosis locales. Inervación: Principalmente pudendo para sensibilidad; fibras autonómicas cavernosas participan en respuesta vascular eréctil. Función: Proteger aperturas urogenitales y participar en sensibilidad y respuesta sexual."
+   ],
+   "cod": "E10-11"
+  },
+  {
+   "id": "emi-e10-12",
+   "tipo": "ficha",
+   "b": "Reproductor",
+   "z": "Femenino",
+   "n": "Glándulas mamarias",
+   "p": [
+    "Ubicación: En tejido subcutáneo de la pared anterior del tórax, sobre todo sobre músculos pectorales. Partes anatómicas: Lóbulos glandulares, conductos lactíferos, pezón y aréola. Características principales: Glándulas sudoríparas modificadas; su tejido glandular varía con hormonas y lactancia. Relaciones anatómicas: Superficiales a fascia pectoral; drenaje linfático mayoritario hacia ganglios axilares. Irrigación: Ramas torácicas internas, torácica lateral e intercostales; drenaje venoso correspondiente. Inervación: Sensibilidad cutánea por ramos de nervios intercostales, especialmente T4 en región del pezón; secreción hormonal. Función: Producir y expulsar leche durante lactancia."
+   ],
+   "cod": "E10-12"
+  },
+  {
+   "id": "leo-l11-f01",
+   "tipo": "ficha",
+   "b": "Endocrino",
+   "z": "Endocrino",
+   "n": "Hipotálamo",
+   "p": [
+    "Ubicación: Región ventral del diencéfalo bajo el tálamo, adyacente al tercer ventrículo. División anatómica: Regiones anterior, tuberal y posterior; núcleos supraóptico, paraventricular y otros. Características principales: Conjunto de núcleos neuronales con funciones neuroendocrinas, vegetativas y homeostáticas. Relaciones anatómicas: Se relaciona con quiasma óptico, tálamo, infundíbulo y tercer ventrículo. Conexiones nerviosas: Conecta con hipófisis por tracto hipotálamo-hipofisario y sistema porta; además con tronco y redes límbicas. Función: Regula ejes endocrinos, balance hídrico, temperatura y funciones autónomas. Irrigación: Ramas perforantes del círculo arterial cerebral y vasos hipotalámicos regionales."
+   ],
+   "cod": "L11-F01"
+  },
+  {
+   "id": "leo-l11-f02",
+   "tipo": "ficha",
+   "b": "Endocrino",
+   "z": "Endocrino",
+   "n": "Hipófisis",
+   "p": [
+    "Ubicación: Fosa hipofisaria de la silla turca del esfenoides, debajo del hipotálamo. Partes anatómicas: Adenohipófisis anterior, neurohipófisis posterior e infundíbulo. Características principales: Órgano neuroendocrino de secreción hormonal bajo control hipotalámico. Relaciones anatómicas: Quiasma óptico superior, senos cavernosos laterales y seno esfenoidal inferior. Irrigación: Arterias hipofisarias superiores e inferiores y sistema porta hipofisario. Inervación: Axones hipotalámicos en lóbulo posterior; modulación hormonal portal en anterior. Función: Libera hormonas tróficas y neurohormonas que regulan otros órganos."
+   ],
+   "cod": "L11-F02"
+  },
+  {
+   "id": "leo-l11-f03",
+   "tipo": "ficha",
+   "b": "Endocrino",
+   "z": "Endocrino",
+   "n": "Adenohipófisis",
+   "p": [
+    "Ubicación: Porción anterior glandular dentro de la fosa hipofisaria. Partes anatómicas: Pars distalis, pars tuberalis y pars intermedia. Características principales: Cordones de células endocrinas junto a capilares sinusoidales. Relaciones anatómicas: Anterior a pars nervosa; recibe vasos desde la eminencia media. Irrigación: Red capilar secundaria del sistema porta hipotálamo-hipofisario. Inervación: Predomina regulación por factores hipotalámicos transportados en sangre; no requiere impulsos axonales directos. Función: Secreta GH, PRL, TSH, ACTH, FSH y LH."
+   ],
+   "cod": "L11-F03"
+  },
+  {
+   "id": "leo-l11-f04",
+   "tipo": "ficha",
+   "b": "Endocrino",
+   "z": "Endocrino",
+   "n": "Neurohipófisis",
+   "p": [
+    "Ubicación: Parte posterior de hipófisis conectada al hipotálamo por infundíbulo. Partes anatómicas: Pars nervosa, tallo infundibular y componentes de conexión hipotalámica. Características principales: Axones de neuronas magnocelulares, pituicitos y capilares fenestrados. Relaciones anatómicas: Posterior a adenohipófisis y continua con el tallo. Irrigación: Principalmente arterias hipofisarias inferiores. Inervación: Tracto hipotálamo-hipofisario procedente de núcleos supraóptico y paraventricular. Función: Almacena y libera oxitocina y vasopresina sintetizadas en hipotálamo."
+   ],
+   "cod": "L11-F04"
+  },
+  {
+   "id": "leo-l11-f05",
+   "tipo": "ficha",
+   "b": "Endocrino",
+   "z": "Endocrino",
+   "n": "Glándula tiroides",
+   "p": [
+    "Ubicación: Cuello anterior, adyacente a laringe y tráquea cervical superior. Partes anatómicas: Dos lóbulos, istmo y ocasional lóbulo piramidal; folículos y células C. Características principales: Glándula muy vascularizada con folículos de coloide. Relaciones anatómicas: Esófago, tráquea, paratiroides y nervios laríngeos recurrentes posteriores. Irrigación: Arterias tiroideas superiores e inferiores; drenaje por venas tiroideas. Inervación: Fibras simpáticas vasomotoras de ganglios cervicales; secreción principalmente regulada por TSH y calcio según tipo celular. Función: Produce T3, T4 y calcitonina."
+   ],
+   "cod": "L11-F05"
+  },
+  {
+   "id": "leo-l11-f06",
+   "tipo": "ficha",
+   "b": "Endocrino",
+   "z": "Endocrino",
+   "n": "Glándulas paratiroides",
+   "p": [
+    "Ubicación: Habitualmente cuatro pequeñas glándulas en cara posterior tiroidea; distribución variable. Partes anatómicas: Superiores e inferiores; células principales y oxífilas. Características principales: Tejido endocrino cordonal, sin folículos de coloide. Relaciones anatómicas: Cápsula tiroidea posterior y región del nervio laríngeo recurrente. Irrigación: Principalmente ramas de arterias tiroideas inferiores. Inervación: Fibras autonómicas vasomotoras; secreción de PTH controlada directamente por calcio extracelular. Función: Regulan calcio y fosfato mediante parathormona."
+   ],
+   "cod": "L11-F06"
+  },
+  {
+   "id": "leo-l11-f07",
+   "tipo": "ficha",
+   "b": "Endocrino",
+   "z": "Endocrino",
+   "n": "Glándulas suprarrenales",
+   "p": [
+    "Ubicación: Retroperitoneo, sobre el polo superomedial de cada riñón. Partes anatómicas: Corteza: glomerulosa, fasciculada y reticular; médula central. Características principales: La corteza es esteroidea; la médula contiene células cromafines. Relaciones anatómicas: Suprarrenal derecha cercana a cava; izquierda próxima a aorta y cola pancreática según planos. Irrigación: Arterias suprarrenales superiores, medias e inferiores; venas suprarrenales derecha a cava e izquierda a renal. Inervación: Fibras simpáticas preganglionares llegan directamente a la médula. Función: Produce aldosterona, cortisol, andrógenos y catecolaminas."
+   ],
+   "cod": "L11-F07"
+  },
+  {
+   "id": "leo-l11-f08",
+   "tipo": "ficha",
+   "b": "Endocrino",
+   "z": "Endocrino",
+   "n": "Islotes pancreáticos",
+   "p": [
+    "Ubicación: Dispersos en el parénquima pancreático, relativamente numerosos en la cola. Partes anatómicas: Células beta, alfa, delta y otras poblaciones endocrinas. Características principales: Microórganos endocrinos rodeados de capilares fenestrados. Relaciones anatómicas: Entre acinos y conductos exocrinos; páncreas adyacente a duodeno, estómago y bazo. Irrigación: Ramas de arterias pancreáticas; drenaje al sistema porta hepático. Inervación: Fibras parasimpáticas vagales y simpáticas viscerales modulan la secreción. Función: Secreta insulina, glucagón, somatostatina y polipéptidos reguladores."
+   ],
+   "cod": "L11-F08"
+  },
+  {
+   "id": "leo-l11-f09",
+   "tipo": "ficha",
+   "b": "Endocrino",
+   "z": "Endocrino",
+   "n": "Glándula pineal",
+   "p": [
+    "Ubicación: Epitálamo posterior, próxima al techo del tercer ventrículo. Partes anatómicas: Pinealocitos, células gliales y estroma con posibles calcificaciones. Características principales: Pequeño órgano neuroendocrino asociado a ritmos de luz-oscuridad. Relaciones anatómicas: Comisura posterior, región habenular y tectum mesencefálico. Irrigación: Ramas de arterias coroideas posteriores. Inervación: Inervación simpática, principalmente desde el ganglio cervical superior. Función: Secreta melatonina y participa en sincronización circadiana."
+   ],
+   "cod": "L11-F09"
+  },
+  {
+   "id": "leo-l12-f01",
+   "tipo": "ficha",
+   "b": "Órganos de los sentidos",
+   "z": "Órganos de los sentidos",
+   "n": "Globo ocular",
+   "p": [
+    "Ubicación: Órbita ósea, rodeado por grasa y músculos extraoculares. Partes anatómicas: Túnicas fibrosa, vascular y nerviosa; cámaras anterior y posterior y cavidad vítrea. Características principales: Órgano esférico con medios transparentes y retina fotosensible. Relaciones anatómicas: Párpados y conjuntiva anteriores; nervio óptico posterior. Irrigación: Arteria oftálmica y ramas ciliares y central de retina. Inervación: Pares II, III, IV, VI y V1; fibras autónomas del iris y cuerpo ciliar. Función: Capta luz y produce señales visuales."
+   ],
+   "cod": "L12-F01"
+  },
+  {
+   "id": "leo-l12-f02",
+   "tipo": "ficha",
+   "b": "Órganos de los sentidos",
+   "z": "Órganos de los sentidos",
+   "n": "Córnea",
+   "p": [
+    "Ubicación: Porción transparente anterior de la túnica fibrosa ocular. Partes anatómicas: Epitelio, estroma, membranas limitantes y endotelio corneal. Características principales: Avascular y transparente; participa en refracción de la luz. Relaciones anatómicas: Anterior al humor acuoso de cámara anterior; continua con esclerótica en limbo. Irrigación: Sin vasos propios; nutrición desde lágrimas, humor acuoso y limbo. Inervación: Sensibilidad por nervios ciliares largos del nasociliar, V1. Función: Protege la superficie anterior y refracta la luz."
+   ],
+   "cod": "L12-F02"
+  },
+  {
+   "id": "leo-l12-f03",
+   "tipo": "ficha",
+   "b": "Órganos de los sentidos",
+   "z": "Órganos de los sentidos",
+   "n": "Retina",
+   "p": [
+    "Ubicación: Túnica interna que reviste región posterior del globo ocular. División anatómica: Epitelio pigmentario, fotorreceptores, capas neuronales, mácula y disco óptico. Características principales: Tejido neural con conos, bastones y células ganglionares. Relaciones anatómicas: Se apoya externamente sobre coroides; su nervio óptico sale por disco. Conexiones nerviosas: Axones ganglionares forman nervio II hacia quiasma y tálamo; conexiones sinápticas intrarretinianas. Función: Transduce estímulos luminosos y procesa información visual inicial. Irrigación: Arteria central de la retina y coriocapilar coroidea."
+   ],
+   "cod": "L12-F03"
+  },
+  {
+   "id": "leo-l12-f04",
+   "tipo": "ficha",
+   "b": "Órganos de los sentidos",
+   "z": "Órganos de los sentidos",
+   "n": "Cristalino",
+   "p": [
+    "Ubicación: Detrás del iris y delante del humor vítreo. Partes anatómicas: Cápsula, epitelio anterior y fibras del cristalino. Características principales: Lente biconvexa transparente, elástica y normalmente avascular. Relaciones anatómicas: Se une al cuerpo ciliar mediante fibras zonulares. Irrigación: No posee vasos propios; recibe nutrientes del humor acuoso. Inervación: Sin inervación directa funcional; acomodación regulada por músculo ciliar parasimpático del III. Función: Modifica potencia óptica para enfocar imágenes."
+   ],
+   "cod": "L12-F04"
+  },
+  {
+   "id": "leo-l12-f05",
+   "tipo": "ficha",
+   "b": "Órganos de los sentidos",
+   "z": "Órganos de los sentidos",
+   "n": "Iris",
+   "p": [
+    "Ubicación: Porción anterior de úvea, entre córnea y cristalino. Partes anatómicas: Estroma pigmentado, esfínter y dilatador pupilar; orificio pupilar. Características principales: Diafragma contráctil que regula la entrada luminosa. Relaciones anatómicas: Limita cámaras anterior y posterior; continuo con cuerpo ciliar. Irrigación: Arterias ciliares anteriores y posteriores largas, mediante círculo arterial mayor. Inervación: Parasimpático III para esfínter; simpático cervical para dilatador. Función: Controla el diámetro de la pupila."
+   ],
+   "cod": "L12-F05"
+  },
+  {
+   "id": "leo-l12-f06",
+   "tipo": "ficha",
+   "b": "Órganos de los sentidos",
+   "z": "Órganos de los sentidos",
+   "n": "Glándula lagrimal",
+   "p": [
+    "Ubicación: Cuadrante superolateral de órbita, en fosa lagrimal frontal. Partes anatómicas: Porciones orbitaria y palpebral; conductillos excretores. Características principales: Glándula serosa exocrina que humecta superficie ocular. Relaciones anatómicas: Párpado superior y conjuntiva superolateral. Irrigación: Rama lagrimal de arteria oftálmica. Inervación: Parasimpático VII por ganglio pterigopalatino; sensibilidad por nervio lagrimal V1. Función: Produce componente acuoso de película lagrimal."
+   ],
+   "cod": "L12-F06"
+  },
+  {
+   "id": "leo-l12-f07",
+   "tipo": "ficha",
+   "b": "Órganos de los sentidos",
+   "z": "Órganos de los sentidos",
+   "n": "Oído externo",
+   "p": [
+    "Ubicación: Región lateral de la cabeza hasta la membrana timpánica. Partes anatómicas: Pabellón auricular y conducto auditivo externo. Características principales: Recoge y canaliza ondas sonoras hacia el tímpano. Relaciones anatómicas: Porción escamosa y timpánica del temporal; pared anterior próxima a articulación temporomandibular. Irrigación: Ramas auriculares de temporal superficial y auricular posterior. Inervación: Sensibilidad de ramas auriculotemporal V3, vago X y plexo cervical, entre otras. Función: Conduce sonido y protege la entrada del oído medio."
+   ],
+   "cod": "L12-F07"
+  },
+  {
+   "id": "leo-l12-f08",
+   "tipo": "ficha",
+   "b": "Órganos de los sentidos",
+   "z": "Órganos de los sentidos",
+   "n": "Oído medio",
+   "p": [
+    "Ubicación: Cavidad timpánica del temporal, entre membrana timpánica y laberinto. Partes anatómicas: Martillo, yunque, estribo, trompa auditiva y cavidades mastoideas comunicadas. Características principales: Cámara aérea revestida de mucosa, con huesecillos articulados. Relaciones anatómicas: Pared medial en contacto con oído interno; anterior con región carotídea. Irrigación: Ramas timpánicas de vasos auriculares, faríngeos y meníngeos. Inervación: VII para estapedio, V3 para tensor del tímpano; plexo timpánico sensitivo de IX. Función: Transmite y amplifica vibraciones hacia ventana oval."
+   ],
+   "cod": "L12-F08"
+  },
+  {
+   "id": "leo-l12-f09",
+   "tipo": "ficha",
+   "b": "Órganos de los sentidos",
+   "z": "Órganos de los sentidos",
+   "n": "Cóclea",
+   "p": [
+    "Ubicación: Laberinto óseo del oído interno, en porción petrosa temporal. Partes anatómicas: Rampa vestibular, conducto coclear, rampa timpánica y órgano de Corti. Características principales: Espiral con células ciliadas auditivas distribuidas tonotópicamente. Relaciones anatómicas: Vestíbulo medial y conducto auditivo interno cercano. Irrigación: Ramas cocleares de arteria laberíntica. Inervación: Fibras del nervio coclear VIII, con somas en ganglio espiral. Función: Convierte vibraciones mecánicas en señales auditivas."
+   ],
+   "cod": "L12-F09"
+  },
+  {
+   "id": "leo-l12-f10",
+   "tipo": "ficha",
+   "b": "Órganos de los sentidos",
+   "z": "Órganos de los sentidos",
+   "n": "Aparato vestibular",
+   "p": [
+    "Ubicación: Oído interno, posterior a la cóclea. Partes anatómicas: Utrículo, sáculo y tres conductos semicirculares con ampollas. Características principales: Receptores ciliados detectan aceleraciones angulares, lineales e inclinación. Relaciones anatómicas: Vestíbulo óseo y conductos semicirculares del temporal petroso. Irrigación: Ramas vestibulares de arteria laberíntica. Inervación: Nervio vestibular VIII hacia núcleos vestibulares y cerebelo. Función: Informa sobre movimiento y orientación cefálica."
+   ],
+   "cod": "L12-F10"
+  },
+  {
+   "id": "leo-l12-f11",
+   "tipo": "ficha",
+   "b": "Órganos de los sentidos",
+   "z": "Órganos de los sentidos",
+   "n": "Epitelio olfatorio",
+   "p": [
+    "Ubicación: Techo y paredes altas de cavidad nasal, sobre cornete superior y tabique. Partes anatómicas: Neuronas olfatorias, células sustentaculares y basales, glándulas de Bowman. Características principales: Mucosa sensorial con neuronas receptoras renovables. Relaciones anatómicas: Lámina cribosa del etmoides y bulbos olfatorios superiores. Irrigación: Ramas etmoidales y esfenopalatinas de arterias nasales. Inervación: Filetes olfatorios del nervio I atraviesan la lámina cribosa. Función: Detecta moléculas odoríferas inhaladas."
+   ],
+   "cod": "L12-F11"
+  },
+  {
+   "id": "leo-l12-f12",
+   "tipo": "ficha",
+   "b": "Órganos de los sentidos",
+   "z": "Órganos de los sentidos",
+   "n": "Botones gustativos",
+   "p": [
+    "Ubicación: Epitelio de papilas linguales específicas y otras regiones orofaríngeas. Partes anatómicas: Células receptoras gustativas, de sostén y basales; poro gustativo. Características principales: Conjuntos de células quimiosensibles renovables. Relaciones anatómicas: Papilas fungiformes, foliadas y circunvaladas; glándulas salivales regionales. Irrigación: Ramas linguales de circulación lingual y facial según localización. Inervación: Gusto por VII, IX y X; sensibilidad somática lingual por trigémino y IX según zona. Función: Detectan sustancias sápidas disueltas."
+   ],
+   "cod": "L12-F12"
+  },
+  {
+   "id": "leo-l12-f13",
+   "tipo": "ficha",
+   "b": "Órganos de los sentidos",
+   "z": "Órganos de los sentidos",
+   "n": "Piel sensorial",
+   "p": [
+    "Ubicación: Cubre la superficie corporal y continúa con mucosas en orificios. Partes anatómicas: Epidermis, dermis, hipodermis asociada y receptores cutáneos. Características principales: Contiene terminaciones libres, Merkel, Meissner, Pacini y Ruffini según zona. Relaciones anatómicas: Fascias y tejidos subcutáneos profundos. Irrigación: Plexos vasculares dérmicos procedentes de arterias regionales. Inervación: Aferentes de nervios cutáneos y fibras simpáticas para vasos y glándulas. Función: Protección, termorregulación y sensibilidad somática."
+   ],
+   "cod": "L12-F13"
+  },
+  {
+   "id": "leo-l13-f01",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Nervios espinales",
+   "p": [
+    "Ubicación: Salen del conducto vertebral por forámenes intervertebrales; 31 pares. División anatómica: 8 cervicales, 12 torácicos, 5 lumbares, 5 sacros y 1 coccígeo. Características principales: Nervios mixtos formados por raíces dorsal sensitiva y ventral motora. Relaciones anatómicas: Ganglios dorsales, ramos dorsales y ventrales, vasos intervertebrales. Conexiones nerviosas: Conectan médula con piel, musculatura, articulaciones y vías autonómicas. Función: Transmiten aferencias sensitivas y eferencias somáticas y vegetativas. Irrigación: Vasos radiculares y arterias regionales de nervios periféricos."
+   ],
+   "cod": "L13-F01"
+  },
+  {
+   "id": "leo-l13-f02",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Ganglio espinal",
+   "p": [
+    "Ubicación: En raíz dorsal próxima al foramen intervertebral. División anatómica: Ganglios cervicales, torácicos, lumbares, sacros y coccígeos. Características principales: Contienen somas de neuronas sensitivas seudounipolares. Relaciones anatómicas: Entre raíz dorsal proximal y nervio espinal mixto distal. Conexiones nerviosas: Una rama periférica del axón recibe estímulos; la central entra a médula. Función: Aloja primeras neuronas sensitivas somáticas y viscerales. Irrigación: Vasos radiculares segmentarios."
+   ],
+   "cod": "L13-F02"
+  },
+  {
+   "id": "leo-l13-f03",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Nervio trigémino V",
+   "p": [
+    "Ubicación: Emerge del puente, atraviesa cavidad craneal media y se distribuye a cara. División anatómica: V1 oftálmico, V2 maxilar y V3 mandibular. Características principales: Nervio mixto con gran componente sensitivo facial. Relaciones anatómicas: Ganglio trigeminal en cavidad de Meckel; forámenes orbitario superior, redondo y oval. Conexiones nerviosas: Aferencias a núcleos sensitivos trigeminales; fibras motoras a músculos masticadores por V3. Función: Sensibilidad facial y motricidad de músculos derivados del primer arco faríngeo. Irrigación: Vasa nervorum de ramas meníngeas, maxilares y otras arterias regionales."
+   ],
+   "cod": "L13-F03"
+  },
+  {
+   "id": "leo-l13-f04",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Nervio facial VII",
+   "p": [
+    "Ubicación: Sale del tronco en unión pontobulbar, pasa por conducto facial y foramen estilomastoideo. División anatómica: Raíz motora, nervio intermedio, cuerda del tímpano y ramas terminales faciales. Características principales: Nervio mixto con fibras motoras, gusto y parasimpáticas. Relaciones anatómicas: Trayecto intrapetroso temporal y ramas que atraviesan parótida. Conexiones nerviosas: Conexiones con núcleo facial, solitario y ganglios geniculado, pterigopalatino y submandibular. Función: Expresión facial, gusto lingual anterior y secreción lagrimal y salival. Irrigación: Ramas estilomastoidea, petrosa y vasculares regionales."
+   ],
+   "cod": "L13-F04"
+  },
+  {
+   "id": "leo-l13-f05",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Nervio vago X",
+   "p": [
+    "Ubicación: Emerge del bulbo y sale por foramen yugular hacia cuello, tórax y abdomen. División anatómica: Ramas faríngeas, laríngeas, cardíacas y viscerales; ganglios superior e inferior. Características principales: Nervio craneal mixto con amplia distribución parasimpática. Relaciones anatómicas: Vaina carotídea en cuello y trayectos posteriores a raíces pulmonares. Conexiones nerviosas: Conecta con núcleos ambiguo, dorsal del vago y tracto solitario. Función: Motricidad faríngea y laríngea, sensibilidad visceral y control parasimpático toracoabdominal. Irrigación: Vasa nervorum desde arterias cervicales y torácicas regionales."
+   ],
+   "cod": "L13-F05"
+  },
+  {
+   "id": "leo-l13-f06",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Nervio hipogloso XII",
+   "p": [
+    "Ubicación: Desde bulbo por conducto del hipogloso hacia región submandibular y lengua. División anatómica: Raicillas bulbares y tronco extracraneal con ramos linguales. Características principales: Predominantemente motor somático. Relaciones anatómicas: Cruza cercanía de vasos carotídeos y profundiza bajo región mandibular. Conexiones nerviosas: Conecta núcleo hipogloso bulbar con músculos de la lengua, excepto palatogloso. Función: Mueve la lengua durante habla y deglución. Irrigación: Pequeñas ramas de vasos occipitales, linguales y cervicales."
+   ],
+   "cod": "L13-F06"
+  },
+  {
+   "id": "leo-l13-f07",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Plexo cervical",
+   "p": [
+    "Ubicación: Cuello profundo, cerca del escaleno medio y esternocleidomastoideo. División anatómica: Ramos ventrales C1-C4 y contribución C5 al frénico. Características principales: Forma ramos cutáneos y motores cervicales. Relaciones anatómicas: Frénico sobre escaleno anterior; ramos cutáneos emergen borde posterior del esternocleidomastoideo. Conexiones nerviosas: Conexiones con asa cervical, frénico y ramos de nervios craneales. Función: Inerva parte del cuello, piel supraclavicular y contribuye a diafragma. Irrigación: Ramas cervicales ascendentes y otras arterias regionales."
+   ],
+   "cod": "L13-F07"
+  },
+  {
+   "id": "leo-l13-f08",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Nervio frénico",
+   "p": [
+    "Ubicación: Desciende sobre escaleno anterior y pasa al tórax por delante de raíces pulmonares. División anatómica: Fibras de C3-C5, con predominio C4. Características principales: Nervio mixto con principal aporte motor diafragmático. Relaciones anatómicas: Pericardio fibroso y pleura mediastínica. Conexiones nerviosas: Conecta plexo cervical con diafragma y recoge aferencias serosas centrales. Función: Motor principal del diafragma; sensibilidad de pericardio y diafragma central. Irrigación: Vasa nervorum de vasos pericardiofrénicos y cervicales."
+   ],
+   "cod": "L13-F08"
+  },
+  {
+   "id": "leo-l13-f09",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Plexo braquial",
+   "p": [
+    "Ubicación: Cuello inferior y axila, entre escalenos y alrededor de arteria axilar. División anatómica: Raíces C5-T1, troncos, divisiones, fascículos y ramas. Características principales: Red nerviosa principal del miembro superior. Relaciones anatómicas: Relaciones con clavícula, primera costilla y arteria axilar. Conexiones nerviosas: Origina nervios musculocutáneo, axilar, radial, mediano y ulnar, entre otros. Función: Inervación sensitiva y motora de miembro superior. Irrigación: Pequeñas ramas de vasos subclavios y axilares."
+   ],
+   "cod": "L13-F09"
+  },
+  {
+   "id": "leo-l13-f10",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Nervio mediano",
+   "p": [
+    "Ubicación: Desciende por brazo, cruza fosa cubital y atraviesa túnel carpiano. División anatómica: Formado por aportes de fascículos lateral y medial del plexo braquial. Características principales: Nervio mixto que distribuye fibras principalmente C6-T1. Relaciones anatómicas: Arteria braquial en brazo y tendones flexores en carpo. Conexiones nerviosas: Conecta plexo braquial con flexores anteriores de antebrazo y músculos tenares selectos. Función: Pronación, flexión de dedos y sensibilidad palmar lateral. Irrigación: Vasa nervorum desde braquial, interóseas y arterias del carpo."
+   ],
+   "cod": "L13-F10"
+  },
+  {
+   "id": "leo-l13-f11",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Nervio radial",
+   "p": [
+    "Ubicación: Desde axila posterior por surco del húmero y hacia antebrazo. División anatómica: Ramas profundas motora y superficial sensitiva; aportes C5-T1. Características principales: Nervio mixto del compartimento extensor. Relaciones anatómicas: Se relaciona con húmero y arteria braquial profunda en surco radial. Conexiones nerviosas: Conecta fascículo posterior con tríceps y extensores de muñeca y dedos. Función: Extensión de codo, muñeca y dedos; sensibilidad posterior regional. Irrigación: Vasa nervorum de braquial profunda y arterias regionales."
+   ],
+   "cod": "L13-F11"
+  },
+  {
+   "id": "leo-l13-f12",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Plexo lumbar",
+   "p": [
+    "Ubicación: Dentro del músculo psoas mayor en pared abdominal posterior. División anatómica: Ramos ventrales L1-L4 con contribuciones de T12. Características principales: Da ramos motores y cutáneos al abdomen inferior y muslo. Relaciones anatómicas: Psoas mayor, ligamento inguinal y conducto obturador. Conexiones nerviosas: Origina femoral, obturador, cutáneo femoral lateral y otros nervios. Función: Inerva parte de cadera, muslo anterior-medial y piel regional. Irrigación: Ramas lumbares y vasos locales del psoas."
+   ],
+   "cod": "L13-F12"
+  },
+  {
+   "id": "leo-l13-f13",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Nervio femoral",
+   "p": [
+    "Ubicación: Sale lateral al psoas y pasa bajo ligamento inguinal al triángulo femoral. División anatómica: Ramos para iliaco, cuádriceps y safeno; raíces L2-L4. Características principales: Nervio mixto del compartimento anterior del muslo. Relaciones anatómicas: Se sitúa lateral a arteria femoral bajo ligamento inguinal. Conexiones nerviosas: Conecta plexo lumbar con extensores de rodilla y sensibilidad medial de pierna. Función: Extensión de rodilla y sensibilidad anterior de muslo y medial de pierna. Irrigación: Vasa nervorum de arterias iliolumbares, femorales y circunflejas."
+   ],
+   "cod": "L13-F13"
+  },
+  {
+   "id": "leo-l13-f14",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Nervio ciático",
+   "p": [
+    "Ubicación: Sale de pelvis por foramen isquiático mayor y desciende por muslo posterior. División anatómica: Componente tibial y fibular común, usualmente L4-S3. Características principales: Gran nervio mixto del miembro inferior. Relaciones anatómicas: Pasa inferior al piriforme y profundo a glúteo mayor. Conexiones nerviosas: Conecta plexo sacro con músculos posteriores del muslo y, por terminales, pierna y pie. Función: Flexión de rodilla y motricidad/sensibilidad distales por sus ramas. Irrigación: Vasa nervorum de arterias glúteas e inferiores perforantes regionales."
+   ],
+   "cod": "L13-F14"
+  },
+  {
+   "id": "leo-l13-f15",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Tronco simpático",
+   "p": [
+    "Ubicación: Cadenas paravertebrales a ambos lados de la columna vertebral. División anatómica: Ganglios cervicales, torácicos, lumbares y sacros, unidos por cordones. Características principales: Vía ganglionar autonómica con fibras pre y posganglionares. Relaciones anatómicas: Forámenes intervertebrales, cuerpos vertebrales y vasos segmentarios. Conexiones nerviosas: Conecta ramos comunicantes, esplácnicos y plexos periarteriales. Función: Distribuye regulación simpática de vísceras, piel y vasos. Irrigación: Pequeñas ramas segmentarias vertebrales y toracoabdominales."
+   ],
+   "cod": "L13-F15"
+  },
+  {
+   "id": "leo-l13-f16",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Periférico y autónomo",
+   "n": "Plexos entéricos",
+   "p": [
+    "Ubicación: En pared del tubo digestivo, desde esófago hasta región distal intestinal. División anatómica: Plexo mientérico entre capas musculares y submucoso en submucosa. Características principales: Red de neuronas sensitivas, interneuronas y motoras locales. Relaciones anatómicas: Músculo liso circular y longitudinal; mucosa y vasos de la pared. Conexiones nerviosas: Conectan con aferencias viscerales y fibras vagales, pélvicas y simpáticas. Función: Coordinan motilidad, secreción y flujo sanguíneo intestinal. Irrigación: Vasos de submucosa y muscular propia según segmento digestivo."
+   ],
+   "cod": "L13-F16"
+  },
+  {
+   "id": "leo-l14-f01",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Neuroanatomía",
+   "n": "Hemisferios cerebrales",
+   "p": [
+    "Ubicación: Porción superior del encéfalo dentro de bóveda craneal. División anatómica: Lóbulos frontal, parietal, temporal, occipital e ínsula; corteza y sustancia blanca. Características principales: Superficie plegada en surcos y giros; dos hemisferios separados por fisura longitudinal. Relaciones anatómicas: Cuerpo calloso medial; diencéfalo profundo; cerebelo posteroinferior. Conexiones nerviosas: Fibras de asociación, proyección y comisurales conectan áreas corticales. Función: Integran percepción, movimiento, cognición, memoria y lenguaje. Irrigación: Arterias cerebrales anterior, media y posterior."
+   ],
+   "cod": "L14-F01"
+  },
+  {
+   "id": "leo-l14-f02",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Neuroanatomía",
+   "n": "Corteza motora primaria",
+   "p": [
+    "Ubicación: Giro precentral frontal y su continuidad medial paracentral. División anatómica: Regiones somatotópicas de representación motora. Características principales: Corteza agranular con neuronas piramidales de proyección. Relaciones anatómicas: Anterior al surco central y próxima a áreas premotoras. Conexiones nerviosas: Proyecta por corona radiada y cápsula interna hacia tronco y médula. Función: Participa en control voluntario del movimiento contralateral. Irrigación: Principalmente arteria cerebral media lateral y anterior medial."
+   ],
+   "cod": "L14-F02"
+  },
+  {
+   "id": "leo-l14-f03",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Neuroanatomía",
+   "n": "Cuerpo calloso",
+   "p": [
+    "Ubicación: Profundidad de la fisura longitudinal por encima de ventrículos laterales. División anatómica: Rostro, rodilla, cuerpo y esplenio. Características principales: Mayor comisura de sustancia blanca interhemisférica. Relaciones anatómicas: Inferior al giro del cíngulo y superior al septo pelúcido. Conexiones nerviosas: Conecta regiones corticales homólogas y heterólogas de ambos hemisferios. Función: Intercambio de información entre hemisferios. Irrigación: Ramas pericallosas y posteriores según segmentos."
+   ],
+   "cod": "L14-F03"
+  },
+  {
+   "id": "leo-l14-f04",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Neuroanatomía",
+   "n": "Núcleos basales",
+   "p": [
+    "Ubicación: Sustancia gris profunda de hemisferios cerebrales y circuitos asociados. División anatómica: Caudado, putamen, globo pálido; participación de subtálamo y sustancia negra. Características principales: Circuitos corticoestriato-pálido-talámicos moduladores del movimiento. Relaciones anatómicas: Cápsula interna separa varios núcleos; tálamo medial al brazo posterior. Conexiones nerviosas: Conexiones con corteza, tálamo, sustancia negra y núcleo subtalámico. Función: Seleccionan y modulan programas motores y otras funciones de circuito. Irrigación: Arterias lenticuloestriadas, coroidea anterior y ramas perforantes."
+   ],
+   "cod": "L14-F04"
+  },
+  {
+   "id": "leo-l14-f05",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Neuroanatomía",
+   "n": "Cápsula interna",
+   "p": [
+    "Ubicación: Sustancia blanca profunda entre tálamo/caudado y núcleo lenticular. División anatómica: Brazo anterior, rodilla, brazo posterior y porciones retro- y sublenticular. Características principales: Concentra fibras de proyección ascendentes y descendentes. Relaciones anatómicas: Medial a núcleo lenticular y lateral al tálamo en brazo posterior. Conexiones nerviosas: Conecta corteza con tronco, médula y núcleos talámicos. Función: Conduce vías motoras y sensitivas de amplia distribución. Irrigación: Ramas lenticuloestriadas y coroidea anterior."
+   ],
+   "cod": "L14-F05"
+  },
+  {
+   "id": "leo-l14-f06",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Neuroanatomía",
+   "n": "Tálamo",
+   "p": [
+    "Ubicación: Diencéfalo, a ambos lados del tercer ventrículo y superior al hipotálamo. División anatómica: Grupos nucleares anterior, medial, lateral y núcleos geniculados. Características principales: Principal estación de relevo sensorial y de integración córticosubcortical. Relaciones anatómicas: Tercer ventrículo medial, cápsula interna lateral y mesencéfalo caudal. Conexiones nerviosas: Recibe vías lemniscales, espinotalámicas, cerebelosas y corticales. Función: Releva e integra información sensorial, motora y cognitiva. Irrigación: Ramas talamoperforantes, talamogeniculadas y coroideas posteriores."
+   ],
+   "cod": "L14-F06"
+  },
+  {
+   "id": "leo-l14-f07",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Neuroanatomía",
+   "n": "Tronco encefálico",
+   "p": [
+    "Ubicación: Entre diencéfalo y médula espinal, delante del cerebelo. División anatómica: Mesencéfalo, puente y bulbo raquídeo. Características principales: Contiene núcleos craneales, formación reticular y tractos largos. Relaciones anatómicas: Cuarto ventrículo dorsal en puente y bulbo superior; cerebelo posterior. Conexiones nerviosas: Conecta corteza, cerebelo, médula y nervios craneales III-XII. Función: Conduce vías y controla funciones reflejas vitales. Irrigación: Ramas de arterias vertebrales, basilar y cerebelosas."
+   ],
+   "cod": "L14-F07"
+  },
+  {
+   "id": "leo-l14-f08",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Neuroanatomía",
+   "n": "Cerebelo",
+   "p": [
+    "Ubicación: Fosa craneal posterior, detrás del tronco encefálico. División anatómica: Dos hemisferios, vermis, lóbulos y pedúnculos cerebelosos. Características principales: Corteza de tres capas y núcleos profundos. Relaciones anatómicas: Tiende a quedar bajo tienda del cerebelo y encima del cuarto ventrículo. Conexiones nerviosas: Conexiones por pedúnculos superior, medio e inferior con tronco y tálamo. Función: Coordina equilibrio, precisión y aprendizaje motor. Irrigación: Arterias cerebelosas superior, anteroinferior y posteroinferior."
+   ],
+   "cod": "L14-F08"
+  },
+  {
+   "id": "leo-l14-f09",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Neuroanatomía",
+   "n": "Médula espinal",
+   "p": [
+    "Ubicación: Conducto vertebral, desde foramen magno hasta cono medular habitual L1-L2 en adulto. División anatómica: Segmentos cervicales, torácicos, lumbares, sacros y coccígeos; astas y cordones. Características principales: Sustancia gris central con sustancia blanca periférica. Relaciones anatómicas: Meninges, espacio subaracnoideo y raíces espinales. Conexiones nerviosas: Conecta vías encefálicas con nervios espinales, contiene circuitos reflejos. Función: Transmite información y coordina reflejos segmentarios. Irrigación: Arterias espinal anterior y posteriores reforzadas por ramas radiculomedulares."
+   ],
+   "cod": "L14-F09"
+  },
+  {
+   "id": "leo-l14-f10",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Neuroanatomía",
+   "n": "Meninges del sistema nervioso central",
+   "p": [
+    "Ubicación: Envuelven encéfalo y médula dentro de cráneo y conducto vertebral. División anatómica: Duramadre, aracnoides y piamadre; espacio subaracnoideo. Características principales: Cubiertas de protección, sostén vascular y compartimentación. Relaciones anatómicas: Duramadre craneal forma senos y repliegues; piamadre se adhiere a SNC. Conexiones nerviosas: Aferencias meníngeas sensitivas y relaciones con raíces nerviosas espinales. Función: Protegen SNC y contienen espacio de circulación del LCR. Irrigación: Arterias meníngeas y vasos regionales; piamadre acompañada por vasos superficiales."
+   ],
+   "cod": "L14-F10"
+  },
+  {
+   "id": "leo-l14-f11",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Neuroanatomía",
+   "n": "Sistema ventricular encefálico",
+   "p": [
+    "Ubicación: Cavidades dentro de hemisferios y tronco, comunicadas entre sí. División anatómica: Dos ventrículos laterales, tercero, acueducto y cuarto ventrículo. Características principales: Revestimiento ependimario con plexos coroideos en regiones específicas. Relaciones anatómicas: Ventrículos laterales alrededor de tálamo; cuarto entre tronco y cerebelo. Conexiones nerviosas: Se comunica con espacio subaracnoideo por aperturas del cuarto ventrículo. Función: Produce y distribuye líquido cefalorraquídeo para protección y homeostasis. Irrigación: Vasos coroideos principalmente de ramas coroideas anteriores y posteriores."
+   ],
+   "cod": "L14-F11"
+  },
+  {
+   "id": "leo-l14-f12",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Neuroanatomía",
+   "n": "Tracto corticoespinal",
+   "p": [
+    "Ubicación: Desde corteza frontal hacia corona radiada, cápsula interna, tronco y médula. División anatómica: Fibras lateral y anterior tras decusación piramidal parcial. Características principales: Vía descendente motora con somatotopía y predominio cruzado. Relaciones anatómicas: Pirámides bulbares, pedúnculos cerebrales y cordones medulares. Conexiones nerviosas: Une motoneuronas corticales con circuitos y motoneuronas espinales. Función: Controla movimientos voluntarios especialmente finos y distales. Irrigación: Depende de irrigación de corteza motora, cápsula interna, tronco y médula."
+   ],
+   "cod": "L14-F12"
+  },
+  {
+   "id": "leo-l14-f13",
+   "tipo": "ficha",
+   "b": "Sistema nervioso",
+   "z": "Neuroanatomía",
+   "n": "Sistema anterolateral espinotalámico",
+   "p": [
+    "Ubicación: Cordones anterolaterales medulares, asciende por tronco hacia tálamo. División anatómica: Componentes espinotalámico y vías anterolaterales asociadas. Características principales: Aferencias de dolor y temperatura cruzan cerca del segmento de entrada. Relaciones anatómicas: Comisura blanca anterior y tractos ascendentes laterales. Conexiones nerviosas: Conecta asta dorsal con tálamo VPL y luego corteza somatosensitiva. Función: Conduce dolor, temperatura y componentes de tacto grosero. Irrigación: Irrigación segmentaria de médula y perforantes del tronco y tálamo."
+   ],
+   "cod": "L14-F13"
+  }
+ ]
+}

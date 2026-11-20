@@ -143,6 +143,8 @@
 .cc-pathwrap {
   position: relative;
   margin: 18px 0 8px;
+  /* la etiqueta de la última fase cuelga debajo del camino */
+  padding-bottom: 56px;
 }
 .cc-path {
   position: relative;
@@ -481,6 +483,13 @@
 .cc-figph b {
   font-size: 14px;
 }
+/* Sin imagen todavía: se muestra la descripción que propone el equipo. */
+.cc-figtxt span {
+  max-width: 34ch;
+  padding: 0 18px;
+  text-align: center;
+  line-height: 1.45;
+}
 .cc-case p {
   margin: 0;
   font-size: 15px;
@@ -725,8 +734,27 @@
   line-height: 1.5;
   color: var(--cc-muted);
 }
+.cc-exn {
+  margin: 10px 0 4px;
+  font-size: 12.5px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: var(--cc-text);
+}
+.cc-desc {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--cc-muted);
+}
+.cc-desc li + li {
+  margin-top: 4px;
+}
 .cc-ri.cc-ok dl,
-.cc-ri.cc-ok .cc-ex {
+.cc-ri.cc-ok .cc-ex,
+.cc-ri.cc-ok .cc-exn,
+.cc-ri.cc-ok .cc-desc {
   display: none;
 }
 .cc-primary {
