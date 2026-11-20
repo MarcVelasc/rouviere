@@ -1,6 +1,6 @@
 """Convierte el banco de tarjetas del equipo de contenido (Word) a JSON para la app.
 
-Origen: docs/contenido/ROUVIERE_Miologia_Final_Verificada.docx (responsable: Vanesa).
+Origen: docs/contenido/ROUVIERE_Biblioteca_Anatomica_Definitiva.docx (responsable: Vanesa).
 Salida: src/rouviere/data/bank-equipo.json
 
 Cada apartado del Word es una tabla «Nivel | Anverso · Pregunta | Reverso · Respuesta».
@@ -18,7 +18,7 @@ from docx.table import Table
 from docx.text.paragraph import Paragraph
 
 RAIZ = Path(__file__).resolve().parent.parent
-ORIGEN = RAIZ / 'docs/contenido/ROUVIERE_Miologia_Final_Verificada.docx'
+ORIGEN = RAIZ / 'docs/contenido/ROUVIERE_Biblioteca_Anatomica_Definitiva.docx'
 SALIDA = RAIZ / 'src/rouviere/data/bank-equipo.json'
 
 # Bloque del Word -> sistema de la app (MODS en core/almacenamiento.js)
@@ -27,6 +27,17 @@ SISTEMA = {
     'OSTEOLOGÍA': 'oseo',
     'ARTROLOGÍA': 'oseo',  # la app agrupa articulaciones dentro del sistema óseo
     'MIOLOGÍA': 'musc',
+    # Ampliaciones (16 tarjetas cada una): el tema es el bloque entero.
+    'AMPLIACIÓN · TÓRAX': 'resp',
+    'AMPLIACIÓN · ABDOMEN': 'dig',
+    'AMPLIACIÓN · PELVIS': 'rep',
+    'AMPLIACIÓN · SISTEMA NERVIOSO': 'nerv',
+}
+TEMA_FIJO = {
+    'AMPLIACIÓN · TÓRAX': 'Tórax',
+    'AMPLIACIÓN · ABDOMEN': 'Abdomen',
+    'AMPLIACIÓN · PELVIS': 'Pelvis',
+    'AMPLIACIÓN · SISTEMA NERVIOSO': 'Sistema nervioso',
 }
 NIVEL = {'Básico': 1, 'Intermedio': 2, 'Avanzado': 3, 'Experto': 4}
 
@@ -50,9 +61,8 @@ def leer():
                 continue
             for fila in filas[1:]:
                 nivel, q, a = (c.text.strip() for c in fila.cells[:3])
-                tarjetas.append({'bloque': bloque, 'tema': apartado, 'nivel': nivel, 'q': q, 'a': a})
-        if tipo == 'p' and bloque and bloque.startswith('Bibliograf'):
-            break
+                tema = TEMA_FIJO.get(bloque, apartado)
+                tarjetas.append({'bloque': bloque, 'tema': tema, 'nivel': nivel, 'q': q, 'a': a})
     return tarjetas
 
 

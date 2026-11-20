@@ -1,0 +1,152 @@
+/* ===== Fichas anatómicas (features/fichas/fichas.js) ===== */
+.fi-entrada {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  color: var(--ink);
+  border: 1.5px solid color-mix(in srgb, var(--teal) 40%, transparent);
+}
+.fi-entrada:hover,
+.fi-entrada:focus-visible {
+  border-color: var(--teal);
+}
+.fi-entrada-t {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+.fi-entrada-t b {
+  font:
+    600 1.25rem 'Cormorant Garamond',
+    serif;
+  color: var(--teal);
+}
+.fi-entrada-t span {
+  font-size: 0.875rem;
+  color: var(--mut);
+  line-height: 1.45;
+}
+.fi-entrada-f {
+  font-size: 1.4rem;
+  color: var(--teal);
+}
+.fi-b {
+  margin: 26px 0 4px;
+  font:
+    600 1.6rem 'Cormorant Garamond',
+    serif;
+  color: var(--ink);
+}
+.fi-zt {
+  margin: 18px 0 8px;
+  font:
+    800 0.75rem Manrope,
+    sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.fi-intro {
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--mut);
+}
+.fi {
+  margin: 0 0 8px;
+  border: 1.5px solid color-mix(in srgb, var(--ink) 14%, transparent);
+  border-radius: 14px;
+  background: var(--card);
+}
+.fi[open] {
+  border-color: color-mix(in srgb, var(--teal) 55%, transparent);
+}
+.fi summary {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 13px 16px;
+  min-height: 48px;
+  cursor: pointer;
+  list-style: none;
+}
+.fi summary::-webkit-details-marker {
+  display: none;
+}
+.fi summary::after {
+  content: '+';
+  font:
+    700 1.1rem Manrope,
+    sans-serif;
+  color: var(--teal);
+}
+.fi[open] summary::after {
+  content: '−';
+}
+.fi-n {
+  flex: 1;
+  font-weight: 700;
+  color: var(--ink);
+}
+.fi-z {
+  font-size: 0.78rem;
+  color: var(--mut);
+  text-align: right;
+}
+.fi-res .fi-n::before {
+  content: 'Resumen · ';
+  font-weight: 600;
+  color: var(--teal);
+}
+.fi-body {
+  padding: 0 16px 14px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+.fi-body p {
+  margin: 0 0 8px;
+}
+.fi-dl {
+  margin: 0;
+}
+.fi-dl dt {
+  margin-top: 10px;
+  font:
+    800 0.72rem Manrope,
+    sans-serif;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--teal);
+}
+.fi-dl dd {
+  margin: 2px 0 0;
+}
+.fi-dl dd.fi-libre {
+  margin-top: 8px;
+}
+.fi-bib {
+  margin-top: 22px;
+}
+.fi-vacio p {
+  margin: 0;
+}
+
+/* En el celular los filtros van en una sola fila que se desliza (no ocupan media pantalla). */
+@media (max-width: 760px) {
+  .fi-chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding-bottom: 4px;
+  }
+  .fi-chips::-webkit-scrollbar {
+    display: none;
+  }
+  .fi-chips button {
+    flex: 0 0 auto;
+  }
+}

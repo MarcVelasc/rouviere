@@ -3,6 +3,8 @@ import { describe, expect, it } from 'vitest';
 import BANK from '../data/bank.json';
 import BANK_EQ from '../data/bank-equipo.json';
 import COMP from '../data/comp.json';
+import FICHAS from '../data/fichas-equipo.json';
+import { campos } from '../features/fichas/fichas.js';
 import QB from '../data/qb.json';
 import RUTA from '../data/ruta.json';
 import LIB from '../data/lib.json';
@@ -30,6 +32,24 @@ describe('tarjetas del equipo (data/bank-equipo.json)', () => {
   it('cada tema cae en alguna competencia', () => {
     const pares = new Set(COMP.flatMap((k) => k[3].map((p) => p[0] + '|' + p[1])));
     for (const c of BANK_EQ) expect(pares.has(c.m + '|' + c.t), c.id + ' ' + c.t).toBe(true);
+  });
+});
+
+describe('fichas del equipo (data/fichas-equipo.json)', () => {
+  it('tienen id único, bloque conocido y texto', () => {
+    expect(unicos(FICHAS.fichas.map((f) => f.id))).toBe(true);
+    for (const f of FICHAS.fichas) {
+      expect(FICHAS.bloques, f.id).toContain(f.b);
+      expect(f.n && f.z && f.p.length, f.id).toBeTruthy();
+    }
+  });
+  it('separa «Etiqueta: texto» en campos', () => {
+    expect(campos('Origen: Arco cigomático. Inserción: Rama mandibular. Acción: Eleva.')).toEqual([
+      ['Origen', 'Arco cigomático.'],
+      ['Inserción', 'Rama mandibular.'],
+      ['Acción', 'Eleva.'],
+    ]);
+    expect(campos('Texto corrido sin etiquetas.')).toBeNull();
   });
 });
 

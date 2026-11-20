@@ -22,6 +22,7 @@ import { renderInicio } from '../features/inicio/inicio.js';
 import { renderCuenta } from '../features/cuenta/cuenta.js';
 import { renderCasos } from '../features/casos/casos.js';
 import { renderCompetencia } from '../features/competencia/competencia.js';
+import { renderFichas } from '../features/fichas/fichas.js';
 import { ultSet } from '../features/inicio/panel.js';
 import { renderMods } from '../features/modulos/modulos.js';
 import { mvpAviso } from '../features/mvp/mvp.js';
@@ -84,6 +85,7 @@ export const V = [
   'estructuras',
   'casos',
   'competencia',
+  'fichas',
 ];
 export function route() {
   var h = (location.hash || '#home').slice(1);
@@ -106,6 +108,7 @@ export function route() {
   if (h === 'home') renderInicio();
   if (h === 'casos') renderCasos();
   if (h === 'competencia') renderCompetencia();
+  if (h === 'fichas') renderFichas();
   ultSet(h);
   if (h === 'modulos') {
     $('tgen').textContent = 'Competencia general: ' + TEM[estado.curSub].gen;

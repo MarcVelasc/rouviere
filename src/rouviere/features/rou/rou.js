@@ -722,6 +722,7 @@ export const TAB_DE = {
   competencia: 'aprender',
   estudio: 'aprender',
   biblioteca: 'biblioteca',
+  fichas: 'biblioteca',
   progreso: 'perfil',
   examenes: 'perfil',
   rou: 'rou',

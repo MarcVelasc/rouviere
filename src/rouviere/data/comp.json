@@ -324,6 +324,14 @@
    [
     "musc",
     "Músculos del abdomen"
+   ],
+   [
+    "resp",
+    "Tórax"
+   ],
+   [
+    "dig",
+    "Abdomen"
    ]
   ],
   [
@@ -405,6 +413,14 @@
    [
     "musc",
     "Músculos de la pelvis y periné"
+   ],
+   [
+    "dig",
+    "Abdomen"
+   ],
+   [
+    "rep",
+    "Pelvis"
    ]
   ],
   [
@@ -468,6 +484,10 @@
    [
     "nerv",
     "Sistema nervioso autónomo"
+   ],
+   [
+    "nerv",
+    "Sistema nervioso"
    ]
   ],
   [

@@ -133,15 +133,23 @@ hay sub-pantallas que no cambian el hash:
   final la nota y lo que se falló.
 
 **Tarjetas del equipo de contenido**: el banco que entrega el equipo en Word
-(`docs/contenido/ROUVIERE_Miologia_Final_Verificada.docx`: anatomía general, osteología,
-artrología y miología, 16 tarjetas por apartado en cuatro niveles) se convierte con
-`python3 scripts/tarjetas-equipo.py` a `src/rouviere/data/bank-equipo.json`, que
-`almacenamiento.js` suma a `BANK`. El texto se copia tal cual; el script solo asigna sistema,
-tema (el apartado del Word) y nivel (`d` 1-4, el 4 es «Experta»). En Miología añade `sub`
-con el músculo del apartado, que la tarjeta muestra junto al tema. Cada apartado nuevo está
-asignado a una competencia en `data/comp.json`, y los de articulaciones van en la lista
-`ARTRO` de `categorias.js`. Si el equipo corrige el Word, se reemplaza el archivo y se vuelve
-a correr el script.
+(`docs/contenido/ROUVIERE_Biblioteca_Anatomica_Definitiva.docx`: anatomía general, osteología,
+artrología y miología, 16 tarjetas por apartado en cuatro niveles, más 16 de ampliación para
+tórax, abdomen, pelvis y sistema nervioso) se convierte con `python3 scripts/tarjetas-equipo.py`
+a `src/rouviere/data/bank-equipo.json` (704 tarjetas), que `almacenamiento.js` suma a `BANK`. El
+texto se copia tal cual; el script solo asigna sistema, tema (el apartado del Word) y nivel (`d`
+1-4, el 4 es «Experta»). En Miología añade `sub` con el músculo del apartado, que la tarjeta
+muestra junto al tema. Cada tema está asignado a una competencia en `data/comp.json`, y los de
+articulaciones van en la lista `ARTRO` de `categorias.js`. Si el equipo corrige el Word, se
+reemplaza el archivo y se vuelven a correr los dos scripts.
+
+**Fichas anatómicas** (`#fichas`, se entra desde Biblioteca): el anexo «Biblioteca anatómica»
+del mismo Word se convierte con `python3 scripts/fichas-equipo.py` a
+`src/rouviere/data/fichas-equipo.json` (fichas de huesos, articulaciones y músculos, más
+resúmenes por tema). `features/fichas/fichas.js` lo carga solo al abrir la sección, con filtros
+por bloque y buscador sin tildes; cada ficha se abre en el sitio y «Etiqueta: texto» se muestra
+como lista de campos. Lleva el aviso «en revisión» hasta que el equipo la confirme con la
+bibliografía.
 
 **Atlas 3D**: al tocar un sistema o apartado, `irAlVisor()` (en `atlas-sistemas.js`) baja la
 pantalla hasta el visor para que se vea el «Cargando…», y otra vez al terminar, con un anillo
